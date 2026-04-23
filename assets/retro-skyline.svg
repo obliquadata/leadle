@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="sunGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2e4be"/>
+      <stop offset="100%" stop-color="#e6cb8b"/>
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4e6c2"/>
+      <stop offset="100%" stop-color="#e7d5a8"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6daba2"/>
+      <stop offset="100%" stop-color="#3a7b78"/>
+    </linearGradient>
+    <linearGradient id="darkTealGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a6970"/>
+      <stop offset="100%" stop-color="#1f4b56"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- soft horizon glow -->
+  <ellipse cx="720" cy="332" rx="210" ry="20" fill="#d78343" opacity="0.22" filter="url(#softGlow)"/>
+
+  <!-- sun -->
+  <g>
+    <circle cx="720" cy="314" r="58" fill="url(#sunGrad)"/>
+    <rect x="660" y="313" width="120" height="2" fill="#d78343" opacity="0.55"/>
+    <rect x="672" y="324" width="96" height="2" fill="#d78343" opacity="0.45"/>
+    <rect x="686" y="334" width="68" height="2" fill="#d78343" opacity="0.35"/>
+  </g>
+
+  <!-- distant cloud band -->
+  <g fill="#dce6d3" opacity="0.38">
+    <path d="M0 303c21-20 48-28 79-23 10-27 37-44 68-41 18-16 44-23 67-13 14-14 35-21 57-18 27 3 50 20 61 43 26-4 49 8 61 30v79H0z"/>
+    <path d="M973 309c22-16 49-21 80-13 10-24 36-39 66-37 18-14 42-17 62-9 15-15 37-24 63-22 29 2 56 18 70 43 24-2 47 11 61 35v57H973z"/>
+  </g>
+
+  <!-- main clouds -->
+  <g fill="url(#cloudGrad)">
+    <path d="M0 325c28-32 56-48 96-45 9-32 38-56 74-58 28-2 50 10 66 29 13-8 28-12 44-12 42 0 76 31 84 71 28-3 54 12 70 38v12H0z"/>
+    <path d="M1006 330c15-31 43-50 80-52 10-23 35-38 64-38 23 0 44 9 58 24 15-11 35-17 56-17 43 0 80 27 94 67 30-5 58 8 82 34v12h-434z"/>
+  </g>
+
+  <!-- skyline base strip -->
+  <rect x="0" y="342" width="1440" height="18" fill="#2a5e57"/>
+  <rect x="0" y="336" width="1440" height="6" fill="#47745e"/>
+
+  <!-- left skyline -->
+  <g>
+    <path d="M36 342v-60h18v60z" fill="#255864"/>
+    <path d="M58 342v-126h18v126z" fill="#224f59"/>
+    <path d="M84 342v-176h14v176z" fill="#efe2bf"/>
+    <ellipse cx="91" cy="163" rx="36" ry="11" fill="#efe2bf"/>
+    <ellipse cx="91" cy="163" rx="23" ry="5" fill="#5d978b"/>
+
+    <path d="M140 342c8-58 59-103 122-103s114 45 122 103z" fill="#295d6a"/>
+    <path d="M173 342c0-39 41-70 89-70s89 31 89 70z" fill="#76aba2"/>
+    <path d="M166 342c0-8 43-14 96-14s96 6 96 14z" fill="#1d4f5b" opacity="0.38"/>
+    <path d="M252 342v-30h18v30z" fill="#2b6a72"/>
+
+    <path d="M318 342c0-17 13-31 31-31s31 14 31 31z" fill="#255e62"/>
+    <path d="M430 342v-122h16v122z" fill="#274f5c"/>
+    <path d="M453 342v-96h10v96z" fill="#3d7375"/>
+  </g>
+
+  <!-- center ornaments / tiny skyline -->
+  <g>
+    <path d="M554 342l18-54 18 54z" fill="#345d45"/>
+    <path d="M602 342l11-31 11 31z" fill="#345d45"/>
+    <path d="M828 342l15-45 15 45z" fill="#345d45"/>
+    <path d="M863 342l10-28 10 28z" fill="#345d45"/>
+    <path d="M670 342c18-10 36-15 50-15 14 0 32 5 50 15z" fill="#b36f3c" opacity="0.28"/>
+  </g>
+
+  <!-- right skyline -->
+  <g>
+    <path d="M987 342c0-16 15-29 34-29s34 13 34 29z" fill="#245d62"/>
+    <path d="M1078 342v-74h14v74z" fill="#2f6770"/>
+    <ellipse cx="1085" cy="264" rx="30" ry="9" fill="#efe2bf"/>
+    <ellipse cx="1085" cy="264" rx="20" ry="4" fill="#5d978b"/>
+
+    <path d="M1126 342c0-48 43-86 98-86s98 38 98 86z" fill="#275d66"/>
+    <path d="M1150 342c0-31 33-56 74-56s74 25 74 56z" fill="#7baaa2"/>
+    <path d="M1208 342v-28h16v28z" fill="#285b61"/>
+
+    <path d="M1290 342v-190h11v190z" fill="#efe2bf"/>
+    <path d="M1260 342c0-44 18-69 33-78 13-8 22-27 22-47v-13h12v13c0 20 9 39 22 47 14 9 33 34 33 78h-20c0-29-11-44-21-50-18-10-30-30-30-56 0 26-12 46-30 56-10 6-21 21-21 50z" fill="#efe2bf"/>
+  </g>
+
+  <!-- bridges and domes -->
+  <g>
+    <path d="M0 342c28-34 76-54 134-54 48 0 91 13 128 39 18 13 39 20 64 20h78v-5h-78c-24 0-44-6-61-18-38-26-83-41-131-41-69 0-117 22-153 59z" fill="#c56d39" opacity="0.88"/>
+    <path d="M0 342c34-26 70-37 111-37 49 0 90 17 121 37z" fill="#2b5c5a"/>
+    <path d="M1094 347h85c31 0 58-9 81-29 37-31 85-51 147-51 12 0 23 1 33 2v7c-10-1-21-2-33-2-60 0-106 19-142 49-24 20-53 31-86 31h-85z" fill="#c56d39" opacity="0.88"/>
+    <path d="M1204 342c44-35 87-51 142-51 34 0 65 7 94 20v31z" fill="#2b5c5a"/>
+  </g>
+
+  <!-- small highlights -->
+  <g fill="#5c8f72" opacity="0.9">
+    <rect x="20" y="340" width="1400" height="2"/>
+  </g>
+</svg>

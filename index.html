@@ -1,0 +1,2829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Leaderle</title>
+  <meta name="description" content="World Leaderle is a daily geography game where you guess the country of world leaders. No login, no payment, and no personal data required." />
+  <meta name="theme-color" content="#07111f" />
+  <meta property="og:title" content="World Leaderle" />
+  <meta property="og:description" content="A daily geography game where you guess the country of today’s mystery world leader." />
+  <meta property="og:type" content="website" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    (function () {
+      try {
+        var raw = localStorage.getItem("worldleaderle_settings_v1");
+        var parsed = raw ? JSON.parse(raw) : null;
+        var theme = parsed && ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "default";
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (error) {
+        document.documentElement.setAttribute("data-theme", "default");
+      }
+    })();
+  </script>
+
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Google Tag Manager -->
+  </div>
+
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T97ZHZK5');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Start cookieyes banner -->
+	<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/74caf25dbe8d2eeb22a01fda/script.js"></script>
+  <!-- End cookieyes banner -->
+  
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg-top: #020814;
+      --card: rgba(10, 17, 32, 0.82);
+      --text: #eef4ff;
+      --muted: #9fb0ca;
+      --good: #22c55e;
+      --bad: #f43f5e;
+      --warn: #f59e0b;
+      --neutral: #94a3b8;
+      --border: rgba(255, 255, 255, 0.12);
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      --chip-bg: rgba(255,255,255,0.05);
+      --chip-border: rgba(255,255,255,0.1);
+      color-scheme: dark;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(76, 201, 240, 0.17), transparent 24%),
+        radial-gradient(circle at top right, rgba(124, 58, 237, 0.16), transparent 28%),
+        linear-gradient(180deg, #020814, var(--bg));
+      padding: 28px 16px 40px;
+    }
+    html[data-theme="dark"] { color-scheme: dark; }
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg: #F1EAD7;
+      --bg-top: #fbf7ee;
+      --card: rgba(252, 248, 239, 0.94);
+      --text: #2b4f22;
+      --muted: #5d7254;
+      --good: #2f6f34;
+      --bad: #a83d58;
+      --warn: #9a6a0d;
+      --neutral: #66735f;
+      --border: rgba(50, 95, 34, 0.14);
+      --shadow: 0 20px 60px rgba(76, 92, 48, 0.12);
+      --chip-bg: rgba(167, 182, 146, 0.16);
+      --chip-border: rgba(50, 95, 34, 0.14);
+    }
+    html[data-theme="light"] body {
+      background:
+        radial-gradient(circle at top left, rgba(167, 182, 146, 0.22), transparent 24%),
+        radial-gradient(circle at top right, rgba(133, 179, 128, 0.18), transparent 28%),
+        linear-gradient(180deg, var(--bg-top), var(--bg));
+    }
+    @media (prefers-color-scheme: light) {
+      html[data-theme="system"] {
+        color-scheme: light;
+        --bg: #F1EAD7;
+        --bg-top: #fbf7ee;
+        --card: rgba(252, 248, 239, 0.94);
+        --text: #2b4f22;
+        --muted: #5d7254;
+        --good: #2f6f34;
+        --bad: #a83d58;
+        --warn: #9a6a0d;
+        --neutral: #66735f;
+        --border: rgba(50, 95, 34, 0.14);
+        --shadow: 0 20px 60px rgba(76, 92, 48, 0.12);
+        --chip-bg: rgba(167, 182, 146, 0.16);
+        --chip-border: rgba(50, 95, 34, 0.14);
+      }
+      html[data-theme="system"] body {
+        background:
+          radial-gradient(circle at top left, rgba(167, 182, 146, 0.22), transparent 24%),
+          radial-gradient(circle at top right, rgba(133, 179, 128, 0.18), transparent 28%),
+          linear-gradient(180deg, var(--bg-top), var(--bg));
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      html[data-theme="system"] { color-scheme: dark; }
+    }
+
+    html, body { overflow-x: hidden; }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 180ms ease;
+    }
+    body::before {
+      z-index: -2;
+      background:
+        linear-gradient(rgba(246, 234, 203, 0.06), rgba(246, 234, 203, 0.06)),
+        url("./assets/paper-noise.png");
+      background-size: auto, 256px 256px;
+      background-repeat: repeat;
+      mix-blend-mode: soft-light;
+    }
+    body::after {
+      z-index: -1;
+      inset: auto 0 0 0;
+      height: min(35vh, 320px);
+      background: url("./assets/retro-skyline.svg") center bottom / cover no-repeat;
+    }
+    html[data-theme="default"] {
+      color-scheme: light;
+      --bg: #0e5568;
+      --bg-top: #0a4453;
+      --card: rgba(239, 223, 187, 0.92);
+      --text: #173d48;
+      --muted: #4f6b69;
+      --good: #2f6b4a;
+      --bad: #9e4b47;
+      --warn: #b5762e;
+      --neutral: #6f7f79;
+      --border: rgba(32, 70, 74, 0.22);
+      --shadow: 0 12px 0 rgba(19, 53, 62, 0.18), 0 22px 45px rgba(11, 28, 33, 0.18);
+      --chip-bg: rgba(244, 231, 202, 0.92);
+      --chip-border: rgba(32, 70, 74, 0.22);
+    }
+    html[data-theme="default"] body {
+      background:
+        radial-gradient(circle at 50% 84%, rgba(234, 191, 110, 0.28), transparent 18%),
+        linear-gradient(180deg, #0d4c5d 0%, #15657a 55%, #2b7b87 100%);
+      padding-bottom: 190px;
+    }
+    html[data-theme="default"] body::before,
+    html[data-theme="default"] body::after { opacity: 1; }
+    html[data-theme="default"] .shell { position: relative; z-index: 1; }
+    html[data-theme="default"] .card {
+      background: var(--card);
+      border: 3px solid rgba(32, 70, 74, 0.24);
+      border-radius: 26px;
+      box-shadow: var(--shadow);
+      backdrop-filter: none;
+    }
+    html[data-theme="default"] .main { padding: 26px; }
+    html[data-theme="default"] h1,
+    html[data-theme="default"] .attempt-title,
+    html[data-theme="default"] .modal-head h2,
+    html[data-theme="default"] .settings-section h3 {
+      font-family: "Bebas Neue", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      letter-spacing: 0.04em;
+    }
+    html[data-theme="default"] h1 {
+      font-size: clamp(3rem, 5vw, 4.7rem);
+      line-height: 0.92;
+      letter-spacing: 0.03em;
+      color: #143942;
+      text-shadow: 0 2px 0 rgba(255, 245, 220, 0.4);
+    }
+    html[data-theme="default"] .subtitle,
+    html[data-theme="default"] .trust-note,
+    html[data-theme="default"] .site-footer,
+    html[data-theme="default"] .settings-section p,
+    html[data-theme="default"] .settings-summary,
+    html[data-theme="default"] .reveal-meta,
+    html[data-theme="default"] .reveal-text { color: var(--muted); }
+    html[data-theme="default"] .eyebrow,
+    html[data-theme="default"] .date-chip,
+    html[data-theme="default"] .badge,
+    html[data-theme="default"] button.secondary,
+    html[data-theme="default"] button.ghost,
+    html[data-theme="default"] .settings-option,
+    html[data-theme="default"] .settings-summary,
+    html[data-theme="default"] .hint-box,
+    html[data-theme="default"] .mini,
+    html[data-theme="default"] .panel,
+    html[data-theme="default"] .code-block,
+    html[data-theme="default"] .reveal-card,
+    html[data-theme="default"] .attempt,
+    html[data-theme="default"] .settings-section,
+    html[data-theme="default"] input,
+    html[data-theme="default"] .portrait-panel,
+    html[data-theme="default"] .modal,
+    html[data-theme="default"] .modal-overlay.open .modal {
+      background: rgba(242, 228, 194, 0.96);
+      border-color: rgba(32, 70, 74, 0.18);
+      color: var(--text);
+      box-shadow: 0 8px 0 rgba(33, 70, 74, 0.12), 0 18px 36px rgba(17, 38, 40, 0.15);
+      backdrop-filter: none;
+    }
+    html[data-theme="default"] .eyebrow,
+    html[data-theme="default"] .date-chip,
+    html[data-theme="default"] .badge,
+    html[data-theme="default"] button.secondary,
+    html[data-theme="default"] button.ghost {
+      background: rgba(245, 233, 205, 0.95);
+      border-color: rgba(32, 70, 74, 0.2);
+      color: #224852;
+    }
+    html[data-theme="default"] .portrait-wrap {
+      background: linear-gradient(180deg, #e8d8b5, #bfd7ce 80%);
+      border: 2px solid rgba(32, 70, 74, 0.16);
+      box-shadow: inset 0 0 0 1px rgba(255, 244, 220, 0.55);
+    }
+    html[data-theme="default"] .portrait-wrap::after {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(255,255,255,0.22), transparent 26%, transparent 70%, rgba(13,76,93,0.08));
+      pointer-events: none;
+    }
+    html[data-theme="default"] .photo-badge .badge,
+    html[data-theme="default"] .meta-badge .badge {
+      background: rgba(18, 61, 71, 0.8);
+      border-color: rgba(245, 233, 205, 0.18);
+      color: #f4e9ca;
+    }
+    html[data-theme="default"] input {
+      background: rgba(248, 238, 214, 0.88);
+      border: 2px solid rgba(32, 70, 74, 0.2);
+      color: #173d48;
+    }
+    html[data-theme="default"] input::placeholder { color: #6b7e79; }
+    html[data-theme="default"] button {
+      border-radius: 12px;
+      border: 2px solid rgba(122, 57, 24, 0.34);
+      color: #f4e9ca;
+      background: linear-gradient(180deg, #d07b43 0%, #bf6430 100%);
+      box-shadow: 0 4px 0 rgba(125, 60, 26, 0.24);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    html[data-theme="default"] button:hover { transform: translateY(-1px); filter: brightness(1.03); }
+    html[data-theme="default"] button.secondary,
+    html[data-theme="default"] button.ghost {
+      color: #214751;
+      box-shadow: none;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    html[data-theme="default"] .status.good { color: #2f6b4a; }
+    html[data-theme="default"] .status.bad { color: #9a4b47; }
+    html[data-theme="default"] .status.info { color: #2d6570; }
+    html[data-theme="default"] .dot { background: rgba(32, 70, 74, 0.12); border-color: rgba(32, 70, 74, 0.12); }
+    html[data-theme="default"] .dot.used { background: #d78a73; border-color: rgba(154, 75, 71, 0.25); }
+    html[data-theme="default"] .dot.win { background: #5b8f62; border-color: rgba(47, 107, 74, 0.24); }
+    html[data-theme="default"] .pill.bad,
+    html[data-theme="default"] .pill.corruption-more { background: rgba(212, 128, 105, 0.22); border-color: rgba(154,75,71,0.18); color: #944942; }
+    html[data-theme="default"] .pill.good,
+    html[data-theme="default"] .pill.corruption-equal { background: rgba(116, 155, 114, 0.22); border-color: rgba(47,107,74,0.18); color: #2f6b4a; }
+    html[data-theme="default"] .pill.corruption-less { background: rgba(212, 168, 87, 0.24); border-color: rgba(181,118,46,0.18); color: #9a6727; }
+    html[data-theme="default"] .pill.corruption-neutral { background: rgba(111,127,121,0.16); border-color: rgba(111,127,121,0.18); color: #5f6e6a; }
+    html[data-theme="default"] .site-footer { border-top-color: rgba(32, 70, 74, 0.18); }
+    html[data-theme="default"] .site-footer a,
+    html[data-theme="default"] .reveal-link-button { color: #224852; }
+    html[data-theme="default"] .reveal-link-button {
+      background: rgba(245, 233, 205, 0.95);
+      border-color: rgba(32, 70, 74, 0.2);
+    }
+    html[data-theme="default"] .modal-overlay { background: rgba(17, 45, 53, 0.42); }
+    html[data-theme="default"] #shareButton {
+      background: linear-gradient(180deg, #245763 0%, #173d48 100%);
+      border-color: rgba(18, 61, 71, 0.32);
+      color: #f4e9ca;
+    }
+    html[data-theme="default"] .cky-consent-container,
+    html[data-theme="default"] .cky-modal .cky-preference-center,
+    html[data-theme="default"] .cky-modal .cky-footer-wrapper {
+      --retro-card: #efe0bb;
+      --retro-ink: #173d48;
+    }
+    #shareButton {
+      display: none;
+    }
+    .shell { max-width: 1200px; margin: 0 auto; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(22px);
+    }
+    .main { padding: 24px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px;
+      border-radius: 999px; border: 1px solid var(--chip-border);
+      background: var(--chip-bg); color: #d5e7ff; font-size: 0.86rem;
+      font-weight: 700; margin-bottom: 12px;
+    }
+    h1 { margin: 0; font-size: clamp(2.4rem, 4.4vw, 4rem); letter-spacing: -0.04em; line-height: 0.96; }
+    .subtitle { margin-top: 10px; color: var(--muted); line-height: 1.55; max-width: 70ch; }
+    .topbar { display: flex; justify-content: space-between; gap: 14px; align-items: start; flex-wrap: wrap; }
+    .topbar-right { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+    .topbar-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+    .date-chip {
+      padding: 10px 12px; border-radius: 18px; background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08); color: var(--muted); font-size: 0.92rem;
+    }
+    .layout { display: grid; grid-template-columns: 350px minmax(0, 1fr); gap: 22px; margin-top: 24px; align-items: start; }
+    .portrait-panel {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border-radius: 24px; border: 1px solid rgba(255,255,255,0.08); padding: 16px;
+    }
+    .portrait-wrap {
+      position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: 20px;
+      background: linear-gradient(180deg, #122037, #0a1324); border: 1px solid rgba(255,255,255,0.08);
+    }
+    .portrait-wrap img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      filter: blur(22px); transform: scale(1.04);
+      transition: filter 260ms ease, transform 260ms ease, opacity 200ms ease; opacity: 0;
+    }
+    .portrait-wrap.ready img { opacity: 1; }
+    .photo-badge, .meta-badge {
+      position: absolute; left: 12px; right: 12px; display: flex; justify-content: space-between;
+      gap: 10px; flex-wrap: wrap; pointer-events: none;
+    }
+    .photo-badge { top: 12px; }
+    .meta-badge { bottom: 12px; }
+    .badge {
+      padding: 7px 10px; border-radius: 999px; background: rgba(2, 8, 20, 0.72);
+      border: 1px solid var(--chip-border); font-size: 0.82rem; color: #edf5ff; backdrop-filter: blur(12px);
+    }
+    .guess-dots { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+    .reveal-card {
+      position: relative;
+      display: none; margin-top: 16px; padding: 14px; border-radius: 18px;
+      background: rgba(255,255,255,0.035); border: 1px solid rgba(255,255,255,0.08);
+    }
+    .reveal-card.open { display: block; }
+    .reveal-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+    .reveal-meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 10px; }
+    .reveal-text { color: var(--text); line-height: 1.55; font-size: 0.95rem; }
+    .reveal-actions {
+      margin-top: 14px;
+    }
+    .reveal-link-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: var(--chip-bg);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 120ms ease, opacity 120ms ease;
+    }
+    .reveal-link-button:hover {
+      transform: translateY(-1px);
+    }
+
+    .reveal-flag {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      font-size: 1.9rem;
+      line-height: 1;
+    }
+    .reveal-card.has-flag .reveal-title-wrap,
+    .reveal-card.has-flag .reveal-meta {
+      padding-right: 48px;
+    }
+    .dot {
+      width: 14px; height: 14px; border-radius: 999px; background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .dot.used { background: rgba(244, 63, 94, 0.82); }
+    .dot.win { background: rgba(34, 197, 94, 0.9); }
+    .game-panel { display: flex; flex-direction: column; gap: 14px; }
+    .controls, .footer-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+    input, button { border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); font-size: 1rem; }
+    input {
+      flex: 1; min-width: 240px; padding: 15px 16px; background: rgba(255,255,255,0.045);
+      color: var(--text); outline: none;
+    }
+    input[list] {
+      padding-right: 44px;
+    }
+    input[list]::-webkit-calendar-picker-indicator {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    html[data-theme="dark"] input[list]::-webkit-calendar-picker-indicator {
+      filter: invert(1) brightness(1.15);
+    }
+    html[data-theme="light"] input[list]::-webkit-calendar-picker-indicator {
+      filter: invert(0) brightness(0.5);
+    }
+    @media (prefers-color-scheme: light) {
+      html[data-theme="system"] input[list]::-webkit-calendar-picker-indicator {
+        filter: invert(0) brightness(0.5);
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      html[data-theme="system"] input[list]::-webkit-calendar-picker-indicator {
+        filter: invert(1) brightness(1.15);
+      }
+    }
+    button {
+      padding: 14px 16px; cursor: pointer; color: white; font-weight: 700;
+      background: linear-gradient(135deg, #0ea5e9, #2563eb); transition: transform 120ms ease, opacity 120ms ease;
+    }
+    button.secondary { background: var(--chip-bg); color: var(--text); }
+    button.ghost { background: transparent; border-color: rgba(255,255,255,0.12); color: var(--muted); }
+    button:hover { transform: translateY(-1px); }
+    button:disabled { opacity: 0.45; transform: none; cursor: not-allowed; }
+    .status { min-height: 24px; color: var(--muted); font-size: 0.96rem; }
+    .status.good { color: #8af0a8; }
+    .status.bad { color: #ffb0bd; }
+    .status.info { color: #9fdfff; }
+    .attempts { display: grid; gap: 12px; }
+    .attempt {
+      padding: 14px; border-radius: 18px; background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .attempt-head {
+      display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+      align-items: center; margin-bottom: 10px;
+    }
+    .attempt-title { font-size: 1rem; font-weight: 800; }
+    .pill-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .pill {
+      padding: 7px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.84rem; font-weight: 800;
+    }
+    .pill.good { background: rgba(34,197,94,0.13); color: #99f6b3; }
+    .pill.bad { background: rgba(244,63,94,0.13); color: #ffb3c0; }
+    .attempt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .hint-box, .mini, .panel, .code-block {
+      padding: 14px; border-radius: 18px; background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .hint-box {
+      padding: 12px; border-radius: 14px; background: rgba(3, 10, 24, 0.42);
+      border: 1px solid rgba(255,255,255,0.06); color: var(--muted); line-height: 1.45; font-size: 0.93rem;
+    }
+    .mini strong, .panel h2, .hint-box b { color: var(--text); }
+    .mini strong { display: block; margin-bottom: 6px; font-size: 0.95rem; }
+    .mini span, .panel p, .panel li { color: var(--muted); line-height: 1.55; font-size: 0.94rem; }
+    .distance-line {
+      margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 0.95rem;
+    }
+    .emoji-bar { font-size: 1.2rem; letter-spacing: 0.06em; }
+    .code-block { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.86rem; color: #cfe7ff; }
+    .loader {
+      width: 20px; height: 20px; border-radius: 999px; border: 2px solid rgba(255,255,255,0.18);
+      border-top-color: white; display: inline-block; vertical-align: middle;
+      animation: spin 1s linear infinite; margin-right: 8px;
+    }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(2, 8, 20, 0.72); display: none;
+      align-items: center; justify-content: center; padding: 20px; z-index: 1000;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal {
+      width: min(840px, 100%); max-height: 85vh; overflow: auto; padding: 22px;
+      border-radius: 24px; background: rgba(10, 17, 32, 0.97); border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: var(--shadow);
+    }
+    .modal-head {
+      display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px;
+    }
+    .modal-head h2 { margin: 0; font-size: 1.35rem; }
+    .modal-close { min-width: 44px; padding: 10px 12px; line-height: 1; }
+    .modal-grid { display: grid; gap: 12px; margin-top: 12px; }
+
+    .settings-layout { display: grid; gap: 16px; margin-top: 12px; }
+    .settings-section {
+      padding: 16px; border-radius: 18px; background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .settings-section h3 { margin: 0 0 6px; font-size: 1rem; }
+    .settings-section p { margin: 0 0 12px; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+    .settings-options { display: grid; gap: 8px; }
+    .settings-option {
+      display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 14px;
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
+    }
+    .settings-option input { min-width: auto; flex: 0 0 auto; padding: 0; }
+    .settings-summary {
+      margin-top: 14px; color: var(--muted); font-size: 0.92rem; line-height: 1.5;
+      padding: 12px 14px; border-radius: 16px; background: rgba(255,255,255,0.035);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .pill.corruption-pill { border-width: 1px; }
+    .pill.corruption-more { background: rgba(244,63,94,0.14); color: #ffc0cb; }
+    .pill.corruption-equal { background: rgba(34,197,94,0.14); color: #b7f7c8; }
+    .pill.corruption-less { background: rgba(245,158,11,0.16); color: #ffd88a; }
+    .pill.corruption-neutral { background: rgba(148,163,184,0.14); color: #d7e0eb; }
+    html[data-theme="light"] .eyebrow,
+    html[data-theme="light"] .date-chip,
+    html[data-theme="light"] .badge,
+    html[data-theme="light"] button.secondary,
+    html[data-theme="light"] button.ghost,
+    html[data-theme="light"] .settings-option,
+    html[data-theme="light"] .settings-summary,
+    html[data-theme="light"] .hint-box,
+    html[data-theme="light"] .mini,
+    html[data-theme="light"] .panel,
+    html[data-theme="light"] .code-block,
+    html[data-theme="light"] .reveal-card,
+    html[data-theme="light"] .attempt,
+    html[data-theme="light"] .settings-section,
+    html[data-theme="light"] input,
+    html[data-theme="light"] .portrait-panel,
+    html[data-theme="light"] .modal,
+    html[data-theme="light"] .modal-overlay.open .modal {
+      background: rgba(252, 248, 239, 0.95);
+      border-color: rgba(50, 95, 34, 0.14);
+      color: var(--text);
+    }
+    html[data-theme="light"] .eyebrow,
+    html[data-theme="light"] .date-chip,
+    html[data-theme="light"] .badge,
+    html[data-theme="light"] button.secondary,
+    html[data-theme="light"] button.ghost {
+      background: rgba(255, 251, 243, 0.82);
+      border-color: rgba(50, 95, 34, 0.16);
+      color: #2f6f34;
+    }
+    html[data-theme="light"] .portrait-panel,
+    html[data-theme="light"] .attempt,
+    html[data-theme="light"] .reveal-card,
+    html[data-theme="light"] .settings-section,
+    html[data-theme="light"] .settings-summary,
+    html[data-theme="light"] .modal {
+      background: rgba(252, 248, 239, 0.94);
+      border-color: rgba(50, 95, 34, 0.14);
+    }
+    html[data-theme="light"] .reveal-link-button {
+      background: rgba(255, 251, 243, 0.82);
+      border-color: rgba(50, 95, 34, 0.16);
+      color: #2f6f34;
+    }
+    html[data-theme="light"] .hint-box,
+    html[data-theme="light"] .mini,
+    html[data-theme="light"] .panel,
+    html[data-theme="light"] .code-block,
+    html[data-theme="light"] .settings-option,
+    html[data-theme="light"] input {
+      background: rgba(255, 251, 243, 0.82);
+      border-color: rgba(50, 95, 34, 0.14);
+      color: var(--text);
+    }
+    html[data-theme="light"] .portrait-wrap {
+      background: linear-gradient(180deg, #f7f2e6, #e8e1cc);
+      border-color: rgba(50, 95, 34, 0.16);
+    }
+    html[data-theme="light"] .status.bad { color: #b2465d; }
+
+    html[data-theme="light"] button:not(.secondary):not(.ghost) {
+      background: linear-gradient(135deg, #5b9440, #3f7d2f);
+      border-color: rgba(50, 95, 34, 0.22);
+      color: #f8fbf3;
+    }
+    html[data-theme="light"] .status.info { color: #4f8a43; }
+    html[data-theme="light"] .dot.used { background: #ef6a84; border-color: rgba(178, 70, 93, 0.32); }
+    html[data-theme="light"] .dot.win { background: #3f8e45; border-color: rgba(47, 111, 52, 0.32); }
+    html[data-theme="light"] .pill.bad {
+      background: rgba(231, 170, 180, 0.34);
+      border-color: rgba(168, 61, 88, 0.24);
+      color: #96374f;
+    }
+    html[data-theme="light"] .pill.good {
+      background: rgba(183, 216, 181, 0.54);
+      border-color: rgba(47, 111, 52, 0.18);
+      color: #2f6f34;
+    }
+    html[data-theme="light"] .pill.corruption-more {
+      background: rgba(231, 170, 180, 0.34);
+      border-color: rgba(168, 61, 88, 0.24);
+      color: #96374f;
+    }
+    html[data-theme="light"] .pill.corruption-equal {
+      background: rgba(183, 216, 181, 0.54);
+      border-color: rgba(47, 111, 52, 0.18);
+      color: #2f6f34;
+    }
+    html[data-theme="light"] .pill.corruption-less {
+      background: rgba(245, 222, 178, 0.58);
+      border-color: rgba(154, 106, 13, 0.18);
+      color: #8c6110;
+    }
+    html[data-theme="light"] .pill.corruption-neutral {
+      background: rgba(218, 223, 208, 0.88);
+      border-color: rgba(102, 115, 95, 0.14);
+      color: #66735f;
+    }
+    @media (prefers-color-scheme: light) {
+      html[data-theme="system"] .eyebrow,
+      html[data-theme="system"] .date-chip,
+      html[data-theme="system"] .badge,
+      html[data-theme="system"] button.secondary,
+      html[data-theme="system"] button.ghost,
+      html[data-theme="system"] .settings-option,
+      html[data-theme="system"] .settings-summary,
+      html[data-theme="system"] .hint-box,
+      html[data-theme="system"] .mini,
+      html[data-theme="system"] .panel,
+      html[data-theme="system"] .code-block,
+      html[data-theme="system"] .reveal-card,
+      html[data-theme="system"] .attempt,
+      html[data-theme="system"] .settings-section,
+      html[data-theme="system"] input,
+      html[data-theme="system"] .portrait-panel,
+      html[data-theme="system"] .modal,
+      html[data-theme="system"] .modal-overlay.open .modal {
+        background: rgba(252, 248, 239, 0.95);
+        border-color: rgba(50, 95, 34, 0.14);
+        color: var(--text);
+      }
+      html[data-theme="system"] .eyebrow,
+      html[data-theme="system"] .date-chip,
+      html[data-theme="system"] .badge,
+      html[data-theme="system"] button.secondary,
+      html[data-theme="system"] button.ghost {
+        background: rgba(255, 251, 243, 0.82);
+        border-color: rgba(50, 95, 34, 0.16);
+        color: #2f6f34;
+      }
+      html[data-theme="system"] .portrait-panel,
+      html[data-theme="system"] .attempt,
+      html[data-theme="system"] .reveal-card,
+      html[data-theme="system"] .settings-section,
+      html[data-theme="system"] .settings-summary,
+      html[data-theme="system"] .modal {
+        background: rgba(252, 248, 239, 0.94);
+        border-color: rgba(50, 95, 34, 0.14);
+      }
+      html[data-theme="system"] .reveal-link-button {
+        background: rgba(255, 251, 243, 0.82);
+        border-color: rgba(50, 95, 34, 0.16);
+        color: #2f6f34;
+      }
+      html[data-theme="system"] .hint-box,
+      html[data-theme="system"] .mini,
+      html[data-theme="system"] .panel,
+      html[data-theme="system"] .code-block,
+      html[data-theme="system"] .settings-option,
+      html[data-theme="system"] input {
+        background: rgba(255, 251, 243, 0.82);
+        border-color: rgba(50, 95, 34, 0.14);
+        color: var(--text);
+      }
+      html[data-theme="system"] .portrait-wrap {
+        background: linear-gradient(180deg, #f7f2e6, #e8e1cc);
+        border-color: rgba(50, 95, 34, 0.16);
+      }
+      html[data-theme="system"] .status.bad { color: #b2465d; }
+
+      html[data-theme="system"] button:not(.secondary):not(.ghost) {
+        background: linear-gradient(135deg, #5b9440, #3f7d2f);
+        border-color: rgba(50, 95, 34, 0.22);
+        color: #f8fbf3;
+      }
+      html[data-theme="system"] .status.info { color: #4f8a43; }
+      html[data-theme="system"] .dot.used { background: #ef6a84; border-color: rgba(178, 70, 93, 0.32); }
+      html[data-theme="system"] .dot.win { background: #3f8e45; border-color: rgba(47, 111, 52, 0.32); }
+      html[data-theme="system"] .pill.bad {
+        background: rgba(231, 170, 180, 0.34);
+        border-color: rgba(168, 61, 88, 0.24);
+        color: #96374f;
+      }
+      html[data-theme="system"] .pill.good {
+        background: rgba(183, 216, 181, 0.54);
+        border-color: rgba(47, 111, 52, 0.18);
+        color: #2f6f34;
+      }
+      html[data-theme="system"] .pill.corruption-more {
+        background: rgba(231, 170, 180, 0.34);
+        border-color: rgba(168, 61, 88, 0.24);
+        color: #96374f;
+      }
+      html[data-theme="system"] .pill.corruption-equal {
+        background: rgba(183, 216, 181, 0.54);
+        border-color: rgba(47, 111, 52, 0.18);
+        color: #2f6f34;
+      }
+      html[data-theme="system"] .pill.corruption-less {
+        background: rgba(245, 222, 178, 0.58);
+        border-color: rgba(154, 106, 13, 0.18);
+        color: #8c6110;
+      }
+      html[data-theme="system"] .pill.corruption-neutral {
+        background: rgba(218, 223, 208, 0.88);
+        border-color: rgba(102, 115, 95, 0.14);
+        color: #66735f;
+      }
+    }
+    
+    .trust-note {
+      margin-top: 12px; color: var(--muted); line-height: 1.55; max-width: 72ch;
+      font-size: 0.95rem;
+    }
+    .trust-note strong { color: var(--text); }
+    .site-footer {
+      margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 0.9rem; line-height: 1.6;
+      display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    }
+    .site-footer a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .site-footer a:hover { border-bottom-color: currentColor; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 980px) {
+      .topbar-right { width: 100%; align-items: flex-start; }
+      .topbar-actions { justify-content: flex-start; }
+      .layout { grid-template-columns: 1fr; }
+      .attempt-grid { grid-template-columns: 1fr; }
+    }
+
+    /* CookieYes banner: match World Leaderle theme */
+    .cky-consent-container,
+    .cky-consent-container * {
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+    }
+
+    .cky-consent-container .cky-consent-bar {
+      background: var(--card) !important;
+      color: var(--text) !important;
+      border: 1px solid var(--border) !important;
+      border-radius: 24px !important;
+      box-shadow: var(--shadow) !important;
+      backdrop-filter: blur(22px) !important;
+    }
+
+    .cky-consent-container .cky-title,
+    .cky-consent-container .cky-notice-des,
+    .cky-consent-container [data-cky-tag="powered-by"] {
+      color: var(--text) !important;
+    }
+
+    .cky-consent-container .cky-notice-des p,
+    .cky-consent-container [data-cky-tag="powered-by"] {
+      color: var(--muted) !important;
+    }
+
+    .cky-consent-container .cky-btn {
+      border-radius: 16px !important;
+      font-weight: 700 !important;
+      padding: 12px 16px !important;
+    }
+
+    .cky-consent-container .cky-btn-accept {
+      background: linear-gradient(135deg, #0ea5e9, #2563eb) !important;
+      border-color: transparent !important;
+      color: white !important;
+    }
+
+    .cky-consent-container .cky-btn-customize,
+    .cky-consent-container .cky-btn-reject {
+      background: var(--chip-bg) !important;
+      border-color: var(--chip-border) !important;
+      color: var(--text) !important;
+    }
+
+    .cky-consent-container .cky-banner-btn-close {
+      background: var(--chip-bg) !important;
+      border: 1px solid var(--chip-border) !important;
+      border-radius: 999px !important;
+    }
+
+    .cky-consent-container .cky-banner-btn-close img {
+      filter: invert(1) brightness(1.5) !important;
+    }
+
+    /* Light theme */
+    html[data-theme="light"] .cky-consent-container .cky-btn-accept {
+      background: linear-gradient(135deg, #5b9440, #3f7d2f) !important;
+      color: #f8fbf3 !important;
+    }
+
+    html[data-theme="light"] .cky-consent-container .cky-banner-btn-close img {
+      filter: invert(22%) sepia(21%) saturate(1125%) hue-rotate(61deg) brightness(92%) contrast(87%) !important;
+    }
+
+    /* System theme when device is light */
+    @media (prefers-color-scheme: light) {
+      html[data-theme="system"] .cky-consent-container .cky-btn-accept {
+        background: linear-gradient(135deg, #5b9440, #3f7d2f) !important;
+        color: #f8fbf3 !important;
+      }
+
+      html[data-theme="system"] .cky-consent-container .cky-banner-btn-close img {
+        filter: invert(22%) sepia(21%) saturate(1125%) hue-rotate(61deg) brightness(92%) contrast(87%) !important;
+      }
+    }
+
+        /* CookieYes preference center: match World Leaderle theme */
+    .cky-modal,
+    .cky-modal * {
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+    }
+
+    .cky-modal .cky-preference-center {
+      background: var(--card) !important;
+      color: var(--text) !important;
+      border: 1px solid var(--border) !important;
+      border-radius: 24px !important;
+      box-shadow: var(--shadow) !important;
+      backdrop-filter: blur(22px) !important;
+    }
+
+    .cky-modal .cky-preference-title,
+    .cky-modal .cky-preference-content-wrapper,
+    .cky-modal .cky-dma-content-wrapper,
+    .cky-modal .cky-accordion-btn,
+    .cky-modal .cky-accordion-header-des,
+    .cky-modal .cky-audit-table,
+    .cky-modal .cky-empty-cookies-text,
+    .cky-modal [data-cky-tag="detail-powered-by"] {
+      color: var(--text) !important;
+    }
+
+    .cky-modal .cky-preference-content-wrapper p,
+    .cky-modal .cky-dma-content-wrapper p,
+    .cky-modal .cky-accordion-header-des p,
+    .cky-modal .cky-cookie-des-table,
+    .cky-modal .cky-cookie-des-table p,
+    .cky-modal [data-cky-tag="detail-powered-by"] {
+      color: var(--muted) !important;
+    }
+
+    .cky-modal .cky-policy,
+    .cky-modal .cky-show-desc-btn {
+      color: #7dd3fc !important;
+      background: transparent !important;
+      border-color: transparent !important;
+    }
+
+    .cky-modal .cky-horizontal-separator {
+      border-color: var(--border) !important;
+    }
+
+    .cky-modal .cky-accordion {
+      background: rgba(255,255,255,0.035) !important;
+      border: 1px solid rgba(255,255,255,0.08) !important;
+      border-radius: 18px !important;
+      margin-bottom: 10px !important;
+      overflow: hidden !important;
+    }
+
+    .cky-modal .cky-accordion-item {
+      background: transparent !important;
+    }
+
+    .cky-modal .cky-audit-table {
+      background: rgba(255,255,255,0.035) !important;
+      border-color: var(--border) !important;
+      border-radius: 16px !important;
+    }
+
+    .cky-modal .cky-cookie-des-table {
+      border-color: var(--border) !important;
+    }
+
+    .cky-modal .cky-cookie-des-table li {
+      border-color: var(--border) !important;
+    }
+
+    .cky-modal .cky-always-active {
+      color: var(--good) !important;
+    }
+
+    .cky-modal .cky-btn {
+      border-radius: 16px !important;
+      font-weight: 700 !important;
+      padding: 12px 16px !important;
+    }
+
+    .cky-modal .cky-btn-accept,
+    .cky-modal .cky-btn-preferences {
+      background: linear-gradient(135deg, #0ea5e9, #2563eb) !important;
+      border-color: transparent !important;
+      color: white !important;
+    }
+
+    .cky-modal .cky-btn-close {
+      background: var(--chip-bg) !important;
+      border: 1px solid var(--chip-border) !important;
+      border-radius: 999px !important;
+    }
+
+    .cky-modal .cky-btn-close img {
+      filter: invert(1) brightness(1.5) !important;
+    }
+
+    .cky-modal .cky-footer-wrapper {
+      background: var(--card) !important;
+      border-top: 1px solid var(--border) !important;
+    }
+
+    .cky-modal .cky-footer-shadow {
+      background: linear-gradient(180deg, rgba(10, 17, 32, 0), var(--card) 100%) !important;
+    }
+
+    .cky-modal .cky-chevron-right {
+      border-color: var(--muted) !important;
+    }
+
+    .cky-modal .cky-switch input {
+      background-color: rgba(148,163,184,0.5) !important;
+      min-width: 40px !important;
+    }
+
+    .cky-modal .cky-switch input:checked {
+      background-color: var(--good) !important;
+    }
+
+    /* Light theme */
+    html[data-theme="light"] .cky-modal .cky-preference-center,
+    html[data-theme="light"] .cky-modal .cky-footer-wrapper {
+      background: rgba(252, 248, 239, 0.97) !important;
+      border-color: rgba(50, 95, 34, 0.14) !important;
+    }
+
+    html[data-theme="light"] .cky-modal .cky-accordion,
+    html[data-theme="light"] .cky-modal .cky-audit-table {
+      background: rgba(255, 251, 243, 0.82) !important;
+      border-color: rgba(50, 95, 34, 0.14) !important;
+    }
+
+    html[data-theme="light"] .cky-modal .cky-btn-accept,
+    html[data-theme="light"] .cky-modal .cky-btn-preferences {
+      background: linear-gradient(135deg, #5b9440, #3f7d2f) !important;
+      color: #f8fbf3 !important;
+    }
+
+    html[data-theme="light"] .cky-modal .cky-policy,
+    html[data-theme="light"] .cky-modal .cky-show-desc-btn {
+      color: #3f7d2f !important;
+    }
+
+    html[data-theme="light"] .cky-modal .cky-btn-close img {
+      filter: invert(22%) sepia(21%) saturate(1125%) hue-rotate(61deg) brightness(92%) contrast(87%) !important;
+    }
+
+    html[data-theme="light"] .cky-modal .cky-footer-shadow {
+      background: linear-gradient(180deg, rgba(252, 248, 239, 0), rgba(252, 248, 239, 0.97) 100%) !important;
+    }
+
+    /* System theme when device is light */
+    @media (prefers-color-scheme: light) {
+      html[data-theme="system"] .cky-modal .cky-preference-center,
+      html[data-theme="system"] .cky-modal .cky-footer-wrapper {
+        background: rgba(252, 248, 239, 0.97) !important;
+        border-color: rgba(50, 95, 34, 0.14) !important;
+      }
+
+      html[data-theme="system"] .cky-modal .cky-accordion,
+      html[data-theme="system"] .cky-modal .cky-audit-table {
+        background: rgba(255, 251, 243, 0.82) !important;
+        border-color: rgba(50, 95, 34, 0.14) !important;
+      }
+
+      html[data-theme="system"] .cky-modal .cky-btn-accept,
+      html[data-theme="system"] .cky-modal .cky-btn-preferences {
+        background: linear-gradient(135deg, #5b9440, #3f7d2f) !important;
+        color: #f8fbf3 !important;
+      }
+
+      html[data-theme="system"] .cky-modal .cky-policy,
+      html[data-theme="system"] .cky-modal .cky-show-desc-btn {
+        color: #3f7d2f !important;
+      }
+
+      html[data-theme="system"] .cky-modal .cky-btn-close img {
+        filter: invert(22%) sepia(21%) saturate(1125%) hue-rotate(61deg) brightness(92%) contrast(87%) !important;
+      }
+
+      html[data-theme="system"] .cky-modal .cky-footer-shadow {
+        background: linear-gradient(180deg, rgba(252, 248, 239, 0), rgba(252, 248, 239, 0.97) 100%) !important;
+      }
+    }
+    .cky-modal {
+      background: transparent !important;
+    }
+
+    .cky-modal.cky-modal-open {
+      background: rgba(2, 8, 20, 0.72) !important;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T97ZHZK5"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="shell">
+    <main class="card main">
+      <div class="topbar">
+        <div>
+          <div class="eyebrow">Daily leader guessing game</div>
+          <h1 id="gameTitle">Daily World Leaderle</h1>
+          <div class="subtitle">A daily geography game — guess the country of today’s mystery world leader.</div>
+        </div>
+        <div class="topbar-right">
+          <div class="date-chip" id="dateChip">Daily puzzle</div>
+          <div class="topbar-actions">
+            <button class="ghost" id="howToPlayButton" type="button">How to play</button>
+            <button class="ghost" id="settingsButton" type="button">Settings</button>
+          </div>
+        </div>
+      </div>
+      <div class="layout">
+        <section class="portrait-panel">
+          <div class="portrait-wrap" id="portraitWrap">
+            <img id="leaderImage" alt="Mystery leader portrait" />
+            <div class="photo-badge">
+              <div class="badge" id="roleBadge">Mystery leader</div>
+              <div class="badge" id="blurBadge">Tenure unknown</div>
+            </div>
+            <div class="meta-badge">
+              <div class="badge" id="sourceBadge">Source: Wikimedia</div>
+              <div class="badge" id="leaderMetaBadge">Daily puzzle</div>
+            </div>
+          </div>
+          <div class="guess-dots" id="guessDots"></div>
+          <div class="reveal-card" id="revealCard">
+            <div class="reveal-flag" id="revealFlag" aria-hidden="true"></div>
+            <div class="reveal-title-wrap">
+              <h3 id="revealTitle"></h3>
+            </div>
+            <div class="reveal-meta" id="revealMeta"></div>
+            <div class="reveal-text" id="revealText"></div>
+            <div class="reveal-actions">
+              <a
+                id="revealWikiLink"
+                class="reveal-link-button"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                hidden
+              >
+                Keep reading on Wikipedia
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="game-panel">
+          <div class="controls">
+            <input id="guessInput" list="countryOptions" placeholder="Enter a country" autocomplete="off" />
+            <datalist id="countryOptions"></datalist>
+            <button id="guessButton">Submit guess</button>
+          </div>
+          <div class="footer-actions">
+            <button class="secondary" id="shareButton" disabled>Share result</button>
+            <button class="ghost" id="randomButton">Preview random leader</button>
+            <button class="ghost" id="resetButton">Today's puzzle</button>
+          </div>
+          <div class="status info" id="statusMessage">Initialising…</div>
+          <div class="attempts" id="attempts"></div>
+        </section>
+      </div>
+      <footer class="site-footer">
+        <div>World Leaderle is a free browser game by <a href="https://www.linkedin.com/company/obliqua-data/" target="_blank" rel="noopener noreferrer">Obliqua Data</a>. No account is required.</div>
+        <div><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a></div>
+      </footer>
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="howToPlayModal" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head">
+        <h2>How to play</h2>
+        <button class="ghost modal-close" id="closeHowToPlayButton" type="button">✕</button>
+      </div>
+      <div class="modal-grid">
+        <div class="mini"><strong>Corruption hint</strong><span>After a wrong guess, you are told whether your guessed country is more corrupt, similarly corrupt, or less corrupt than the mystery country.</span></div>
+        <div class="mini"><strong>Continent hint</strong><span>You are also told whether the guessed country is on the correct continent.</span></div>
+        <div class="mini"><strong>Distance hint</strong><span>Each guess gets a 5-square emoji bar that becomes greener as the guess gets geographically closer.</span></div>
+        <div class="mini"><strong>Serving hint</strong><span>The top right of the portrait indicates how long the leader has served in their current position.</span></div>
+        <div class="mini"><strong>Head of role hint</strong><span>The top left badge shows whether the leader is a head of state, a head of government, or both in one merged entry.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="settingsModal" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head">
+        <h2>Settings</h2>
+        <button class="ghost modal-close" id="closeSettingsButton" type="button">✕</button>
+      </div>
+      <div class="settings-layout">
+        <section class="settings-section">
+          <h3>Theme</h3>
+          <p>Choose between the new retro poster default, the original dark look, a light mode, or a system-following theme.</p>
+          <div class="settings-options">
+            <label class="settings-option"><input type="radio" name="themeSetting" value="default"> <span>Default retro</span></label>
+            <label class="settings-option"><input type="radio" name="themeSetting" value="dark"> <span>Dark</span></label>
+            <label class="settings-option"><input type="radio" name="themeSetting" value="light"> <span>Light</span></label>
+            <label class="settings-option"><input type="radio" name="themeSetting" value="system"> <span>System</span></label>
+          </div>
+        </section>
+        <section class="settings-section">
+          <h3>Guess order</h3>
+          <p>Keep the newest guess first, or sort the board by the closest guess.</p>
+          <div class="settings-options">
+            <label class="settings-option"><input type="radio" name="guessSortSetting" value="recent"> <span>Most recent first</span></label>
+            <label class="settings-option"><input type="radio" name="guessSortSetting" value="closest"> <span>Closest first</span></label>
+          </div>
+        </section>
+        <section class="settings-section">
+          <h3>Random leader pool</h3>
+          <p>Filter random mode to heads of state, heads of government, or the full combined pool.</p>
+          <div class="settings-options">
+            <label class="settings-option"><input type="radio" name="randomLeaderPoolSetting" value="state"> <span>Heads of state</span></label>
+            <label class="settings-option"><input type="radio" name="randomLeaderPoolSetting" value="government"> <span>Heads of government</span></label>
+            <label class="settings-option"><input type="radio" name="randomLeaderPoolSetting" value="all"> <span>All leaders</span></label>
+          </div>
+        </section>
+      </div>
+      <div class="settings-summary" id="settingsSummary"></div>
+    </div>
+  </div>
+
+  <script>
+    const MAX_GUESSES = 6;
+    const LEADERS_JSON_URL = "./data/leaders.json";
+    const DAILY_SCHEDULE_JSON_URL = "./data/daily-schedule.json";
+    const WIKIPEDIA_SUMMARY_BASE = "https://en.wikipedia.org/api/rest_v1/page/summary/";
+    const DAILY_COOKIE_KEY = "worldleaderle_daily_state_v1";
+    const SETTINGS_STORAGE_KEY = "worldleaderle_settings_v1";
+    const RANDOM_QUEUE_STORAGE_KEY = "worldleaderle_random_queue_v1";
+    const RANDOM_STATS_STORAGE_KEY = "worldleaderle_random_stats_v1";
+    const CORRUPTION_EQUAL_THRESHOLD = 0.35;
+
+    const FALLBACK_LEADERS = [
+      {
+        id: "france-macron-head-of-state",
+        leader: "Emmanuel Macron",
+        articleTitle: "Emmanuel Macron",
+        startDate: "2017-05-14",
+        country: "France",
+        continent: "Europe",
+        iso2: "FR",
+        role: "Head of state",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emmanuel_Macron_in_2023.jpg/640px-Emmanuel_Macron_in_2023.jpg",
+        corruptionScore: 1.3,
+        coords: { lat: 46.2276, lon: 2.2137 },
+        summary: "Emmanuel Macron is a French politician who has served as President of France since 2017."
+      },
+      {
+        id: "australia-albanese-head-of-government",
+        leader: "Anthony Albanese",
+        articleTitle: "Anthony Albanese",
+        startDate: "2022-05-23",
+        country: "Australia",
+        continent: "Oceania",
+        iso2: "AU",
+        role: "Head of government",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Anthony_Albanese_2022_%28cropped%29.jpg/640px-Anthony_Albanese_2022_%28cropped%29.jpg",
+        corruptionScore: 1.8,
+        coords: { lat: -25.2744, lon: 133.7751 },
+        summary: "Anthony Albanese is an Australian politician serving as Prime Minister of Australia since 2022."
+      },
+      {
+        id: "india-modi-head-of-government",
+        leader: "Narendra Modi",
+        articleTitle: "Narendra Modi",
+        startDate: "2014-05-26",
+        country: "India",
+        continent: "Asia",
+        iso2: "IN",
+        role: "Head of government",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png/640px-Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png",
+        corruptionScore: -0.2,
+        coords: { lat: 20.5937, lon: 78.9629 },
+        summary: "Narendra Modi is an Indian politician serving as Prime Minister of India since 2014."
+      }
+    ];
+
+    const aliases = {
+    // United States
+    us: "United States",
+    usa: "United States",
+    unitedstates: "United States",
+    unitedstatesofamerica: "United States",
+    america: "United States",
+    theunitedstates: "United States",
+    theunitedstatesofamerica: "United States",
+
+    // United Kingdom
+    uk: "United Kingdom",
+    unitedkingdom: "United Kingdom",
+    greatbritain: "United Kingdom",
+    britain: "United Kingdom",
+    gb: "United Kingdom",
+    gbr: "United Kingdom",
+    theuk: "United Kingdom",
+    theunitedkingdom: "United Kingdom",
+
+    // Netherlands
+    netherlands: "Kingdom of the Netherlands",
+    thenetherlands: "Kingdom of the Netherlands",
+    holland: "Kingdom of the Netherlands",
+    kingdomofthenetherlands: "Kingdom of the Netherlands",
+    dutchkingdom: "Kingdom of the Netherlands",
+
+    // Denmark
+    denmark: "Kingdom of Denmark",
+    kingdomofdenmark: "Kingdom of Denmark",
+
+    // Norway / Sweden / Belgium / Spain / Thailand / Cambodia etc. if database uses kingdom names
+    norway: "Kingdom of Norway",
+    kingdomofnorway: "Kingdom of Norway",
+
+    sweden: "Kingdom of Sweden",
+    kingdomofsweden: "Kingdom of Sweden",
+
+    belgium: "Kingdom of Belgium",
+    kingdomofbelgium: "Kingdom of Belgium",
+
+    spain: "Kingdom of Spain",
+    kingdomofspain: "Kingdom of Spain",
+
+    thailand: "Kingdom of Thailand",
+    kingdomofthailand: "Kingdom of Thailand",
+
+    cambodia: "Kingdom of Cambodia",
+    kingdomofcambodia: "Kingdom of Cambodia",
+
+    morocco: "Kingdom of Morocco",
+    kingdomofmorocco: "Kingdom of Morocco",
+
+    jordan: "Hashemite Kingdom of Jordan",
+    kingdomofjordan: "Hashemite Kingdom of Jordan",
+    hashemitekingdomofjordan: "Hashemite Kingdom of Jordan",
+
+    saudiarabia: "Saudi Arabia",
+    kingdomofsaudiarabia: "Saudi Arabia",
+    ksa: "Saudi Arabia",
+
+    bhutan: "Kingdom of Bhutan",
+    kingdomofbhutan: "Kingdom of Bhutan",
+
+    bahrain: "Kingdom of Bahrain",
+    kingdomofbahrain: "Kingdom of Bahrain",
+
+    eswatini: "Kingdom of Eswatini",
+    swaziland: "Kingdom of Eswatini",
+    kingdomofeswatini: "Kingdom of Eswatini",
+
+    lesotho: "Kingdom of Lesotho",
+    kingdomoflesotho: "Kingdom of Lesotho",
+
+    tonga: "Kingdom of Tonga",
+    kingdomoftonga: "Kingdom of Tonga",
+
+    // Korea
+    northkorea: "North Korea",
+    dprk: "North Korea",
+    democraticpeoplesrepublicofkorea: "North Korea",
+    peoplesrepublicofkorea: "North Korea",
+    koreanorth: "North Korea",
+
+    southkorea: "South Korea",
+    rok: "South Korea",
+    republicofkorea: "South Korea",
+    koreasouth: "South Korea",
+
+    // Taiwan / ROC
+    taiwan: "Taiwan",
+    roc: "Taiwan",
+    republicofchina: "Taiwan",
+    republicofchinataiwan: "Taiwan",
+    chinesetaipei: "Taiwan",
+
+    // China
+    china: "China",
+    prc: "China",
+    peoplesrepublicofchina: "China",
+    mainlandchina: "China",
+
+    // UAE
+    uae: "United Arab Emirates",
+    unitedarabemirates: "United Arab Emirates",
+    theuae: "United Arab Emirates",
+
+    // Russia
+    russia: "Russia",
+    russianfederation: "Russia",
+    rf: "Russia",
+
+    // Iran
+    iran: "Iran",
+    islamicrepublicofiran: "Iran",
+
+    // Syria
+    syria: "Syria",
+    syrianarabrepublic: "Syria",
+
+    // Laos
+    laos: "Laos",
+    lao: "Laos",
+    laopdr: "Laos",
+    laopeoplesdemocraticrepublic: "Laos",
+
+    // Vietnam
+    vietnam: "Vietnam",
+    socialistrepublicofvietnam: "Vietnam",
+
+    // Myanmar
+    myanmar: "Myanmar",
+    burma: "Myanmar",
+    republicoftheunionofmyanmar: "Myanmar",
+
+    // Brunei
+    brunei: "Brunei",
+    bruneidarussalam: "Brunei",
+
+    // Moldova
+    moldova: "Moldova",
+    republicofmoldova: "Moldova",
+
+    // Czech Republic / Czechia
+    czechia: "Czech Republic",
+    czechrepublic: "Czech Republic",
+
+    // North Macedonia
+    northmacedonia: "North Macedonia",
+    macedonia: "North Macedonia",
+    republicofnorthmacedonia: "North Macedonia",
+
+    // DRC / Congo
+    drc: "Democratic Republic of the Congo",
+    congodrc: "Democratic Republic of the Congo",
+    democraticrepublicofthecongo: "Democratic Republic of the Congo",
+    democraticrepublicofcongo: "Democratic Republic of the Congo",
+    drcongo: "Democratic Republic of the Congo",
+    congokinshasa: "Democratic Republic of the Congo",
+    zaire: "Democratic Republic of the Congo",
+
+    republicofthecongo: "Republic of the Congo",
+    republicofcongo: "Republic of the Congo",
+    congo: "Republic of the Congo",
+    congobrazzaville: "Republic of the Congo",
+
+    // Côte d'Ivoire
+    ivorycoast: "Côte d'Ivoire",
+    coteivoire: "Côte d'Ivoire",
+    cotedivoire: "Côte d'Ivoire",
+
+    // Cabo Verde
+    caboverde: "Cape Verde",
+    capeverde: "Cape Verde",
+
+    // Timor-Leste
+    timorleste: "Timor-Leste",
+    easttimor: "Timor-Leste",
+    democraticrepublicoftimorleste: "Timor-Leste",
+
+    // Palestine
+    palestine: "State of Palestine",
+    stateofpalestine: "State of Palestine",
+    palestinianterritories: "State of Palestine",
+    palestinianterritory: "State of Palestine",
+
+    // Kosovo
+    kosovo: "Kosovo",
+    republicofkosovo: "Kosovo",
+
+    // Vatican
+    vatican: "Vatican City",
+    vaticancity: "Vatican City",
+    holysee: "Vatican City",
+    theholysee: "Vatican City",
+
+    // Türkiye
+    turkey: "Türkiye",
+    turkiye: "Türkiye",
+    republicofturkiye: "Türkiye",
+    republicofturkey: "Türkiye",
+
+    // Tanzania
+    tanzania: "Tanzania",
+    unitedrepublicoftanzania: "Tanzania",
+
+    // Venezuela
+    venezuela: "Venezuela",
+    bolivarianrepublicofvenezuela: "Venezuela",
+
+    // Bolivia
+    bolivia: "Bolivia",
+    plurinationalstateofbolivia: "Bolivia",
+
+    // Micronesia
+    micronesia: "Federated States of Micronesia",
+    federatedstatesofmicronesia: "Federated States of Micronesia",
+    fsm: "Federated States of Micronesia",
+
+    // Marshall Islands
+    marshallislands: "Marshall Islands",
+    republicofthemarshallislands: "Marshall Islands",
+    rmi: "Marshall Islands",
+
+    // Dominican Republic
+    dominicanrepublic: "Dominican Republic",
+    dr: "Dominican Republic",
+
+    // Central African Republic
+    centralafricanrepublic: "Central African Republic",
+    car: "Central African Republic",
+
+    // Bosnia and Herzegovina
+    bosnia: "Bosnia and Herzegovina",
+    bosniaandherzegovina: "Bosnia and Herzegovina",
+    bih: "Bosnia and Herzegovina",
+
+    // Antigua and Barbuda
+    antigua: "Antigua and Barbuda",
+    antiguaandbarbuda: "Antigua and Barbuda",
+
+    // Saint Kitts and Nevis
+    stkitts: "Saint Kitts and Nevis",
+    stkittsandnevis: "Saint Kitts and Nevis",
+    saintkitts: "Saint Kitts and Nevis",
+    saintkittsandnevis: "Saint Kitts and Nevis",
+    stkittsnevis: "Saint Kitts and Nevis",
+
+    // Saint Vincent and the Grenadines
+    stvincent: "Saint Vincent and the Grenadines",
+    stvincentandthegrenadines: "Saint Vincent and the Grenadines",
+    saintvincent: "Saint Vincent and the Grenadines",
+    saintvincentandthegrenadines: "Saint Vincent and the Grenadines",
+    svg: "Saint Vincent and the Grenadines",
+
+    // São Tomé and Príncipe
+    saotome: "São Tomé and Príncipe",
+    saotomeandprincipe: "São Tomé and Príncipe",
+    saotomeprincipe: "São Tomé and Príncipe",
+
+    // Trinidad and Tobago
+    trinidad: "Trinidad and Tobago",
+    trinidadandtobago: "Trinidad and Tobago",
+    tnt: "Trinidad and Tobago",
+
+    // Papua New Guinea
+    papuanewguinea: "Papua New Guinea",
+    png: "Papua New Guinea",
+
+    // Solomon Islands
+    solomonislands: "Solomon Islands",
+
+    // New Zealand / Realm-style alternates if needed
+    newzealand: "New Zealand",
+    nz: "New Zealand",
+
+    // European Union
+    eu: "European Union",
+    europeanunion: "European Union",
+
+    // Cook Islands / Niue if included
+    cookislands: "Cook Islands",
+    niue: "Niue",
+
+    // West Bank style user guesses
+    westbank: "State of Palestine",
+    gaza: "State of Palestine",
+    westbankandgaza: "State of Palestine",
+
+    // Misc punctuation/wording variants
+    thegambia: "Gambia",
+    gambia: "Gambia",
+    bahamas: "Bahamas",
+    thebahamas: "Bahamas",
+    maldives: "Maldives",
+    themaldives: "Maldives",
+    philippines: "Philippines",
+    thephilippines: "Philippines",
+    comoros: "Comoros",
+    thecomoros: "Comoros"
+  };
+
+    const gameTitle = document.getElementById("gameTitle");
+    const dateChip = document.getElementById("dateChip");
+    const guessInput = document.getElementById("guessInput");
+    const guessButton = document.getElementById("guessButton");
+    const shareButton = document.getElementById("shareButton");
+    const resetButton = document.getElementById("resetButton");
+    const randomButton = document.getElementById("randomButton");
+    const statusMessage = document.getElementById("statusMessage");
+    const attemptsEl = document.getElementById("attempts");
+    const guessDots = document.getElementById("guessDots");
+    const countryOptions = document.getElementById("countryOptions");
+    const leaderImage = document.getElementById("leaderImage");
+    const portraitWrap = document.getElementById("portraitWrap");
+    const blurBadge = document.getElementById("blurBadge");
+    const roleBadge = document.getElementById("roleBadge");
+    const sourceBadge = document.getElementById("sourceBadge");
+    const leaderMetaBadge = document.getElementById("leaderMetaBadge");
+    const howToPlayButton = document.getElementById("howToPlayButton");
+    const settingsButton = document.getElementById("settingsButton");
+    const revealCard = document.getElementById("revealCard");
+    const revealFlag = document.getElementById("revealFlag");
+    const revealTitle = document.getElementById("revealTitle");
+    const revealMeta = document.getElementById("revealMeta");
+    const revealText = document.getElementById("revealText");
+    const revealWikiLink = document.getElementById("revealWikiLink");
+    const howToPlayModal = document.getElementById("howToPlayModal");
+    const settingsModal = document.getElementById("settingsModal");
+    const closeHowToPlayButton = document.getElementById("closeHowToPlayButton");
+    const closeSettingsButton = document.getElementById("closeSettingsButton");
+    const settingsSummary = document.getElementById("settingsSummary");
+    const countryFilterInput = document.getElementById("countryFilterInput");
+
+    const defaultSettings = {
+      theme: "default",
+      guessSort: "recent",
+      randomLeaderPool: "all"
+    };
+
+    const memoryStorage = (() => {
+      const store = new Map();
+      return {
+        getItem(key) { return store.has(key) ? store.get(key) : null; },
+        setItem(key, value) { store.set(key, String(value)); },
+        removeItem(key) { store.delete(key); }
+      };
+    })();
+
+    function getSafeStorage() {
+      try {
+        if (typeof window !== "undefined" && window.localStorage) {
+          const testKey = "__leaderle_storage_test__";
+          window.localStorage.setItem(testKey, "ok");
+          window.localStorage.removeItem(testKey);
+          return window.localStorage;
+        }
+      } catch (error) {
+        console.warn("localStorage unavailable, using memory storage instead.", error);
+      }
+      return memoryStorage;
+    }
+
+    const safeStorage = getSafeStorage();
+
+    let leaderPool = [...FALLBACK_LEADERS];
+    let playableCountries = new Map();
+    let mysteryLeader = null;
+    let guesses = [];
+    let gameOver = false;
+    let currentMode = "daily";
+    let dailySchedule = null;
+    let settings = loadSettings();
+
+    function getTodayKey() {
+      const d = new Date();
+      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}-${String(d.getUTCDate()).padStart(2, "0")}`;
+    }
+
+    function formatToday() {
+      return new Intl.DateTimeFormat("en-GB", {
+        weekday: "short",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        timeZone: "UTC"
+      }).format(new Date());
+    }
+
+    function hashString(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i += 1) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+      }
+      return Math.abs(hash);
+    }
+
+    function normalize(text) {
+      return (text || "")
+        .normalize("NFKD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[’'`]/g, "")
+        .replace(/&/g, "and")
+        .replace(/[^a-zA-Z0-9]+/g, " ")
+        .trim()
+        .toLowerCase();
+    }
+
+    function slugifyForLookup(text) {
+      return normalize(text).replace(/\s+/g, "");
+    }
+
+    function setCookie(name, value, maxAgeSeconds = 60 * 60 * 24 * 30) {
+      document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAgeSeconds}; SameSite=Lax`;
+    }
+
+    function getCookie(name) {
+      const prefix = `${name}=`;
+      const match = document.cookie.split("; ").find((row) => row.startsWith(prefix));
+      return match ? decodeURIComponent(match.slice(prefix.length)) : null;
+    }
+
+    function deleteCookie(name) {
+      document.cookie = `${name}=; path=/; max-age=0; SameSite=Lax`;
+    }
+
+    function saveDailyState(state) {
+      setCookie(DAILY_COOKIE_KEY, JSON.stringify(state));
+    }
+
+    function loadDailyState() {
+      try {
+        return JSON.parse(getCookie(DAILY_COOKIE_KEY) || "null");
+      } catch {
+        return null;
+      }
+    }
+
+    function loadSettings() {
+      try {
+        const parsed = JSON.parse(safeStorage.getItem(SETTINGS_STORAGE_KEY) || "null") || {};
+        return {
+          theme: ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : defaultSettings.theme,
+          guessSort: ["recent", "closest"].includes(parsed.guessSort) ? parsed.guessSort : defaultSettings.guessSort,
+          randomLeaderPool: ["state", "government", "all"].includes(parsed.randomLeaderPool) ? parsed.randomLeaderPool : defaultSettings.randomLeaderPool
+        };
+      } catch {
+        return { ...defaultSettings };
+      }
+    }
+
+    function saveSettings() {
+      safeStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(settings));
+    }
+
+    function applyTheme() {
+      document.documentElement.setAttribute("data-theme", settings.theme);
+    }
+
+    function syncSettingsUI() {
+      document.querySelectorAll('input[name="themeSetting"]').forEach((input) => {
+        input.checked = input.value === settings.theme;
+      });
+      document.querySelectorAll('input[name="guessSortSetting"]').forEach((input) => {
+        input.checked = input.value === settings.guessSort;
+      });
+      document.querySelectorAll('input[name="randomLeaderPoolSetting"]').forEach((input) => {
+        input.checked = input.value === settings.randomLeaderPool;
+      });
+      const stats = getRandomStatsForPool(settings.randomLeaderPool);
+      const total = getEligibleRandomLeaders(settings.randomLeaderPool).length;
+      const remaining = Math.max(total - stats.currentCycleSolved, 0);
+      settingsSummary.innerHTML = `
+        <strong>Current settings:</strong> Theme: ${describeTheme(settings.theme)} • Guess order: ${settings.guessSort === "recent" ? "Most recent first" : "Closest first"} • Random pool: ${describeRandomPool(settings.randomLeaderPool)}<br>
+        <strong>Role legend:</strong> Head of state = ceremonial or constitutional national leader • Head of government = prime minister or equivalent executive leader • Head of both = one person holds both roles<br>
+        <strong>Random stats for this pool:</strong> ${stats.currentCycleSolved}/${total} solved this cycle • ${remaining} left • ${stats.lifetimeSolved} lifetime solves • ${stats.cyclesCompleted} cycles completed`;
+    }
+
+    function capitalize(value) {
+      return value.charAt(0).toUpperCase() + value.slice(1);
+    }
+
+    function describeTheme(value) {
+      if (value === "default") return "Default retro";
+      if (value === "dark") return "Dark";
+      if (value === "light") return "Light";
+      return "System";
+    }
+
+    function describeRandomPool(value) {
+      if (value === "state") return "Heads of state";
+      if (value === "government") return "Heads of government";
+      return "All leaders";
+    }
+
+    function getLeaderRoleFlags(leader) {
+      const role = normalize(leader?.role || "");
+      return {
+        state: role.includes("head of state"),
+        government: role.includes("head of government")
+      };
+    }
+
+    function matchesLeaderPoolSetting(leader, poolSetting) {
+      const flags = getLeaderRoleFlags(leader);
+      if (poolSetting === "state") return flags.state;
+      if (poolSetting === "government") return flags.government;
+      return flags.state || flags.government;
+    }
+
+    function shuffleArray(items) {
+      const copy = [...items];
+      for (let i = copy.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function loadRandomQueueState() {
+      try {
+        const parsed = JSON.parse(safeStorage.getItem(RANDOM_QUEUE_STORAGE_KEY) || "null");
+        return parsed && typeof parsed === "object" ? parsed : {};
+      } catch {
+        return {};
+      }
+    }
+
+    function saveRandomQueueState(state) {
+      safeStorage.setItem(RANDOM_QUEUE_STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadRandomStats() {
+      try {
+        const parsed = JSON.parse(safeStorage.getItem(RANDOM_STATS_STORAGE_KEY) || "null");
+        return parsed && typeof parsed === "object" ? parsed : {};
+      } catch {
+        return {};
+      }
+    }
+
+    function saveRandomStats(state) {
+      safeStorage.setItem(RANDOM_STATS_STORAGE_KEY, JSON.stringify(state));
+    }
+
+    let randomStats = loadRandomStats();
+
+    function getRandomStatsForPool(pool = settings.randomLeaderPool) {
+      if (!randomStats[pool]) {
+        randomStats[pool] = {
+          currentCycleSolved: 0,
+          lifetimeSolved: 0,
+          cyclesCompleted: 0
+        };
+        saveRandomStats(randomStats);
+      }
+      return randomStats[pool];
+    }
+
+    function getEligibleRandomLeaders(pool = settings.randomLeaderPool) {
+      return leaderPool.filter((leader) => matchesLeaderPoolSetting(leader, pool));
+    }
+
+    function ensureRandomQueue(forceRegenerate = false, pool = settings.randomLeaderPool) {
+      const eligibleLeaders = getEligibleRandomLeaders(pool);
+      const eligibleIds = eligibleLeaders.map((leader) => leader.id);
+      if (!eligibleIds.length) {
+        throw new Error("No eligible leaders available for the selected random pool.");
+      }
+
+      const allState = loadRandomQueueState();
+      let state = forceRegenerate ? null : allState[pool];
+      const stats = getRandomStatsForPool(pool);
+
+      if (!state || !Array.isArray(state.queue) || !state.queue.length) {
+        state = { queue: shuffleArray(eligibleIds) };
+        if (forceRegenerate || stats.currentCycleSolved >= eligibleIds.length) {
+          stats.currentCycleSolved = 0;
+          saveRandomStats(randomStats);
+        }
+        allState[pool] = state;
+        saveRandomQueueState(allState);
+        return state;
+      }
+
+      let queue = state.queue.filter((id) => eligibleIds.includes(id));
+      const missing = eligibleIds.filter((id) => !queue.includes(id));
+      if (missing.length) {
+        queue = queue.concat(shuffleArray(missing));
+      }
+
+      state = { queue };
+      allState[pool] = state;
+      saveRandomQueueState(allState);
+      return state;
+    }
+
+    function peekRandomLeader(pool = settings.randomLeaderPool) {
+      let state = ensureRandomQueue(false, pool);
+      if (!state.queue.length) {
+        state = ensureRandomQueue(true, pool);
+      }
+      return leaderPool.find((leader) => leader.id === state.queue[0]) || chooseRandomLeader(getEligibleRandomLeaders(pool));
+    }
+
+    function skipCurrentRandomLeader(pool = settings.randomLeaderPool) {
+      const allState = loadRandomQueueState();
+      const state = ensureRandomQueue(false, pool);
+      if (!state.queue.length) return;
+      const currentId = mysteryLeader?.id && state.queue.includes(mysteryLeader.id) ? mysteryLeader.id : state.queue[0];
+      state.queue = state.queue.filter((id) => id !== currentId);
+      if (currentId) state.queue.push(currentId);
+      allState[pool] = state;
+      saveRandomQueueState(allState);
+    }
+
+    function popSolvedRandomLeader(pool = settings.randomLeaderPool) {
+      const allState = loadRandomQueueState();
+      const state = ensureRandomQueue(false, pool);
+      if (!state.queue.length) return;
+      const stats = getRandomStatsForPool(pool);
+      if (state.queue[0] === mysteryLeader?.id) {
+        state.queue.shift();
+      } else {
+        state.queue = state.queue.filter((id) => id !== mysteryLeader?.id);
+      }
+      stats.currentCycleSolved += 1;
+      stats.lifetimeSolved += 1;
+      if (!state.queue.length) {
+        stats.cyclesCompleted += 1;
+      }
+      allState[pool] = state;
+      saveRandomQueueState(allState);
+      saveRandomStats(randomStats);
+    }
+
+    function buildRandomQueueChipText(pool = settings.randomLeaderPool) {
+      const total = getEligibleRandomLeaders(pool).length;
+      const stats = getRandomStatsForPool(pool);
+      const remaining = Math.max(total - stats.currentCycleSolved, 0);
+      let text = `Random queue • ${describeRandomPool(pool)} • ${stats.currentCycleSolved}/${total} solved`;
+      if (remaining <= 3) {
+        text += ` • ${remaining} left`;
+      }
+      return text;
+    }
+
+    function findTodaysLeaderId() {
+      if (!dailySchedule?.entries) return null;
+      const today = getTodayKey();
+      const entry = dailySchedule.entries.find((item) => item.date === today);
+      return entry ? entry.leaderId : null;
+    }
+
+    async function loadDailySchedule() {
+      try {
+        const res = await fetch(DAILY_SCHEDULE_JSON_URL, { cache: "no-cache" });
+        if (!res.ok) throw new Error(`daily-schedule.json request failed: ${res.status}`);
+        dailySchedule = await res.json();
+      } catch (error) {
+        console.warn("Failed to load daily schedule.", error);
+        dailySchedule = null;
+      }
+    }
+
+    function setStatus(message, type = "info", loading = false) {
+      statusMessage.className = `status ${type}`;
+      statusMessage.innerHTML = `${loading ? '<span class="loader"></span>' : ''}${message}`;
+    }
+
+    async function loadLeaderDatabase() {
+      try {
+        const res = await fetch(LEADERS_JSON_URL, { cache: "no-cache" });
+        if (!res.ok) throw new Error(`leaders.json request failed: ${res.status}`);
+        const json = await res.json();
+        const items = Array.isArray(json) ? json : json.leaders;
+        if (!Array.isArray(items) || items.length === 0) {
+          throw new Error("leaders.json did not contain a usable leader array");
+        }
+        leaderPool = items.filter((entry) => entry && entry.id && entry.country && entry.leader);
+        if (!leaderPool.length) {
+          throw new Error("leaders.json contained no valid leaders");
+        }
+      } catch (error) {
+        console.warn("Failed to load local leaders database, using fallback leaders.", error);
+        leaderPool = [...FALLBACK_LEADERS];
+      }
+    }
+
+    function updateGameChrome() {
+      gameTitle.textContent = currentMode === "random" ? "Random World Leaderle" : "Daily World Leaderle";
+      if (currentMode === "random") {
+        dateChip.textContent = buildRandomQueueChipText(settings.randomLeaderPool);
+        randomButton.textContent = "Next random leader";
+        leaderMetaBadge.textContent = "Random queue";
+      } else {
+        dateChip.textContent = `Puzzle date: ${formatToday()} (UTC)`;
+        randomButton.textContent = "Random mode";
+        leaderMetaBadge.textContent = "Daily puzzle";
+      }
+    }
+
+    function buildCountryOptions() {
+      const uniqueCountryMap = new Map();
+
+      for (const entry of leaderPool) {
+        if (!uniqueCountryMap.has(entry.country)) {
+          uniqueCountryMap.set(entry.country, {
+            continent: entry.continent || null,
+            corruptionScore: entry.corruptionScore ?? null,
+            coords: entry.coords || null,
+            iso2: entry.iso2 || null
+          });
+        } else {
+          const existing = uniqueCountryMap.get(entry.country);
+          uniqueCountryMap.set(entry.country, {
+            continent: existing.continent || entry.continent || null,
+            corruptionScore:
+              existing.corruptionScore != null
+                ? existing.corruptionScore
+                : (entry.corruptionScore ?? null),
+            coords: existing.coords || entry.coords || null,
+            iso2: existing.iso2 || entry.iso2 || null
+          });
+        }
+      }
+
+      const extraGuessCountries = [
+        { name: "Afghanistan", continent: "Asia", corruptionScore: 17, coords: { lat: 33.9391, lon: 67.71 } },
+        { name: "Albania", continent: "Europe", corruptionScore: 42, coords: { lat: 41.1533, lon: 20.1683 } },
+        { name: "Algeria", continent: "Africa", corruptionScore: 34, coords: { lat: 28.0339, lon: 1.6596 } },
+        { name: "Andorra", continent: "Europe", corruptionScore: null, coords: { lat: 42.5063, lon: 1.5218 } },
+        { name: "Angola", continent: "Africa", corruptionScore: 30, coords: { lat: -11.2027, lon: 17.8739 } },
+        { name: "Antigua and Barbuda", continent: "North America", corruptionScore: null, coords: { lat: 17.0608, lon: -61.7964 } },
+        { name: "Argentina", continent: "South America", corruptionScore: 37, coords: { lat: -38.4161, lon: -63.6167 } },
+        { name: "Armenia", continent: "Asia", corruptionScore: 47, coords: { lat: 40.0691, lon: 45.0382 } },
+        { name: "Australia", continent: "Oceania", corruptionScore: 78, coords: { lat: -25.2744, lon: 133.7751 } },
+        { name: "Austria", continent: "Europe", corruptionScore: 76, coords: { lat: 47.5162, lon: 14.5501 } },
+        { name: "Azerbaijan", continent: "Asia", corruptionScore: 22, coords: { lat: 40.1431, lon: 47.5769 } },
+        { name: "Bahamas", continent: "North America", corruptionScore: null, coords: { lat: 25.0343, lon: -77.3963 } },
+        { name: "Bahrain", continent: "Asia", corruptionScore: 53, coords: { lat: 25.9304, lon: 50.6378 } },
+        { name: "Bangladesh", continent: "Asia", corruptionScore: 21, coords: { lat: 23.685, lon: 90.3563 } },
+        { name: "Barbados", continent: "North America", corruptionScore: null, coords: { lat: 13.1939, lon: -59.5432 } },
+        { name: "Belarus", continent: "Europe", corruptionScore: 33, coords: { lat: 53.7098, lon: 27.9534 } },
+        { name: "Belgium", continent: "Europe", corruptionScore: 69, coords: { lat: 50.5039, lon: 4.4699 } },
+        { name: "Belize", continent: "North America", corruptionScore: 48, coords: { lat: 17.1899, lon: -88.4976 } },
+        { name: "Benin", continent: "Africa", corruptionScore: 45, coords: { lat: 9.3077, lon: 2.3158 } },
+        { name: "Bhutan", continent: "Asia", corruptionScore: 72, coords: { lat: 27.5142, lon: 90.4336 } },
+        { name: "Bolivia", continent: "South America", corruptionScore: 28, coords: { lat: -16.2902, lon: -63.5887 } },
+        { name: "Bosnia and Herzegovina", continent: "Europe", corruptionScore: 33, coords: { lat: 43.9159, lon: 17.6791 } },
+        { name: "Botswana", continent: "Africa", corruptionScore: 57, coords: { lat: -22.3285, lon: 24.6849 } },
+        { name: "Brazil", continent: "South America", corruptionScore: 35, coords: { lat: -14.235, lon: -51.9253 } },
+        { name: "Brunei", continent: "Asia", corruptionScore: 59, coords: { lat: 4.5353, lon: 114.7277 } },
+        { name: "Bulgaria", continent: "Europe", corruptionScore: 43, coords: { lat: 42.7339, lon: 25.4858 } },
+        { name: "Burkina Faso", continent: "Africa", corruptionScore: 40, coords: { lat: 12.2383, lon: -1.5616 } },
+        { name: "Burundi", continent: "Africa", corruptionScore: 18, coords: { lat: -3.3731, lon: 29.9189 } },
+        { name: "Cabo Verde", continent: "Africa", corruptionScore: 62, coords: { lat: 16.5388, lon: -23.0418 } },
+        { name: "Cambodia", continent: "Asia", corruptionScore: 21, coords: { lat: 12.5657, lon: 104.991 } },
+        { name: "Cameroon", continent: "Africa", corruptionScore: 25, coords: { lat: 7.3697, lon: 12.3547 } },
+        { name: "Canada", continent: "North America", corruptionScore: 75, coords: { lat: 56.1304, lon: -106.3468 } },
+        { name: "Central African Republic", continent: "Africa", corruptionScore: 22, coords: { lat: 6.6111, lon: 20.9394 } },
+        { name: "Chad", continent: "Africa", corruptionScore: 18, coords: { lat: 15.4542, lon: 18.7322 } },
+        { name: "Chile", continent: "South America", corruptionScore: 63, coords: { lat: -35.6751, lon: -71.543 } },
+        { name: "China", continent: "Asia", corruptionScore: 43, coords: { lat: 35.8617, lon: 104.1954 } },
+        { name: "Colombia", continent: "South America", corruptionScore: 39, coords: { lat: 4.5709, lon: -74.2973 } },
+        { name: "Comoros", continent: "Africa", corruptionScore: 25, coords: { lat: -11.6455, lon: 43.3333 } },
+        { name: "Costa Rica", continent: "North America", corruptionScore: 58, coords: { lat: 9.7489, lon: -83.7534 } },
+        { name: "Croatia", continent: "Europe", corruptionScore: 47, coords: { lat: 45.1, lon: 15.2 } },
+        { name: "Cuba", continent: "North America", corruptionScore: 41, coords: { lat: 21.5218, lon: -77.7812 } },
+        { name: "Cyprus", continent: "Europe", corruptionScore: 56, coords: { lat: 35.1264, lon: 33.4299 } },
+        { name: "Czech Republic", continent: "Europe", corruptionScore: 57, coords: { lat: 49.8175, lon: 15.473 } },
+        { name: "Democratic Republic of the Congo", continent: "Africa", corruptionScore: 20, coords: { lat: -4.0383, lon: 21.7587 } },
+        { name: "Kingdom of Denmark", continent: "Europe", corruptionScore: 89, coords: { lat: 56.2639, lon: 9.5018 } },
+        { name: "Djibouti", continent: "Africa", corruptionScore: 24, coords: { lat: 11.8251, lon: 42.5903 } },
+        { name: "Dominica", continent: "North America", corruptionScore: null, coords: { lat: 15.415, lon: -61.371 } },
+        { name: "Dominican Republic", continent: "North America", corruptionScore: 38, coords: { lat: 18.7357, lon: -70.1627 } },
+        { name: "Ecuador", continent: "South America", corruptionScore: 32, coords: { lat: -1.8312, lon: -78.1834 } },
+        { name: "Egypt", continent: "Africa", corruptionScore: 30, coords: { lat: 26.8206, lon: 30.8025 } },
+        { name: "El Salvador", continent: "North America", corruptionScore: 31, coords: { lat: 13.7942, lon: -88.8965 } },
+        { name: "Equatorial Guinea", continent: "Africa", corruptionScore: 14, coords: { lat: 1.6508, lon: 10.2679 } },
+        { name: "Eritrea", continent: "Africa", corruptionScore: 13, coords: { lat: 15.1794, lon: 39.7823 } },
+        { name: "Estonia", continent: "Europe", corruptionScore: 76, coords: { lat: 58.5953, lon: 25.0136 } },
+        { name: "Eswatini", continent: "Africa", corruptionScore: 27, coords: { lat: -26.5225, lon: 31.4659 } },
+        { name: "Ethiopia", continent: "Africa", corruptionScore: 37, coords: { lat: 9.145, lon: 40.4897 } },
+        { name: "Fiji", continent: "Oceania", corruptionScore: 55, coords: { lat: -17.7134, lon: 178.065 } },
+        { name: "Finland", continent: "Europe", corruptionScore: 88, coords: { lat: 61.9241, lon: 25.7482 } },
+        { name: "France", continent: "Europe", corruptionScore: 67, coords: { lat: 46.2276, lon: 2.2137 } },
+        { name: "Gabon", continent: "Africa", corruptionScore: 28, coords: { lat: -0.8037, lon: 11.6094 } },
+        { name: "Gambia", continent: "Africa", corruptionScore: 37, coords: { lat: 13.4432, lon: -15.3101 } },
+        { name: "Georgia", continent: "Asia", corruptionScore: 53, coords: { lat: 42.3154, lon: 43.3569 } },
+        { name: "Germany", continent: "Europe", corruptionScore: 77, coords: { lat: 51.1657, lon: 10.4515 } },
+        { name: "Ghana", continent: "Africa", corruptionScore: 42, coords: { lat: 7.9465, lon: -1.0232 } },
+        { name: "Greece", continent: "Europe", corruptionScore: 51, coords: { lat: 39.0742, lon: 21.8243 } },
+        { name: "Grenada", continent: "North America", corruptionScore: null, coords: { lat: 12.1165, lon: -61.679 } },
+        { name: "Guatemala", continent: "North America", corruptionScore: 25, coords: { lat: 15.7835, lon: -90.2308 } },
+        { name: "Guinea", continent: "Africa", corruptionScore: 26, coords: { lat: 9.9456, lon: -9.6966 } },
+        { name: "Guinea-Bissau", continent: "Africa", corruptionScore: 21, coords: { lat: 11.8037, lon: -15.1804 } },
+        { name: "Guyana", continent: "South America", corruptionScore: 39, coords: { lat: 4.8604, lon: -58.9302 } },
+        { name: "Haiti", continent: "North America", corruptionScore: 16, coords: { lat: 18.9712, lon: -72.2852 } },
+        { name: "Honduras", continent: "North America", corruptionScore: 23, coords: { lat: 15.2, lon: -86.2419 } },
+        { name: "Hungary", continent: "Europe", corruptionScore: 41, coords: { lat: 47.1625, lon: 19.5033 } },
+        { name: "Iceland", continent: "Europe", corruptionScore: 81, coords: { lat: 64.9631, lon: -19.0208 } },
+        { name: "India", continent: "Asia", corruptionScore: 38, coords: { lat: 20.5937, lon: 78.9629 } },
+        { name: "Indonesia", continent: "Asia", corruptionScore: 39, coords: { lat: -0.7893, lon: 113.9213 } },
+        { name: "Iran", continent: "Asia", corruptionScore: 23, coords: { lat: 32.4279, lon: 53.688 } },
+        { name: "Iraq", continent: "Asia", corruptionScore: 25, coords: { lat: 33.2232, lon: 43.6793 } },
+        { name: "Ireland", continent: "Europe", corruptionScore: 68, coords: { lat: 53.4129, lon: -8.2439 } },
+        { name: "Israel", continent: "Asia", corruptionScore: 63, coords: { lat: 31.0461, lon: 34.8516 } },
+        { name: "Italy", continent: "Europe", corruptionScore: 56, coords: { lat: 41.8719, lon: 12.5674 } },
+        { name: "Jamaica", continent: "North America", corruptionScore: 44, coords: { lat: 18.1096, lon: -77.2975 } },
+        { name: "Japan", continent: "Asia", corruptionScore: 71, coords: { lat: 36.2048, lon: 138.2529 } },
+        { name: "Jordan", continent: "Asia", corruptionScore: 47, coords: { lat: 30.5852, lon: 36.2384 } },
+        { name: "Kazakhstan", continent: "Asia", corruptionScore: 41, coords: { lat: 48.0196, lon: 66.9237 } },
+        { name: "Kenya", continent: "Africa", corruptionScore: 32, coords: { lat: -0.0236, lon: 37.9062 } },
+        { name: "Kiribati", continent: "Oceania", corruptionScore: null, coords: { lat: -3.3704, lon: -168.734 } },
+        { name: "North Korea", continent: "Asia", corruptionScore: 15, coords: { lat: 40.3399, lon: 127.5101 } },
+        { name: "South Korea", continent: "Asia", corruptionScore: 64, coords: { lat: 35.9078, lon: 127.7669 } },
+        { name: "Kosovo", continent: "Europe", corruptionScore: 44, coords: { lat: 42.6026, lon: 20.903 } },
+        { name: "Kuwait", continent: "Asia", corruptionScore: 53, coords: { lat: 29.3117, lon: 47.4818 } },
+        { name: "Kyrgyzstan", continent: "Asia", corruptionScore: 25, coords: { lat: 41.2044, lon: 74.7661 } },
+        { name: "Laos", continent: "Asia", corruptionScore: 31, coords: { lat: 19.8563, lon: 102.4955 } },
+        { name: "Latvia", continent: "Europe", corruptionScore: 59, coords: { lat: 56.8796, lon: 24.6032 } },
+        { name: "Lebanon", continent: "Asia", corruptionScore: 22, coords: { lat: 33.8547, lon: 35.8623 } },
+        { name: "Lesotho", continent: "Africa", corruptionScore: 37, coords: { lat: -29.61, lon: 28.2336 } },
+        { name: "Liberia", continent: "Africa", corruptionScore: 25, coords: { lat: 6.4281, lon: -9.4295 } },
+        { name: "Libya", continent: "Africa", corruptionScore: 13, coords: { lat: 26.3351, lon: 17.2283 } },
+        { name: "Liechtenstein", continent: "Europe", corruptionScore: null, coords: { lat: 47.166, lon: 9.5554 } },
+        { name: "Lithuania", continent: "Europe", corruptionScore: 63, coords: { lat: 55.1694, lon: 23.8813 } },
+        { name: "Luxembourg", continent: "Europe", corruptionScore: 78, coords: { lat: 49.8153, lon: 6.1296 } },
+        { name: "Madagascar", continent: "Africa", corruptionScore: 24, coords: { lat: -18.7669, lon: 46.8691 } },
+        { name: "Malawi", continent: "Africa", corruptionScore: 33, coords: { lat: -13.2543, lon: 34.3015 } },
+        { name: "Malaysia", continent: "Asia", corruptionScore: 51, coords: { lat: 4.2105, lon: 101.9758 } },
+        { name: "Maldives", continent: "Asia", corruptionScore: 38, coords: { lat: 3.2028, lon: 73.2207 } },
+        { name: "Mali", continent: "Africa", corruptionScore: 28, coords: { lat: 17.5707, lon: -3.9962 } },
+        { name: "Malta", continent: "Europe", corruptionScore: 46, coords: { lat: 35.9375, lon: 14.3754 } },
+        { name: "Marshall Islands", continent: "Oceania", corruptionScore: null, coords: { lat: 7.1315, lon: 171.1845 } },
+        { name: "Mauritania", continent: "Africa", corruptionScore: 30, coords: { lat: 21.0079, lon: -10.9408 } },
+        { name: "Mauritius", continent: "Africa", corruptionScore: 57, coords: { lat: -20.3484, lon: 57.5522 } },
+        { name: "Mexico", continent: "North America", corruptionScore: 26, coords: { lat: 23.6345, lon: -102.5528 } },
+        { name: "Micronesia", continent: "Oceania", corruptionScore: null, coords: { lat: 7.4256, lon: 150.5508 } },
+        { name: "Moldova", continent: "Europe", corruptionScore: 43, coords: { lat: 47.4116, lon: 28.3699 } },
+        { name: "Monaco", continent: "Europe", corruptionScore: null, coords: { lat: 43.7384, lon: 7.4246 } },
+        { name: "Mongolia", continent: "Asia", corruptionScore: 32, coords: { lat: 46.8625, lon: 103.8467 } },
+        { name: "Montenegro", continent: "Europe", corruptionScore: 46, coords: { lat: 42.7087, lon: 19.3744 } },
+        { name: "Morocco", continent: "Africa", corruptionScore: 37, coords: { lat: 31.7917, lon: -7.0926 } },
+        { name: "Mozambique", continent: "Africa", corruptionScore: 27, coords: { lat: -18.6657, lon: 35.5296 } },
+        { name: "Myanmar", continent: "Asia", corruptionScore: 16, coords: { lat: 21.9162, lon: 95.956 } },
+        { name: "Namibia", continent: "Africa", corruptionScore: 49, coords: { lat: -22.9576, lon: 18.4904 } },
+        { name: "Nauru", continent: "Oceania", corruptionScore: null, coords: { lat: -0.5228, lon: 166.9315 } },
+        { name: "Nepal", continent: "Asia", corruptionScore: 35, coords: { lat: 28.3949, lon: 84.124 } },
+        { name: "Kingdom of the Netherlands", continent: "Europe", corruptionScore: 78, coords: { lat: 52.1326, lon: 5.2913 } },
+        { name: "New Zealand", continent: "Oceania", corruptionScore: 71, coords: { lat: -40.9006, lon: 174.886 } },
+        { name: "Nicaragua", continent: "North America", corruptionScore: 14, coords: { lat: 12.8654, lon: -85.2072 } },
+        { name: "Niger", continent: "Africa", corruptionScore: 33, coords: { lat: 17.6078, lon: 8.0817 } },
+        { name: "Nigeria", continent: "Africa", corruptionScore: 26, coords: { lat: 9.082, lon: 8.6753 } },
+        { name: "North Macedonia", continent: "Europe", corruptionScore: 40, coords: { lat: 41.6086, lon: 21.7453 } },
+        { name: "Norway", continent: "Europe", corruptionScore: 80, coords: { lat: 60.472, lon: 8.4689 } },
+        { name: "Oman", continent: "Asia", corruptionScore: 56, coords: { lat: 21.4735, lon: 55.9754 } },
+        { name: "Pakistan", continent: "Asia", corruptionScore: 27, coords: { lat: 30.3753, lon: 69.3451 } },
+        { name: "Palau", continent: "Oceania", corruptionScore: null, coords: { lat: 7.515, lon: 134.5825 } },
+        { name: "Panama", continent: "North America", corruptionScore: 33, coords: { lat: 8.538, lon: -80.7821 } },
+        { name: "Papua New Guinea", continent: "Oceania", corruptionScore: 31, coords: { lat: -6.315, lon: 143.9555 } },
+        { name: "Paraguay", continent: "South America", corruptionScore: 24, coords: { lat: -23.4425, lon: -58.4438 } },
+        { name: "Peru", continent: "South America", corruptionScore: 31, coords: { lat: -9.19, lon: -75.0152 } },
+        { name: "Philippines", continent: "Asia", corruptionScore: 32, coords: { lat: 12.8797, lon: 121.774 } },
+        { name: "Poland", continent: "Europe", corruptionScore: 52, coords: { lat: 51.9194, lon: 19.1451 } },
+        { name: "Portugal", continent: "Europe", corruptionScore: 57, coords: { lat: 39.3999, lon: -8.2245 } },
+        { name: "Qatar", continent: "Asia", corruptionScore: 59, coords: { lat: 25.3548, lon: 51.1839 } },
+        { name: "Republic of the Congo", continent: "Africa", corruptionScore: 21, coords: { lat: -0.228, lon: 15.8277 } },
+        { name: "Romania", continent: "Europe", corruptionScore: 46, coords: { lat: 45.9432, lon: 24.9668 } },
+        { name: "Russia", continent: "Europe", corruptionScore: 21, coords: { lat: 61.524, lon: 105.3188 } },
+        { name: "Rwanda", continent: "Africa", corruptionScore: 57, coords: { lat: -1.9403, lon: 29.8739 } },
+        { name: "Saint Kitts and Nevis", continent: "North America", corruptionScore: null, coords: { lat: 17.3578, lon: -62.783 } },
+        { name: "Saint Lucia", continent: "North America", corruptionScore: null, coords: { lat: 13.9094, lon: -60.9789 } },
+        { name: "Saint Vincent and the Grenadines", continent: "North America", corruptionScore: null, coords: { lat: 12.9843, lon: -61.2872 } },
+        { name: "Samoa", continent: "Oceania", corruptionScore: null, coords: { lat: -13.759, lon: -172.1046 } },
+        { name: "San Marino", continent: "Europe", corruptionScore: null, coords: { lat: 43.9424, lon: 12.4578 } },
+        { name: "São Tomé and Príncipe", continent: "Africa", corruptionScore: 45, coords: { lat: 0.1864, lon: 6.6131 } },
+        { name: "Saudi Arabia", continent: "Asia", corruptionScore: 60, coords: { lat: 23.8859, lon: 45.0792 } },
+        { name: "Senegal", continent: "Africa", corruptionScore: 45, coords: { lat: 14.4974, lon: -14.4524 } },
+        { name: "Serbia", continent: "Europe", corruptionScore: 39, coords: { lat: 44.0165, lon: 21.0059 } },
+        { name: "Seychelles", continent: "Africa", corruptionScore: 71, coords: { lat: -4.6796, lon: 55.492 } },
+        { name: "Sierra Leone", continent: "Africa", corruptionScore: 33, coords: { lat: 8.4606, lon: -11.7799 } },
+        { name: "Singapore", continent: "Asia", corruptionScore: 84, coords: { lat: 1.3521, lon: 103.8198 } },
+        { name: "Slovakia", continent: "Europe", corruptionScore: 50, coords: { lat: 48.669, lon: 19.699 } },
+        { name: "Slovenia", continent: "Europe", corruptionScore: 60, coords: { lat: 46.1512, lon: 14.9955 } },
+        { name: "Solomon Islands", continent: "Oceania", corruptionScore: 43, coords: { lat: -9.6457, lon: 160.1562 } },
+        { name: "Somalia", continent: "Africa", corruptionScore: 9, coords: { lat: 5.1521, lon: 46.1996 } },
+        { name: "South Africa", continent: "Africa", corruptionScore: 43, coords: { lat: -30.5595, lon: 22.9375 } },
+        { name: "South Sudan", continent: "Africa", corruptionScore: 9, coords: { lat: 6.877, lon: 31.307 } },
+        { name: "Spain", continent: "Europe", corruptionScore: 60, coords: { lat: 40.4637, lon: -3.7492 } },
+        { name: "Sri Lanka", continent: "Asia", corruptionScore: 32, coords: { lat: 7.8731, lon: 80.7718 } },
+        { name: "State of Palestine", continent: "Asia", corruptionScore: 26, coords: { lat: 31.9522, lon: 35.2332 } },
+        { name: "Sudan", continent: "Africa", corruptionScore: 15, coords: { lat: 12.8628, lon: 30.2176 } },
+        { name: "Suriname", continent: "South America", corruptionScore: 40, coords: { lat: 3.9193, lon: -56.0278 } },
+        { name: "Sweden", continent: "Europe", corruptionScore: 77, coords: { lat: 60.1282, lon: 18.6435 } },
+        { name: "Switzerland", continent: "Europe", corruptionScore: 80, coords: { lat: 46.8182, lon: 8.2275 } },
+        { name: "Syria", continent: "Asia", corruptionScore: 12, coords: { lat: 34.8021, lon: 38.9968 } },
+        { name: "Taiwan", continent: "Asia", corruptionScore: 67, coords: { lat: 23.6978, lon: 120.9605 } },
+        { name: "Tajikistan", continent: "Asia", corruptionScore: 19, coords: { lat: 38.861, lon: 71.2761 } },
+        { name: "Tanzania", continent: "Africa", corruptionScore: 41, coords: { lat: -6.369, lon: 34.8888 } },
+        { name: "Thailand", continent: "Asia", corruptionScore: 34, coords: { lat: 15.87, lon: 100.9925 } },
+        { name: "Timor-Leste", continent: "Asia", corruptionScore: 40, coords: { lat: -8.8742, lon: 125.7275 } },
+        { name: "Togo", continent: "Africa", corruptionScore: 32, coords: { lat: 8.6195, lon: 0.8248 } },
+        { name: "Tonga", continent: "Oceania", corruptionScore: null, coords: { lat: -21.179, lon: -175.1982 } },
+        { name: "Trinidad and Tobago", continent: "North America", corruptionScore: 37, coords: { lat: 10.6918, lon: -61.2225 } },
+        { name: "Tunisia", continent: "Africa", corruptionScore: 39, coords: { lat: 33.8869, lon: 9.5375 } },
+        { name: "Turkey", continent: "Asia", corruptionScore: 34, coords: { lat: 38.9637, lon: 35.2433 } },
+        { name: "Turkmenistan", continent: "Asia", corruptionScore: 17, coords: { lat: 38.9697, lon: 59.5563 } },
+        { name: "Tuvalu", continent: "Oceania", corruptionScore: null, coords: { lat: -7.1095, lon: 177.6493 } },
+        { name: "Uganda", continent: "Africa", corruptionScore: 26, coords: { lat: 1.3733, lon: 32.2903 } },
+        { name: "Ukraine", continent: "Europe", corruptionScore: 35, coords: { lat: 48.3794, lon: 31.1656 } },
+        { name: "United Arab Emirates", continent: "Asia", corruptionScore: 68, coords: { lat: 23.4241, lon: 53.8478 } },
+        { name: "United Kingdom", continent: "Europe", corruptionScore: 71, coords: { lat: 55.3781, lon: -3.436 } },
+        { name: "United States", continent: "North America", corruptionScore: 65, coords: { lat: 37.0902, lon: -95.7129 } },
+        { name: "Uruguay", continent: "South America", corruptionScore: 76, coords: { lat: -32.5228, lon: -55.7658 } },
+        { name: "Uzbekistan", continent: "Asia", corruptionScore: 37, coords: { lat: 41.3775, lon: 64.5853 } },
+        { name: "Vanuatu", continent: "Oceania", corruptionScore: 50, coords: { lat: -15.3767, lon: 166.9592 } },
+        { name: "Vatican City", continent: "Europe", corruptionScore: null, coords: { lat: 41.9029, lon: 12.4534 } },
+        { name: "Venezuela", continent: "South America", corruptionScore: 10, coords: { lat: 6.4238, lon: -66.5897 } },
+        { name: "Vietnam", continent: "Asia", corruptionScore: 40, coords: { lat: 14.0583, lon: 108.2772 } },
+        { name: "Yemen", continent: "Asia", corruptionScore: 13, coords: { lat: 15.5527, lon: 48.5164 } },
+        { name: "Zambia", continent: "Africa", corruptionScore: 39, coords: { lat: -13.1339, lon: 27.8493 } },
+        { name: "Zimbabwe", continent: "Africa", corruptionScore: 21, coords: { lat: -19.0154, lon: 29.1549 } },
+
+        { name: "European Union", continent: "Europe", corruptionScore: null, coords: { lat: 50.8503, lon: 4.3517 } },
+        { name: "Cook Islands", continent: "Oceania", corruptionScore: 71, coords: { lat: -21.2367, lon: -159.7777 } },
+        { name: "Niue", continent: "Oceania", corruptionScore: 71, coords: { lat: -19.0544, lon: -169.8672 } },
+        { name: "Hong Kong", continent: "Asia", corruptionScore: 74, coords: { lat: 22.3193, lon: 114.1694 } },
+        { name: "Macau", continent: "Asia", corruptionScore: 43, coords: { lat: 22.1987, lon: 113.5439 } },
+        { name: "Greenland", continent: "North America", corruptionScore: 89, coords: { lat: 71.7069, lon: -42.6043 } },
+        { name: "Faroe Islands", continent: "Europe", corruptionScore: 89, coords: { lat: 61.8926, lon: -6.9118 } },
+        { name: "Aruba", continent: "North America", corruptionScore: 78, coords: { lat: 12.5211, lon: -69.9683 } },
+        { name: "Curaçao", continent: "North America", corruptionScore: 78, coords: { lat: 12.1696, lon: -68.99 } },
+        { name: "Sint Maarten", continent: "North America", corruptionScore: 78, coords: { lat: 18.0425, lon: -63.0548 } },
+        { name: "Puerto Rico", continent: "North America", corruptionScore: 65, coords: { lat: 18.2208, lon: -66.5901 } },
+        { name: "Bermuda", continent: "North America", corruptionScore: 71, coords: { lat: 32.3078, lon: -64.7505 } },
+        { name: "Gibraltar", continent: "Europe", corruptionScore: 71, coords: { lat: 36.1408, lon: -5.3536 } },
+        { name: "Guernsey", continent: "Europe", corruptionScore: 71, coords: { lat: 49.4657, lon: -2.5853 } },
+        { name: "Jersey", continent: "Europe", corruptionScore: 71, coords: { lat: 49.2144, lon: -2.1313 } },
+        { name: "Isle of Man", continent: "Europe", corruptionScore: 71, coords: { lat: 54.2361, lon: -4.5481 } },
+        { name: "England", continent: "Europe", corruptionScore: 71, coords: { lat: 52.3555, lon: -1.1743 } },
+        { name: "Scotland", continent: "Europe", corruptionScore: 71, coords: { lat: 56.4907, lon: -4.2026 } },
+        { name: "Wales", continent: "Europe", corruptionScore: 71, coords: { lat: 52.1307, lon: -3.7837 } },
+        { name: "Northern Ireland", continent: "Europe", corruptionScore: 71, coords: { lat: 54.7877, lon: -6.4923 } },
+        { name: "French Polynesia", continent: "Oceania", corruptionScore: 67, coords: { lat: -17.6797, lon: -149.4068 } },
+        { name: "New Caledonia", continent: "Oceania", corruptionScore: 67, coords: { lat: -20.9043, lon: 165.618 } },
+
+        { name: "Guam", continent: "Oceania", corruptionScore: 65, coords: { lat: 13.4443, lon: 144.7937 } },
+        { name: "American Samoa", continent: "Oceania", corruptionScore: 65, coords: { lat: -14.271, lon: -170.1322 } },
+        { name: "Northern Mariana Islands", continent: "Oceania", corruptionScore: 65, coords: { lat: 15.0979, lon: 145.6739 } },
+        { name: "U.S. Virgin Islands", continent: "North America", corruptionScore: 65, coords: { lat: 18.3358, lon: -64.8963 } },
+        { name: "Tokelau", continent: "Oceania", corruptionScore: 71, coords: { lat: -9.167, lon: -171.833 } },
+        { name: "Bonaire", continent: "North America", corruptionScore: 78, coords: { lat: 12.1784, lon: -68.2385 } },
+        { name: "Sint Eustatius", continent: "North America", corruptionScore: 78, coords: { lat: 17.489, lon: -62.9736 } },
+        { name: "Saba", continent: "North America", corruptionScore: 78, coords: { lat: 17.6355, lon: -63.2327 } },
+        { name: "Anguilla", continent: "North America", corruptionScore: 71, coords: { lat: 18.2206, lon: -63.0686 } },
+        { name: "British Virgin Islands", continent: "North America", corruptionScore: 71, coords: { lat: 18.4207, lon: -64.64 } },
+        { name: "Cayman Islands", continent: "North America", corruptionScore: 71, coords: { lat: 19.3133, lon: -81.2546 } },
+        { name: "Montserrat", continent: "North America", corruptionScore: 71, coords: { lat: 16.7425, lon: -62.1874 } },
+        { name: "Turks and Caicos Islands", continent: "North America", corruptionScore: 71, coords: { lat: 21.694, lon: -71.7979 } },
+        { name: "Falkland Islands", continent: "South America", corruptionScore: 71, coords: { lat: -51.7963, lon: -59.5236 } },
+        { name: "Saint Helena", continent: "Africa", corruptionScore: 71, coords: { lat: -15.965, lon: -5.7089 } },
+        { name: "Ascension Island", continent: "Africa", corruptionScore: 71, coords: { lat: -7.9467, lon: -14.3559 } },
+        { name: "Tristan da Cunha", continent: "Africa", corruptionScore: 71, coords: { lat: -37.1052, lon: -12.2777 } },
+        { name: "Pitcairn Islands", continent: "Oceania", corruptionScore: 71, coords: { lat: -25.066, lon: -130.1 } },
+        { name: "Akrotiri and Dhekelia", continent: "Asia", corruptionScore: 71, coords: { lat: 34.5833, lon: 32.9833 } },
+        { name: "French Guiana", continent: "South America", corruptionScore: 67, coords: { lat: 3.9339, lon: -53.1258 } },
+        { name: "Guadeloupe", continent: "North America", corruptionScore: 67, coords: { lat: 16.265, lon: -61.551 } },
+        { name: "Martinique", continent: "North America", corruptionScore: 67, coords: { lat: 14.6415, lon: -61.0242 } },
+        { name: "Mayotte", continent: "Africa", corruptionScore: 67, coords: { lat: -12.8275, lon: 45.1662 } },
+        { name: "Réunion", continent: "Africa", corruptionScore: 67, coords: { lat: -21.1151, lon: 55.5364 } },
+        { name: "Saint Barthélemy", continent: "North America", corruptionScore: 67, coords: { lat: 17.9, lon: -62.8333 } },
+        { name: "Saint Martin", continent: "North America", corruptionScore: 67, coords: { lat: 18.0708, lon: -63.0501 } },
+        { name: "Saint Pierre and Miquelon", continent: "North America", corruptionScore: 67, coords: { lat: 46.8852, lon: -56.3159 } },
+        { name: "Wallis and Futuna", continent: "Oceania", corruptionScore: 67, coords: { lat: -13.7688, lon: -177.1561 } },
+        { name: "Åland", continent: "Europe", corruptionScore: 88, coords: { lat: 60.1785, lon: 19.9156 } }
+      ];
+
+      for (const country of extraGuessCountries) {
+        const existing = uniqueCountryMap.get(country.name);
+
+        uniqueCountryMap.set(country.name, {
+          continent: existing?.continent || country.continent || null,
+          corruptionScore:
+            country.corruptionScore ?? existing?.corruptionScore ?? null,
+          coords: existing?.coords || country.coords || null,
+          iso2: existing?.iso2 || null
+        });
+      }
+
+      playableCountries = uniqueCountryMap;
+
+      if (!countryOptions) {
+        console.error("countryOptions element not found");
+        return;
+      }
+
+      countryOptions.innerHTML = [...playableCountries.keys()]
+        .sort((a, b) => a.localeCompare(b))
+        .map((country) => `<option value="${country}"></option>`)
+        .join("");
+    }
+
+    function chooseDailyLeader(pool) {
+      const todayLeaderId = findTodaysLeaderId();
+      if (todayLeaderId) {
+        const scheduled = pool.find((entry) => entry.id === todayLeaderId);
+        if (scheduled) return scheduled;
+      }
+      return pool[hashString(getTodayKey()) % pool.length];
+    }
+
+    function chooseRandomLeader(pool) {
+      return pool[Math.floor(Math.random() * pool.length)];
+    }
+
+    function getCountryMeta(countryName) {
+      return playableCountries.get(countryName) || null;
+    }
+
+    function canonicalCountry(input) {
+      const cleaned = normalize(input);
+      const aliasHit = aliases[slugifyForLookup(input)];
+      if (aliasHit && playableCountries.has(aliasHit)) return aliasHit;
+      for (const name of playableCountries.keys()) {
+        if (normalize(name) === cleaned) return name;
+      }
+      return null;
+    }
+
+    function blurForWrongGuessCount(wrongCount) {
+      if (wrongCount === 0) return { blur: 22, scale: 1.04 };
+      if (wrongCount === 1) return { blur: 10, scale: 1.02 };
+      return { blur: 0, scale: 1 };
+    }
+
+    function formatTenure(startDate) {
+      if (!startDate) return "Tenure unknown";
+      const start = new Date(startDate);
+      if (Number.isNaN(start.getTime())) return "Tenure unknown";
+      const now = new Date();
+      let years = now.getUTCFullYear() - start.getUTCFullYear();
+      let months = now.getUTCMonth() - start.getUTCMonth();
+      if (now.getUTCDate() < start.getUTCDate()) months -= 1;
+      if (months < 0) {
+        years -= 1;
+        months += 12;
+      }
+      if (years <= 0) return `Serving ${Math.max(months, 0)} mo`;
+      if (months <= 0) return `Serving ${years}y`;
+      return `Serving ${years}y ${months}mo`;
+    }
+
+    function renderDots() {
+      const won = guesses.some((guess) => guess.correct);
+      guessDots.innerHTML = Array.from({ length: MAX_GUESSES }, (_, index) => {
+        const used = index < guesses.length;
+        const cls = won && index === guesses.length - 1 ? "dot win" : used ? "dot used" : "dot";
+        return `<div class="${cls}"></div>`;
+      }).join("");
+    }
+
+    function updateBlur() {
+      const wrong = guesses.filter((guess) => !guess.correct).length;
+      const state = gameOver && guesses.some((guess) => guess.correct)
+        ? { blur: 0, scale: 1 }
+        : blurForWrongGuessCount(wrong);
+      leaderImage.style.filter = `blur(${state.blur}px)`;
+      leaderImage.style.transform = `scale(${state.scale})`;
+    }
+
+    function compareCorruption(targetScore, guessScore) {
+      if (targetScore == null || guessScore == null) {
+        return {
+          label: "No corruption data",
+          shortLabel: "No data",
+          pillClass: "corruption-neutral",
+          detail: "Corruption comparison is unavailable for one of these countries."
+        };
+      }
+
+      const difference = guessScore - targetScore;
+
+      if (Math.abs(difference) <= CORRUPTION_EQUAL_THRESHOLD) {
+        return {
+          label: "≈ Similar corruption",
+          shortLabel: "Similar corruption",
+          pillClass: "corruption-equal",
+          detail: "Your guess is in about the same corruption range as the mystery country."
+        };
+      }
+
+      if (difference > 0) {
+        return {
+          label: "↓ Less corrupt",
+          shortLabel: "Less corrupt",
+          pillClass: "corruption-less",
+          detail: "Your guess is less corrupt than the mystery country."
+        };
+      }
+
+      return {
+        label: "↑ More corrupt",
+        shortLabel: "More corrupt",
+        pillClass: "corruption-more",
+        detail: "Your guess is more corrupt than the mystery country."
+      };
+    }
+
+    function haversineKm(a, b) {
+      if (!a || !b) return null;
+      const R = 6371;
+      const toRad = (deg) => (deg * Math.PI) / 180;
+      const dLat = toRad(b.lat - a.lat);
+      const dLon = toRad(b.lon - a.lon);
+      const lat1 = toRad(a.lat);
+      const lat2 = toRad(b.lat);
+      const x = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+      return Math.round(R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)));
+    }
+
+    function distanceEmojiBar(distanceKm, correct) {
+      if (correct) return "🟩🟩🟩🟩🟩";
+      if (distanceKm == null) return "⬜⬜⬜⬜⬜";
+      if (distanceKm <= 750) return "🟩🟩🟩🟩🟨";
+      if (distanceKm <= 2000) return "🟩🟩🟩🟩⬜";
+      if (distanceKm <= 4000) return "🟩🟩🟩🟨⬜";
+      if (distanceKm <= 6500) return "🟩🟩🟩⬜⬜";
+      if (distanceKm <= 9000) return "🟩🟩🟨⬜⬜";
+      if (distanceKm <= 12000) return "🟩🟨⬜⬜⬜";
+      return "⬜⬜⬜⬜⬜";
+    }
+
+    function getRenderedGuesses() {
+      const items = [...guesses];
+      if (settings.guessSort === "closest") {
+        items.sort((a, b) => {
+          if (a.correct !== b.correct) return a.correct ? -1 : 1;
+          const aDistance = a.distanceKm == null ? Number.POSITIVE_INFINITY : a.distanceKm;
+          const bDistance = b.distanceKm == null ? Number.POSITIVE_INFINITY : b.distanceKm;
+          if (aDistance !== bDistance) return aDistance - bDistance;
+          return a.order - b.order;
+        });
+        return items;
+      }
+      return items.sort((a, b) => b.order - a.order);
+    }
+
+    function buildAttemptCard(guess) {
+      const resultPill = guess.correct
+        ? `<span class="pill good">Correct</span>`
+        : `<span class="pill bad">Incorrect</span>`;
+      const continentPill = guess.correct
+        ? `<span class="pill good">Correct country</span>`
+        : guess.sameContinent
+          ? `<span class="pill good">Correct continent</span>`
+          : `<span class="pill bad">Wrong continent</span>`;
+      const corruptionPill = guess.correct
+        ? `<span class="pill good">Match</span>`
+        : `<span class="pill corruption-pill ${guess.corruptionComparison.pillClass}">${guess.corruptionComparison.label}</span>`;
+      const distanceText = guess.distanceKm == null ? "Distance unavailable" : `${guess.distanceKm.toLocaleString()} km away`;
+
+      return `
+        <div class="attempt">
+          <div class="attempt-head">
+            <div class="attempt-title">${guess.country}</div>
+            <div class="pill-group">${resultPill}${continentPill}${corruptionPill}</div>
+          </div>
+          <div class="attempt-grid">
+            <div class="hint-box"><b>Corruption hint:</b><br>${guess.correct ? `The mystery country is <b>${mysteryLeader.country}</b>.` : guess.corruptionComparison.detail}</div>
+            <div class="hint-box"><b>Continent hint:</b><br>${guess.correct ? `${mysteryLeader.country} is in <b>${mysteryLeader.continent}</b>.` : (guess.sameContinent ? `Yes, ${guess.country} is on the correct continent.` : `No, ${guess.country} is not on the correct continent.`)}</div>
+          </div>
+          <div class="distance-line">
+            <div><b>Distance:</b> ${distanceText}</div>
+            <div class="emoji-bar">${guess.proximityBar}</div>
+          </div>
+        </div>`;
+    }
+
+    function renderAttempts() {
+      const items = getRenderedGuesses();
+      attemptsEl.innerHTML = items.map(buildAttemptCard).join("");
+      renderDots();
+      updateBlur();
+    }
+
+    async function fetchRevealSummary(leader) {
+      if (leader.summary && leader.summary.trim()) {
+        return leader.summary;
+      }
+      if (!leader.articleTitle) {
+        return "No summary available for this leader yet.";
+      }
+      try {
+        revealText.textContent = "Loading summary…";
+        const res = await fetch(`${WIKIPEDIA_SUMMARY_BASE}${encodeURIComponent(leader.articleTitle)}`);
+        if (!res.ok) {
+          throw new Error(`Summary request failed: ${res.status}`);
+        }
+        const data = await res.json();
+        const summary = data?.extract || "No summary available for this leader yet.";
+        leader.summary = summary;
+        if (data?.thumbnail?.source || data?.originalimage?.source) {
+          const nextImage = data?.thumbnail?.source || data?.originalimage?.source;
+          if (nextImage && !leader.image) {
+            leader.image = nextImage;
+            leaderImage.src = nextImage;
+          }
+        }
+        return summary;
+      } catch (error) {
+        console.warn("Failed to fetch reveal summary", error);
+        return "No summary available for this leader yet.";
+      }
+    }
+
+    function iso2ToFlagEmoji(iso2) {
+      if (!iso2 || typeof iso2 !== "string") return "";
+      const code = iso2.trim().toUpperCase();
+      if (!/^[A-Z]{2}$/.test(code)) return "";
+      return String.fromCodePoint(...[...code].map((char) => 127397 + char.charCodeAt(0)));
+    }
+
+    function getWikipediaUrl(leader) {
+      if (!leader?.articleTitle) return "";
+      return `https://en.wikipedia.org/wiki/${encodeURIComponent(leader.articleTitle.replace(/ /g, "_"))}`;
+    }
+
+    async function setRevealContent() {
+      revealTitle.textContent = mysteryLeader.leader;
+      revealMeta.textContent = `${mysteryLeader.role} • ${mysteryLeader.country}`;
+      revealText.textContent = mysteryLeader.summary || "Loading summary…";
+
+      const wikiUrl = getWikipediaUrl(mysteryLeader);
+      if (wikiUrl) {
+        revealWikiLink.href = wikiUrl;
+        revealWikiLink.hidden = false;
+      } else {
+        revealWikiLink.hidden = true;
+        revealWikiLink.removeAttribute("href");
+      }
+
+      const flagEmoji = iso2ToFlagEmoji(mysteryLeader.iso2);
+      revealFlag.textContent = flagEmoji;
+      revealCard.classList.toggle("has-flag", Boolean(flagEmoji));
+
+      const summary = await fetchRevealSummary(mysteryLeader);
+      if (mysteryLeader && revealCard.classList.contains("open")) {
+        revealText.textContent = summary;
+      }
+    }
+
+    function setRevealVisible(isVisible) {
+      revealCard.classList.toggle("open", isVisible);
+      if (isVisible) {
+        void setRevealContent();
+      }
+    }
+
+    function applyLeaderToUI() {
+      roleBadge.textContent = mysteryLeader.role;
+      blurBadge.textContent = mysteryLeader.tenureText || formatTenure(mysteryLeader.startDate);
+      sourceBadge.textContent = "Source: Wikimedia";
+      leaderImage.src = mysteryLeader.image || "";
+      leaderImage.alt = "Mystery leader portrait";
+      portraitWrap.classList.remove("ready");
+      leaderImage.onload = () => portraitWrap.classList.add("ready");
+      leaderImage.onerror = () => {
+        portraitWrap.classList.remove("ready");
+        sourceBadge.textContent = "Image unavailable";
+      };
+      updateGameChrome();
+      setRevealVisible(false);
+      updateBlur();
+    }
+
+    function saveCurrentModeState() {
+      if (!mysteryLeader || currentMode !== "daily") return;
+      saveDailyState({
+        leaderId: mysteryLeader.id,
+        guesses,
+        gameOver,
+        mode: "daily",
+        date: getTodayKey()
+      });
+    }
+
+    function saveState() {
+      saveCurrentModeState();
+    }
+
+    function finishGame(won) {
+      gameOver = true;
+      guessButton.disabled = true;
+      guessInput.disabled = true;
+      shareButton.disabled = false;
+      shareButton.style.display = "inline-flex";
+      leaderImage.style.filter = "blur(0px)";
+      leaderImage.style.transform = "scale(1)";
+
+      if (currentMode === "random" && won) {
+        popSolvedRandomLeader(settings.randomLeaderPool);
+        updateGameChrome();
+        syncSettingsUI();
+      }
+
+      setStatus(
+        won
+          ? `Correct. The leader is ${mysteryLeader.leader} of ${mysteryLeader.country}.`
+          : `Out of guesses. The leader was ${mysteryLeader.leader} of ${mysteryLeader.country}.`,
+        won ? "good" : "bad"
+      );
+      setRevealVisible(true);
+      saveState();
+    }
+
+    function submitGuess() {
+      if (gameOver || !mysteryLeader) return;
+      const country = canonicalCountry(guessInput.value.trim());
+      if (!country) {
+        setStatus("That country is not in the current playable pool. Try a country from the suggestions.", "bad");
+        return;
+      }
+      if (guesses.some((guess) => guess.country === country)) {
+        setStatus("You already guessed that country.", "bad");
+        return;
+      }
+
+      const guessMeta = getCountryMeta(country);
+      const correct = country === mysteryLeader.country;
+      const sameContinent = correct ? true : guessMeta?.continent === mysteryLeader.continent;
+      const distanceKm = correct ? 0 : haversineKm(guessMeta?.coords, mysteryLeader.coords);
+      const corruptionComparison = compareCorruption(mysteryLeader.corruptionScore, guessMeta?.corruptionScore);
+
+      guesses.push({
+        country,
+        correct,
+        sameContinent,
+        distanceKm,
+        order: guesses.length,
+        proximityBar: distanceEmojiBar(distanceKm, correct),
+        corruptionComparison
+      });
+
+      guessInput.value = "";
+      renderAttempts();
+
+      if (correct) return finishGame(true);
+
+      const remaining = MAX_GUESSES - guesses.length;
+      if (remaining <= 0) return finishGame(false);
+
+      setStatus(`Not quite. ${remaining} guess${remaining === 1 ? "" : "es"} left.`, "info");
+      saveState();
+    }
+
+    async function loadOrRestoreDailyPuzzle() {
+      const dailyLeader = chooseDailyLeader(leaderPool);
+      const saved = loadDailyState();
+
+      mysteryLeader = {
+        ...dailyLeader,
+        tenureText: dailyLeader.tenureText || formatTenure(dailyLeader.startDate)
+      };
+      guesses = [];
+      gameOver = false;
+      currentMode = "daily";
+
+      if (saved && saved.date === getTodayKey() && saved.leaderId === mysteryLeader.id) {
+        guesses = Array.isArray(saved.guesses) ? saved.guesses.map((guess, index) => ({
+          ...guess,
+          order: typeof guess.order === "number" ? guess.order : index,
+          corruptionComparison: guess.corruptionComparison || compareCorruption(mysteryLeader.corruptionScore, getCountryMeta(guess.country)?.corruptionScore)
+        })) : [];
+        gameOver = Boolean(saved.gameOver);
+      }
+
+      guessButton.disabled = gameOver;
+      guessInput.disabled = gameOver;
+      shareButton.disabled = !gameOver;
+      shareButton.style.display = gameOver ? "inline-flex" : "none";
+      applyLeaderToUI();
+      renderAttempts();
+      updateGameChrome();
+      syncSettingsUI();
+      setStatus(
+        gameOver
+          ? (guesses.some((guess) => guess.correct)
+            ? `Correct. The leader is ${mysteryLeader.leader} of ${mysteryLeader.country}.`
+            : `Out of guesses. The leader was ${mysteryLeader.leader} of ${mysteryLeader.country}.`)
+          : "Daily puzzle loaded. Start guessing.",
+        gameOver ? (guesses.some((guess) => guess.correct) ? "good" : "bad") : "info"
+      );
+      setRevealVisible(gameOver);
+      saveCurrentModeState();
+    }
+
+    async function loadOrCreateRandomPuzzle(options = { skipCurrent: false }) {
+      if (options.skipCurrent) {
+        skipCurrentRandomLeader();
+      }
+      const leader = peekRandomLeader(settings.randomLeaderPool);
+      mysteryLeader = {
+        ...leader,
+        tenureText: leader.tenureText || formatTenure(leader.startDate)
+      };
+      guesses = [];
+      gameOver = false;
+      currentMode = "random";
+      guessButton.disabled = false;
+      guessInput.disabled = false;
+      shareButton.disabled = true;
+      shareButton.style.display = "none";
+      applyLeaderToUI();
+      renderAttempts();
+      updateGameChrome();
+      syncSettingsUI();
+      setRevealVisible(false);
+      setStatus("Random leader loaded.", "info");
+    }
+
+    function buildShareText() {
+      const result = guesses.some((guess) => guess.correct) ? guesses.length : "X";
+      const rows = guesses.map((guess) => guess.proximityBar).join("\n");
+      const shareUrl = window.location.href;
+
+      if (currentMode === "random") {
+        return `Random World Leaderle - ${mysteryLeader.leader} (${mysteryLeader.country}) - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
+      }
+
+      return `Daily World Leaderle ${getTodayKey()} - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
+    }
+
+    async function copyShare() {
+      try {
+        await navigator.clipboard.writeText(buildShareText());
+        setStatus("Result copied to clipboard.", "good");
+      } catch {
+        setStatus("Could not copy automatically. Clipboard permissions may be blocked.", "bad");
+      }
+    }
+
+    function openModal(modal) {
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+    }
+
+    function closeModal(modal) {
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
+    }
+
+    async function handleSettingsChange(name, value) {
+      if (name === "theme") {
+        settings.theme = value;
+        applyTheme();
+        saveSettings();
+        syncSettingsUI();
+        return;
+      }
+
+      if (name === "guessSort") {
+        settings.guessSort = value;
+        saveSettings();
+        renderAttempts();
+        syncSettingsUI();
+        return;
+      }
+
+      if (name === "randomLeaderPool") {
+        if (settings.randomLeaderPool === value) return;
+        const previousPool = settings.randomLeaderPool;
+        const unfinishedRandomRound = currentMode === "random" && !gameOver && guesses.length > 0;
+        if (unfinishedRandomRound) {
+          const ok = window.confirm("Changing the random leader pool will leave this unfinished random round. Continue?");
+          if (!ok) {
+            syncSettingsUI();
+            return;
+          }
+          skipCurrentRandomLeader(previousPool);
+        }
+
+        settings.randomLeaderPool = value;
+        saveSettings();
+        ensureRandomQueue(false, value);
+        syncSettingsUI();
+
+        if (currentMode === "random") {
+          await loadOrCreateRandomPuzzle();
+        } else {
+          updateGameChrome();
+          setStatus(`Random pool updated to ${describeRandomPool(settings.randomLeaderPool)}.`, "info");
+        }
+      }
+    }
+
+    function bindModalEvents() {
+      howToPlayButton.addEventListener("click", () => openModal(howToPlayModal));
+      settingsButton.addEventListener("click", () => {
+        syncSettingsUI();
+        openModal(settingsModal);
+      });
+      closeHowToPlayButton.addEventListener("click", () => closeModal(howToPlayModal));
+      closeSettingsButton.addEventListener("click", () => closeModal(settingsModal));
+
+      [howToPlayModal, settingsModal].forEach((modal) => {
+        modal.addEventListener("click", (event) => {
+          if (event.target === modal) closeModal(modal);
+        });
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          closeModal(howToPlayModal);
+          closeModal(settingsModal);
+        }
+      });
+
+      document.querySelectorAll('input[name="themeSetting"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) handleSettingsChange("theme", input.value);
+        });
+      });
+
+      document.querySelectorAll('input[name="guessSortSetting"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) handleSettingsChange("guessSort", input.value);
+        });
+      });
+
+      document.querySelectorAll('input[name="randomLeaderPoolSetting"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) handleSettingsChange("randomLeaderPool", input.value);
+        });
+      });
+    }
+
+    function assert(condition, message) {
+      if (!condition) throw new Error(`Self-test failed: ${message}`);
+    }
+
+    function runSelfTests() {
+      assert(distanceEmojiBar(0, true) === "🟩🟩🟩🟩🟩", "correct distance bar should be all green");
+      assert(distanceEmojiBar(500, false) === "🟩🟩🟩🟩🟨", "nearby distance bar threshold should work");
+      assert(formatTenure(null) === "Tenure unknown", "missing tenure should be handled");
+      assert(compareCorruption(0, 0.1).shortLabel === "Similar corruption", "similar corruption threshold should work");
+      safeStorage.setItem("__leaderle_test__", "ok");
+      assert(safeStorage.getItem("__leaderle_test__") === "ok", "safe storage set/get should work");
+      safeStorage.removeItem("__leaderle_test__");
+    }
+
+    async function init() {
+      applyTheme();
+      bindModalEvents();
+      syncSettingsUI();
+      runSelfTests();
+      setStatus("Loading local leaders database…", "info", true);
+      await loadLeaderDatabase();
+      await loadDailySchedule();
+      buildCountryOptions();
+      ensureRandomQueue(false);
+      resetButton.textContent = "Today's puzzle";
+      await loadOrRestoreDailyPuzzle();
+    }
+
+    guessButton.addEventListener("click", submitGuess);
+    guessInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") submitGuess();
+    });
+    shareButton.addEventListener("click", copyShare);
+
+    resetButton.addEventListener("click", async () => {
+      const leavingRandomWithProgress = currentMode === "random" && !gameOver && guesses.length > 0;
+      if (leavingRandomWithProgress) {
+        const ok = window.confirm("Your progress on this random puzzle will be lost. Return to today's puzzle?");
+        if (!ok) return;
+        if (!gameOver) skipCurrentRandomLeader();
+      }
+      await loadOrRestoreDailyPuzzle();
+    });
+
+    randomButton.addEventListener("click", async () => {
+      const alreadyInRandom = currentMode === "random";
+      const unfinishedRandomRound = alreadyInRandom && !gameOver;
+
+      if (unfinishedRandomRound && guesses.length > 0) {
+        const ok = window.confirm(
+          "Your progress on this random puzzle will be lost. Load a different random leader?"
+        );
+        if (!ok) return;
+      }
+
+      await loadOrCreateRandomPuzzle({ skipCurrent: unfinishedRandomRound });
+    });
+
+    init().catch((error) => {
+      console.error(error);
+      setStatus("Something went wrong while loading the puzzle. See the console for details.", "bad");
+    });
+  </script>
+</body>
+</html>

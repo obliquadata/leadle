@@ -1,0 +1,4387 @@
+{
+  "generatedAt": "2026-04-12T14:44:37.865Z",
+  "startDate": "2026-04-12",
+  "endDate": "2029-04-10",
+  "entries": [
+    {
+      "date": "2026-04-12",
+      "leaderId": "http://www.wikidata.org/entity/Q515602|http://www.wikidata.org/entity/Q970|Head of state and government"
+    },
+    {
+      "date": "2026-04-13",
+      "leaderId": "http://www.wikidata.org/entity/Q56235580|http://www.wikidata.org/entity/Q184|Head of government"
+    },
+    {
+      "date": "2026-04-14",
+      "leaderId": "http://www.wikidata.org/entity/Q195725|http://www.wikidata.org/entity/Q114|Head of state and government"
+    },
+    {
+      "date": "2026-04-15",
+      "leaderId": "http://www.wikidata.org/entity/Q60441515|http://www.wikidata.org/entity/Q1009|Head of government"
+    },
+    {
+      "date": "2026-04-16",
+      "leaderId": "http://www.wikidata.org/entity/Q97400315|http://www.wikidata.org/entity/Q754|Head of state"
+    },
+    {
+      "date": "2026-04-17",
+      "leaderId": "http://www.wikidata.org/entity/Q5446290|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2026-04-18",
+      "leaderId": "http://www.wikidata.org/entity/Q12612463|http://www.wikidata.org/entity/Q884|Head of state and government"
+    },
+    {
+      "date": "2026-04-19",
+      "leaderId": "http://www.wikidata.org/entity/Q24237654|http://www.wikidata.org/entity/Q889|Head of state"
+    },
+    {
+      "date": "2026-04-20",
+      "leaderId": "http://www.wikidata.org/entity/Q108892374|http://www.wikidata.org/entity/Q948|Head of government"
+    },
+    {
+      "date": "2026-04-21",
+      "leaderId": "http://www.wikidata.org/entity/Q27885302|http://www.wikidata.org/entity/Q230|Head of government"
+    },
+    {
+      "date": "2026-04-22",
+      "leaderId": "http://www.wikidata.org/entity/Q122208779|http://www.wikidata.org/entity/Q784|Head of state"
+    },
+    {
+      "date": "2026-04-23",
+      "leaderId": "http://www.wikidata.org/entity/Q99605101|http://www.wikidata.org/entity/Q1045|Head of government"
+    },
+    {
+      "date": "2026-04-24",
+      "leaderId": "http://www.wikidata.org/entity/Q66793577|http://www.wikidata.org/entity/Q1025|Head of government"
+    },
+    {
+      "date": "2026-04-25",
+      "leaderId": "http://www.wikidata.org/entity/Q510523|http://www.wikidata.org/entity/Q954|Head of state and government"
+    },
+    {
+      "date": "2026-04-26",
+      "leaderId": "http://www.wikidata.org/entity/Q52395487|http://www.wikidata.org/entity/Q414|Head of state and government"
+    },
+    {
+      "date": "2026-04-27",
+      "leaderId": "http://www.wikidata.org/entity/Q124846311|http://www.wikidata.org/entity/Q790|Head of state"
+    },
+    {
+      "date": "2026-04-28",
+      "leaderId": "http://www.wikidata.org/entity/Q112988233|http://www.wikidata.org/entity/Q1007|Head of government"
+    },
+    {
+      "date": "2026-04-29",
+      "leaderId": "http://www.wikidata.org/entity/Q127998|http://www.wikidata.org/entity/Q219060|Head of state"
+    },
+    {
+      "date": "2026-04-30",
+      "leaderId": "http://www.wikidata.org/entity/Q18538164|http://www.wikidata.org/entity/Q218|Head of government"
+    },
+    {
+      "date": "2026-05-01",
+      "leaderId": "http://www.wikidata.org/entity/Q23020336|http://www.wikidata.org/entity/Q846|Head of government"
+    },
+    {
+      "date": "2026-05-02",
+      "leaderId": "http://www.wikidata.org/entity/Q2866|http://www.wikidata.org/entity/Q184|Head of state"
+    },
+    {
+      "date": "2026-05-03",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q142|Head of state"
+    },
+    {
+      "date": "2026-05-04",
+      "leaderId": "http://www.wikidata.org/entity/Q552751|http://www.wikidata.org/entity/Q41|Head of government"
+    },
+    {
+      "date": "2026-05-05",
+      "leaderId": "http://www.wikidata.org/entity/Q116293030|http://www.wikidata.org/entity/Q826|Head of state and government"
+    },
+    {
+      "date": "2026-05-06",
+      "leaderId": "http://www.wikidata.org/entity/Q3847080|http://www.wikidata.org/entity/Q865|Head of state"
+    },
+    {
+      "date": "2026-05-07",
+      "leaderId": "http://www.wikidata.org/entity/Q13026319|http://www.wikidata.org/entity/Q869|Head of government"
+    },
+    {
+      "date": "2026-05-08",
+      "leaderId": "http://www.wikidata.org/entity/Q717185|http://www.wikidata.org/entity/Q953|Head of state"
+    },
+    {
+      "date": "2026-05-09",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q35|Head of government"
+    },
+    {
+      "date": "2026-05-10",
+      "leaderId": "http://www.wikidata.org/entity/Q3434569|http://www.wikidata.org/entity/Q1008|Head of government"
+    },
+    {
+      "date": "2026-05-11",
+      "leaderId": "http://www.wikidata.org/entity/Q7183082|http://www.wikidata.org/entity/Q778|Head of government"
+    },
+    {
+      "date": "2026-05-12",
+      "leaderId": "http://www.wikidata.org/entity/Q110520817|http://www.wikidata.org/entity/Q750|Head of state and government"
+    },
+    {
+      "date": "2026-05-13",
+      "leaderId": "http://www.wikidata.org/entity/Q32014514|http://www.wikidata.org/entity/Q683|Head of state"
+    },
+    {
+      "date": "2026-05-14",
+      "leaderId": "http://www.wikidata.org/entity/Q15081116|http://www.wikidata.org/entity/Q717|Head of state"
+    },
+    {
+      "date": "2026-05-15",
+      "leaderId": "http://www.wikidata.org/entity/Q123342092|http://www.wikidata.org/entity/Q1050|Head of government"
+    },
+    {
+      "date": "2026-05-16",
+      "leaderId": "http://www.wikidata.org/entity/Q27058418|http://www.wikidata.org/entity/Q711|Head of state"
+    },
+    {
+      "date": "2026-05-17",
+      "leaderId": "http://www.wikidata.org/entity/Q222031|http://www.wikidata.org/entity/Q403|Head of state"
+    },
+    {
+      "date": "2026-05-18",
+      "leaderId": "http://www.wikidata.org/entity/Q57373|http://www.wikidata.org/entity/Q843|Head of state"
+    },
+    {
+      "date": "2026-05-19",
+      "leaderId": "http://www.wikidata.org/entity/Q1580316|http://www.wikidata.org/entity/Q45|Head of state"
+    },
+    {
+      "date": "2026-05-20",
+      "leaderId": "http://www.wikidata.org/entity/Q3401447|http://www.wikidata.org/entity/Q1027|Head of government"
+    },
+    {
+      "date": "2026-05-21",
+      "leaderId": "http://www.wikidata.org/entity/Q548733|http://www.wikidata.org/entity/Q869|Head of state"
+    },
+    {
+      "date": "2026-05-22",
+      "leaderId": "http://www.wikidata.org/entity/Q124382437|http://www.wikidata.org/entity/Q1041|Head of state and government"
+    },
+    {
+      "date": "2026-05-23",
+      "leaderId": "http://www.wikidata.org/entity/Q26703072|http://www.wikidata.org/entity/Q695|Head of state and government"
+    },
+    {
+      "date": "2026-05-24",
+      "leaderId": "http://www.wikidata.org/entity/Q4752077|http://www.wikidata.org/entity/Q971|Head of government"
+    },
+    {
+      "date": "2026-05-25",
+      "leaderId": "http://www.wikidata.org/entity/Q136500275|http://www.wikidata.org/entity/Q1019|Head of state"
+    },
+    {
+      "date": "2026-05-26",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q756617|Head of state"
+    },
+    {
+      "date": "2026-05-27",
+      "leaderId": "http://www.wikidata.org/entity/Q129263796|http://www.wikidata.org/entity/Q983|Head of government"
+    },
+    {
+      "date": "2026-05-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57272|http://www.wikidata.org/entity/Q1009|Head of state"
+    },
+    {
+      "date": "2026-05-29",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q756617|Head of government"
+    },
+    {
+      "date": "2026-05-30",
+      "leaderId": "http://www.wikidata.org/entity/Q57537|http://www.wikidata.org/entity/Q1013|Head of state"
+    },
+    {
+      "date": "2026-05-31",
+      "leaderId": "http://www.wikidata.org/entity/Q154952|http://www.wikidata.org/entity/Q29999|Head of state"
+    },
+    {
+      "date": "2026-06-01",
+      "leaderId": "http://www.wikidata.org/entity/Q57641|http://www.wikidata.org/entity/Q28|Head of government"
+    },
+    {
+      "date": "2026-06-02",
+      "leaderId": "http://www.wikidata.org/entity/Q4414|http://www.wikidata.org/entity/Q945|Head of government"
+    },
+    {
+      "date": "2026-06-03",
+      "leaderId": "http://www.wikidata.org/entity/Q451791|http://www.wikidata.org/entity/Q38|Head of government"
+    },
+    {
+      "date": "2026-06-04",
+      "leaderId": "http://www.wikidata.org/entity/Q19946921|http://www.wikidata.org/entity/Q77|Head of state and government"
+    },
+    {
+      "date": "2026-06-05",
+      "leaderId": "http://www.wikidata.org/entity/Q6180897|http://www.wikidata.org/entity/Q685|Head of government"
+    },
+    {
+      "date": "2026-06-06",
+      "leaderId": "http://www.wikidata.org/entity/Q6496078|http://www.wikidata.org/entity/Q796|Head of state"
+    },
+    {
+      "date": "2026-06-07",
+      "leaderId": "http://www.wikidata.org/entity/Q131749390|http://www.wikidata.org/entity/Q1039|Head of government"
+    },
+    {
+      "date": "2026-06-08",
+      "leaderId": "http://www.wikidata.org/entity/Q93244592|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2026-06-09",
+      "leaderId": "http://www.wikidata.org/entity/Q527020|http://www.wikidata.org/entity/Q1030|Head of state"
+    },
+    {
+      "date": "2026-06-10",
+      "leaderId": "http://www.wikidata.org/entity/Q107254030|http://www.wikidata.org/entity/Q774|Head of state and government"
+    },
+    {
+      "date": "2026-06-11",
+      "leaderId": "http://www.wikidata.org/entity/Q57723|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2026-06-12",
+      "leaderId": "http://www.wikidata.org/entity/Q440403|http://www.wikidata.org/entity/Q730|Head of state and government"
+    },
+    {
+      "date": "2026-06-13",
+      "leaderId": "http://www.wikidata.org/entity/Q6766871|http://www.wikidata.org/entity/Q26988|Head of government"
+    },
+    {
+      "date": "2026-06-14",
+      "leaderId": "http://www.wikidata.org/entity/Q1346506432|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2026-06-15",
+      "leaderId": "http://www.wikidata.org/entity/Q6029546|http://www.wikidata.org/entity/Q33|Head of government"
+    },
+    {
+      "date": "2026-06-16",
+      "leaderId": "http://www.wikidata.org/entity/Q57315|http://www.wikidata.org/entity/Q958|Head of state"
+    },
+    {
+      "date": "2026-06-17",
+      "leaderId": "http://www.wikidata.org/entity/Q7747|http://www.wikidata.org/entity/Q159|Head of state"
+    },
+    {
+      "date": "2026-06-18",
+      "leaderId": "http://www.wikidata.org/entity/Q112703041|http://www.wikidata.org/entity/Q813|Head of government"
+    },
+    {
+      "date": "2026-06-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57856|http://www.wikidata.org/entity/Q1000|Head of government"
+    },
+    {
+      "date": "2026-06-20",
+      "leaderId": "http://www.wikidata.org/entity/Q135454730|http://www.wikidata.org/entity/Q1037|Head of government"
+    },
+    {
+      "date": "2026-06-21",
+      "leaderId": "http://www.wikidata.org/entity/Q2356379|http://www.wikidata.org/entity/Q1410|Head of government"
+    },
+    {
+      "date": "2026-06-22",
+      "leaderId": "http://www.wikidata.org/entity/Q5771800|http://www.wikidata.org/entity/Q96|Head of state and government"
+    },
+    {
+      "date": "2026-06-23",
+      "leaderId": "http://www.wikidata.org/entity/Q15031|http://www.wikidata.org/entity/Q148|Head of state"
+    },
+    {
+      "date": "2026-06-24",
+      "leaderId": "http://www.wikidata.org/entity/Q114588964|http://www.wikidata.org/entity/Q1013|Head of government"
+    },
+    {
+      "date": "2026-06-25",
+      "leaderId": "http://www.wikidata.org/entity/Q63111184|http://www.wikidata.org/entity/Q1049|Head of state"
+    },
+    {
+      "date": "2026-06-26",
+      "leaderId": "http://www.wikidata.org/entity/Q2646711|http://www.wikidata.org/entity/Q1032|Head of government"
+    },
+    {
+      "date": "2026-06-27",
+      "leaderId": "http://www.wikidata.org/entity/Q3956186|http://www.wikidata.org/entity/Q38|Head of state"
+    },
+    {
+      "date": "2026-06-28",
+      "leaderId": "http://www.wikidata.org/entity/Q6827147|http://www.wikidata.org/entity/Q244|Head of government"
+    },
+    {
+      "date": "2026-06-29",
+      "leaderId": "http://www.wikidata.org/entity/Q105319569|http://www.wikidata.org/entity/Q1016|Head of government"
+    },
+    {
+      "date": "2026-06-30",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2026-07-01",
+      "leaderId": "http://www.wikidata.org/entity/Q6169516|http://www.wikidata.org/entity/Q945|Head of state"
+    },
+    {
+      "date": "2026-07-02",
+      "leaderId": "http://www.wikidata.org/entity/Q208497|http://www.wikidata.org/entity/Q678|Head of state"
+    },
+    {
+      "date": "2026-07-03",
+      "leaderId": "http://www.wikidata.org/entity/Q297825|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2026-07-04",
+      "leaderId": "http://www.wikidata.org/entity/Q47026361|http://www.wikidata.org/entity/Q13706|Head of state"
+    },
+    {
+      "date": "2026-07-05",
+      "leaderId": "http://www.wikidata.org/entity/Q16262782|http://www.wikidata.org/entity/Q223|Head of government"
+    },
+    {
+      "date": "2026-07-06",
+      "leaderId": "http://www.wikidata.org/entity/Q4414390|http://www.wikidata.org/entity/Q148|Head of government"
+    },
+    {
+      "date": "2026-07-07",
+      "leaderId": "http://www.wikidata.org/entity/Q113443525|http://www.wikidata.org/entity/Q763|Head of government"
+    },
+    {
+      "date": "2026-07-08",
+      "leaderId": "http://www.wikidata.org/entity/Q467948|http://www.wikidata.org/entity/Q20|Head of government"
+    },
+    {
+      "date": "2026-07-09",
+      "leaderId": "http://www.wikidata.org/entity/Q56226|http://www.wikidata.org/entity/Q423|Head of state"
+    },
+    {
+      "date": "2026-07-10",
+      "leaderId": "http://www.wikidata.org/entity/Q79358625|http://www.wikidata.org/entity/Q241|Head of government"
+    },
+    {
+      "date": "2026-07-11",
+      "leaderId": "http://www.wikidata.org/entity/Q315500|http://www.wikidata.org/entity/Q837|Head of government"
+    },
+    {
+      "date": "2026-07-12",
+      "leaderId": "http://www.wikidata.org/entity/Q51874548|http://www.wikidata.org/entity/Q874|Head of state and government"
+    },
+    {
+      "date": "2026-07-13",
+      "leaderId": "http://www.wikidata.org/entity/Q57376|http://www.wikidata.org/entity/Q917|Head of state"
+    },
+    {
+      "date": "2026-07-14",
+      "leaderId": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state"
+    },
+    {
+      "date": "2026-07-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57687|http://www.wikidata.org/entity/Q224|Head of state"
+    },
+    {
+      "date": "2026-07-16",
+      "leaderId": "http://www.wikidata.org/entity/Q6070218|http://www.wikidata.org/entity/Q29|Head of government"
+    },
+    {
+      "date": "2026-07-17",
+      "leaderId": "http://www.wikidata.org/entity/Q433338|http://www.wikidata.org/entity/Q219|Head of state"
+    },
+    {
+      "date": "2026-07-18",
+      "leaderId": "http://www.wikidata.org/entity/Q6138903|http://www.wikidata.org/entity/Q691|Head of government"
+    },
+    {
+      "date": "2026-07-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57274|http://www.wikidata.org/entity/Q1036|Head of state"
+    },
+    {
+      "date": "2026-07-20",
+      "leaderId": "http://www.wikidata.org/entity/Q3047551|http://www.wikidata.org/entity/Q211|Head of state"
+    },
+    {
+      "date": "2026-07-21",
+      "leaderId": "http://www.wikidata.org/entity/Q122067521|http://www.wikidata.org/entity/Q1000|Head of state"
+    },
+    {
+      "date": "2026-07-22",
+      "leaderId": "http://www.wikidata.org/entity/Q7849613|http://www.wikidata.org/entity/Q917|Head of government"
+    },
+    {
+      "date": "2026-07-23",
+      "leaderId": "http://www.wikidata.org/entity/Q18618881|http://www.wikidata.org/entity/Q963|Head of state"
+    },
+    {
+      "date": "2026-07-24",
+      "leaderId": "http://www.wikidata.org/entity/Q22695687|http://www.wikidata.org/entity/Q733|Head of state"
+    },
+    {
+      "date": "2026-07-25",
+      "leaderId": "http://www.wikidata.org/entity/Q108856371|http://www.wikidata.org/entity/Q189|Head of government"
+    },
+    {
+      "date": "2026-07-26",
+      "leaderId": "http://www.wikidata.org/entity/Q12243161|http://www.wikidata.org/entity/Q817|Head of state"
+    },
+    {
+      "date": "2026-07-27",
+      "leaderId": "http://www.wikidata.org/entity/Q15222839|http://www.wikidata.org/entity/Q863|Head of government"
+    },
+    {
+      "date": "2026-07-28",
+      "leaderId": "http://www.wikidata.org/entity/Q2821166|http://www.wikidata.org/entity/Q262|Head of state"
+    },
+    {
+      "date": "2026-07-29",
+      "leaderId": "manual|Q458|Head of government"
+    },
+    {
+      "date": "2026-07-30",
+      "leaderId": "http://www.wikidata.org/entity/Q27917049|http://www.wikidata.org/entity/Q1005|Head of state and government"
+    },
+    {
+      "date": "2026-07-31",
+      "leaderId": "http://www.wikidata.org/entity/Q107422711|http://www.wikidata.org/entity/Q222|Head of state"
+    },
+    {
+      "date": "2026-08-01",
+      "leaderId": "http://www.wikidata.org/entity/Q5933752|http://www.wikidata.org/entity/Q794|Head of government"
+    },
+    {
+      "date": "2026-08-02",
+      "leaderId": "http://www.wikidata.org/entity/Q12277168|http://www.wikidata.org/entity/Q221|Head of state"
+    },
+    {
+      "date": "2026-08-03",
+      "leaderId": "http://www.wikidata.org/entity/Q983324|http://www.wikidata.org/entity/Q928|Head of state and government"
+    },
+    {
+      "date": "2026-08-04",
+      "leaderId": "http://www.wikidata.org/entity/Q10819807|http://www.wikidata.org/entity/Q213|Head of government"
+    },
+    {
+      "date": "2026-08-05",
+      "leaderId": "http://www.wikidata.org/entity/Q64840184|http://www.wikidata.org/entity/Q734|Head of state"
+    },
+    {
+      "date": "2026-08-06",
+      "leaderId": "http://www.wikidata.org/entity/Q7407632|http://www.wikidata.org/entity/Q14773|Head of government"
+    },
+    {
+      "date": "2026-08-07",
+      "leaderId": "http://www.wikidata.org/entity/Q5937916|http://www.wikidata.org/entity/Q298|Head of government"
+    },
+    {
+      "date": "2026-08-08",
+      "leaderId": "http://www.wikidata.org/entity/Q12250314|http://www.wikidata.org/entity/Q842|Head of state and government"
+    },
+    {
+      "date": "2026-08-09",
+      "leaderId": "http://www.wikidata.org/entity/Q1353628|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2026-08-10",
+      "leaderId": "http://www.wikidata.org/entity/Q983752|http://www.wikidata.org/entity/Q334|Head of state"
+    },
+    {
+      "date": "2026-08-11",
+      "leaderId": "http://www.wikidata.org/entity/Q2657043|http://www.wikidata.org/entity/Q833|Head of state"
+    },
+    {
+      "date": "2026-08-12",
+      "leaderId": "http://www.wikidata.org/entity/Q16120878|http://www.wikidata.org/entity/Q948|Head of state"
+    },
+    {
+      "date": "2026-08-13",
+      "leaderId": "http://www.wikidata.org/entity/Q97058466|http://www.wikidata.org/entity/Q1029|Head of state"
+    },
+    {
+      "date": "2026-08-14",
+      "leaderId": "http://www.wikidata.org/entity/Q16190741|http://www.wikidata.org/entity/Q686|Head of government"
+    },
+    {
+      "date": "2026-08-15",
+      "leaderId": "http://www.wikidata.org/entity/Q592101|http://www.wikidata.org/entity/Q32|Head of government"
+    },
+    {
+      "date": "2026-08-16",
+      "leaderId": "http://www.wikidata.org/entity/Q27982047|http://www.wikidata.org/entity/Q1039|Head of state"
+    },
+    {
+      "date": "2026-08-17",
+      "leaderId": "http://www.wikidata.org/entity/Q16594097|http://www.wikidata.org/entity/Q786|Head of state and government"
+    },
+    {
+      "date": "2026-08-18",
+      "leaderId": "http://www.wikidata.org/entity/Q37860840|http://www.wikidata.org/entity/Q233|Head of government"
+    },
+    {
+      "date": "2026-08-19",
+      "leaderId": "http://www.wikidata.org/entity/Q24494577|http://www.wikidata.org/entity/Q189|Head of state"
+    },
+    {
+      "date": "2026-08-20",
+      "leaderId": "http://www.wikidata.org/entity/Q299574|http://www.wikidata.org/entity/Q833|Head of government"
+    },
+    {
+      "date": "2026-08-21",
+      "leaderId": "http://www.wikidata.org/entity/Q22686|http://www.wikidata.org/entity/Q30|Head of state and government"
+    },
+    {
+      "date": "2026-08-22",
+      "leaderId": "http://www.wikidata.org/entity/Q6504758|http://www.wikidata.org/entity/Q334|Head of government"
+    },
+    {
+      "date": "2026-08-23",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q223|Head of state"
+    },
+    {
+      "date": "2026-08-24",
+      "leaderId": "http://www.wikidata.org/entity/Q5360975|http://www.wikidata.org/entity/Q1030|Head of government"
+    },
+    {
+      "date": "2026-08-25",
+      "leaderId": "http://www.wikidata.org/entity/Q5528031|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2026-08-26",
+      "leaderId": "http://www.wikidata.org/entity/Q109385659|http://www.wikidata.org/entity/Q237|Head of government"
+    },
+    {
+      "date": "2026-08-27",
+      "leaderId": "http://www.wikidata.org/entity/Q57649|http://www.wikidata.org/entity/Q1011|Head of state"
+    },
+    {
+      "date": "2026-08-28",
+      "leaderId": "http://www.wikidata.org/entity/Q22209348|http://www.wikidata.org/entity/Q1006|Head of government"
+    },
+    {
+      "date": "2026-08-29",
+      "leaderId": "http://www.wikidata.org/entity/Q367825|http://www.wikidata.org/entity/Q851|Head of state and government"
+    },
+    {
+      "date": "2026-08-30",
+      "leaderId": "http://www.wikidata.org/entity/Q124831090|http://www.wikidata.org/entity/Q115|Head of state"
+    },
+    {
+      "date": "2026-08-31",
+      "leaderId": "http://www.wikidata.org/entity/Q2080040|http://www.wikidata.org/entity/Q213|Head of state"
+    },
+    {
+      "date": "2026-09-01",
+      "leaderId": "http://www.wikidata.org/entity/Q133540883|http://www.wikidata.org/entity/Q262|Head of government"
+    },
+    {
+      "date": "2026-09-02",
+      "leaderId": "http://www.wikidata.org/entity/Q21001195|http://www.wikidata.org/entity/Q228|Head of government"
+    },
+    {
+      "date": "2026-09-03",
+      "leaderId": "http://www.wikidata.org/entity/Q16146159|http://www.wikidata.org/entity/Q783|Head of state and government"
+    },
+    {
+      "date": "2026-09-04",
+      "leaderId": "http://www.wikidata.org/entity/Q88310768|http://www.wikidata.org/entity/Q929|Head of government"
+    },
+    {
+      "date": "2026-09-05",
+      "leaderId": "http://www.wikidata.org/entity/Q19901232|http://www.wikidata.org/entity/Q668|Head of state"
+    },
+    {
+      "date": "2026-09-06",
+      "leaderId": "http://www.wikidata.org/entity/Q98298397|http://www.wikidata.org/entity/Q854|Head of government"
+    },
+    {
+      "date": "2026-09-07",
+      "leaderId": "http://www.wikidata.org/entity/Q12241106|http://www.wikidata.org/entity/Q1025|Head of state"
+    },
+    {
+      "date": "2026-09-08",
+      "leaderId": "http://www.wikidata.org/entity/Q43969|http://www.wikidata.org/entity/Q902|Head of government"
+    },
+    {
+      "date": "2026-09-09",
+      "leaderId": "http://www.wikidata.org/entity/Q57287|http://www.wikidata.org/entity/Q20|Head of state"
+    },
+    {
+      "date": "2026-09-10",
+      "leaderId": "http://www.wikidata.org/entity/Q42478807|http://www.wikidata.org/entity/Q403|Head of government"
+    },
+    {
+      "date": "2026-09-11",
+      "leaderId": "http://www.wikidata.org/entity/Q12797332|http://www.wikidata.org/entity/Q215|Head of state"
+    },
+    {
+      "date": "2026-09-12",
+      "leaderId": "http://www.wikidata.org/entity/Q20089181|http://www.wikidata.org/entity/Q142|Head of government"
+    },
+    {
+      "date": "2026-09-13",
+      "leaderId": "http://www.wikidata.org/entity/Q109012733|http://www.wikidata.org/entity/Q712|Head of state"
+    },
+    {
+      "date": "2026-09-14",
+      "leaderId": "http://www.wikidata.org/entity/Q3462649|http://www.wikidata.org/entity/Q836|Head of government"
+    },
+    {
+      "date": "2026-09-15",
+      "leaderId": "http://www.wikidata.org/entity/Q1705028|http://www.wikidata.org/entity/Q17|Head of government"
+    },
+    {
+      "date": "2026-09-16",
+      "leaderId": "http://www.wikidata.org/entity/Q283829|http://www.wikidata.org/entity/Q1044|Head of state"
+    },
+    {
+      "date": "2026-09-17",
+      "leaderId": "http://www.wikidata.org/entity/Q108414587|http://www.wikidata.org/entity/Q419|Head of state and government"
+    },
+    {
+      "date": "2026-09-18",
+      "leaderId": "http://www.wikidata.org/entity/Q61121565|http://www.wikidata.org/entity/Q211|Head of government"
+    },
+    {
+      "date": "2026-09-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57390|http://www.wikidata.org/entity/Q977|Head of state"
+    },
+    {
+      "date": "2026-09-20",
+      "leaderId": "http://www.wikidata.org/entity/Q5441662|http://www.wikidata.org/entity/Q672|Head of government"
+    },
+    {
+      "date": "2026-09-21",
+      "leaderId": "http://www.wikidata.org/entity/Q57823|http://www.wikidata.org/entity/Q784|Head of government"
+    },
+    {
+      "date": "2026-09-22",
+      "leaderId": "http://www.wikidata.org/entity/Q131140314|http://www.wikidata.org/entity/Q790|Head of government"
+    },
+    {
+      "date": "2026-09-23",
+      "leaderId": "http://www.wikidata.org/entity/Q7035479|http://www.wikidata.org/entity/Q399|Head of government"
+    },
+    {
+      "date": "2026-09-24",
+      "leaderId": "http://www.wikidata.org/entity/Q97011032|http://www.wikidata.org/entity/Q810|Head of government"
+    },
+    {
+      "date": "2026-09-25",
+      "leaderId": "http://www.wikidata.org/entity/Q17712353|http://www.wikidata.org/entity/Q792|Head of state and government"
+    },
+    {
+      "date": "2026-09-26",
+      "leaderId": "http://www.wikidata.org/entity/Q57340|http://www.wikidata.org/entity/Q1050|Head of state"
+    },
+    {
+      "date": "2026-09-27",
+      "leaderId": "http://www.wikidata.org/entity/Q4777855|http://www.wikidata.org/entity/Q854|Head of state"
+    },
+    {
+      "date": "2026-09-28",
+      "leaderId": "http://www.wikidata.org/entity/Q131403499|http://www.wikidata.org/entity/Q1027|Head of state"
+    },
+    {
+      "date": "2026-09-29",
+      "leaderId": "http://www.wikidata.org/entity/Q30882650|http://www.wikidata.org/entity/Q347|Head of government"
+    },
+    {
+      "date": "2026-09-30",
+      "leaderId": "http://www.wikidata.org/entity/Q319153|http://www.wikidata.org/entity/Q1045|Head of state"
+    },
+    {
+      "date": "2026-10-01",
+      "leaderId": "http://www.wikidata.org/entity/Q104914585|http://www.wikidata.org/entity/Q819|Head of government"
+    },
+    {
+      "date": "2026-10-02",
+      "leaderId": "http://www.wikidata.org/entity/Q9333540|http://www.wikidata.org/entity/Q244|Head of state"
+    },
+    {
+      "date": "2026-10-03",
+      "leaderId": "http://www.wikidata.org/entity/Q307871|http://www.wikidata.org/entity/Q79|Head of state"
+    },
+    {
+      "date": "2026-10-04",
+      "leaderId": "http://www.wikidata.org/entity/Q192533|http://www.wikidata.org/entity/Q16|Head of government"
+    },
+    {
+      "date": "2026-10-05",
+      "leaderId": "http://www.wikidata.org/entity/Q98053664|http://www.wikidata.org/entity/Q734|Head of government"
+    },
+    {
+      "date": "2026-10-06",
+      "leaderId": "http://www.wikidata.org/entity/Q113239716|http://www.wikidata.org/entity/Q686|Head of state"
+    },
+    {
+      "date": "2026-10-07",
+      "leaderId": "http://www.wikidata.org/entity/Q12850075|http://www.wikidata.org/entity/Q227|Head of government"
+    },
+    {
+      "date": "2026-10-08",
+      "leaderId": "http://www.wikidata.org/entity/Q10831196|http://www.wikidata.org/entity/Q881|Head of state"
+    },
+    {
+      "date": "2026-10-09",
+      "leaderId": "http://www.wikidata.org/entity/Q20995518|http://www.wikidata.org/entity/Q41|Head of state"
+    },
+    {
+      "date": "2026-10-10",
+      "leaderId": "http://www.wikidata.org/entity/Q112679881|http://www.wikidata.org/entity/Q769|Head of government"
+    },
+    {
+      "date": "2026-10-11",
+      "leaderId": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state"
+    },
+    {
+      "date": "2026-10-12",
+      "leaderId": "http://www.wikidata.org/entity/Q387491|http://www.wikidata.org/entity/Q225|Head of government"
+    },
+    {
+      "date": "2026-10-13",
+      "leaderId": "http://www.wikidata.org/entity/Q5116472|http://www.wikidata.org/entity/Q865|Head of government"
+    },
+    {
+      "date": "2026-10-14",
+      "leaderId": "http://www.wikidata.org/entity/Q272416|http://www.wikidata.org/entity/Q230|Head of state"
+    },
+    {
+      "date": "2026-10-15",
+      "leaderId": "http://www.wikidata.org/entity/Q200881|http://www.wikidata.org/entity/Q232|Head of state"
+    },
+    {
+      "date": "2026-10-16",
+      "leaderId": "http://www.wikidata.org/entity/Q116763154|http://www.wikidata.org/entity/Q902|Head of state"
+    },
+    {
+      "date": "2026-10-17",
+      "leaderId": "http://www.wikidata.org/entity/Q9268379|http://www.wikidata.org/entity/Q37|Head of state"
+    },
+    {
+      "date": "2026-10-18",
+      "leaderId": "http://www.wikidata.org/entity/Q112075625|http://www.wikidata.org/entity/Q736|Head of state and government"
+    },
+    {
+      "date": "2026-10-19",
+      "leaderId": "http://www.wikidata.org/entity/Q5178674|http://www.wikidata.org/entity/Q235|Head of government"
+    },
+    {
+      "date": "2026-10-20",
+      "leaderId": "http://www.wikidata.org/entity/Q59978016|http://www.wikidata.org/entity/Q219|Head of government"
+    },
+    {
+      "date": "2026-10-21",
+      "leaderId": "http://www.wikidata.org/entity/Q78869|http://www.wikidata.org/entity/Q40|Head of state"
+    },
+    {
+      "date": "2026-10-22",
+      "leaderId": "http://www.wikidata.org/entity/Q7984081|http://www.wikidata.org/entity/Q702|Head of state and government"
+    },
+    {
+      "date": "2026-10-23",
+      "leaderId": "http://www.wikidata.org/entity/Q62481397|http://www.wikidata.org/entity/Q1036|Head of government"
+    },
+    {
+      "date": "2026-10-24",
+      "leaderId": "http://www.wikidata.org/entity/Q63967715|http://www.wikidata.org/entity/Q974|Head of government"
+    },
+    {
+      "date": "2026-10-25",
+      "leaderId": "http://www.wikidata.org/entity/Q57402|http://www.wikidata.org/entity/Q811|Head of state and government"
+    },
+    {
+      "date": "2026-10-26",
+      "leaderId": "http://www.wikidata.org/entity/Q18645045|http://www.wikidata.org/entity/Q215|Head of government"
+    },
+    {
+      "date": "2026-10-27",
+      "leaderId": "http://www.wikidata.org/entity/Q155004|http://www.wikidata.org/entity/Q31|Head of state"
+    },
+    {
+      "date": "2026-10-28",
+      "leaderId": "http://www.wikidata.org/entity/Q2919350|http://www.wikidata.org/entity/Q794|Head of state"
+    },
+    {
+      "date": "2026-10-29",
+      "leaderId": "http://www.wikidata.org/entity/Q37181|http://www.wikidata.org/entity/Q155|Head of state and government"
+    },
+    {
+      "date": "2026-10-30",
+      "leaderId": "http://www.wikidata.org/entity/Q29033962|http://www.wikidata.org/entity/Q822|Head of state"
+    },
+    {
+      "date": "2026-10-31",
+      "leaderId": "http://www.wikidata.org/entity/Q16905281|http://www.wikidata.org/entity/Q423|Head of government"
+    },
+    {
+      "date": "2026-11-01",
+      "leaderId": "http://www.wikidata.org/entity/Q13047644|http://www.wikidata.org/entity/Q1246|Head of state"
+    },
+    {
+      "date": "2026-11-02",
+      "leaderId": "http://www.wikidata.org/entity/Q28860866|http://www.wikidata.org/entity/Q29999|Head of government"
+    },
+    {
+      "date": "2026-11-03",
+      "leaderId": "http://www.wikidata.org/entity/Q1638114|http://www.wikidata.org/entity/Q1028|Head of government"
+    },
+    {
+      "date": "2026-11-04",
+      "leaderId": "http://www.wikidata.org/entity/Q19810371|http://www.wikidata.org/entity/Q19801186|Head of state"
+    },
+    {
+      "date": "2026-11-05",
+      "leaderId": "http://www.wikidata.org/entity/Q23034482|http://www.wikidata.org/entity/Q710|Head of state and government"
+    },
+    {
+      "date": "2026-11-06",
+      "leaderId": "http://www.wikidata.org/entity/Q1148669|http://www.wikidata.org/entity/Q258|Head of state and government"
+    },
+    {
+      "date": "2026-11-07",
+      "leaderId": "http://www.wikidata.org/entity/Q56825894|http://www.wikidata.org/entity/Q232|Head of government"
+    },
+    {
+      "date": "2026-11-08",
+      "leaderId": "http://www.wikidata.org/entity/Q3183124|http://www.wikidata.org/entity/Q837|Head of state"
+    },
+    {
+      "date": "2026-11-09",
+      "leaderId": "http://www.wikidata.org/entity/Q54901515|http://www.wikidata.org/entity/Q79|Head of government"
+    },
+    {
+      "date": "2026-11-10",
+      "leaderId": "http://www.wikidata.org/entity/Q11685764|http://www.wikidata.org/entity/Q224|Head of government"
+    },
+    {
+      "date": "2026-11-11",
+      "leaderId": "http://www.wikidata.org/entity/Q124516173|http://www.wikidata.org/entity/Q37|Head of government"
+    },
+    {
+      "date": "2026-11-12",
+      "leaderId": "http://www.wikidata.org/entity/Q39259|http://www.wikidata.org/entity/Q43|Head of state and government"
+    },
+    {
+      "date": "2026-11-13",
+      "leaderId": "http://www.wikidata.org/entity/Q1231345|http://www.wikidata.org/entity/Q1037|Head of state"
+    },
+    {
+      "date": "2026-11-14",
+      "leaderId": "http://www.wikidata.org/entity/Q335697|http://www.wikidata.org/entity/Q408|Head of government"
+    },
+    {
+      "date": "2026-11-15",
+      "leaderId": "http://www.wikidata.org/entity/Q17330556|http://www.wikidata.org/entity/Q214|Head of state"
+    },
+    {
+      "date": "2026-11-16",
+      "leaderId": "http://www.wikidata.org/entity/Q43723|http://www.wikidata.org/entity/Q801|Head of government"
+    },
+    {
+      "date": "2026-11-17",
+      "leaderId": "http://www.wikidata.org/entity/Q50365049|http://www.wikidata.org/entity/Q115|Head of government"
+    },
+    {
+      "date": "2026-11-18",
+      "leaderId": "http://www.wikidata.org/entity/Q46675558|http://www.wikidata.org/entity/Q221|Head of government"
+    },
+    {
+      "date": "2026-11-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57385|http://www.wikidata.org/entity/Q983|Head of state"
+    },
+    {
+      "date": "2026-11-20",
+      "leaderId": "http://www.wikidata.org/entity/Q566257|http://www.wikidata.org/entity/Q183|Head of government"
+    },
+    {
+      "date": "2026-11-21",
+      "leaderId": "http://www.wikidata.org/entity/Q57553|http://www.wikidata.org/entity/Q1028|Head of state"
+    },
+    {
+      "date": "2026-11-22",
+      "leaderId": "http://www.wikidata.org/entity/Q57454|http://www.wikidata.org/entity/Q347|Head of state"
+    },
+    {
+      "date": "2026-11-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57606|http://www.wikidata.org/entity/Q214|Head of government"
+    },
+    {
+      "date": "2026-11-24",
+      "leaderId": "http://www.wikidata.org/entity/Q11163124|http://www.wikidata.org/entity/Q218|Head of state"
+    },
+    {
+      "date": "2026-11-25",
+      "leaderId": "http://www.wikidata.org/entity/Q3510872|http://www.wikidata.org/entity/Q1033|Head of state and government"
+    },
+    {
+      "date": "2026-11-26",
+      "leaderId": "http://www.wikidata.org/entity/Q23899522|http://www.wikidata.org/entity/Q1011|Head of government"
+    },
+    {
+      "date": "2026-11-27",
+      "leaderId": "http://www.wikidata.org/entity/Q57808|http://www.wikidata.org/entity/Q265|Head of state"
+    },
+    {
+      "date": "2026-11-28",
+      "leaderId": "http://www.wikidata.org/entity/Q15071069|http://www.wikidata.org/entity/Q217|Head of state"
+    },
+    {
+      "date": "2026-11-29",
+      "leaderId": "http://www.wikidata.org/entity/Q2107268|http://www.wikidata.org/entity/Q252|Head of state"
+    },
+    {
+      "date": "2026-11-30",
+      "leaderId": "http://www.wikidata.org/entity/Q57712|http://www.wikidata.org/entity/Q754|Head of government"
+    },
+    {
+      "date": "2026-12-01",
+      "leaderId": "http://www.wikidata.org/entity/Q718601|http://www.wikidata.org/entity/Q117|Head of government"
+    },
+    {
+      "date": "2026-12-02",
+      "leaderId": "http://www.wikidata.org/entity/Q23728768|http://www.wikidata.org/entity/Q1044|Head of government"
+    },
+    {
+      "date": "2026-12-03",
+      "leaderId": "http://www.wikidata.org/entity/Q503143|http://www.wikidata.org/entity/Q33|Head of state"
+    },
+    {
+      "date": "2026-12-04",
+      "leaderId": "http://www.wikidata.org/entity/Q27329764|http://www.wikidata.org/entity/Q967|Head of state"
+    },
+    {
+      "date": "2026-12-05",
+      "leaderId": "http://www.wikidata.org/entity/Q50678|http://www.wikidata.org/entity/Q117|Head of state"
+    },
+    {
+      "date": "2026-12-06",
+      "leaderId": "http://www.wikidata.org/entity/Q1647394|http://www.wikidata.org/entity/Q233|Head of state"
+    },
+    {
+      "date": "2026-12-07",
+      "leaderId": "http://www.wikidata.org/entity/Q981549|http://www.wikidata.org/entity/Q712|Head of government"
+    },
+    {
+      "date": "2026-12-08",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q35|Head of state"
+    },
+    {
+      "date": "2026-12-09",
+      "leaderId": "http://www.wikidata.org/entity/Q58096|http://www.wikidata.org/entity/Q697|Head of state and government"
+    },
+    {
+      "date": "2026-12-10",
+      "leaderId": "http://www.wikidata.org/entity/Q2096387|http://www.wikidata.org/entity/Q843|Head of government"
+    },
+    {
+      "date": "2026-12-11",
+      "leaderId": "http://www.wikidata.org/entity/Q3874799|http://www.wikidata.org/entity/Q212|Head of state"
+    },
+    {
+      "date": "2026-12-12",
+      "leaderId": "http://www.wikidata.org/entity/Q114835874|http://www.wikidata.org/entity/Q965|Head of government"
+    },
+    {
+      "date": "2026-12-13",
+      "leaderId": "http://www.wikidata.org/entity/Q704022|http://www.wikidata.org/entity/Q739|Head of state and government"
+    },
+    {
+      "date": "2026-12-14",
+      "leaderId": "http://www.wikidata.org/entity/Q104417661|http://www.wikidata.org/entity/Q236|Head of state"
+    },
+    {
+      "date": "2026-12-15",
+      "leaderId": "http://www.wikidata.org/entity/Q98497406|http://www.wikidata.org/entity/Q912|Head of state"
+    },
+    {
+      "date": "2026-12-16",
+      "leaderId": "http://www.wikidata.org/entity/Q6761049|http://www.wikidata.org/entity/Q1029|Head of government"
+    },
+    {
+      "date": "2026-12-17",
+      "leaderId": "http://www.wikidata.org/entity/Q57352|http://www.wikidata.org/entity/Q398|Head of state"
+    },
+    {
+      "date": "2026-12-18",
+      "leaderId": "http://www.wikidata.org/entity/Q27654948|http://www.wikidata.org/entity/Q1049|Head of government"
+    },
+    {
+      "date": "2026-12-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57348|http://www.wikidata.org/entity/Q986|Head of state and government"
+    },
+    {
+      "date": "2026-12-20",
+      "leaderId": "http://www.wikidata.org/entity/Q64576653|http://www.wikidata.org/entity/Q40|Head of government"
+    },
+    {
+      "date": "2026-12-21",
+      "leaderId": "http://www.wikidata.org/entity/Q28650390|http://www.wikidata.org/entity/Q916|Head of state and government"
+    },
+    {
+      "date": "2026-12-22",
+      "leaderId": "http://www.wikidata.org/entity/Q48905549|http://www.wikidata.org/entity/Q229|Head of state and government"
+    },
+    {
+      "date": "2026-12-23",
+      "leaderId": "http://www.wikidata.org/entity/Q1951896|http://www.wikidata.org/entity/Q878|Head of state"
+    },
+    {
+      "date": "2026-12-24",
+      "leaderId": "http://www.wikidata.org/entity/Q57371|http://www.wikidata.org/entity/Q227|Head of state"
+    },
+    {
+      "date": "2026-12-25",
+      "leaderId": "http://www.wikidata.org/entity/Q920403|http://www.wikidata.org/entity/Q27|Head of government"
+    },
+    {
+      "date": "2026-12-26",
+      "leaderId": "http://www.wikidata.org/entity/Q638463|http://www.wikidata.org/entity/Q822|Head of government"
+    },
+    {
+      "date": "2026-12-27",
+      "leaderId": "http://www.wikidata.org/entity/Q114341246|http://www.wikidata.org/entity/Q965|Head of state"
+    },
+    {
+      "date": "2026-12-28",
+      "leaderId": "http://www.wikidata.org/entity/Q9051824|http://www.wikidata.org/entity/Q8646|Head of government"
+    },
+    {
+      "date": "2026-12-29",
+      "leaderId": "http://www.wikidata.org/entity/Q946|http://www.wikidata.org/entity/Q36|Head of government"
+    },
+    {
+      "date": "2026-12-30",
+      "leaderId": "http://www.wikidata.org/entity/Q2630483|http://www.wikidata.org/entity/Q1014|Head of state and government"
+    },
+    {
+      "date": "2026-12-31",
+      "leaderId": "http://www.wikidata.org/entity/Q45068|http://www.wikidata.org/entity/Q34|Head of state"
+    },
+    {
+      "date": "2027-01-01",
+      "leaderId": "http://www.wikidata.org/entity/Q16193885|http://www.wikidata.org/entity/Q924|Head of state"
+    },
+    {
+      "date": "2027-01-02",
+      "leaderId": "http://www.wikidata.org/entity/Q191045|http://www.wikidata.org/entity/Q29|Head of state"
+    },
+    {
+      "date": "2027-01-03",
+      "leaderId": "http://www.wikidata.org/entity/Q11509|http://www.wikidata.org/entity/Q574|Head of government"
+    },
+    {
+      "date": "2027-01-04",
+      "leaderId": "http://www.wikidata.org/entity/Q61112536|http://www.wikidata.org/entity/Q212|Head of government"
+    },
+    {
+      "date": "2027-01-05",
+      "leaderId": "http://www.wikidata.org/entity/Q105319610|http://www.wikidata.org/entity/Q1016|Head of state"
+    },
+    {
+      "date": "2027-01-06",
+      "leaderId": "http://www.wikidata.org/entity/Q107136851|http://www.wikidata.org/entity/Q967|Head of government"
+    },
+    {
+      "date": "2027-01-07",
+      "leaderId": "http://www.wikidata.org/entity/Q12213376|http://www.wikidata.org/entity/Q805|Head of state"
+    },
+    {
+      "date": "2027-01-08",
+      "leaderId": "http://www.wikidata.org/entity/Q136489383|http://www.wikidata.org/entity/Q217|Head of government"
+    },
+    {
+      "date": "2027-01-09",
+      "leaderId": "http://www.wikidata.org/entity/Q4298520|http://www.wikidata.org/entity/Q159|Head of government"
+    },
+    {
+      "date": "2027-01-10",
+      "leaderId": "http://www.wikidata.org/entity/Q983258|http://www.wikidata.org/entity/Q801|Head of state"
+    },
+    {
+      "date": "2027-01-11",
+      "leaderId": "http://www.wikidata.org/entity/Q10806940|http://www.wikidata.org/entity/Q881|Head of government"
+    },
+    {
+      "date": "2027-01-12",
+      "leaderId": "http://www.wikidata.org/entity/Q136448305|http://www.wikidata.org/entity/Q1019|Head of government"
+    },
+    {
+      "date": "2027-01-13",
+      "leaderId": "http://www.wikidata.org/entity/Q1789192|http://www.wikidata.org/entity/Q191|Head of government"
+    },
+    {
+      "date": "2027-01-14",
+      "leaderId": "http://www.wikidata.org/entity/Q16190544|http://www.wikidata.org/entity/Q1042|Head of state and government"
+    },
+    {
+      "date": "2027-01-15",
+      "leaderId": "http://www.wikidata.org/entity/Q108418519|http://www.wikidata.org/entity/Q1006|Head of state"
+    },
+    {
+      "date": "2027-01-16",
+      "leaderId": "http://www.wikidata.org/entity/Q57413|http://www.wikidata.org/entity/Q1008|Head of state"
+    },
+    {
+      "date": "2027-01-17",
+      "leaderId": "http://www.wikidata.org/entity/Q74370310|http://www.wikidata.org/entity/Q664|Head of government"
+    },
+    {
+      "date": "2027-01-18",
+      "leaderId": "http://www.wikidata.org/entity/Q11764394|http://www.wikidata.org/entity/Q45|Head of government"
+    },
+    {
+      "date": "2027-01-19",
+      "leaderId": "http://www.wikidata.org/entity/Q108444479|http://www.wikidata.org/entity/Q889|Head of government"
+    },
+    {
+      "date": "2027-01-20",
+      "leaderId": "http://www.wikidata.org/entity/Q3700793|http://www.wikidata.org/entity/Q796|Head of government"
+    },
+    {
+      "date": "2027-01-21",
+      "leaderId": "http://www.wikidata.org/entity/Q76658|http://www.wikidata.org/entity/Q183|Head of state"
+    },
+    {
+      "date": "2027-01-22",
+      "leaderId": "http://www.wikidata.org/entity/Q108454869|http://www.wikidata.org/entity/Q804|Head of state and government"
+    },
+    {
+      "date": "2027-01-23",
+      "leaderId": "http://www.wikidata.org/entity/Q28599854|http://www.wikidata.org/entity/Q28|Head of state"
+    },
+    {
+      "date": "2027-01-24",
+      "leaderId": "http://www.wikidata.org/entity/Q19876617|http://www.wikidata.org/entity/Q34020|Head of government"
+    },
+    {
+      "date": "2027-01-25",
+      "leaderId": "http://www.wikidata.org/entity/Q101225458|http://www.wikidata.org/entity/Q236|Head of government"
+    },
+    {
+      "date": "2027-01-26",
+      "leaderId": "http://www.wikidata.org/entity/Q110962738|http://www.wikidata.org/entity/Q711|Head of government"
+    },
+    {
+      "date": "2027-01-27",
+      "leaderId": "http://www.wikidata.org/entity/Q1932603|http://www.wikidata.org/entity/Q241|Head of state"
+    },
+    {
+      "date": "2027-01-28",
+      "leaderId": "http://www.wikidata.org/entity/Q6383803|http://www.wikidata.org/entity/Q145|Head of government"
+    },
+    {
+      "date": "2027-01-29",
+      "leaderId": "http://www.wikidata.org/entity/Q58140|http://www.wikidata.org/entity/Q398|Head of government"
+    },
+    {
+      "date": "2027-01-30",
+      "leaderId": "http://www.wikidata.org/entity/Q98017689|http://www.wikidata.org/entity/Q800|Head of state and government"
+    },
+    {
+      "date": "2027-01-31",
+      "leaderId": "http://www.wikidata.org/entity/Q12358575|http://www.wikidata.org/entity/Q191|Head of state"
+    },
+    {
+      "date": "2027-02-01",
+      "leaderId": "http://www.wikidata.org/entity/Q161319|http://www.wikidata.org/entity/Q32|Head of state"
+    },
+    {
+      "date": "2027-02-02",
+      "leaderId": "http://www.wikidata.org/entity/Q1780398|http://www.wikidata.org/entity/Q34|Head of government"
+    },
+    {
+      "date": "2027-02-03",
+      "leaderId": "http://www.wikidata.org/entity/Q120965176|http://www.wikidata.org/entity/Q1032|Head of state"
+    },
+    {
+      "date": "2027-02-04",
+      "leaderId": "http://www.wikidata.org/entity/Q1855372|http://www.wikidata.org/entity/Q846|Head of state"
+    },
+    {
+      "date": "2027-02-05",
+      "leaderId": "http://www.wikidata.org/entity/Q10522744|http://www.wikidata.org/entity/Q977|Head of government"
+    },
+    {
+      "date": "2027-02-06",
+      "leaderId": "http://www.wikidata.org/entity/Q441633|http://www.wikidata.org/entity/Q1246|Head of government"
+    },
+    {
+      "date": "2027-02-07",
+      "leaderId": "http://www.wikidata.org/entity/Q6109517|http://www.wikidata.org/entity/Q237|Head of state"
+    },
+    {
+      "date": "2027-02-08",
+      "leaderId": "http://www.wikidata.org/entity/Q25597826|http://www.wikidata.org/entity/Q813|Head of state"
+    },
+    {
+      "date": "2027-02-09",
+      "leaderId": "http://www.wikidata.org/entity/Q217096|http://www.wikidata.org/entity/Q17|Head of state"
+    },
+    {
+      "date": "2027-02-10",
+      "leaderId": "http://www.wikidata.org/entity/Q57418|http://www.wikidata.org/entity/Q971|Head of state"
+    },
+    {
+      "date": "2027-02-11",
+      "leaderId": "http://www.wikidata.org/entity/Q29032770|http://www.wikidata.org/entity/Q974|Head of state"
+    },
+    {
+      "date": "2027-02-12",
+      "leaderId": "http://www.wikidata.org/entity/Q5437258|http://www.wikidata.org/entity/Q678|Head of government"
+    },
+    {
+      "date": "2027-02-13",
+      "leaderId": "http://www.wikidata.org/entity/Q20090884|http://www.wikidata.org/entity/Q709|Head of state and government"
+    },
+    {
+      "date": "2027-02-14",
+      "leaderId": "http://www.wikidata.org/entity/Q1058|http://www.wikidata.org/entity/Q668|Head of government"
+    },
+    {
+      "date": "2027-02-15",
+      "leaderId": "http://www.wikidata.org/entity/Q5052598|http://www.wikidata.org/entity/Q27|Head of state"
+    },
+    {
+      "date": "2027-02-16",
+      "leaderId": "http://www.wikidata.org/entity/Q16669148|http://www.wikidata.org/entity/Q962|Head of state and government"
+    },
+    {
+      "date": "2027-02-17",
+      "leaderId": "http://www.wikidata.org/entity/Q336599|http://www.wikidata.org/entity/Q31|Head of government"
+    },
+    {
+      "date": "2027-02-18",
+      "leaderId": "http://www.wikidata.org/entity/Q13081568|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2027-02-19",
+      "leaderId": "http://www.wikidata.org/entity/Q17704749|http://www.wikidata.org/entity/Q36|Head of state"
+    },
+    {
+      "date": "2027-02-20",
+      "leaderId": "http://www.wikidata.org/entity/Q7184214|http://www.wikidata.org/entity/Q760|Head of government"
+    },
+    {
+      "date": "2027-02-21",
+      "leaderId": "http://www.wikidata.org/entity/Q28002959|http://www.wikidata.org/entity/Q265|Head of government"
+    },
+    {
+      "date": "2027-02-22",
+      "leaderId": "http://www.wikidata.org/entity/Q57758|http://www.wikidata.org/entity/Q929|Head of state"
+    },
+    {
+      "date": "2027-02-23",
+      "leaderId": "http://www.wikidata.org/entity/Q11665|http://www.wikidata.org/entity/Q574|Head of state"
+    },
+    {
+      "date": "2027-02-24",
+      "leaderId": "http://www.wikidata.org/entity/Q68837007|http://www.wikidata.org/entity/Q805|Head of government"
+    },
+    {
+      "date": "2027-02-25",
+      "leaderId": "http://www.wikidata.org/entity/Q3553274|http://www.wikidata.org/entity/Q399|Head of state"
+    },
+    {
+      "date": "2027-02-26",
+      "leaderId": "http://www.wikidata.org/entity/Q6266369|http://www.wikidata.org/entity/Q242|Head of government"
+    },
+    {
+      "date": "2027-02-27",
+      "leaderId": "http://www.wikidata.org/entity/Q3910|http://www.wikidata.org/entity/Q235|Head of state"
+    },
+    {
+      "date": "2027-02-28",
+      "leaderId": "http://www.wikidata.org/entity/Q2630483|http://www.wikidata.org/entity/Q1014|Head of state and government"
+    },
+    {
+      "date": "2027-03-01",
+      "leaderId": "http://www.wikidata.org/entity/Q7984081|http://www.wikidata.org/entity/Q702|Head of state and government"
+    },
+    {
+      "date": "2027-03-02",
+      "leaderId": "http://www.wikidata.org/entity/Q2657043|http://www.wikidata.org/entity/Q833|Head of state"
+    },
+    {
+      "date": "2027-03-03",
+      "leaderId": "http://www.wikidata.org/entity/Q61112536|http://www.wikidata.org/entity/Q212|Head of government"
+    },
+    {
+      "date": "2027-03-04",
+      "leaderId": "http://www.wikidata.org/entity/Q52395487|http://www.wikidata.org/entity/Q414|Head of state and government"
+    },
+    {
+      "date": "2027-03-05",
+      "leaderId": "http://www.wikidata.org/entity/Q108418519|http://www.wikidata.org/entity/Q1006|Head of state"
+    },
+    {
+      "date": "2027-03-06",
+      "leaderId": "http://www.wikidata.org/entity/Q63111184|http://www.wikidata.org/entity/Q1049|Head of state"
+    },
+    {
+      "date": "2027-03-07",
+      "leaderId": "http://www.wikidata.org/entity/Q97400315|http://www.wikidata.org/entity/Q754|Head of state"
+    },
+    {
+      "date": "2027-03-08",
+      "leaderId": "http://www.wikidata.org/entity/Q110962738|http://www.wikidata.org/entity/Q711|Head of government"
+    },
+    {
+      "date": "2027-03-09",
+      "leaderId": "http://www.wikidata.org/entity/Q5446290|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2027-03-10",
+      "leaderId": "http://www.wikidata.org/entity/Q718601|http://www.wikidata.org/entity/Q117|Head of government"
+    },
+    {
+      "date": "2027-03-11",
+      "leaderId": "http://www.wikidata.org/entity/Q113443525|http://www.wikidata.org/entity/Q763|Head of government"
+    },
+    {
+      "date": "2027-03-12",
+      "leaderId": "http://www.wikidata.org/entity/Q4414|http://www.wikidata.org/entity/Q945|Head of government"
+    },
+    {
+      "date": "2027-03-13",
+      "leaderId": "http://www.wikidata.org/entity/Q272416|http://www.wikidata.org/entity/Q230|Head of state"
+    },
+    {
+      "date": "2027-03-14",
+      "leaderId": "http://www.wikidata.org/entity/Q1580316|http://www.wikidata.org/entity/Q45|Head of state"
+    },
+    {
+      "date": "2027-03-15",
+      "leaderId": "http://www.wikidata.org/entity/Q510523|http://www.wikidata.org/entity/Q954|Head of state and government"
+    },
+    {
+      "date": "2027-03-16",
+      "leaderId": "http://www.wikidata.org/entity/Q19876617|http://www.wikidata.org/entity/Q34020|Head of government"
+    },
+    {
+      "date": "2027-03-17",
+      "leaderId": "http://www.wikidata.org/entity/Q10806940|http://www.wikidata.org/entity/Q881|Head of government"
+    },
+    {
+      "date": "2027-03-18",
+      "leaderId": "http://www.wikidata.org/entity/Q299574|http://www.wikidata.org/entity/Q833|Head of government"
+    },
+    {
+      "date": "2027-03-19",
+      "leaderId": "http://www.wikidata.org/entity/Q5437258|http://www.wikidata.org/entity/Q678|Head of government"
+    },
+    {
+      "date": "2027-03-20",
+      "leaderId": "http://www.wikidata.org/entity/Q120965176|http://www.wikidata.org/entity/Q1032|Head of state"
+    },
+    {
+      "date": "2027-03-21",
+      "leaderId": "http://www.wikidata.org/entity/Q58096|http://www.wikidata.org/entity/Q697|Head of state and government"
+    },
+    {
+      "date": "2027-03-22",
+      "leaderId": "http://www.wikidata.org/entity/Q104914585|http://www.wikidata.org/entity/Q819|Head of government"
+    },
+    {
+      "date": "2027-03-23",
+      "leaderId": "http://www.wikidata.org/entity/Q105319610|http://www.wikidata.org/entity/Q1016|Head of state"
+    },
+    {
+      "date": "2027-03-24",
+      "leaderId": "http://www.wikidata.org/entity/Q58140|http://www.wikidata.org/entity/Q398|Head of government"
+    },
+    {
+      "date": "2027-03-25",
+      "leaderId": "http://www.wikidata.org/entity/Q4414390|http://www.wikidata.org/entity/Q148|Head of government"
+    },
+    {
+      "date": "2027-03-26",
+      "leaderId": "http://www.wikidata.org/entity/Q920403|http://www.wikidata.org/entity/Q27|Head of government"
+    },
+    {
+      "date": "2027-03-27",
+      "leaderId": "http://www.wikidata.org/entity/Q28650390|http://www.wikidata.org/entity/Q916|Head of state and government"
+    },
+    {
+      "date": "2027-03-28",
+      "leaderId": "http://www.wikidata.org/entity/Q64576653|http://www.wikidata.org/entity/Q40|Head of government"
+    },
+    {
+      "date": "2027-03-29",
+      "leaderId": "http://www.wikidata.org/entity/Q946|http://www.wikidata.org/entity/Q36|Head of government"
+    },
+    {
+      "date": "2027-03-30",
+      "leaderId": "http://www.wikidata.org/entity/Q112075625|http://www.wikidata.org/entity/Q736|Head of state and government"
+    },
+    {
+      "date": "2027-03-31",
+      "leaderId": "http://www.wikidata.org/entity/Q99605101|http://www.wikidata.org/entity/Q1045|Head of government"
+    },
+    {
+      "date": "2027-04-01",
+      "leaderId": "http://www.wikidata.org/entity/Q7407632|http://www.wikidata.org/entity/Q14773|Head of government"
+    },
+    {
+      "date": "2027-04-02",
+      "leaderId": "http://www.wikidata.org/entity/Q98497406|http://www.wikidata.org/entity/Q912|Head of state"
+    },
+    {
+      "date": "2027-04-03",
+      "leaderId": "http://www.wikidata.org/entity/Q20090884|http://www.wikidata.org/entity/Q709|Head of state and government"
+    },
+    {
+      "date": "2027-04-04",
+      "leaderId": "http://www.wikidata.org/entity/Q57272|http://www.wikidata.org/entity/Q1009|Head of state"
+    },
+    {
+      "date": "2027-04-05",
+      "leaderId": "http://www.wikidata.org/entity/Q195725|http://www.wikidata.org/entity/Q114|Head of state and government"
+    },
+    {
+      "date": "2027-04-06",
+      "leaderId": "http://www.wikidata.org/entity/Q981549|http://www.wikidata.org/entity/Q712|Head of government"
+    },
+    {
+      "date": "2027-04-07",
+      "leaderId": "http://www.wikidata.org/entity/Q5771800|http://www.wikidata.org/entity/Q96|Head of state and government"
+    },
+    {
+      "date": "2027-04-08",
+      "leaderId": "http://www.wikidata.org/entity/Q7184214|http://www.wikidata.org/entity/Q760|Head of government"
+    },
+    {
+      "date": "2027-04-09",
+      "leaderId": "http://www.wikidata.org/entity/Q18618881|http://www.wikidata.org/entity/Q963|Head of state"
+    },
+    {
+      "date": "2027-04-10",
+      "leaderId": "http://www.wikidata.org/entity/Q19901232|http://www.wikidata.org/entity/Q668|Head of state"
+    },
+    {
+      "date": "2027-04-11",
+      "leaderId": "http://www.wikidata.org/entity/Q114588964|http://www.wikidata.org/entity/Q1013|Head of government"
+    },
+    {
+      "date": "2027-04-12",
+      "leaderId": "http://www.wikidata.org/entity/Q21001195|http://www.wikidata.org/entity/Q228|Head of government"
+    },
+    {
+      "date": "2027-04-13",
+      "leaderId": "http://www.wikidata.org/entity/Q23899522|http://www.wikidata.org/entity/Q1011|Head of government"
+    },
+    {
+      "date": "2027-04-14",
+      "leaderId": "http://www.wikidata.org/entity/Q136489383|http://www.wikidata.org/entity/Q217|Head of government"
+    },
+    {
+      "date": "2027-04-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57808|http://www.wikidata.org/entity/Q265|Head of state"
+    },
+    {
+      "date": "2027-04-16",
+      "leaderId": "http://www.wikidata.org/entity/Q30882650|http://www.wikidata.org/entity/Q347|Head of government"
+    },
+    {
+      "date": "2027-04-17",
+      "leaderId": "http://www.wikidata.org/entity/Q1705028|http://www.wikidata.org/entity/Q17|Head of government"
+    },
+    {
+      "date": "2027-04-18",
+      "leaderId": "http://www.wikidata.org/entity/Q451791|http://www.wikidata.org/entity/Q38|Head of government"
+    },
+    {
+      "date": "2027-04-19",
+      "leaderId": "http://www.wikidata.org/entity/Q16905281|http://www.wikidata.org/entity/Q423|Head of government"
+    },
+    {
+      "date": "2027-04-20",
+      "leaderId": "http://www.wikidata.org/entity/Q5052598|http://www.wikidata.org/entity/Q27|Head of state"
+    },
+    {
+      "date": "2027-04-21",
+      "leaderId": "http://www.wikidata.org/entity/Q108414587|http://www.wikidata.org/entity/Q419|Head of state and government"
+    },
+    {
+      "date": "2027-04-22",
+      "leaderId": "http://www.wikidata.org/entity/Q1789192|http://www.wikidata.org/entity/Q191|Head of government"
+    },
+    {
+      "date": "2027-04-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57371|http://www.wikidata.org/entity/Q227|Head of state"
+    },
+    {
+      "date": "2027-04-24",
+      "leaderId": "http://www.wikidata.org/entity/Q79358625|http://www.wikidata.org/entity/Q241|Head of government"
+    },
+    {
+      "date": "2027-04-25",
+      "leaderId": "http://www.wikidata.org/entity/Q12243161|http://www.wikidata.org/entity/Q817|Head of state"
+    },
+    {
+      "date": "2027-04-26",
+      "leaderId": "http://www.wikidata.org/entity/Q154952|http://www.wikidata.org/entity/Q29999|Head of state"
+    },
+    {
+      "date": "2027-04-27",
+      "leaderId": "http://www.wikidata.org/entity/Q124846311|http://www.wikidata.org/entity/Q790|Head of state"
+    },
+    {
+      "date": "2027-04-28",
+      "leaderId": "http://www.wikidata.org/entity/Q123342092|http://www.wikidata.org/entity/Q1050|Head of government"
+    },
+    {
+      "date": "2027-04-29",
+      "leaderId": "http://www.wikidata.org/entity/Q42478807|http://www.wikidata.org/entity/Q403|Head of government"
+    },
+    {
+      "date": "2027-04-30",
+      "leaderId": "http://www.wikidata.org/entity/Q24494577|http://www.wikidata.org/entity/Q189|Head of state"
+    },
+    {
+      "date": "2027-05-01",
+      "leaderId": "http://www.wikidata.org/entity/Q336599|http://www.wikidata.org/entity/Q31|Head of government"
+    },
+    {
+      "date": "2027-05-02",
+      "leaderId": "http://www.wikidata.org/entity/Q110520817|http://www.wikidata.org/entity/Q750|Head of state and government"
+    },
+    {
+      "date": "2027-05-03",
+      "leaderId": "http://www.wikidata.org/entity/Q983752|http://www.wikidata.org/entity/Q334|Head of state"
+    },
+    {
+      "date": "2027-05-04",
+      "leaderId": "http://www.wikidata.org/entity/Q22686|http://www.wikidata.org/entity/Q30|Head of state and government"
+    },
+    {
+      "date": "2027-05-05",
+      "leaderId": "http://www.wikidata.org/entity/Q335697|http://www.wikidata.org/entity/Q408|Head of government"
+    },
+    {
+      "date": "2027-05-06",
+      "leaderId": "http://www.wikidata.org/entity/Q5937916|http://www.wikidata.org/entity/Q298|Head of government"
+    },
+    {
+      "date": "2027-05-07",
+      "leaderId": "http://www.wikidata.org/entity/Q12213376|http://www.wikidata.org/entity/Q805|Head of state"
+    },
+    {
+      "date": "2027-05-08",
+      "leaderId": "http://www.wikidata.org/entity/Q131403499|http://www.wikidata.org/entity/Q1027|Head of state"
+    },
+    {
+      "date": "2027-05-09",
+      "leaderId": "http://www.wikidata.org/entity/Q20089181|http://www.wikidata.org/entity/Q142|Head of government"
+    },
+    {
+      "date": "2027-05-10",
+      "leaderId": "http://www.wikidata.org/entity/Q5360975|http://www.wikidata.org/entity/Q1030|Head of government"
+    },
+    {
+      "date": "2027-05-11",
+      "leaderId": "http://www.wikidata.org/entity/Q19946921|http://www.wikidata.org/entity/Q77|Head of state and government"
+    },
+    {
+      "date": "2027-05-12",
+      "leaderId": "http://www.wikidata.org/entity/Q74370310|http://www.wikidata.org/entity/Q664|Head of government"
+    },
+    {
+      "date": "2027-05-13",
+      "leaderId": "http://www.wikidata.org/entity/Q307871|http://www.wikidata.org/entity/Q79|Head of state"
+    },
+    {
+      "date": "2027-05-14",
+      "leaderId": "http://www.wikidata.org/entity/Q1638114|http://www.wikidata.org/entity/Q1028|Head of government"
+    },
+    {
+      "date": "2027-05-15",
+      "leaderId": "http://www.wikidata.org/entity/Q15031|http://www.wikidata.org/entity/Q148|Head of state"
+    },
+    {
+      "date": "2027-05-16",
+      "leaderId": "http://www.wikidata.org/entity/Q98298397|http://www.wikidata.org/entity/Q854|Head of government"
+    },
+    {
+      "date": "2027-05-17",
+      "leaderId": "http://www.wikidata.org/entity/Q6169516|http://www.wikidata.org/entity/Q945|Head of state"
+    },
+    {
+      "date": "2027-05-18",
+      "leaderId": "http://www.wikidata.org/entity/Q27982047|http://www.wikidata.org/entity/Q1039|Head of state"
+    },
+    {
+      "date": "2027-05-19",
+      "leaderId": "http://www.wikidata.org/entity/Q7747|http://www.wikidata.org/entity/Q159|Head of state"
+    },
+    {
+      "date": "2027-05-20",
+      "leaderId": "http://www.wikidata.org/entity/Q515602|http://www.wikidata.org/entity/Q970|Head of state and government"
+    },
+    {
+      "date": "2027-05-21",
+      "leaderId": "http://www.wikidata.org/entity/Q57537|http://www.wikidata.org/entity/Q1013|Head of state"
+    },
+    {
+      "date": "2027-05-22",
+      "leaderId": "http://www.wikidata.org/entity/Q15071069|http://www.wikidata.org/entity/Q217|Head of state"
+    },
+    {
+      "date": "2027-05-23",
+      "leaderId": "http://www.wikidata.org/entity/Q16669148|http://www.wikidata.org/entity/Q962|Head of state and government"
+    },
+    {
+      "date": "2027-05-24",
+      "leaderId": "http://www.wikidata.org/entity/Q4752077|http://www.wikidata.org/entity/Q971|Head of government"
+    },
+    {
+      "date": "2027-05-25",
+      "leaderId": "http://www.wikidata.org/entity/Q28002959|http://www.wikidata.org/entity/Q265|Head of government"
+    },
+    {
+      "date": "2027-05-26",
+      "leaderId": "http://www.wikidata.org/entity/Q12250314|http://www.wikidata.org/entity/Q842|Head of state and government"
+    },
+    {
+      "date": "2027-05-27",
+      "leaderId": "http://www.wikidata.org/entity/Q11685764|http://www.wikidata.org/entity/Q224|Head of government"
+    },
+    {
+      "date": "2027-05-28",
+      "leaderId": "http://www.wikidata.org/entity/Q192533|http://www.wikidata.org/entity/Q16|Head of government"
+    },
+    {
+      "date": "2027-05-29",
+      "leaderId": "http://www.wikidata.org/entity/Q704022|http://www.wikidata.org/entity/Q739|Head of state and government"
+    },
+    {
+      "date": "2027-05-30",
+      "leaderId": "http://www.wikidata.org/entity/Q108444479|http://www.wikidata.org/entity/Q889|Head of government"
+    },
+    {
+      "date": "2027-05-31",
+      "leaderId": "http://www.wikidata.org/entity/Q127998|http://www.wikidata.org/entity/Q219060|Head of state"
+    },
+    {
+      "date": "2027-06-01",
+      "leaderId": "http://www.wikidata.org/entity/Q9051824|http://www.wikidata.org/entity/Q8646|Head of government"
+    },
+    {
+      "date": "2027-06-02",
+      "leaderId": "http://www.wikidata.org/entity/Q2107268|http://www.wikidata.org/entity/Q252|Head of state"
+    },
+    {
+      "date": "2027-06-03",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q35|Head of government"
+    },
+    {
+      "date": "2027-06-04",
+      "leaderId": "http://www.wikidata.org/entity/Q88310768|http://www.wikidata.org/entity/Q929|Head of government"
+    },
+    {
+      "date": "2027-06-05",
+      "leaderId": "http://www.wikidata.org/entity/Q51874548|http://www.wikidata.org/entity/Q874|Head of state and government"
+    },
+    {
+      "date": "2027-06-06",
+      "leaderId": "http://www.wikidata.org/entity/Q109385659|http://www.wikidata.org/entity/Q237|Head of government"
+    },
+    {
+      "date": "2027-06-07",
+      "leaderId": "http://www.wikidata.org/entity/Q108454869|http://www.wikidata.org/entity/Q804|Head of state and government"
+    },
+    {
+      "date": "2027-06-08",
+      "leaderId": "http://www.wikidata.org/entity/Q13081568|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2027-06-09",
+      "leaderId": "http://www.wikidata.org/entity/Q112988233|http://www.wikidata.org/entity/Q1007|Head of government"
+    },
+    {
+      "date": "2027-06-10",
+      "leaderId": "http://www.wikidata.org/entity/Q59978016|http://www.wikidata.org/entity/Q219|Head of government"
+    },
+    {
+      "date": "2027-06-11",
+      "leaderId": "http://www.wikidata.org/entity/Q131749390|http://www.wikidata.org/entity/Q1039|Head of government"
+    },
+    {
+      "date": "2027-06-12",
+      "leaderId": "http://www.wikidata.org/entity/Q15222839|http://www.wikidata.org/entity/Q863|Head of government"
+    },
+    {
+      "date": "2027-06-13",
+      "leaderId": "http://www.wikidata.org/entity/Q6070218|http://www.wikidata.org/entity/Q29|Head of government"
+    },
+    {
+      "date": "2027-06-14",
+      "leaderId": "http://www.wikidata.org/entity/Q1951896|http://www.wikidata.org/entity/Q878|Head of state"
+    },
+    {
+      "date": "2027-06-15",
+      "leaderId": "http://www.wikidata.org/entity/Q109012733|http://www.wikidata.org/entity/Q712|Head of state"
+    },
+    {
+      "date": "2027-06-16",
+      "leaderId": "http://www.wikidata.org/entity/Q16193885|http://www.wikidata.org/entity/Q924|Head of state"
+    },
+    {
+      "date": "2027-06-17",
+      "leaderId": "http://www.wikidata.org/entity/Q3910|http://www.wikidata.org/entity/Q235|Head of state"
+    },
+    {
+      "date": "2027-06-18",
+      "leaderId": "http://www.wikidata.org/entity/Q16190741|http://www.wikidata.org/entity/Q686|Head of government"
+    },
+    {
+      "date": "2027-06-19",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2027-06-20",
+      "leaderId": "http://www.wikidata.org/entity/Q11764394|http://www.wikidata.org/entity/Q45|Head of government"
+    },
+    {
+      "date": "2027-06-21",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q35|Head of state"
+    },
+    {
+      "date": "2027-06-22",
+      "leaderId": "http://www.wikidata.org/entity/Q9333540|http://www.wikidata.org/entity/Q244|Head of state"
+    },
+    {
+      "date": "2027-06-23",
+      "leaderId": "http://www.wikidata.org/entity/Q11509|http://www.wikidata.org/entity/Q574|Head of government"
+    },
+    {
+      "date": "2027-06-24",
+      "leaderId": "http://www.wikidata.org/entity/Q101225458|http://www.wikidata.org/entity/Q236|Head of government"
+    },
+    {
+      "date": "2027-06-25",
+      "leaderId": "http://www.wikidata.org/entity/Q983258|http://www.wikidata.org/entity/Q801|Head of state"
+    },
+    {
+      "date": "2027-06-26",
+      "leaderId": "http://www.wikidata.org/entity/Q217096|http://www.wikidata.org/entity/Q17|Head of state"
+    },
+    {
+      "date": "2027-06-27",
+      "leaderId": "http://www.wikidata.org/entity/Q527020|http://www.wikidata.org/entity/Q1030|Head of state"
+    },
+    {
+      "date": "2027-06-28",
+      "leaderId": "http://www.wikidata.org/entity/Q105319569|http://www.wikidata.org/entity/Q1016|Head of government"
+    },
+    {
+      "date": "2027-06-29",
+      "leaderId": "http://www.wikidata.org/entity/Q5933752|http://www.wikidata.org/entity/Q794|Head of government"
+    },
+    {
+      "date": "2027-06-30",
+      "leaderId": "http://www.wikidata.org/entity/Q28860866|http://www.wikidata.org/entity/Q29999|Head of government"
+    },
+    {
+      "date": "2027-07-01",
+      "leaderId": "http://www.wikidata.org/entity/Q2821166|http://www.wikidata.org/entity/Q262|Head of state"
+    },
+    {
+      "date": "2027-07-02",
+      "leaderId": "http://www.wikidata.org/entity/Q133540883|http://www.wikidata.org/entity/Q262|Head of government"
+    },
+    {
+      "date": "2027-07-03",
+      "leaderId": "http://www.wikidata.org/entity/Q56235580|http://www.wikidata.org/entity/Q184|Head of government"
+    },
+    {
+      "date": "2027-07-04",
+      "leaderId": "http://www.wikidata.org/entity/Q13047644|http://www.wikidata.org/entity/Q1246|Head of state"
+    },
+    {
+      "date": "2027-07-05",
+      "leaderId": "http://www.wikidata.org/entity/Q6109517|http://www.wikidata.org/entity/Q237|Head of state"
+    },
+    {
+      "date": "2027-07-06",
+      "leaderId": "http://www.wikidata.org/entity/Q37181|http://www.wikidata.org/entity/Q155|Head of state and government"
+    },
+    {
+      "date": "2027-07-07",
+      "leaderId": "http://www.wikidata.org/entity/Q22209348|http://www.wikidata.org/entity/Q1006|Head of government"
+    },
+    {
+      "date": "2027-07-08",
+      "leaderId": "http://www.wikidata.org/entity/Q6496078|http://www.wikidata.org/entity/Q796|Head of state"
+    },
+    {
+      "date": "2027-07-09",
+      "leaderId": "http://www.wikidata.org/entity/Q9268379|http://www.wikidata.org/entity/Q37|Head of state"
+    },
+    {
+      "date": "2027-07-10",
+      "leaderId": "http://www.wikidata.org/entity/Q60441515|http://www.wikidata.org/entity/Q1009|Head of government"
+    },
+    {
+      "date": "2027-07-11",
+      "leaderId": "http://www.wikidata.org/entity/Q57856|http://www.wikidata.org/entity/Q1000|Head of government"
+    },
+    {
+      "date": "2027-07-12",
+      "leaderId": "http://www.wikidata.org/entity/Q57649|http://www.wikidata.org/entity/Q1011|Head of state"
+    },
+    {
+      "date": "2027-07-13",
+      "leaderId": "http://www.wikidata.org/entity/Q46675558|http://www.wikidata.org/entity/Q221|Head of government"
+    },
+    {
+      "date": "2027-07-14",
+      "leaderId": "http://www.wikidata.org/entity/Q5116472|http://www.wikidata.org/entity/Q865|Head of government"
+    },
+    {
+      "date": "2027-07-15",
+      "leaderId": "http://www.wikidata.org/entity/Q136448305|http://www.wikidata.org/entity/Q1019|Head of government"
+    },
+    {
+      "date": "2027-07-16",
+      "leaderId": "http://www.wikidata.org/entity/Q6266369|http://www.wikidata.org/entity/Q242|Head of government"
+    },
+    {
+      "date": "2027-07-17",
+      "leaderId": "http://www.wikidata.org/entity/Q1353628|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2027-07-18",
+      "leaderId": "http://www.wikidata.org/entity/Q222031|http://www.wikidata.org/entity/Q403|Head of state"
+    },
+    {
+      "date": "2027-07-19",
+      "leaderId": "http://www.wikidata.org/entity/Q27917049|http://www.wikidata.org/entity/Q1005|Head of state and government"
+    },
+    {
+      "date": "2027-07-20",
+      "leaderId": "http://www.wikidata.org/entity/Q108892374|http://www.wikidata.org/entity/Q948|Head of government"
+    },
+    {
+      "date": "2027-07-21",
+      "leaderId": "http://www.wikidata.org/entity/Q56226|http://www.wikidata.org/entity/Q423|Head of state"
+    },
+    {
+      "date": "2027-07-22",
+      "leaderId": "http://www.wikidata.org/entity/Q11163124|http://www.wikidata.org/entity/Q218|Head of state"
+    },
+    {
+      "date": "2027-07-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57274|http://www.wikidata.org/entity/Q1036|Head of state"
+    },
+    {
+      "date": "2027-07-24",
+      "leaderId": "http://www.wikidata.org/entity/Q2919350|http://www.wikidata.org/entity/Q794|Head of state"
+    },
+    {
+      "date": "2027-07-25",
+      "leaderId": "http://www.wikidata.org/entity/Q113239716|http://www.wikidata.org/entity/Q686|Head of state"
+    },
+    {
+      "date": "2027-07-26",
+      "leaderId": "http://www.wikidata.org/entity/Q6383803|http://www.wikidata.org/entity/Q145|Head of government"
+    },
+    {
+      "date": "2027-07-27",
+      "leaderId": "http://www.wikidata.org/entity/Q3462649|http://www.wikidata.org/entity/Q836|Head of government"
+    },
+    {
+      "date": "2027-07-28",
+      "leaderId": "http://www.wikidata.org/entity/Q22695687|http://www.wikidata.org/entity/Q733|Head of state"
+    },
+    {
+      "date": "2027-07-29",
+      "leaderId": "http://www.wikidata.org/entity/Q283829|http://www.wikidata.org/entity/Q1044|Head of state"
+    },
+    {
+      "date": "2027-07-30",
+      "leaderId": "http://www.wikidata.org/entity/Q124516173|http://www.wikidata.org/entity/Q37|Head of government"
+    },
+    {
+      "date": "2027-07-31",
+      "leaderId": "http://www.wikidata.org/entity/Q23034482|http://www.wikidata.org/entity/Q710|Head of state and government"
+    },
+    {
+      "date": "2027-08-01",
+      "leaderId": "http://www.wikidata.org/entity/Q66793577|http://www.wikidata.org/entity/Q1025|Head of government"
+    },
+    {
+      "date": "2027-08-02",
+      "leaderId": "http://www.wikidata.org/entity/Q12612463|http://www.wikidata.org/entity/Q884|Head of state and government"
+    },
+    {
+      "date": "2027-08-03",
+      "leaderId": "http://www.wikidata.org/entity/Q57641|http://www.wikidata.org/entity/Q28|Head of government"
+    },
+    {
+      "date": "2027-08-04",
+      "leaderId": "http://www.wikidata.org/entity/Q27058418|http://www.wikidata.org/entity/Q711|Head of state"
+    },
+    {
+      "date": "2027-08-05",
+      "leaderId": "http://www.wikidata.org/entity/Q124831090|http://www.wikidata.org/entity/Q115|Head of state"
+    },
+    {
+      "date": "2027-08-06",
+      "leaderId": "http://www.wikidata.org/entity/Q12797332|http://www.wikidata.org/entity/Q215|Head of state"
+    },
+    {
+      "date": "2027-08-07",
+      "leaderId": "http://www.wikidata.org/entity/Q112679881|http://www.wikidata.org/entity/Q769|Head of government"
+    },
+    {
+      "date": "2027-08-08",
+      "leaderId": "http://www.wikidata.org/entity/Q5528031|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2027-08-09",
+      "leaderId": "http://www.wikidata.org/entity/Q983324|http://www.wikidata.org/entity/Q928|Head of state and government"
+    },
+    {
+      "date": "2027-08-10",
+      "leaderId": "http://www.wikidata.org/entity/Q6504758|http://www.wikidata.org/entity/Q334|Head of government"
+    },
+    {
+      "date": "2027-08-11",
+      "leaderId": "http://www.wikidata.org/entity/Q4777855|http://www.wikidata.org/entity/Q854|Head of state"
+    },
+    {
+      "date": "2027-08-12",
+      "leaderId": "http://www.wikidata.org/entity/Q114835874|http://www.wikidata.org/entity/Q965|Head of government"
+    },
+    {
+      "date": "2027-08-13",
+      "leaderId": "http://www.wikidata.org/entity/Q1058|http://www.wikidata.org/entity/Q668|Head of government"
+    },
+    {
+      "date": "2027-08-14",
+      "leaderId": "http://www.wikidata.org/entity/Q97058466|http://www.wikidata.org/entity/Q1029|Head of state"
+    },
+    {
+      "date": "2027-08-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57376|http://www.wikidata.org/entity/Q917|Head of state"
+    },
+    {
+      "date": "2027-08-16",
+      "leaderId": "http://www.wikidata.org/entity/Q57315|http://www.wikidata.org/entity/Q958|Head of state"
+    },
+    {
+      "date": "2027-08-17",
+      "leaderId": "http://www.wikidata.org/entity/Q32014514|http://www.wikidata.org/entity/Q683|Head of state"
+    },
+    {
+      "date": "2027-08-18",
+      "leaderId": "http://www.wikidata.org/entity/Q131140314|http://www.wikidata.org/entity/Q790|Head of government"
+    },
+    {
+      "date": "2027-08-19",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q756617|Head of government"
+    },
+    {
+      "date": "2027-08-20",
+      "leaderId": "http://www.wikidata.org/entity/Q122067521|http://www.wikidata.org/entity/Q1000|Head of state"
+    },
+    {
+      "date": "2027-08-21",
+      "leaderId": "http://www.wikidata.org/entity/Q6138903|http://www.wikidata.org/entity/Q691|Head of government"
+    },
+    {
+      "date": "2027-08-22",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q756617|Head of state"
+    },
+    {
+      "date": "2027-08-23",
+      "leaderId": "http://www.wikidata.org/entity/Q3434569|http://www.wikidata.org/entity/Q1008|Head of government"
+    },
+    {
+      "date": "2027-08-24",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q223|Head of state"
+    },
+    {
+      "date": "2027-08-25",
+      "leaderId": "http://www.wikidata.org/entity/Q27329764|http://www.wikidata.org/entity/Q967|Head of state"
+    },
+    {
+      "date": "2027-08-26",
+      "leaderId": "http://www.wikidata.org/entity/Q104417661|http://www.wikidata.org/entity/Q236|Head of state"
+    },
+    {
+      "date": "2027-08-27",
+      "leaderId": "http://www.wikidata.org/entity/Q2356379|http://www.wikidata.org/entity/Q1410|Head of government"
+    },
+    {
+      "date": "2027-08-28",
+      "leaderId": "http://www.wikidata.org/entity/Q11665|http://www.wikidata.org/entity/Q574|Head of state"
+    },
+    {
+      "date": "2027-08-29",
+      "leaderId": "http://www.wikidata.org/entity/Q208497|http://www.wikidata.org/entity/Q678|Head of state"
+    },
+    {
+      "date": "2027-08-30",
+      "leaderId": "http://www.wikidata.org/entity/Q64840184|http://www.wikidata.org/entity/Q734|Head of state"
+    },
+    {
+      "date": "2027-08-31",
+      "leaderId": "http://www.wikidata.org/entity/Q16190544|http://www.wikidata.org/entity/Q1042|Head of state and government"
+    },
+    {
+      "date": "2027-09-01",
+      "leaderId": "http://www.wikidata.org/entity/Q50365049|http://www.wikidata.org/entity/Q115|Head of government"
+    },
+    {
+      "date": "2027-09-02",
+      "leaderId": "http://www.wikidata.org/entity/Q12850075|http://www.wikidata.org/entity/Q227|Head of government"
+    },
+    {
+      "date": "2027-09-03",
+      "leaderId": "http://www.wikidata.org/entity/Q57352|http://www.wikidata.org/entity/Q398|Head of state"
+    },
+    {
+      "date": "2027-09-04",
+      "leaderId": "http://www.wikidata.org/entity/Q57712|http://www.wikidata.org/entity/Q754|Head of government"
+    },
+    {
+      "date": "2027-09-05",
+      "leaderId": "http://www.wikidata.org/entity/Q57373|http://www.wikidata.org/entity/Q843|Head of state"
+    },
+    {
+      "date": "2027-09-06",
+      "leaderId": "http://www.wikidata.org/entity/Q122208779|http://www.wikidata.org/entity/Q784|Head of state"
+    },
+    {
+      "date": "2027-09-07",
+      "leaderId": "http://www.wikidata.org/entity/Q566257|http://www.wikidata.org/entity/Q183|Head of government"
+    },
+    {
+      "date": "2027-09-08",
+      "leaderId": "http://www.wikidata.org/entity/Q155004|http://www.wikidata.org/entity/Q31|Head of state"
+    },
+    {
+      "date": "2027-09-09",
+      "leaderId": "http://www.wikidata.org/entity/Q161319|http://www.wikidata.org/entity/Q32|Head of state"
+    },
+    {
+      "date": "2027-09-10",
+      "leaderId": "http://www.wikidata.org/entity/Q27885302|http://www.wikidata.org/entity/Q230|Head of government"
+    },
+    {
+      "date": "2027-09-11",
+      "leaderId": "http://www.wikidata.org/entity/Q61121565|http://www.wikidata.org/entity/Q211|Head of government"
+    },
+    {
+      "date": "2027-09-12",
+      "leaderId": "http://www.wikidata.org/entity/Q1647394|http://www.wikidata.org/entity/Q233|Head of state"
+    },
+    {
+      "date": "2027-09-13",
+      "leaderId": "http://www.wikidata.org/entity/Q17330556|http://www.wikidata.org/entity/Q214|Head of state"
+    },
+    {
+      "date": "2027-09-14",
+      "leaderId": "http://www.wikidata.org/entity/Q62481397|http://www.wikidata.org/entity/Q1036|Head of government"
+    },
+    {
+      "date": "2027-09-15",
+      "leaderId": "http://www.wikidata.org/entity/Q7849613|http://www.wikidata.org/entity/Q917|Head of government"
+    },
+    {
+      "date": "2027-09-16",
+      "leaderId": "http://www.wikidata.org/entity/Q10819807|http://www.wikidata.org/entity/Q213|Head of government"
+    },
+    {
+      "date": "2027-09-17",
+      "leaderId": "http://www.wikidata.org/entity/Q3183124|http://www.wikidata.org/entity/Q837|Head of state"
+    },
+    {
+      "date": "2027-09-18",
+      "leaderId": "http://www.wikidata.org/entity/Q68837007|http://www.wikidata.org/entity/Q805|Head of government"
+    },
+    {
+      "date": "2027-09-19",
+      "leaderId": "http://www.wikidata.org/entity/Q63967715|http://www.wikidata.org/entity/Q974|Head of government"
+    },
+    {
+      "date": "2027-09-20",
+      "leaderId": "http://www.wikidata.org/entity/Q12241106|http://www.wikidata.org/entity/Q1025|Head of state"
+    },
+    {
+      "date": "2027-09-21",
+      "leaderId": "http://www.wikidata.org/entity/Q17712353|http://www.wikidata.org/entity/Q792|Head of state and government"
+    },
+    {
+      "date": "2027-09-22",
+      "leaderId": "http://www.wikidata.org/entity/Q200881|http://www.wikidata.org/entity/Q232|Head of state"
+    },
+    {
+      "date": "2027-09-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57758|http://www.wikidata.org/entity/Q929|Head of state"
+    },
+    {
+      "date": "2027-09-24",
+      "leaderId": "http://www.wikidata.org/entity/Q57454|http://www.wikidata.org/entity/Q347|Head of state"
+    },
+    {
+      "date": "2027-09-25",
+      "leaderId": "http://www.wikidata.org/entity/Q57402|http://www.wikidata.org/entity/Q811|Head of state and government"
+    },
+    {
+      "date": "2027-09-26",
+      "leaderId": "http://www.wikidata.org/entity/Q7183082|http://www.wikidata.org/entity/Q778|Head of government"
+    },
+    {
+      "date": "2027-09-27",
+      "leaderId": "http://www.wikidata.org/entity/Q548733|http://www.wikidata.org/entity/Q869|Head of state"
+    },
+    {
+      "date": "2027-09-28",
+      "leaderId": "http://www.wikidata.org/entity/Q78869|http://www.wikidata.org/entity/Q40|Head of state"
+    },
+    {
+      "date": "2027-09-29",
+      "leaderId": "http://www.wikidata.org/entity/Q18538164|http://www.wikidata.org/entity/Q218|Head of government"
+    },
+    {
+      "date": "2027-09-30",
+      "leaderId": "http://www.wikidata.org/entity/Q26703072|http://www.wikidata.org/entity/Q695|Head of state and government"
+    },
+    {
+      "date": "2027-10-01",
+      "leaderId": "http://www.wikidata.org/entity/Q5178674|http://www.wikidata.org/entity/Q235|Head of government"
+    },
+    {
+      "date": "2027-10-02",
+      "leaderId": "http://www.wikidata.org/entity/Q135454730|http://www.wikidata.org/entity/Q1037|Head of government"
+    },
+    {
+      "date": "2027-10-03",
+      "leaderId": "http://www.wikidata.org/entity/Q57413|http://www.wikidata.org/entity/Q1008|Head of state"
+    },
+    {
+      "date": "2027-10-04",
+      "leaderId": "http://www.wikidata.org/entity/Q15081116|http://www.wikidata.org/entity/Q717|Head of state"
+    },
+    {
+      "date": "2027-10-05",
+      "leaderId": "http://www.wikidata.org/entity/Q16146159|http://www.wikidata.org/entity/Q783|Head of state and government"
+    },
+    {
+      "date": "2027-10-06",
+      "leaderId": "http://www.wikidata.org/entity/Q552751|http://www.wikidata.org/entity/Q41|Head of government"
+    },
+    {
+      "date": "2027-10-07",
+      "leaderId": "http://www.wikidata.org/entity/Q16120878|http://www.wikidata.org/entity/Q948|Head of state"
+    },
+    {
+      "date": "2027-10-08",
+      "leaderId": "http://www.wikidata.org/entity/Q503143|http://www.wikidata.org/entity/Q33|Head of state"
+    },
+    {
+      "date": "2027-10-09",
+      "leaderId": "http://www.wikidata.org/entity/Q57390|http://www.wikidata.org/entity/Q977|Head of state"
+    },
+    {
+      "date": "2027-10-10",
+      "leaderId": "http://www.wikidata.org/entity/Q297825|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2027-10-11",
+      "leaderId": "http://www.wikidata.org/entity/Q20995518|http://www.wikidata.org/entity/Q41|Head of state"
+    },
+    {
+      "date": "2027-10-12",
+      "leaderId": "http://www.wikidata.org/entity/Q1148669|http://www.wikidata.org/entity/Q258|Head of state and government"
+    },
+    {
+      "date": "2027-10-13",
+      "leaderId": "http://www.wikidata.org/entity/Q315500|http://www.wikidata.org/entity/Q837|Head of government"
+    },
+    {
+      "date": "2027-10-14",
+      "leaderId": "http://www.wikidata.org/entity/Q19810371|http://www.wikidata.org/entity/Q19801186|Head of state"
+    },
+    {
+      "date": "2027-10-15",
+      "leaderId": "http://www.wikidata.org/entity/Q112703041|http://www.wikidata.org/entity/Q813|Head of government"
+    },
+    {
+      "date": "2027-10-16",
+      "leaderId": "http://www.wikidata.org/entity/Q6766871|http://www.wikidata.org/entity/Q26988|Head of government"
+    },
+    {
+      "date": "2027-10-17",
+      "leaderId": "http://www.wikidata.org/entity/Q1231345|http://www.wikidata.org/entity/Q1037|Head of state"
+    },
+    {
+      "date": "2027-10-18",
+      "leaderId": "http://www.wikidata.org/entity/Q1346506432|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2027-10-19",
+      "leaderId": "http://www.wikidata.org/entity/Q13026319|http://www.wikidata.org/entity/Q869|Head of government"
+    },
+    {
+      "date": "2027-10-20",
+      "leaderId": "http://www.wikidata.org/entity/Q57687|http://www.wikidata.org/entity/Q224|Head of state"
+    },
+    {
+      "date": "2027-10-21",
+      "leaderId": "http://www.wikidata.org/entity/Q136500275|http://www.wikidata.org/entity/Q1019|Head of state"
+    },
+    {
+      "date": "2027-10-22",
+      "leaderId": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state"
+    },
+    {
+      "date": "2027-10-23",
+      "leaderId": "http://www.wikidata.org/entity/Q7035479|http://www.wikidata.org/entity/Q399|Head of government"
+    },
+    {
+      "date": "2027-10-24",
+      "leaderId": "http://www.wikidata.org/entity/Q23728768|http://www.wikidata.org/entity/Q1044|Head of government"
+    },
+    {
+      "date": "2027-10-25",
+      "leaderId": "http://www.wikidata.org/entity/Q441633|http://www.wikidata.org/entity/Q1246|Head of government"
+    },
+    {
+      "date": "2027-10-26",
+      "leaderId": "http://www.wikidata.org/entity/Q54901515|http://www.wikidata.org/entity/Q79|Head of government"
+    },
+    {
+      "date": "2027-10-27",
+      "leaderId": "http://www.wikidata.org/entity/Q50678|http://www.wikidata.org/entity/Q117|Head of state"
+    },
+    {
+      "date": "2027-10-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57606|http://www.wikidata.org/entity/Q214|Head of government"
+    },
+    {
+      "date": "2027-10-29",
+      "leaderId": "http://www.wikidata.org/entity/Q2096387|http://www.wikidata.org/entity/Q843|Head of government"
+    },
+    {
+      "date": "2027-10-30",
+      "leaderId": "manual|Q458|Head of government"
+    },
+    {
+      "date": "2027-10-31",
+      "leaderId": "http://www.wikidata.org/entity/Q6180897|http://www.wikidata.org/entity/Q685|Head of government"
+    },
+    {
+      "date": "2027-11-01",
+      "leaderId": "http://www.wikidata.org/entity/Q57553|http://www.wikidata.org/entity/Q1028|Head of state"
+    },
+    {
+      "date": "2027-11-02",
+      "leaderId": "http://www.wikidata.org/entity/Q129263796|http://www.wikidata.org/entity/Q983|Head of government"
+    },
+    {
+      "date": "2027-11-03",
+      "leaderId": "http://www.wikidata.org/entity/Q45068|http://www.wikidata.org/entity/Q34|Head of state"
+    },
+    {
+      "date": "2027-11-04",
+      "leaderId": "http://www.wikidata.org/entity/Q3047551|http://www.wikidata.org/entity/Q211|Head of state"
+    },
+    {
+      "date": "2027-11-05",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q142|Head of state"
+    },
+    {
+      "date": "2027-11-06",
+      "leaderId": "http://www.wikidata.org/entity/Q98017689|http://www.wikidata.org/entity/Q800|Head of state and government"
+    },
+    {
+      "date": "2027-11-07",
+      "leaderId": "http://www.wikidata.org/entity/Q1780398|http://www.wikidata.org/entity/Q34|Head of government"
+    },
+    {
+      "date": "2027-11-08",
+      "leaderId": "http://www.wikidata.org/entity/Q6029546|http://www.wikidata.org/entity/Q33|Head of government"
+    },
+    {
+      "date": "2027-11-09",
+      "leaderId": "http://www.wikidata.org/entity/Q5441662|http://www.wikidata.org/entity/Q672|Head of government"
+    },
+    {
+      "date": "2027-11-10",
+      "leaderId": "http://www.wikidata.org/entity/Q43969|http://www.wikidata.org/entity/Q902|Head of government"
+    },
+    {
+      "date": "2027-11-11",
+      "leaderId": "http://www.wikidata.org/entity/Q387491|http://www.wikidata.org/entity/Q225|Head of government"
+    },
+    {
+      "date": "2027-11-12",
+      "leaderId": "http://www.wikidata.org/entity/Q107254030|http://www.wikidata.org/entity/Q774|Head of state and government"
+    },
+    {
+      "date": "2027-11-13",
+      "leaderId": "http://www.wikidata.org/entity/Q27654948|http://www.wikidata.org/entity/Q1049|Head of government"
+    },
+    {
+      "date": "2027-11-14",
+      "leaderId": "http://www.wikidata.org/entity/Q3401447|http://www.wikidata.org/entity/Q1027|Head of government"
+    },
+    {
+      "date": "2027-11-15",
+      "leaderId": "http://www.wikidata.org/entity/Q17704749|http://www.wikidata.org/entity/Q36|Head of state"
+    },
+    {
+      "date": "2027-11-16",
+      "leaderId": "http://www.wikidata.org/entity/Q56825894|http://www.wikidata.org/entity/Q232|Head of government"
+    },
+    {
+      "date": "2027-11-17",
+      "leaderId": "http://www.wikidata.org/entity/Q29033962|http://www.wikidata.org/entity/Q822|Head of state"
+    },
+    {
+      "date": "2027-11-18",
+      "leaderId": "http://www.wikidata.org/entity/Q29032770|http://www.wikidata.org/entity/Q974|Head of state"
+    },
+    {
+      "date": "2027-11-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57340|http://www.wikidata.org/entity/Q1050|Head of state"
+    },
+    {
+      "date": "2027-11-20",
+      "leaderId": "http://www.wikidata.org/entity/Q6761049|http://www.wikidata.org/entity/Q1029|Head of government"
+    },
+    {
+      "date": "2027-11-21",
+      "leaderId": "http://www.wikidata.org/entity/Q12277168|http://www.wikidata.org/entity/Q221|Head of state"
+    },
+    {
+      "date": "2027-11-22",
+      "leaderId": "http://www.wikidata.org/entity/Q6827147|http://www.wikidata.org/entity/Q244|Head of government"
+    },
+    {
+      "date": "2027-11-23",
+      "leaderId": "http://www.wikidata.org/entity/Q114341246|http://www.wikidata.org/entity/Q965|Head of state"
+    },
+    {
+      "date": "2027-11-24",
+      "leaderId": "http://www.wikidata.org/entity/Q3847080|http://www.wikidata.org/entity/Q865|Head of state"
+    },
+    {
+      "date": "2027-11-25",
+      "leaderId": "http://www.wikidata.org/entity/Q23020336|http://www.wikidata.org/entity/Q846|Head of government"
+    },
+    {
+      "date": "2027-11-26",
+      "leaderId": "http://www.wikidata.org/entity/Q2866|http://www.wikidata.org/entity/Q184|Head of state"
+    },
+    {
+      "date": "2027-11-27",
+      "leaderId": "http://www.wikidata.org/entity/Q3700793|http://www.wikidata.org/entity/Q796|Head of government"
+    },
+    {
+      "date": "2027-11-28",
+      "leaderId": "http://www.wikidata.org/entity/Q43723|http://www.wikidata.org/entity/Q801|Head of government"
+    },
+    {
+      "date": "2027-11-29",
+      "leaderId": "http://www.wikidata.org/entity/Q57287|http://www.wikidata.org/entity/Q20|Head of state"
+    },
+    {
+      "date": "2027-11-30",
+      "leaderId": "http://www.wikidata.org/entity/Q433338|http://www.wikidata.org/entity/Q219|Head of state"
+    },
+    {
+      "date": "2027-12-01",
+      "leaderId": "http://www.wikidata.org/entity/Q107136851|http://www.wikidata.org/entity/Q967|Head of government"
+    },
+    {
+      "date": "2027-12-02",
+      "leaderId": "http://www.wikidata.org/entity/Q116763154|http://www.wikidata.org/entity/Q902|Head of state"
+    },
+    {
+      "date": "2027-12-03",
+      "leaderId": "http://www.wikidata.org/entity/Q592101|http://www.wikidata.org/entity/Q32|Head of government"
+    },
+    {
+      "date": "2027-12-04",
+      "leaderId": "http://www.wikidata.org/entity/Q37860840|http://www.wikidata.org/entity/Q233|Head of government"
+    },
+    {
+      "date": "2027-12-05",
+      "leaderId": "http://www.wikidata.org/entity/Q4298520|http://www.wikidata.org/entity/Q159|Head of government"
+    },
+    {
+      "date": "2027-12-06",
+      "leaderId": "http://www.wikidata.org/entity/Q367825|http://www.wikidata.org/entity/Q851|Head of state and government"
+    },
+    {
+      "date": "2027-12-07",
+      "leaderId": "http://www.wikidata.org/entity/Q16594097|http://www.wikidata.org/entity/Q786|Head of state and government"
+    },
+    {
+      "date": "2027-12-08",
+      "leaderId": "http://www.wikidata.org/entity/Q97011032|http://www.wikidata.org/entity/Q810|Head of government"
+    },
+    {
+      "date": "2027-12-09",
+      "leaderId": "http://www.wikidata.org/entity/Q2080040|http://www.wikidata.org/entity/Q213|Head of state"
+    },
+    {
+      "date": "2027-12-10",
+      "leaderId": "http://www.wikidata.org/entity/Q638463|http://www.wikidata.org/entity/Q822|Head of government"
+    },
+    {
+      "date": "2027-12-11",
+      "leaderId": "http://www.wikidata.org/entity/Q39259|http://www.wikidata.org/entity/Q43|Head of state and government"
+    },
+    {
+      "date": "2027-12-12",
+      "leaderId": "http://www.wikidata.org/entity/Q191045|http://www.wikidata.org/entity/Q29|Head of state"
+    },
+    {
+      "date": "2027-12-13",
+      "leaderId": "http://www.wikidata.org/entity/Q98053664|http://www.wikidata.org/entity/Q734|Head of government"
+    },
+    {
+      "date": "2027-12-14",
+      "leaderId": "http://www.wikidata.org/entity/Q440403|http://www.wikidata.org/entity/Q730|Head of state and government"
+    },
+    {
+      "date": "2027-12-15",
+      "leaderId": "http://www.wikidata.org/entity/Q16262782|http://www.wikidata.org/entity/Q223|Head of government"
+    },
+    {
+      "date": "2027-12-16",
+      "leaderId": "http://www.wikidata.org/entity/Q319153|http://www.wikidata.org/entity/Q1045|Head of state"
+    },
+    {
+      "date": "2027-12-17",
+      "leaderId": "http://www.wikidata.org/entity/Q57418|http://www.wikidata.org/entity/Q971|Head of state"
+    },
+    {
+      "date": "2027-12-18",
+      "leaderId": "http://www.wikidata.org/entity/Q10831196|http://www.wikidata.org/entity/Q881|Head of state"
+    },
+    {
+      "date": "2027-12-19",
+      "leaderId": "http://www.wikidata.org/entity/Q1855372|http://www.wikidata.org/entity/Q846|Head of state"
+    },
+    {
+      "date": "2027-12-20",
+      "leaderId": "http://www.wikidata.org/entity/Q24237654|http://www.wikidata.org/entity/Q889|Head of state"
+    },
+    {
+      "date": "2027-12-21",
+      "leaderId": "http://www.wikidata.org/entity/Q47026361|http://www.wikidata.org/entity/Q13706|Head of state"
+    },
+    {
+      "date": "2027-12-22",
+      "leaderId": "http://www.wikidata.org/entity/Q124382437|http://www.wikidata.org/entity/Q1041|Head of state and government"
+    },
+    {
+      "date": "2027-12-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57723|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2027-12-24",
+      "leaderId": "http://www.wikidata.org/entity/Q717185|http://www.wikidata.org/entity/Q953|Head of state"
+    },
+    {
+      "date": "2027-12-25",
+      "leaderId": "http://www.wikidata.org/entity/Q3510872|http://www.wikidata.org/entity/Q1033|Head of state and government"
+    },
+    {
+      "date": "2027-12-26",
+      "leaderId": "http://www.wikidata.org/entity/Q10522744|http://www.wikidata.org/entity/Q977|Head of government"
+    },
+    {
+      "date": "2027-12-27",
+      "leaderId": "http://www.wikidata.org/entity/Q28599854|http://www.wikidata.org/entity/Q28|Head of state"
+    },
+    {
+      "date": "2027-12-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57823|http://www.wikidata.org/entity/Q784|Head of government"
+    },
+    {
+      "date": "2027-12-29",
+      "leaderId": "http://www.wikidata.org/entity/Q76658|http://www.wikidata.org/entity/Q183|Head of state"
+    },
+    {
+      "date": "2027-12-30",
+      "leaderId": "http://www.wikidata.org/entity/Q25597826|http://www.wikidata.org/entity/Q813|Head of state"
+    },
+    {
+      "date": "2027-12-31",
+      "leaderId": "http://www.wikidata.org/entity/Q48905549|http://www.wikidata.org/entity/Q229|Head of state and government"
+    },
+    {
+      "date": "2028-01-01",
+      "leaderId": "http://www.wikidata.org/entity/Q93244592|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2028-01-02",
+      "leaderId": "http://www.wikidata.org/entity/Q3553274|http://www.wikidata.org/entity/Q399|Head of state"
+    },
+    {
+      "date": "2028-01-03",
+      "leaderId": "http://www.wikidata.org/entity/Q1932603|http://www.wikidata.org/entity/Q241|Head of state"
+    },
+    {
+      "date": "2028-01-04",
+      "leaderId": "http://www.wikidata.org/entity/Q18645045|http://www.wikidata.org/entity/Q215|Head of government"
+    },
+    {
+      "date": "2028-01-05",
+      "leaderId": "http://www.wikidata.org/entity/Q3956186|http://www.wikidata.org/entity/Q38|Head of state"
+    },
+    {
+      "date": "2028-01-06",
+      "leaderId": "http://www.wikidata.org/entity/Q2646711|http://www.wikidata.org/entity/Q1032|Head of government"
+    },
+    {
+      "date": "2028-01-07",
+      "leaderId": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state"
+    },
+    {
+      "date": "2028-01-08",
+      "leaderId": "http://www.wikidata.org/entity/Q116293030|http://www.wikidata.org/entity/Q826|Head of state and government"
+    },
+    {
+      "date": "2028-01-09",
+      "leaderId": "http://www.wikidata.org/entity/Q12358575|http://www.wikidata.org/entity/Q191|Head of state"
+    },
+    {
+      "date": "2028-01-10",
+      "leaderId": "http://www.wikidata.org/entity/Q57385|http://www.wikidata.org/entity/Q983|Head of state"
+    },
+    {
+      "date": "2028-01-11",
+      "leaderId": "http://www.wikidata.org/entity/Q467948|http://www.wikidata.org/entity/Q20|Head of government"
+    },
+    {
+      "date": "2028-01-12",
+      "leaderId": "http://www.wikidata.org/entity/Q3874799|http://www.wikidata.org/entity/Q212|Head of state"
+    },
+    {
+      "date": "2028-01-13",
+      "leaderId": "http://www.wikidata.org/entity/Q108856371|http://www.wikidata.org/entity/Q189|Head of government"
+    },
+    {
+      "date": "2028-01-14",
+      "leaderId": "http://www.wikidata.org/entity/Q57348|http://www.wikidata.org/entity/Q986|Head of state and government"
+    },
+    {
+      "date": "2028-01-15",
+      "leaderId": "http://www.wikidata.org/entity/Q107422711|http://www.wikidata.org/entity/Q222|Head of state"
+    },
+    {
+      "date": "2028-01-16",
+      "leaderId": "http://www.wikidata.org/entity/Q5937916|http://www.wikidata.org/entity/Q298|Head of government"
+    },
+    {
+      "date": "2028-01-17",
+      "leaderId": "http://www.wikidata.org/entity/Q57641|http://www.wikidata.org/entity/Q28|Head of government"
+    },
+    {
+      "date": "2028-01-18",
+      "leaderId": "http://www.wikidata.org/entity/Q15031|http://www.wikidata.org/entity/Q148|Head of state"
+    },
+    {
+      "date": "2028-01-19",
+      "leaderId": "http://www.wikidata.org/entity/Q9268379|http://www.wikidata.org/entity/Q37|Head of state"
+    },
+    {
+      "date": "2028-01-20",
+      "leaderId": "http://www.wikidata.org/entity/Q718601|http://www.wikidata.org/entity/Q117|Head of government"
+    },
+    {
+      "date": "2028-01-21",
+      "leaderId": "http://www.wikidata.org/entity/Q3401447|http://www.wikidata.org/entity/Q1027|Head of government"
+    },
+    {
+      "date": "2028-01-22",
+      "leaderId": "http://www.wikidata.org/entity/Q272416|http://www.wikidata.org/entity/Q230|Head of state"
+    },
+    {
+      "date": "2028-01-23",
+      "leaderId": "http://www.wikidata.org/entity/Q2096387|http://www.wikidata.org/entity/Q843|Head of government"
+    },
+    {
+      "date": "2028-01-24",
+      "leaderId": "http://www.wikidata.org/entity/Q6138903|http://www.wikidata.org/entity/Q691|Head of government"
+    },
+    {
+      "date": "2028-01-25",
+      "leaderId": "http://www.wikidata.org/entity/Q21001195|http://www.wikidata.org/entity/Q228|Head of government"
+    },
+    {
+      "date": "2028-01-26",
+      "leaderId": "http://www.wikidata.org/entity/Q109012733|http://www.wikidata.org/entity/Q712|Head of state"
+    },
+    {
+      "date": "2028-01-27",
+      "leaderId": "http://www.wikidata.org/entity/Q3874799|http://www.wikidata.org/entity/Q212|Head of state"
+    },
+    {
+      "date": "2028-01-28",
+      "leaderId": "http://www.wikidata.org/entity/Q1647394|http://www.wikidata.org/entity/Q233|Head of state"
+    },
+    {
+      "date": "2028-01-29",
+      "leaderId": "http://www.wikidata.org/entity/Q10806940|http://www.wikidata.org/entity/Q881|Head of government"
+    },
+    {
+      "date": "2028-01-30",
+      "leaderId": "http://www.wikidata.org/entity/Q27058418|http://www.wikidata.org/entity/Q711|Head of state"
+    },
+    {
+      "date": "2028-01-31",
+      "leaderId": "http://www.wikidata.org/entity/Q114341246|http://www.wikidata.org/entity/Q965|Head of state"
+    },
+    {
+      "date": "2028-02-01",
+      "leaderId": "http://www.wikidata.org/entity/Q28860866|http://www.wikidata.org/entity/Q29999|Head of government"
+    },
+    {
+      "date": "2028-02-02",
+      "leaderId": "http://www.wikidata.org/entity/Q6029546|http://www.wikidata.org/entity/Q33|Head of government"
+    },
+    {
+      "date": "2028-02-03",
+      "leaderId": "http://www.wikidata.org/entity/Q6496078|http://www.wikidata.org/entity/Q796|Head of state"
+    },
+    {
+      "date": "2028-02-04",
+      "leaderId": "http://www.wikidata.org/entity/Q2630483|http://www.wikidata.org/entity/Q1014|Head of state and government"
+    },
+    {
+      "date": "2028-02-05",
+      "leaderId": "http://www.wikidata.org/entity/Q6109517|http://www.wikidata.org/entity/Q237|Head of state"
+    },
+    {
+      "date": "2028-02-06",
+      "leaderId": "http://www.wikidata.org/entity/Q7849613|http://www.wikidata.org/entity/Q917|Head of government"
+    },
+    {
+      "date": "2028-02-07",
+      "leaderId": "http://www.wikidata.org/entity/Q15081116|http://www.wikidata.org/entity/Q717|Head of state"
+    },
+    {
+      "date": "2028-02-08",
+      "leaderId": "http://www.wikidata.org/entity/Q7035479|http://www.wikidata.org/entity/Q399|Head of government"
+    },
+    {
+      "date": "2028-02-09",
+      "leaderId": "http://www.wikidata.org/entity/Q9051824|http://www.wikidata.org/entity/Q8646|Head of government"
+    },
+    {
+      "date": "2028-02-10",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q142|Head of state"
+    },
+    {
+      "date": "2028-02-11",
+      "leaderId": "http://www.wikidata.org/entity/Q16669148|http://www.wikidata.org/entity/Q962|Head of state and government"
+    },
+    {
+      "date": "2028-02-12",
+      "leaderId": "http://www.wikidata.org/entity/Q6169516|http://www.wikidata.org/entity/Q945|Head of state"
+    },
+    {
+      "date": "2028-02-13",
+      "leaderId": "http://www.wikidata.org/entity/Q13047644|http://www.wikidata.org/entity/Q1246|Head of state"
+    },
+    {
+      "date": "2028-02-14",
+      "leaderId": "http://www.wikidata.org/entity/Q124846311|http://www.wikidata.org/entity/Q790|Head of state"
+    },
+    {
+      "date": "2028-02-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57287|http://www.wikidata.org/entity/Q20|Head of state"
+    },
+    {
+      "date": "2028-02-16",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q223|Head of state"
+    },
+    {
+      "date": "2028-02-17",
+      "leaderId": "http://www.wikidata.org/entity/Q108892374|http://www.wikidata.org/entity/Q948|Head of government"
+    },
+    {
+      "date": "2028-02-18",
+      "leaderId": "http://www.wikidata.org/entity/Q57723|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2028-02-19",
+      "leaderId": "http://www.wikidata.org/entity/Q22686|http://www.wikidata.org/entity/Q30|Head of state and government"
+    },
+    {
+      "date": "2028-02-20",
+      "leaderId": "http://www.wikidata.org/entity/Q387491|http://www.wikidata.org/entity/Q225|Head of government"
+    },
+    {
+      "date": "2028-02-21",
+      "leaderId": "http://www.wikidata.org/entity/Q16146159|http://www.wikidata.org/entity/Q783|Head of state and government"
+    },
+    {
+      "date": "2028-02-22",
+      "leaderId": "http://www.wikidata.org/entity/Q15071069|http://www.wikidata.org/entity/Q217|Head of state"
+    },
+    {
+      "date": "2028-02-23",
+      "leaderId": "http://www.wikidata.org/entity/Q1932603|http://www.wikidata.org/entity/Q241|Head of state"
+    },
+    {
+      "date": "2028-02-24",
+      "leaderId": "http://www.wikidata.org/entity/Q1789192|http://www.wikidata.org/entity/Q191|Head of government"
+    },
+    {
+      "date": "2028-02-25",
+      "leaderId": "http://www.wikidata.org/entity/Q441633|http://www.wikidata.org/entity/Q1246|Head of government"
+    },
+    {
+      "date": "2028-02-26",
+      "leaderId": "http://www.wikidata.org/entity/Q6761049|http://www.wikidata.org/entity/Q1029|Head of government"
+    },
+    {
+      "date": "2028-02-27",
+      "leaderId": "http://www.wikidata.org/entity/Q20995518|http://www.wikidata.org/entity/Q41|Head of state"
+    },
+    {
+      "date": "2028-02-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57687|http://www.wikidata.org/entity/Q224|Head of state"
+    },
+    {
+      "date": "2028-02-29",
+      "leaderId": "http://www.wikidata.org/entity/Q58140|http://www.wikidata.org/entity/Q398|Head of government"
+    },
+    {
+      "date": "2028-03-01",
+      "leaderId": "http://www.wikidata.org/entity/Q9333540|http://www.wikidata.org/entity/Q244|Head of state"
+    },
+    {
+      "date": "2028-03-02",
+      "leaderId": "http://www.wikidata.org/entity/Q16190741|http://www.wikidata.org/entity/Q686|Head of government"
+    },
+    {
+      "date": "2028-03-03",
+      "leaderId": "http://www.wikidata.org/entity/Q57352|http://www.wikidata.org/entity/Q398|Head of state"
+    },
+    {
+      "date": "2028-03-04",
+      "leaderId": "http://www.wikidata.org/entity/Q32014514|http://www.wikidata.org/entity/Q683|Head of state"
+    },
+    {
+      "date": "2028-03-05",
+      "leaderId": "http://www.wikidata.org/entity/Q2646711|http://www.wikidata.org/entity/Q1032|Head of government"
+    },
+    {
+      "date": "2028-03-06",
+      "leaderId": "http://www.wikidata.org/entity/Q108856371|http://www.wikidata.org/entity/Q189|Head of government"
+    },
+    {
+      "date": "2028-03-07",
+      "leaderId": "http://www.wikidata.org/entity/Q515602|http://www.wikidata.org/entity/Q970|Head of state and government"
+    },
+    {
+      "date": "2028-03-08",
+      "leaderId": "http://www.wikidata.org/entity/Q19810371|http://www.wikidata.org/entity/Q19801186|Head of state"
+    },
+    {
+      "date": "2028-03-09",
+      "leaderId": "http://www.wikidata.org/entity/Q62481397|http://www.wikidata.org/entity/Q1036|Head of government"
+    },
+    {
+      "date": "2028-03-10",
+      "leaderId": "http://www.wikidata.org/entity/Q6766871|http://www.wikidata.org/entity/Q26988|Head of government"
+    },
+    {
+      "date": "2028-03-11",
+      "leaderId": "http://www.wikidata.org/entity/Q78869|http://www.wikidata.org/entity/Q40|Head of state"
+    },
+    {
+      "date": "2028-03-12",
+      "leaderId": "http://www.wikidata.org/entity/Q110520817|http://www.wikidata.org/entity/Q750|Head of state and government"
+    },
+    {
+      "date": "2028-03-13",
+      "leaderId": "http://www.wikidata.org/entity/Q16193885|http://www.wikidata.org/entity/Q924|Head of state"
+    },
+    {
+      "date": "2028-03-14",
+      "leaderId": "http://www.wikidata.org/entity/Q112075625|http://www.wikidata.org/entity/Q736|Head of state and government"
+    },
+    {
+      "date": "2028-03-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57856|http://www.wikidata.org/entity/Q1000|Head of government"
+    },
+    {
+      "date": "2028-03-16",
+      "leaderId": "http://www.wikidata.org/entity/Q120965176|http://www.wikidata.org/entity/Q1032|Head of state"
+    },
+    {
+      "date": "2028-03-17",
+      "leaderId": "http://www.wikidata.org/entity/Q22695687|http://www.wikidata.org/entity/Q733|Head of state"
+    },
+    {
+      "date": "2028-03-18",
+      "leaderId": "http://www.wikidata.org/entity/Q3700793|http://www.wikidata.org/entity/Q796|Head of government"
+    },
+    {
+      "date": "2028-03-19",
+      "leaderId": "http://www.wikidata.org/entity/Q28002959|http://www.wikidata.org/entity/Q265|Head of government"
+    },
+    {
+      "date": "2028-03-20",
+      "leaderId": "http://www.wikidata.org/entity/Q57712|http://www.wikidata.org/entity/Q754|Head of government"
+    },
+    {
+      "date": "2028-03-21",
+      "leaderId": "http://www.wikidata.org/entity/Q122208779|http://www.wikidata.org/entity/Q784|Head of state"
+    },
+    {
+      "date": "2028-03-22",
+      "leaderId": "http://www.wikidata.org/entity/Q433338|http://www.wikidata.org/entity/Q219|Head of state"
+    },
+    {
+      "date": "2028-03-23",
+      "leaderId": "http://www.wikidata.org/entity/Q28599854|http://www.wikidata.org/entity/Q28|Head of state"
+    },
+    {
+      "date": "2028-03-24",
+      "leaderId": "http://www.wikidata.org/entity/Q136448305|http://www.wikidata.org/entity/Q1019|Head of government"
+    },
+    {
+      "date": "2028-03-25",
+      "leaderId": "http://www.wikidata.org/entity/Q23728768|http://www.wikidata.org/entity/Q1044|Head of government"
+    },
+    {
+      "date": "2028-03-26",
+      "leaderId": "http://www.wikidata.org/entity/Q1638114|http://www.wikidata.org/entity/Q1028|Head of government"
+    },
+    {
+      "date": "2028-03-27",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q35|Head of government"
+    },
+    {
+      "date": "2028-03-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57274|http://www.wikidata.org/entity/Q1036|Head of state"
+    },
+    {
+      "date": "2028-03-29",
+      "leaderId": "http://www.wikidata.org/entity/Q2919350|http://www.wikidata.org/entity/Q794|Head of state"
+    },
+    {
+      "date": "2028-03-30",
+      "leaderId": "http://www.wikidata.org/entity/Q124382437|http://www.wikidata.org/entity/Q1041|Head of state and government"
+    },
+    {
+      "date": "2028-03-31",
+      "leaderId": "http://www.wikidata.org/entity/Q1058|http://www.wikidata.org/entity/Q668|Head of government"
+    },
+    {
+      "date": "2028-04-01",
+      "leaderId": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state"
+    },
+    {
+      "date": "2028-04-02",
+      "leaderId": "http://www.wikidata.org/entity/Q3510872|http://www.wikidata.org/entity/Q1033|Head of state and government"
+    },
+    {
+      "date": "2028-04-03",
+      "leaderId": "http://www.wikidata.org/entity/Q57340|http://www.wikidata.org/entity/Q1050|Head of state"
+    },
+    {
+      "date": "2028-04-04",
+      "leaderId": "http://www.wikidata.org/entity/Q1346506432|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2028-04-05",
+      "leaderId": "http://www.wikidata.org/entity/Q983752|http://www.wikidata.org/entity/Q334|Head of state"
+    },
+    {
+      "date": "2028-04-06",
+      "leaderId": "http://www.wikidata.org/entity/Q6504758|http://www.wikidata.org/entity/Q334|Head of government"
+    },
+    {
+      "date": "2028-04-07",
+      "leaderId": "http://www.wikidata.org/entity/Q5933752|http://www.wikidata.org/entity/Q794|Head of government"
+    },
+    {
+      "date": "2028-04-08",
+      "leaderId": "http://www.wikidata.org/entity/Q61121565|http://www.wikidata.org/entity/Q211|Head of government"
+    },
+    {
+      "date": "2028-04-09",
+      "leaderId": "http://www.wikidata.org/entity/Q527020|http://www.wikidata.org/entity/Q1030|Head of state"
+    },
+    {
+      "date": "2028-04-10",
+      "leaderId": "http://www.wikidata.org/entity/Q7407632|http://www.wikidata.org/entity/Q14773|Head of government"
+    },
+    {
+      "date": "2028-04-11",
+      "leaderId": "http://www.wikidata.org/entity/Q10522744|http://www.wikidata.org/entity/Q977|Head of government"
+    },
+    {
+      "date": "2028-04-12",
+      "leaderId": "http://www.wikidata.org/entity/Q131749390|http://www.wikidata.org/entity/Q1039|Head of government"
+    },
+    {
+      "date": "2028-04-13",
+      "leaderId": "http://www.wikidata.org/entity/Q5116472|http://www.wikidata.org/entity/Q865|Head of government"
+    },
+    {
+      "date": "2028-04-14",
+      "leaderId": "http://www.wikidata.org/entity/Q2107268|http://www.wikidata.org/entity/Q252|Head of state"
+    },
+    {
+      "date": "2028-04-15",
+      "leaderId": "http://www.wikidata.org/entity/Q3956186|http://www.wikidata.org/entity/Q38|Head of state"
+    },
+    {
+      "date": "2028-04-16",
+      "leaderId": "http://www.wikidata.org/entity/Q112988233|http://www.wikidata.org/entity/Q1007|Head of government"
+    },
+    {
+      "date": "2028-04-17",
+      "leaderId": "http://www.wikidata.org/entity/Q18538164|http://www.wikidata.org/entity/Q218|Head of government"
+    },
+    {
+      "date": "2028-04-18",
+      "leaderId": "http://www.wikidata.org/entity/Q161319|http://www.wikidata.org/entity/Q32|Head of state"
+    },
+    {
+      "date": "2028-04-19",
+      "leaderId": "http://www.wikidata.org/entity/Q57272|http://www.wikidata.org/entity/Q1009|Head of state"
+    },
+    {
+      "date": "2028-04-20",
+      "leaderId": "http://www.wikidata.org/entity/Q56226|http://www.wikidata.org/entity/Q423|Head of state"
+    },
+    {
+      "date": "2028-04-21",
+      "leaderId": "http://www.wikidata.org/entity/Q109385659|http://www.wikidata.org/entity/Q237|Head of government"
+    },
+    {
+      "date": "2028-04-22",
+      "leaderId": "http://www.wikidata.org/entity/Q58096|http://www.wikidata.org/entity/Q697|Head of state and government"
+    },
+    {
+      "date": "2028-04-23",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2028-04-24",
+      "leaderId": "http://www.wikidata.org/entity/Q105319610|http://www.wikidata.org/entity/Q1016|Head of state"
+    },
+    {
+      "date": "2028-04-25",
+      "leaderId": "http://www.wikidata.org/entity/Q5360975|http://www.wikidata.org/entity/Q1030|Head of government"
+    },
+    {
+      "date": "2028-04-26",
+      "leaderId": "http://www.wikidata.org/entity/Q63967715|http://www.wikidata.org/entity/Q974|Head of government"
+    },
+    {
+      "date": "2028-04-27",
+      "leaderId": "http://www.wikidata.org/entity/Q467948|http://www.wikidata.org/entity/Q20|Head of government"
+    },
+    {
+      "date": "2028-04-28",
+      "leaderId": "http://www.wikidata.org/entity/Q24494577|http://www.wikidata.org/entity/Q189|Head of state"
+    },
+    {
+      "date": "2028-04-29",
+      "leaderId": "http://www.wikidata.org/entity/Q7184214|http://www.wikidata.org/entity/Q760|Head of government"
+    },
+    {
+      "date": "2028-04-30",
+      "leaderId": "http://www.wikidata.org/entity/Q136489383|http://www.wikidata.org/entity/Q217|Head of government"
+    },
+    {
+      "date": "2028-05-01",
+      "leaderId": "http://www.wikidata.org/entity/Q57537|http://www.wikidata.org/entity/Q1013|Head of state"
+    },
+    {
+      "date": "2028-05-02",
+      "leaderId": "http://www.wikidata.org/entity/Q43723|http://www.wikidata.org/entity/Q801|Head of government"
+    },
+    {
+      "date": "2028-05-03",
+      "leaderId": "http://www.wikidata.org/entity/Q18618881|http://www.wikidata.org/entity/Q963|Head of state"
+    },
+    {
+      "date": "2028-05-04",
+      "leaderId": "http://www.wikidata.org/entity/Q22209348|http://www.wikidata.org/entity/Q1006|Head of government"
+    },
+    {
+      "date": "2028-05-05",
+      "leaderId": "http://www.wikidata.org/entity/Q27982047|http://www.wikidata.org/entity/Q1039|Head of state"
+    },
+    {
+      "date": "2028-05-06",
+      "leaderId": "http://www.wikidata.org/entity/Q17330556|http://www.wikidata.org/entity/Q214|Head of state"
+    },
+    {
+      "date": "2028-05-07",
+      "leaderId": "http://www.wikidata.org/entity/Q297825|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2028-05-08",
+      "leaderId": "http://www.wikidata.org/entity/Q5528031|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2028-05-09",
+      "leaderId": "http://www.wikidata.org/entity/Q57315|http://www.wikidata.org/entity/Q958|Head of state"
+    },
+    {
+      "date": "2028-05-10",
+      "leaderId": "http://www.wikidata.org/entity/Q3047551|http://www.wikidata.org/entity/Q211|Head of state"
+    },
+    {
+      "date": "2028-05-11",
+      "leaderId": "http://www.wikidata.org/entity/Q7747|http://www.wikidata.org/entity/Q159|Head of state"
+    },
+    {
+      "date": "2028-05-12",
+      "leaderId": "http://www.wikidata.org/entity/Q101225458|http://www.wikidata.org/entity/Q236|Head of government"
+    },
+    {
+      "date": "2028-05-13",
+      "leaderId": "http://www.wikidata.org/entity/Q1148669|http://www.wikidata.org/entity/Q258|Head of state and government"
+    },
+    {
+      "date": "2028-05-14",
+      "leaderId": "http://www.wikidata.org/entity/Q52395487|http://www.wikidata.org/entity/Q414|Head of state and government"
+    },
+    {
+      "date": "2028-05-15",
+      "leaderId": "http://www.wikidata.org/entity/Q39259|http://www.wikidata.org/entity/Q43|Head of state and government"
+    },
+    {
+      "date": "2028-05-16",
+      "leaderId": "http://www.wikidata.org/entity/Q7183082|http://www.wikidata.org/entity/Q778|Head of government"
+    },
+    {
+      "date": "2028-05-17",
+      "leaderId": "http://www.wikidata.org/entity/Q552751|http://www.wikidata.org/entity/Q41|Head of government"
+    },
+    {
+      "date": "2028-05-18",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q35|Head of state"
+    },
+    {
+      "date": "2028-05-19",
+      "leaderId": "http://www.wikidata.org/entity/Q222031|http://www.wikidata.org/entity/Q403|Head of state"
+    },
+    {
+      "date": "2028-05-20",
+      "leaderId": "http://www.wikidata.org/entity/Q6383803|http://www.wikidata.org/entity/Q145|Head of government"
+    },
+    {
+      "date": "2028-05-21",
+      "leaderId": "http://www.wikidata.org/entity/Q116763154|http://www.wikidata.org/entity/Q902|Head of state"
+    },
+    {
+      "date": "2028-05-22",
+      "leaderId": "http://www.wikidata.org/entity/Q12850075|http://www.wikidata.org/entity/Q227|Head of government"
+    },
+    {
+      "date": "2028-05-23",
+      "leaderId": "http://www.wikidata.org/entity/Q79358625|http://www.wikidata.org/entity/Q241|Head of government"
+    },
+    {
+      "date": "2028-05-24",
+      "leaderId": "http://www.wikidata.org/entity/Q18645045|http://www.wikidata.org/entity/Q215|Head of government"
+    },
+    {
+      "date": "2028-05-25",
+      "leaderId": "http://www.wikidata.org/entity/Q4752077|http://www.wikidata.org/entity/Q971|Head of government"
+    },
+    {
+      "date": "2028-05-26",
+      "leaderId": "http://www.wikidata.org/entity/Q113239716|http://www.wikidata.org/entity/Q686|Head of state"
+    },
+    {
+      "date": "2028-05-27",
+      "leaderId": "http://www.wikidata.org/entity/Q57373|http://www.wikidata.org/entity/Q843|Head of state"
+    },
+    {
+      "date": "2028-05-28",
+      "leaderId": "http://www.wikidata.org/entity/Q50365049|http://www.wikidata.org/entity/Q115|Head of government"
+    },
+    {
+      "date": "2028-05-29",
+      "leaderId": "http://www.wikidata.org/entity/Q1855372|http://www.wikidata.org/entity/Q846|Head of state"
+    },
+    {
+      "date": "2028-05-30",
+      "leaderId": "http://www.wikidata.org/entity/Q5437258|http://www.wikidata.org/entity/Q678|Head of government"
+    },
+    {
+      "date": "2028-05-31",
+      "leaderId": "http://www.wikidata.org/entity/Q57808|http://www.wikidata.org/entity/Q265|Head of state"
+    },
+    {
+      "date": "2028-06-01",
+      "leaderId": "http://www.wikidata.org/entity/Q74370310|http://www.wikidata.org/entity/Q664|Head of government"
+    },
+    {
+      "date": "2028-06-02",
+      "leaderId": "http://www.wikidata.org/entity/Q315500|http://www.wikidata.org/entity/Q837|Head of government"
+    },
+    {
+      "date": "2028-06-03",
+      "leaderId": "http://www.wikidata.org/entity/Q29033962|http://www.wikidata.org/entity/Q822|Head of state"
+    },
+    {
+      "date": "2028-06-04",
+      "leaderId": "http://www.wikidata.org/entity/Q27885302|http://www.wikidata.org/entity/Q230|Head of government"
+    },
+    {
+      "date": "2028-06-05",
+      "leaderId": "http://www.wikidata.org/entity/Q12612463|http://www.wikidata.org/entity/Q884|Head of state and government"
+    },
+    {
+      "date": "2028-06-06",
+      "leaderId": "http://www.wikidata.org/entity/Q12277168|http://www.wikidata.org/entity/Q221|Head of state"
+    },
+    {
+      "date": "2028-06-07",
+      "leaderId": "http://www.wikidata.org/entity/Q133540883|http://www.wikidata.org/entity/Q262|Head of government"
+    },
+    {
+      "date": "2028-06-08",
+      "leaderId": "http://www.wikidata.org/entity/Q57758|http://www.wikidata.org/entity/Q929|Head of state"
+    },
+    {
+      "date": "2028-06-09",
+      "leaderId": "http://www.wikidata.org/entity/Q135454730|http://www.wikidata.org/entity/Q1037|Head of government"
+    },
+    {
+      "date": "2028-06-10",
+      "leaderId": "http://www.wikidata.org/entity/Q98298397|http://www.wikidata.org/entity/Q854|Head of government"
+    },
+    {
+      "date": "2028-06-11",
+      "leaderId": "http://www.wikidata.org/entity/Q112703041|http://www.wikidata.org/entity/Q813|Head of government"
+    },
+    {
+      "date": "2028-06-12",
+      "leaderId": "http://www.wikidata.org/entity/Q4777855|http://www.wikidata.org/entity/Q854|Head of state"
+    },
+    {
+      "date": "2028-06-13",
+      "leaderId": "http://www.wikidata.org/entity/Q12241106|http://www.wikidata.org/entity/Q1025|Head of state"
+    },
+    {
+      "date": "2028-06-14",
+      "leaderId": "http://www.wikidata.org/entity/Q42478807|http://www.wikidata.org/entity/Q403|Head of government"
+    },
+    {
+      "date": "2028-06-15",
+      "leaderId": "http://www.wikidata.org/entity/Q107422711|http://www.wikidata.org/entity/Q222|Head of state"
+    },
+    {
+      "date": "2028-06-16",
+      "leaderId": "http://www.wikidata.org/entity/Q5446290|http://www.wikidata.org/entity/Q683|Head of government"
+    },
+    {
+      "date": "2028-06-17",
+      "leaderId": "http://www.wikidata.org/entity/Q60441515|http://www.wikidata.org/entity/Q1009|Head of government"
+    },
+    {
+      "date": "2028-06-18",
+      "leaderId": "http://www.wikidata.org/entity/Q319153|http://www.wikidata.org/entity/Q1045|Head of state"
+    },
+    {
+      "date": "2028-06-19",
+      "leaderId": "http://www.wikidata.org/entity/Q13026319|http://www.wikidata.org/entity/Q869|Head of government"
+    },
+    {
+      "date": "2028-06-20",
+      "leaderId": "http://www.wikidata.org/entity/Q566257|http://www.wikidata.org/entity/Q183|Head of government"
+    },
+    {
+      "date": "2028-06-21",
+      "leaderId": "http://www.wikidata.org/entity/Q6827147|http://www.wikidata.org/entity/Q244|Head of government"
+    },
+    {
+      "date": "2028-06-22",
+      "leaderId": "http://www.wikidata.org/entity/Q2866|http://www.wikidata.org/entity/Q184|Head of state"
+    },
+    {
+      "date": "2028-06-23",
+      "leaderId": "http://www.wikidata.org/entity/Q68837007|http://www.wikidata.org/entity/Q805|Head of government"
+    },
+    {
+      "date": "2028-06-24",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q756617|Head of government"
+    },
+    {
+      "date": "2028-06-25",
+      "leaderId": "http://www.wikidata.org/entity/Q1231345|http://www.wikidata.org/entity/Q1037|Head of state"
+    },
+    {
+      "date": "2028-06-26",
+      "leaderId": "http://www.wikidata.org/entity/Q57413|http://www.wikidata.org/entity/Q1008|Head of state"
+    },
+    {
+      "date": "2028-06-27",
+      "leaderId": "http://www.wikidata.org/entity/Q336599|http://www.wikidata.org/entity/Q31|Head of government"
+    },
+    {
+      "date": "2028-06-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57348|http://www.wikidata.org/entity/Q986|Head of state and government"
+    },
+    {
+      "date": "2028-06-29",
+      "leaderId": "http://www.wikidata.org/entity/Q107254030|http://www.wikidata.org/entity/Q774|Head of state and government"
+    },
+    {
+      "date": "2028-06-30",
+      "leaderId": "http://www.wikidata.org/entity/Q108444479|http://www.wikidata.org/entity/Q889|Head of government"
+    },
+    {
+      "date": "2028-07-01",
+      "leaderId": "http://www.wikidata.org/entity/Q11685764|http://www.wikidata.org/entity/Q224|Head of government"
+    },
+    {
+      "date": "2028-07-02",
+      "leaderId": "http://www.wikidata.org/entity/Q155004|http://www.wikidata.org/entity/Q31|Head of state"
+    },
+    {
+      "date": "2028-07-03",
+      "leaderId": "http://www.wikidata.org/entity/Q43969|http://www.wikidata.org/entity/Q902|Head of government"
+    },
+    {
+      "date": "2028-07-04",
+      "leaderId": "http://www.wikidata.org/entity/Q6266369|http://www.wikidata.org/entity/Q242|Head of government"
+    },
+    {
+      "date": "2028-07-05",
+      "leaderId": "http://www.wikidata.org/entity/Q17704749|http://www.wikidata.org/entity/Q36|Head of state"
+    },
+    {
+      "date": "2028-07-06",
+      "leaderId": "http://www.wikidata.org/entity/Q3434569|http://www.wikidata.org/entity/Q1008|Head of government"
+    },
+    {
+      "date": "2028-07-07",
+      "leaderId": "http://www.wikidata.org/entity/Q6180897|http://www.wikidata.org/entity/Q685|Head of government"
+    },
+    {
+      "date": "2028-07-08",
+      "leaderId": "http://www.wikidata.org/entity/Q191045|http://www.wikidata.org/entity/Q29|Head of state"
+    },
+    {
+      "date": "2028-07-09",
+      "leaderId": "http://www.wikidata.org/entity/Q20090884|http://www.wikidata.org/entity/Q709|Head of state and government"
+    },
+    {
+      "date": "2028-07-10",
+      "leaderId": "http://www.wikidata.org/entity/Q104417661|http://www.wikidata.org/entity/Q236|Head of state"
+    },
+    {
+      "date": "2028-07-11",
+      "leaderId": "http://www.wikidata.org/entity/Q12250314|http://www.wikidata.org/entity/Q842|Head of state and government"
+    },
+    {
+      "date": "2028-07-12",
+      "leaderId": "http://www.wikidata.org/entity/Q4414|http://www.wikidata.org/entity/Q945|Head of government"
+    },
+    {
+      "date": "2028-07-13",
+      "leaderId": "http://www.wikidata.org/entity/Q45068|http://www.wikidata.org/entity/Q34|Head of state"
+    },
+    {
+      "date": "2028-07-14",
+      "leaderId": "http://www.wikidata.org/entity/Q2356379|http://www.wikidata.org/entity/Q1410|Head of government"
+    },
+    {
+      "date": "2028-07-15",
+      "leaderId": "http://www.wikidata.org/entity/Q57649|http://www.wikidata.org/entity/Q1011|Head of state"
+    },
+    {
+      "date": "2028-07-16",
+      "leaderId": "http://www.wikidata.org/entity/Q19946921|http://www.wikidata.org/entity/Q77|Head of state and government"
+    },
+    {
+      "date": "2028-07-17",
+      "leaderId": "http://www.wikidata.org/entity/Q440403|http://www.wikidata.org/entity/Q730|Head of state and government"
+    },
+    {
+      "date": "2028-07-18",
+      "leaderId": "http://www.wikidata.org/entity/Q1353628|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2028-07-19",
+      "leaderId": "http://www.wikidata.org/entity/Q16594097|http://www.wikidata.org/entity/Q786|Head of state and government"
+    },
+    {
+      "date": "2028-07-20",
+      "leaderId": "http://www.wikidata.org/entity/Q17712353|http://www.wikidata.org/entity/Q792|Head of state and government"
+    },
+    {
+      "date": "2028-07-21",
+      "leaderId": "http://www.wikidata.org/entity/Q57418|http://www.wikidata.org/entity/Q971|Head of state"
+    },
+    {
+      "date": "2028-07-22",
+      "leaderId": "http://www.wikidata.org/entity/Q108418519|http://www.wikidata.org/entity/Q1006|Head of state"
+    },
+    {
+      "date": "2028-07-23",
+      "leaderId": "http://www.wikidata.org/entity/Q57385|http://www.wikidata.org/entity/Q983|Head of state"
+    },
+    {
+      "date": "2028-07-24",
+      "leaderId": "http://www.wikidata.org/entity/Q127998|http://www.wikidata.org/entity/Q219060|Head of state"
+    },
+    {
+      "date": "2028-07-25",
+      "leaderId": "http://www.wikidata.org/entity/Q11163124|http://www.wikidata.org/entity/Q218|Head of state"
+    },
+    {
+      "date": "2028-07-26",
+      "leaderId": "http://www.wikidata.org/entity/Q3183124|http://www.wikidata.org/entity/Q837|Head of state"
+    },
+    {
+      "date": "2028-07-27",
+      "leaderId": "http://www.wikidata.org/entity/Q57606|http://www.wikidata.org/entity/Q214|Head of government"
+    },
+    {
+      "date": "2028-07-28",
+      "leaderId": "http://www.wikidata.org/entity/Q107136851|http://www.wikidata.org/entity/Q967|Head of government"
+    },
+    {
+      "date": "2028-07-29",
+      "leaderId": "http://www.wikidata.org/entity/Q192533|http://www.wikidata.org/entity/Q16|Head of government"
+    },
+    {
+      "date": "2028-07-30",
+      "leaderId": "http://www.wikidata.org/entity/Q3553274|http://www.wikidata.org/entity/Q399|Head of state"
+    },
+    {
+      "date": "2028-07-31",
+      "leaderId": "http://www.wikidata.org/entity/Q367825|http://www.wikidata.org/entity/Q851|Head of state and government"
+    },
+    {
+      "date": "2028-08-01",
+      "leaderId": "http://www.wikidata.org/entity/Q23020336|http://www.wikidata.org/entity/Q846|Head of government"
+    },
+    {
+      "date": "2028-08-02",
+      "leaderId": "http://www.wikidata.org/entity/Q217096|http://www.wikidata.org/entity/Q17|Head of state"
+    },
+    {
+      "date": "2028-08-03",
+      "leaderId": "http://www.wikidata.org/entity/Q981549|http://www.wikidata.org/entity/Q712|Head of government"
+    },
+    {
+      "date": "2028-08-04",
+      "leaderId": "http://www.wikidata.org/entity/Q7984081|http://www.wikidata.org/entity/Q702|Head of state and government"
+    },
+    {
+      "date": "2028-08-05",
+      "leaderId": "http://www.wikidata.org/entity/Q59978016|http://www.wikidata.org/entity/Q219|Head of government"
+    },
+    {
+      "date": "2028-08-06",
+      "leaderId": "http://www.wikidata.org/entity/Q5178674|http://www.wikidata.org/entity/Q235|Head of government"
+    },
+    {
+      "date": "2028-08-07",
+      "leaderId": "http://www.wikidata.org/entity/Q335697|http://www.wikidata.org/entity/Q408|Head of government"
+    },
+    {
+      "date": "2028-08-08",
+      "leaderId": "http://www.wikidata.org/entity/Q124516173|http://www.wikidata.org/entity/Q37|Head of government"
+    },
+    {
+      "date": "2028-08-09",
+      "leaderId": "http://www.wikidata.org/entity/Q19901232|http://www.wikidata.org/entity/Q668|Head of state"
+    },
+    {
+      "date": "2028-08-10",
+      "leaderId": "http://www.wikidata.org/entity/Q30882650|http://www.wikidata.org/entity/Q347|Head of government"
+    },
+    {
+      "date": "2028-08-11",
+      "leaderId": "http://www.wikidata.org/entity/Q57553|http://www.wikidata.org/entity/Q1028|Head of state"
+    },
+    {
+      "date": "2028-08-12",
+      "leaderId": "http://www.wikidata.org/entity/Q98017689|http://www.wikidata.org/entity/Q800|Head of state and government"
+    },
+    {
+      "date": "2028-08-13",
+      "leaderId": "http://www.wikidata.org/entity/Q98053664|http://www.wikidata.org/entity/Q734|Head of government"
+    },
+    {
+      "date": "2028-08-14",
+      "leaderId": "http://www.wikidata.org/entity/Q88310768|http://www.wikidata.org/entity/Q929|Head of government"
+    },
+    {
+      "date": "2028-08-15",
+      "leaderId": "http://www.wikidata.org/entity/Q63111184|http://www.wikidata.org/entity/Q1049|Head of state"
+    },
+    {
+      "date": "2028-08-16",
+      "leaderId": "http://www.wikidata.org/entity/Q15222839|http://www.wikidata.org/entity/Q863|Head of government"
+    },
+    {
+      "date": "2028-08-17",
+      "leaderId": "http://www.wikidata.org/entity/Q4414390|http://www.wikidata.org/entity/Q148|Head of government"
+    },
+    {
+      "date": "2028-08-18",
+      "leaderId": "http://www.wikidata.org/entity/Q98497406|http://www.wikidata.org/entity/Q912|Head of state"
+    },
+    {
+      "date": "2028-08-19",
+      "leaderId": "http://www.wikidata.org/entity/Q10831196|http://www.wikidata.org/entity/Q881|Head of state"
+    },
+    {
+      "date": "2028-08-20",
+      "leaderId": "http://www.wikidata.org/entity/Q12797332|http://www.wikidata.org/entity/Q215|Head of state"
+    },
+    {
+      "date": "2028-08-21",
+      "leaderId": "http://www.wikidata.org/entity/Q548733|http://www.wikidata.org/entity/Q869|Head of state"
+    },
+    {
+      "date": "2028-08-22",
+      "leaderId": "http://www.wikidata.org/entity/Q23034482|http://www.wikidata.org/entity/Q710|Head of state and government"
+    },
+    {
+      "date": "2028-08-23",
+      "leaderId": "http://www.wikidata.org/entity/Q26703072|http://www.wikidata.org/entity/Q695|Head of state and government"
+    },
+    {
+      "date": "2028-08-24",
+      "leaderId": "http://www.wikidata.org/entity/Q154952|http://www.wikidata.org/entity/Q29999|Head of state"
+    },
+    {
+      "date": "2028-08-25",
+      "leaderId": "http://www.wikidata.org/entity/Q12358575|http://www.wikidata.org/entity/Q191|Head of state"
+    },
+    {
+      "date": "2028-08-26",
+      "leaderId": "http://www.wikidata.org/entity/Q1780398|http://www.wikidata.org/entity/Q34|Head of government"
+    },
+    {
+      "date": "2028-08-27",
+      "leaderId": "http://www.wikidata.org/entity/Q717185|http://www.wikidata.org/entity/Q953|Head of state"
+    },
+    {
+      "date": "2028-08-28",
+      "leaderId": "http://www.wikidata.org/entity/Q108414587|http://www.wikidata.org/entity/Q419|Head of state and government"
+    },
+    {
+      "date": "2028-08-29",
+      "leaderId": "http://www.wikidata.org/entity/Q136500275|http://www.wikidata.org/entity/Q1019|Head of state"
+    },
+    {
+      "date": "2028-08-30",
+      "leaderId": "http://www.wikidata.org/entity/Q97058466|http://www.wikidata.org/entity/Q1029|Head of state"
+    },
+    {
+      "date": "2028-08-31",
+      "leaderId": "http://www.wikidata.org/entity/Q1580316|http://www.wikidata.org/entity/Q45|Head of state"
+    },
+    {
+      "date": "2028-09-01",
+      "leaderId": "http://www.wikidata.org/entity/Q11665|http://www.wikidata.org/entity/Q574|Head of state"
+    },
+    {
+      "date": "2028-09-02",
+      "leaderId": "http://www.wikidata.org/entity/Q638463|http://www.wikidata.org/entity/Q822|Head of government"
+    },
+    {
+      "date": "2028-09-03",
+      "leaderId": "http://www.wikidata.org/entity/Q97400315|http://www.wikidata.org/entity/Q754|Head of state"
+    },
+    {
+      "date": "2028-09-04",
+      "leaderId": "http://www.wikidata.org/entity/Q307871|http://www.wikidata.org/entity/Q79|Head of state"
+    },
+    {
+      "date": "2028-09-05",
+      "leaderId": "http://www.wikidata.org/entity/Q37860840|http://www.wikidata.org/entity/Q233|Head of government"
+    },
+    {
+      "date": "2028-09-06",
+      "leaderId": "http://www.wikidata.org/entity/Q3847080|http://www.wikidata.org/entity/Q865|Head of state"
+    },
+    {
+      "date": "2028-09-07",
+      "leaderId": "http://www.wikidata.org/entity/Q64576653|http://www.wikidata.org/entity/Q40|Head of government"
+    },
+    {
+      "date": "2028-09-08",
+      "leaderId": "http://www.wikidata.org/entity/Q56235580|http://www.wikidata.org/entity/Q184|Head of government"
+    },
+    {
+      "date": "2028-09-09",
+      "leaderId": "http://www.wikidata.org/entity/Q208497|http://www.wikidata.org/entity/Q678|Head of state"
+    },
+    {
+      "date": "2028-09-10",
+      "leaderId": "http://www.wikidata.org/entity/Q16120878|http://www.wikidata.org/entity/Q948|Head of state"
+    },
+    {
+      "date": "2028-09-11",
+      "leaderId": "http://www.wikidata.org/entity/Q19876617|http://www.wikidata.org/entity/Q34020|Head of government"
+    },
+    {
+      "date": "2028-09-12",
+      "leaderId": "http://www.wikidata.org/entity/Q51874548|http://www.wikidata.org/entity/Q874|Head of state and government"
+    },
+    {
+      "date": "2028-09-13",
+      "leaderId": "manual|Q458|Head of government"
+    },
+    {
+      "date": "2028-09-14",
+      "leaderId": "http://www.wikidata.org/entity/Q16190544|http://www.wikidata.org/entity/Q1042|Head of state and government"
+    },
+    {
+      "date": "2028-09-15",
+      "leaderId": "http://www.wikidata.org/entity/Q37181|http://www.wikidata.org/entity/Q155|Head of state and government"
+    },
+    {
+      "date": "2028-09-16",
+      "leaderId": "http://www.wikidata.org/entity/Q57402|http://www.wikidata.org/entity/Q811|Head of state and government"
+    },
+    {
+      "date": "2028-09-17",
+      "leaderId": "http://www.wikidata.org/entity/Q64840184|http://www.wikidata.org/entity/Q734|Head of state"
+    },
+    {
+      "date": "2028-09-18",
+      "leaderId": "http://www.wikidata.org/entity/Q3462649|http://www.wikidata.org/entity/Q836|Head of government"
+    },
+    {
+      "date": "2028-09-19",
+      "leaderId": "http://www.wikidata.org/entity/Q946|http://www.wikidata.org/entity/Q36|Head of government"
+    },
+    {
+      "date": "2028-09-20",
+      "leaderId": "http://www.wikidata.org/entity/Q20089181|http://www.wikidata.org/entity/Q142|Head of government"
+    },
+    {
+      "date": "2028-09-21",
+      "leaderId": "http://www.wikidata.org/entity/Q114835874|http://www.wikidata.org/entity/Q965|Head of government"
+    },
+    {
+      "date": "2028-09-22",
+      "leaderId": "http://www.wikidata.org/entity/Q983258|http://www.wikidata.org/entity/Q801|Head of state"
+    },
+    {
+      "date": "2028-09-23",
+      "leaderId": "http://www.wikidata.org/entity/Q11509|http://www.wikidata.org/entity/Q574|Head of government"
+    },
+    {
+      "date": "2028-09-24",
+      "leaderId": "http://www.wikidata.org/entity/Q57390|http://www.wikidata.org/entity/Q977|Head of state"
+    },
+    {
+      "date": "2028-09-25",
+      "leaderId": "http://www.wikidata.org/entity/Q299574|http://www.wikidata.org/entity/Q833|Head of government"
+    },
+    {
+      "date": "2028-09-26",
+      "leaderId": "http://www.wikidata.org/entity/Q76658|http://www.wikidata.org/entity/Q183|Head of state"
+    },
+    {
+      "date": "2028-09-27",
+      "leaderId": "http://www.wikidata.org/entity/Q10819807|http://www.wikidata.org/entity/Q213|Head of government"
+    },
+    {
+      "date": "2028-09-28",
+      "leaderId": "http://www.wikidata.org/entity/Q23899522|http://www.wikidata.org/entity/Q1011|Head of government"
+    },
+    {
+      "date": "2028-09-29",
+      "leaderId": "http://www.wikidata.org/entity/Q124831090|http://www.wikidata.org/entity/Q115|Head of state"
+    },
+    {
+      "date": "2028-09-30",
+      "leaderId": "http://www.wikidata.org/entity/Q28650390|http://www.wikidata.org/entity/Q916|Head of state and government"
+    },
+    {
+      "date": "2028-10-01",
+      "leaderId": "http://www.wikidata.org/entity/Q2080040|http://www.wikidata.org/entity/Q213|Head of state"
+    },
+    {
+      "date": "2028-10-02",
+      "leaderId": "http://www.wikidata.org/entity/Q129263796|http://www.wikidata.org/entity/Q983|Head of government"
+    },
+    {
+      "date": "2028-10-03",
+      "leaderId": "http://www.wikidata.org/entity/Q704022|http://www.wikidata.org/entity/Q739|Head of state and government"
+    },
+    {
+      "date": "2028-10-04",
+      "leaderId": "http://www.wikidata.org/entity/Q104914585|http://www.wikidata.org/entity/Q819|Head of government"
+    },
+    {
+      "date": "2028-10-05",
+      "leaderId": "http://www.wikidata.org/entity/Q97011032|http://www.wikidata.org/entity/Q810|Head of government"
+    },
+    {
+      "date": "2028-10-06",
+      "leaderId": "http://www.wikidata.org/entity/Q57454|http://www.wikidata.org/entity/Q347|Head of state"
+    },
+    {
+      "date": "2028-10-07",
+      "leaderId": "http://www.wikidata.org/entity/Q131140314|http://www.wikidata.org/entity/Q790|Head of government"
+    },
+    {
+      "date": "2028-10-08",
+      "leaderId": "http://www.wikidata.org/entity/Q47026361|http://www.wikidata.org/entity/Q13706|Head of state"
+    },
+    {
+      "date": "2028-10-09",
+      "leaderId": "http://www.wikidata.org/entity/Q2657043|http://www.wikidata.org/entity/Q833|Head of state"
+    },
+    {
+      "date": "2028-10-10",
+      "leaderId": "http://www.wikidata.org/entity/Q110962738|http://www.wikidata.org/entity/Q711|Head of government"
+    },
+    {
+      "date": "2028-10-11",
+      "leaderId": "http://www.wikidata.org/entity/Q105319569|http://www.wikidata.org/entity/Q1016|Head of government"
+    },
+    {
+      "date": "2028-10-12",
+      "leaderId": "http://www.wikidata.org/entity/Q66793577|http://www.wikidata.org/entity/Q1025|Head of government"
+    },
+    {
+      "date": "2028-10-13",
+      "leaderId": "http://www.wikidata.org/entity/Q1705028|http://www.wikidata.org/entity/Q17|Head of government"
+    },
+    {
+      "date": "2028-10-14",
+      "leaderId": "http://www.wikidata.org/entity/Q57371|http://www.wikidata.org/entity/Q227|Head of state"
+    },
+    {
+      "date": "2028-10-15",
+      "leaderId": "http://www.wikidata.org/entity/Q920403|http://www.wikidata.org/entity/Q27|Head of government"
+    },
+    {
+      "date": "2028-10-16",
+      "leaderId": "http://www.wikidata.org/entity/Q27917049|http://www.wikidata.org/entity/Q1005|Head of state and government"
+    },
+    {
+      "date": "2028-10-17",
+      "leaderId": "http://www.wikidata.org/entity/Q131403499|http://www.wikidata.org/entity/Q1027|Head of state"
+    },
+    {
+      "date": "2028-10-18",
+      "leaderId": "http://www.wikidata.org/entity/Q93244592|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2028-10-19",
+      "leaderId": "http://www.wikidata.org/entity/Q48905549|http://www.wikidata.org/entity/Q229|Head of state and government"
+    },
+    {
+      "date": "2028-10-20",
+      "leaderId": "http://www.wikidata.org/entity/Q983324|http://www.wikidata.org/entity/Q928|Head of state and government"
+    },
+    {
+      "date": "2028-10-21",
+      "leaderId": "http://www.wikidata.org/entity/Q108454869|http://www.wikidata.org/entity/Q804|Head of state and government"
+    },
+    {
+      "date": "2028-10-22",
+      "leaderId": "http://www.wikidata.org/entity/Q12213376|http://www.wikidata.org/entity/Q805|Head of state"
+    },
+    {
+      "date": "2028-10-23",
+      "leaderId": "http://www.wikidata.org/entity/Q6070218|http://www.wikidata.org/entity/Q29|Head of government"
+    },
+    {
+      "date": "2028-10-24",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q756617|Head of state"
+    },
+    {
+      "date": "2028-10-25",
+      "leaderId": "http://www.wikidata.org/entity/Q12243161|http://www.wikidata.org/entity/Q817|Head of state"
+    },
+    {
+      "date": "2028-10-26",
+      "leaderId": "http://www.wikidata.org/entity/Q57376|http://www.wikidata.org/entity/Q917|Head of state"
+    },
+    {
+      "date": "2028-10-27",
+      "leaderId": "http://www.wikidata.org/entity/Q122067521|http://www.wikidata.org/entity/Q1000|Head of state"
+    },
+    {
+      "date": "2028-10-28",
+      "leaderId": "http://www.wikidata.org/entity/Q50678|http://www.wikidata.org/entity/Q117|Head of state"
+    },
+    {
+      "date": "2028-10-29",
+      "leaderId": "http://www.wikidata.org/entity/Q27329764|http://www.wikidata.org/entity/Q967|Head of state"
+    },
+    {
+      "date": "2028-10-30",
+      "leaderId": "http://www.wikidata.org/entity/Q13081568|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2028-10-31",
+      "leaderId": "http://www.wikidata.org/entity/Q57823|http://www.wikidata.org/entity/Q784|Head of government"
+    },
+    {
+      "date": "2028-11-01",
+      "leaderId": "http://www.wikidata.org/entity/Q25597826|http://www.wikidata.org/entity/Q813|Head of state"
+    },
+    {
+      "date": "2028-11-02",
+      "leaderId": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state"
+    },
+    {
+      "date": "2028-11-03",
+      "leaderId": "http://www.wikidata.org/entity/Q114588964|http://www.wikidata.org/entity/Q1013|Head of government"
+    },
+    {
+      "date": "2028-11-04",
+      "leaderId": "http://www.wikidata.org/entity/Q54901515|http://www.wikidata.org/entity/Q79|Head of government"
+    },
+    {
+      "date": "2028-11-05",
+      "leaderId": "http://www.wikidata.org/entity/Q5441662|http://www.wikidata.org/entity/Q672|Head of government"
+    },
+    {
+      "date": "2028-11-06",
+      "leaderId": "http://www.wikidata.org/entity/Q5052598|http://www.wikidata.org/entity/Q27|Head of state"
+    },
+    {
+      "date": "2028-11-07",
+      "leaderId": "http://www.wikidata.org/entity/Q5771800|http://www.wikidata.org/entity/Q96|Head of state and government"
+    },
+    {
+      "date": "2028-11-08",
+      "leaderId": "http://www.wikidata.org/entity/Q24237654|http://www.wikidata.org/entity/Q889|Head of state"
+    },
+    {
+      "date": "2028-11-09",
+      "leaderId": "http://www.wikidata.org/entity/Q283829|http://www.wikidata.org/entity/Q1044|Head of state"
+    },
+    {
+      "date": "2028-11-10",
+      "leaderId": "http://www.wikidata.org/entity/Q503143|http://www.wikidata.org/entity/Q33|Head of state"
+    },
+    {
+      "date": "2028-11-11",
+      "leaderId": "http://www.wikidata.org/entity/Q1951896|http://www.wikidata.org/entity/Q878|Head of state"
+    },
+    {
+      "date": "2028-11-12",
+      "leaderId": "http://www.wikidata.org/entity/Q46675558|http://www.wikidata.org/entity/Q221|Head of government"
+    },
+    {
+      "date": "2028-11-13",
+      "leaderId": "http://www.wikidata.org/entity/Q123342092|http://www.wikidata.org/entity/Q1050|Head of government"
+    },
+    {
+      "date": "2028-11-14",
+      "leaderId": "http://www.wikidata.org/entity/Q2821166|http://www.wikidata.org/entity/Q262|Head of state"
+    },
+    {
+      "date": "2028-11-15",
+      "leaderId": "http://www.wikidata.org/entity/Q99605101|http://www.wikidata.org/entity/Q1045|Head of government"
+    },
+    {
+      "date": "2028-11-16",
+      "leaderId": "http://www.wikidata.org/entity/Q4298520|http://www.wikidata.org/entity/Q159|Head of government"
+    },
+    {
+      "date": "2028-11-17",
+      "leaderId": "http://www.wikidata.org/entity/Q200881|http://www.wikidata.org/entity/Q232|Head of state"
+    },
+    {
+      "date": "2028-11-18",
+      "leaderId": "http://www.wikidata.org/entity/Q195725|http://www.wikidata.org/entity/Q114|Head of state and government"
+    },
+    {
+      "date": "2028-11-19",
+      "leaderId": "http://www.wikidata.org/entity/Q16905281|http://www.wikidata.org/entity/Q423|Head of government"
+    },
+    {
+      "date": "2028-11-20",
+      "leaderId": "http://www.wikidata.org/entity/Q61112536|http://www.wikidata.org/entity/Q212|Head of government"
+    },
+    {
+      "date": "2028-11-21",
+      "leaderId": "http://www.wikidata.org/entity/Q3910|http://www.wikidata.org/entity/Q235|Head of state"
+    },
+    {
+      "date": "2028-11-22",
+      "leaderId": "http://www.wikidata.org/entity/Q113443525|http://www.wikidata.org/entity/Q763|Head of government"
+    },
+    {
+      "date": "2028-11-23",
+      "leaderId": "http://www.wikidata.org/entity/Q29032770|http://www.wikidata.org/entity/Q974|Head of state"
+    },
+    {
+      "date": "2028-11-24",
+      "leaderId": "http://www.wikidata.org/entity/Q116293030|http://www.wikidata.org/entity/Q826|Head of state and government"
+    },
+    {
+      "date": "2028-11-25",
+      "leaderId": "http://www.wikidata.org/entity/Q112679881|http://www.wikidata.org/entity/Q769|Head of government"
+    },
+    {
+      "date": "2028-11-26",
+      "leaderId": "http://www.wikidata.org/entity/Q592101|http://www.wikidata.org/entity/Q32|Head of government"
+    },
+    {
+      "date": "2028-11-27",
+      "leaderId": "http://www.wikidata.org/entity/Q16262782|http://www.wikidata.org/entity/Q223|Head of government"
+    },
+    {
+      "date": "2028-11-28",
+      "leaderId": "http://www.wikidata.org/entity/Q510523|http://www.wikidata.org/entity/Q954|Head of state and government"
+    },
+    {
+      "date": "2028-11-29",
+      "leaderId": "http://www.wikidata.org/entity/Q27654948|http://www.wikidata.org/entity/Q1049|Head of government"
+    },
+    {
+      "date": "2028-11-30",
+      "leaderId": "http://www.wikidata.org/entity/Q11764394|http://www.wikidata.org/entity/Q45|Head of government"
+    },
+    {
+      "date": "2028-12-01",
+      "leaderId": "http://www.wikidata.org/entity/Q451791|http://www.wikidata.org/entity/Q38|Head of government"
+    },
+    {
+      "date": "2028-12-02",
+      "leaderId": "http://www.wikidata.org/entity/Q56825894|http://www.wikidata.org/entity/Q232|Head of government"
+    },
+    {
+      "date": "2028-12-03",
+      "leaderId": "http://www.wikidata.org/entity/Q983258|http://www.wikidata.org/entity/Q801|Head of state"
+    },
+    {
+      "date": "2028-12-04",
+      "leaderId": "http://www.wikidata.org/entity/Q68837007|http://www.wikidata.org/entity/Q805|Head of government"
+    },
+    {
+      "date": "2028-12-05",
+      "leaderId": "http://www.wikidata.org/entity/Q2630483|http://www.wikidata.org/entity/Q1014|Head of state and government"
+    },
+    {
+      "date": "2028-12-06",
+      "leaderId": "http://www.wikidata.org/entity/Q37181|http://www.wikidata.org/entity/Q155|Head of state and government"
+    },
+    {
+      "date": "2028-12-07",
+      "leaderId": "http://www.wikidata.org/entity/Q5015|http://www.wikidata.org/entity/Q756617|Head of government"
+    },
+    {
+      "date": "2028-12-08",
+      "leaderId": "http://www.wikidata.org/entity/Q135454730|http://www.wikidata.org/entity/Q1037|Head of government"
+    },
+    {
+      "date": "2028-12-09",
+      "leaderId": "http://www.wikidata.org/entity/Q124516173|http://www.wikidata.org/entity/Q37|Head of government"
+    },
+    {
+      "date": "2028-12-10",
+      "leaderId": "http://www.wikidata.org/entity/Q131749390|http://www.wikidata.org/entity/Q1039|Head of government"
+    },
+    {
+      "date": "2028-12-11",
+      "leaderId": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q35|Head of state"
+    },
+    {
+      "date": "2028-12-12",
+      "leaderId": "http://www.wikidata.org/entity/Q104417661|http://www.wikidata.org/entity/Q236|Head of state"
+    },
+    {
+      "date": "2028-12-13",
+      "leaderId": "http://www.wikidata.org/entity/Q19946921|http://www.wikidata.org/entity/Q77|Head of state and government"
+    },
+    {
+      "date": "2028-12-14",
+      "leaderId": "http://www.wikidata.org/entity/Q319153|http://www.wikidata.org/entity/Q1045|Head of state"
+    },
+    {
+      "date": "2028-12-15",
+      "leaderId": "http://www.wikidata.org/entity/Q23020336|http://www.wikidata.org/entity/Q846|Head of government"
+    },
+    {
+      "date": "2028-12-16",
+      "leaderId": "http://www.wikidata.org/entity/Q23899522|http://www.wikidata.org/entity/Q1011|Head of government"
+    },
+    {
+      "date": "2028-12-17",
+      "leaderId": "http://www.wikidata.org/entity/Q98017689|http://www.wikidata.org/entity/Q800|Head of state and government"
+    },
+    {
+      "date": "2028-12-18",
+      "leaderId": "http://www.wikidata.org/entity/Q6109517|http://www.wikidata.org/entity/Q237|Head of state"
+    },
+    {
+      "date": "2028-12-19",
+      "leaderId": "http://www.wikidata.org/entity/Q161319|http://www.wikidata.org/entity/Q32|Head of state"
+    },
+    {
+      "date": "2028-12-20",
+      "leaderId": "http://www.wikidata.org/entity/Q272416|http://www.wikidata.org/entity/Q230|Head of state"
+    },
+    {
+      "date": "2028-12-21",
+      "leaderId": "http://www.wikidata.org/entity/Q112075625|http://www.wikidata.org/entity/Q736|Head of state and government"
+    },
+    {
+      "date": "2028-12-22",
+      "leaderId": "http://www.wikidata.org/entity/Q441633|http://www.wikidata.org/entity/Q1246|Head of government"
+    },
+    {
+      "date": "2028-12-23",
+      "leaderId": "http://www.wikidata.org/entity/Q1148669|http://www.wikidata.org/entity/Q258|Head of state and government"
+    },
+    {
+      "date": "2028-12-24",
+      "leaderId": "http://www.wikidata.org/entity/Q717185|http://www.wikidata.org/entity/Q953|Head of state"
+    },
+    {
+      "date": "2028-12-25",
+      "leaderId": "http://www.wikidata.org/entity/Q983752|http://www.wikidata.org/entity/Q334|Head of state"
+    },
+    {
+      "date": "2028-12-26",
+      "leaderId": "http://www.wikidata.org/entity/Q2919350|http://www.wikidata.org/entity/Q794|Head of state"
+    },
+    {
+      "date": "2028-12-27",
+      "leaderId": "http://www.wikidata.org/entity/Q22209348|http://www.wikidata.org/entity/Q1006|Head of government"
+    },
+    {
+      "date": "2028-12-28",
+      "leaderId": "http://www.wikidata.org/entity/Q57553|http://www.wikidata.org/entity/Q1028|Head of state"
+    },
+    {
+      "date": "2028-12-29",
+      "leaderId": "http://www.wikidata.org/entity/Q114835874|http://www.wikidata.org/entity/Q965|Head of government"
+    },
+    {
+      "date": "2028-12-30",
+      "leaderId": "http://www.wikidata.org/entity/Q64840184|http://www.wikidata.org/entity/Q734|Head of state"
+    },
+    {
+      "date": "2028-12-31",
+      "leaderId": "http://www.wikidata.org/entity/Q131403499|http://www.wikidata.org/entity/Q1027|Head of state"
+    },
+    {
+      "date": "2029-01-01",
+      "leaderId": "http://www.wikidata.org/entity/Q28599854|http://www.wikidata.org/entity/Q28|Head of state"
+    },
+    {
+      "date": "2029-01-02",
+      "leaderId": "http://www.wikidata.org/entity/Q2866|http://www.wikidata.org/entity/Q184|Head of state"
+    },
+    {
+      "date": "2029-01-03",
+      "leaderId": "http://www.wikidata.org/entity/Q6827147|http://www.wikidata.org/entity/Q244|Head of government"
+    },
+    {
+      "date": "2029-01-04",
+      "leaderId": "http://www.wikidata.org/entity/Q63111184|http://www.wikidata.org/entity/Q1049|Head of state"
+    },
+    {
+      "date": "2029-01-05",
+      "leaderId": "http://www.wikidata.org/entity/Q4752077|http://www.wikidata.org/entity/Q971|Head of government"
+    },
+    {
+      "date": "2029-01-06",
+      "leaderId": "http://www.wikidata.org/entity/Q6180897|http://www.wikidata.org/entity/Q685|Head of government"
+    },
+    {
+      "date": "2029-01-07",
+      "leaderId": "http://www.wikidata.org/entity/Q592101|http://www.wikidata.org/entity/Q32|Head of government"
+    },
+    {
+      "date": "2029-01-08",
+      "leaderId": "http://www.wikidata.org/entity/Q2646711|http://www.wikidata.org/entity/Q1032|Head of government"
+    },
+    {
+      "date": "2029-01-09",
+      "leaderId": "http://www.wikidata.org/entity/Q21001195|http://www.wikidata.org/entity/Q228|Head of government"
+    },
+    {
+      "date": "2029-01-10",
+      "leaderId": "http://www.wikidata.org/entity/Q16190741|http://www.wikidata.org/entity/Q686|Head of government"
+    },
+    {
+      "date": "2029-01-11",
+      "leaderId": "http://www.wikidata.org/entity/Q57641|http://www.wikidata.org/entity/Q28|Head of government"
+    },
+    {
+      "date": "2029-01-12",
+      "leaderId": "http://www.wikidata.org/entity/Q108454869|http://www.wikidata.org/entity/Q804|Head of state and government"
+    },
+    {
+      "date": "2029-01-13",
+      "leaderId": "http://www.wikidata.org/entity/Q6761049|http://www.wikidata.org/entity/Q1029|Head of government"
+    },
+    {
+      "date": "2029-01-14",
+      "leaderId": "http://www.wikidata.org/entity/Q112703041|http://www.wikidata.org/entity/Q813|Head of government"
+    },
+    {
+      "date": "2029-01-15",
+      "leaderId": "http://www.wikidata.org/entity/Q983324|http://www.wikidata.org/entity/Q928|Head of state and government"
+    },
+    {
+      "date": "2029-01-16",
+      "leaderId": "http://www.wikidata.org/entity/Q116293030|http://www.wikidata.org/entity/Q826|Head of state and government"
+    },
+    {
+      "date": "2029-01-17",
+      "leaderId": "http://www.wikidata.org/entity/Q57371|http://www.wikidata.org/entity/Q227|Head of state"
+    },
+    {
+      "date": "2029-01-18",
+      "leaderId": "manual|Q458|Head of government"
+    },
+    {
+      "date": "2029-01-19",
+      "leaderId": "http://www.wikidata.org/entity/Q154952|http://www.wikidata.org/entity/Q29999|Head of state"
+    },
+    {
+      "date": "2029-01-20",
+      "leaderId": "http://www.wikidata.org/entity/Q50365049|http://www.wikidata.org/entity/Q115|Head of government"
+    },
+    {
+      "date": "2029-01-21",
+      "leaderId": "http://www.wikidata.org/entity/Q56825894|http://www.wikidata.org/entity/Q232|Head of government"
+    },
+    {
+      "date": "2029-01-22",
+      "leaderId": "http://www.wikidata.org/entity/Q114588964|http://www.wikidata.org/entity/Q1013|Head of government"
+    },
+    {
+      "date": "2029-01-23",
+      "leaderId": "http://www.wikidata.org/entity/Q1353628|http://www.wikidata.org/entity/Q238|Head of state"
+    },
+    {
+      "date": "2029-01-24",
+      "leaderId": "http://www.wikidata.org/entity/Q101225458|http://www.wikidata.org/entity/Q236|Head of government"
+    },
+    {
+      "date": "2029-01-25",
+      "leaderId": "http://www.wikidata.org/entity/Q78869|http://www.wikidata.org/entity/Q40|Head of state"
+    },
+    {
+      "date": "2029-01-26",
+      "leaderId": "http://www.wikidata.org/entity/Q11509|http://www.wikidata.org/entity/Q574|Head of government"
+    },
+    {
+      "date": "2029-01-27",
+      "leaderId": "http://www.wikidata.org/entity/Q98053664|http://www.wikidata.org/entity/Q734|Head of government"
+    },
+    {
+      "date": "2029-01-28",
+      "leaderId": "http://www.wikidata.org/entity/Q7035479|http://www.wikidata.org/entity/Q399|Head of government"
+    },
+    {
+      "date": "2029-01-29",
+      "leaderId": "http://www.wikidata.org/entity/Q37860840|http://www.wikidata.org/entity/Q233|Head of government"
+    },
+    {
+      "date": "2029-01-30",
+      "leaderId": "http://www.wikidata.org/entity/Q6766871|http://www.wikidata.org/entity/Q26988|Head of government"
+    },
+    {
+      "date": "2029-01-31",
+      "leaderId": "http://www.wikidata.org/entity/Q109012733|http://www.wikidata.org/entity/Q712|Head of state"
+    },
+    {
+      "date": "2029-02-01",
+      "leaderId": "http://www.wikidata.org/entity/Q3847080|http://www.wikidata.org/entity/Q865|Head of state"
+    },
+    {
+      "date": "2029-02-02",
+      "leaderId": "http://www.wikidata.org/entity/Q97058466|http://www.wikidata.org/entity/Q1029|Head of state"
+    },
+    {
+      "date": "2029-02-03",
+      "leaderId": "http://www.wikidata.org/entity/Q7183082|http://www.wikidata.org/entity/Q778|Head of government"
+    },
+    {
+      "date": "2029-02-04",
+      "leaderId": "http://www.wikidata.org/entity/Q2080040|http://www.wikidata.org/entity/Q213|Head of state"
+    },
+    {
+      "date": "2029-02-05",
+      "leaderId": "http://www.wikidata.org/entity/Q109385659|http://www.wikidata.org/entity/Q237|Head of government"
+    },
+    {
+      "date": "2029-02-06",
+      "leaderId": "http://www.wikidata.org/entity/Q57390|http://www.wikidata.org/entity/Q977|Head of state"
+    },
+    {
+      "date": "2029-02-07",
+      "leaderId": "http://www.wikidata.org/entity/Q3183124|http://www.wikidata.org/entity/Q837|Head of state"
+    },
+    {
+      "date": "2029-02-08",
+      "leaderId": "http://www.wikidata.org/entity/Q13081568|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2029-02-09",
+      "leaderId": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state"
+    },
+    {
+      "date": "2029-02-10",
+      "leaderId": "http://www.wikidata.org/entity/Q1638114|http://www.wikidata.org/entity/Q1028|Head of government"
+    },
+    {
+      "date": "2029-02-11",
+      "leaderId": "http://www.wikidata.org/entity/Q13047644|http://www.wikidata.org/entity/Q1246|Head of state"
+    },
+    {
+      "date": "2029-02-12",
+      "leaderId": "http://www.wikidata.org/entity/Q129263796|http://www.wikidata.org/entity/Q983|Head of government"
+    },
+    {
+      "date": "2029-02-13",
+      "leaderId": "http://www.wikidata.org/entity/Q27654948|http://www.wikidata.org/entity/Q1049|Head of government"
+    },
+    {
+      "date": "2029-02-14",
+      "leaderId": "http://www.wikidata.org/entity/Q5116472|http://www.wikidata.org/entity/Q865|Head of government"
+    },
+    {
+      "date": "2029-02-15",
+      "leaderId": "http://www.wikidata.org/entity/Q5528031|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2029-02-16",
+      "leaderId": "http://www.wikidata.org/entity/Q13026319|http://www.wikidata.org/entity/Q869|Head of government"
+    },
+    {
+      "date": "2029-02-17",
+      "leaderId": "http://www.wikidata.org/entity/Q704022|http://www.wikidata.org/entity/Q739|Head of state and government"
+    },
+    {
+      "date": "2029-02-18",
+      "leaderId": "http://www.wikidata.org/entity/Q946|http://www.wikidata.org/entity/Q36|Head of government"
+    },
+    {
+      "date": "2029-02-19",
+      "leaderId": "http://www.wikidata.org/entity/Q19876617|http://www.wikidata.org/entity/Q34020|Head of government"
+    },
+    {
+      "date": "2029-02-20",
+      "leaderId": "http://www.wikidata.org/entity/Q3510872|http://www.wikidata.org/entity/Q1033|Head of state and government"
+    },
+    {
+      "date": "2029-02-21",
+      "leaderId": "http://www.wikidata.org/entity/Q15081116|http://www.wikidata.org/entity/Q717|Head of state"
+    },
+    {
+      "date": "2029-02-22",
+      "leaderId": "http://www.wikidata.org/entity/Q4298520|http://www.wikidata.org/entity/Q159|Head of government"
+    },
+    {
+      "date": "2029-02-23",
+      "leaderId": "http://www.wikidata.org/entity/Q2657043|http://www.wikidata.org/entity/Q833|Head of state"
+    },
+    {
+      "date": "2029-02-24",
+      "leaderId": "http://www.wikidata.org/entity/Q29033962|http://www.wikidata.org/entity/Q822|Head of state"
+    },
+    {
+      "date": "2029-02-25",
+      "leaderId": "http://www.wikidata.org/entity/Q112679881|http://www.wikidata.org/entity/Q769|Head of government"
+    },
+    {
+      "date": "2029-02-26",
+      "leaderId": "http://www.wikidata.org/entity/Q4777855|http://www.wikidata.org/entity/Q854|Head of state"
+    },
+    {
+      "date": "2029-02-27",
+      "leaderId": "http://www.wikidata.org/entity/Q17712353|http://www.wikidata.org/entity/Q792|Head of state and government"
+    },
+    {
+      "date": "2029-02-28",
+      "leaderId": "http://www.wikidata.org/entity/Q99605101|http://www.wikidata.org/entity/Q1045|Head of government"
+    },
+    {
+      "date": "2029-03-01",
+      "leaderId": "http://www.wikidata.org/entity/Q222031|http://www.wikidata.org/entity/Q403|Head of state"
+    },
+    {
+      "date": "2029-03-02",
+      "leaderId": "http://www.wikidata.org/entity/Q336599|http://www.wikidata.org/entity/Q31|Head of government"
+    },
+    {
+      "date": "2029-03-03",
+      "leaderId": "http://www.wikidata.org/entity/Q3434569|http://www.wikidata.org/entity/Q1008|Head of government"
+    },
+    {
+      "date": "2029-03-04",
+      "leaderId": "http://www.wikidata.org/entity/Q297825|http://www.wikidata.org/entity/Q225|Head of state"
+    },
+    {
+      "date": "2029-03-05",
+      "leaderId": "http://www.wikidata.org/entity/Q136500275|http://www.wikidata.org/entity/Q1019|Head of state"
+    },
+    {
+      "date": "2029-03-06",
+      "leaderId": "http://www.wikidata.org/entity/Q7407632|http://www.wikidata.org/entity/Q14773|Head of government"
+    },
+    {
+      "date": "2029-03-07",
+      "leaderId": "http://www.wikidata.org/entity/Q191045|http://www.wikidata.org/entity/Q29|Head of state"
+    },
+    {
+      "date": "2029-03-08",
+      "leaderId": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state"
+    },
+    {
+      "date": "2029-03-09",
+      "leaderId": "http://www.wikidata.org/entity/Q57385|http://www.wikidata.org/entity/Q983|Head of state"
+    },
+    {
+      "date": "2029-03-10",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q142|Head of state"
+    },
+    {
+      "date": "2029-03-11",
+      "leaderId": "http://www.wikidata.org/entity/Q9051824|http://www.wikidata.org/entity/Q8646|Head of government"
+    },
+    {
+      "date": "2029-03-12",
+      "leaderId": "http://www.wikidata.org/entity/Q27917049|http://www.wikidata.org/entity/Q1005|Head of state and government"
+    },
+    {
+      "date": "2029-03-13",
+      "leaderId": "http://www.wikidata.org/entity/Q6169516|http://www.wikidata.org/entity/Q945|Head of state"
+    },
+    {
+      "date": "2029-03-14",
+      "leaderId": "http://www.wikidata.org/entity/Q57340|http://www.wikidata.org/entity/Q1050|Head of state"
+    },
+    {
+      "date": "2029-03-15",
+      "leaderId": "http://www.wikidata.org/entity/Q60441515|http://www.wikidata.org/entity/Q1009|Head of government"
+    },
+    {
+      "date": "2029-03-16",
+      "leaderId": "http://www.wikidata.org/entity/Q1231345|http://www.wikidata.org/entity/Q1037|Head of state"
+    },
+    {
+      "date": "2029-03-17",
+      "leaderId": "http://www.wikidata.org/entity/Q12241106|http://www.wikidata.org/entity/Q1025|Head of state"
+    },
+    {
+      "date": "2029-03-18",
+      "leaderId": "http://www.wikidata.org/entity/Q19901232|http://www.wikidata.org/entity/Q668|Head of state"
+    },
+    {
+      "date": "2029-03-19",
+      "leaderId": "http://www.wikidata.org/entity/Q11685764|http://www.wikidata.org/entity/Q224|Head of government"
+    },
+    {
+      "date": "2029-03-20",
+      "leaderId": "http://www.wikidata.org/entity/Q114341246|http://www.wikidata.org/entity/Q965|Head of state"
+    },
+    {
+      "date": "2029-03-21",
+      "leaderId": "http://www.wikidata.org/entity/Q24237654|http://www.wikidata.org/entity/Q889|Head of state"
+    },
+    {
+      "date": "2029-03-22",
+      "leaderId": "http://www.wikidata.org/entity/Q503143|http://www.wikidata.org/entity/Q33|Head of state"
+    },
+    {
+      "date": "2029-03-23",
+      "leaderId": "http://www.wikidata.org/entity/Q5771800|http://www.wikidata.org/entity/Q96|Head of state and government"
+    },
+    {
+      "date": "2029-03-24",
+      "leaderId": "http://www.wikidata.org/entity/Q97011032|http://www.wikidata.org/entity/Q810|Head of government"
+    },
+    {
+      "date": "2029-03-25",
+      "leaderId": "http://www.wikidata.org/entity/Q12850075|http://www.wikidata.org/entity/Q227|Head of government"
+    },
+    {
+      "date": "2029-03-26",
+      "leaderId": "http://www.wikidata.org/entity/Q107422711|http://www.wikidata.org/entity/Q222|Head of state"
+    },
+    {
+      "date": "2029-03-27",
+      "leaderId": "http://www.wikidata.org/entity/Q17704749|http://www.wikidata.org/entity/Q36|Head of state"
+    },
+    {
+      "date": "2029-03-28",
+      "leaderId": "http://www.wikidata.org/entity/Q58096|http://www.wikidata.org/entity/Q697|Head of state and government"
+    },
+    {
+      "date": "2029-03-29",
+      "leaderId": "http://www.wikidata.org/entity/Q79358625|http://www.wikidata.org/entity/Q241|Head of government"
+    },
+    {
+      "date": "2029-03-30",
+      "leaderId": "http://www.wikidata.org/entity/Q387491|http://www.wikidata.org/entity/Q225|Head of government"
+    },
+    {
+      "date": "2029-03-31",
+      "leaderId": "http://www.wikidata.org/entity/Q307871|http://www.wikidata.org/entity/Q79|Head of state"
+    },
+    {
+      "date": "2029-04-01",
+      "leaderId": "http://www.wikidata.org/entity/Q112988233|http://www.wikidata.org/entity/Q1007|Head of government"
+    },
+    {
+      "date": "2029-04-02",
+      "leaderId": "http://www.wikidata.org/entity/Q61121565|http://www.wikidata.org/entity/Q211|Head of government"
+    },
+    {
+      "date": "2029-04-03",
+      "leaderId": "http://www.wikidata.org/entity/Q26703072|http://www.wikidata.org/entity/Q695|Head of state and government"
+    },
+    {
+      "date": "2029-04-04",
+      "leaderId": "http://www.wikidata.org/entity/Q64576653|http://www.wikidata.org/entity/Q40|Head of government"
+    },
+    {
+      "date": "2029-04-05",
+      "leaderId": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q228|Head of state"
+    },
+    {
+      "date": "2029-04-06",
+      "leaderId": "http://www.wikidata.org/entity/Q57315|http://www.wikidata.org/entity/Q958|Head of state"
+    },
+    {
+      "date": "2029-04-07",
+      "leaderId": "http://www.wikidata.org/entity/Q57413|http://www.wikidata.org/entity/Q1008|Head of state"
+    },
+    {
+      "date": "2029-04-08",
+      "leaderId": "http://www.wikidata.org/entity/Q98497406|http://www.wikidata.org/entity/Q912|Head of state"
+    },
+    {
+      "date": "2029-04-09",
+      "leaderId": "http://www.wikidata.org/entity/Q16146159|http://www.wikidata.org/entity/Q783|Head of state and government"
+    },
+    {
+      "date": "2029-04-10",
+      "leaderId": "http://www.wikidata.org/entity/Q208497|http://www.wikidata.org/entity/Q678|Head of state"
+    }
+  ]
+}
