@@ -31,10 +31,10 @@
       try {
         var raw = localStorage.getItem("worldleaderle_settings_v1");
         var parsed = raw ? JSON.parse(raw) : null;
-        var theme = parsed && ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "default";
+        var theme = parsed && ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "system";
         document.documentElement.setAttribute("data-theme", theme);
       } catch (error) {
-        document.documentElement.setAttribute("data-theme", "default");
+        document.documentElement.setAttribute("data-theme", "system");
       }
     })();
   </script>
@@ -1147,9 +1147,9 @@
       <div class="settings-layout">
         <section class="settings-section">
           <h3>Theme</h3>
-          <p>Choose between the new retro poster default, the original dark look, a light mode, or a system-following theme.</p>
+          <p>Choose between Retro, the original dark look, a light mode, or a system-following theme.</p>
           <div class="settings-options">
-            <label class="settings-option"><input type="radio" name="themeSetting" value="default"> <span>Default retro</span></label>
+            <label class="settings-option"><input type="radio" name="themeSetting" value="default"> <span>Retro</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="dark"> <span>Dark</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="light"> <span>Light</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="system"> <span>System</span></label>
@@ -1568,7 +1568,7 @@
     const countryFilterInput = document.getElementById("countryFilterInput");
 
     const defaultSettings = {
-      theme: "default",
+      theme: "system",
       guessSort: "recent",
       randomLeaderPool: "all"
     };
@@ -1717,7 +1717,7 @@
     }
 
     function describeTheme(value) {
-      if (value === "default") return "Default retro";
+      if (value === "default") return "Retro";
       if (value === "dark") return "Dark";
       if (value === "light") return "Light";
       return "System";
