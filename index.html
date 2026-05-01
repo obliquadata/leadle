@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>World Leaderle</title>
-  <meta name="description" content="World Leaderle is a daily geography game where you guess the country of world leaders. No login, no payment, and no personal data required." />
+  <title>World Leadle</title>
+  <meta name="description" content="World Leadle is a daily geography game where you guess the country of world leaders. No login, no payment, and no personal data required." />
   <meta name="theme-color" content="#07111f" />
-  <meta property="og:title" content="World Leaderle" />
+  <meta property="og:title" content="World Leadle" />
   <meta property="og:description" content="A daily geography game where you guess the country of today’s mystery world leader." />
   <meta property="og:type" content="website" />
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,7 +21,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Leadle">
   <meta property="og:title" content="Leadle — guess the country of world leaders">
-  <meta property="og:description" content="World Leaderle is a daily geography game where you guess the country of world leaders.">
+  <meta property="og:description" content="World Leadle is a daily geography game where you guess the country of world leaders.">
   <meta property="og:url" content="https://obliquadata.github.io/leadle/">
   <meta property="og:image" content="https://obliquadata.github.io/leadle/leaderle-share.png">
   <meta property="og:image:alt" content="Leadle geography game share image">
@@ -770,7 +770,7 @@
       .attempt-grid { grid-template-columns: 1fr; }
     }
 
-    /* CookieYes banner: match World Leaderle theme */
+    /* CookieYes banner: match World Leadle theme */
     .cky-consent-container,
     .cky-consent-container * {
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
@@ -847,7 +847,7 @@
       }
     }
 
-        /* CookieYes preference center: match World Leaderle theme */
+        /* CookieYes preference center: match World Leadle theme */
     .cky-modal,
     .cky-modal * {
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
@@ -1054,7 +1054,7 @@
       <div class="topbar">
         <div>
           <div class="eyebrow">Daily leader guessing game</div>
-          <h1 id="gameTitle">Daily World Leaderle</h1>
+          <h1 id="gameTitle">Daily World Leadle</h1>
           <div class="subtitle">A daily geography game — guess the country of today’s mystery world leader.</div>
         </div>
         <div class="topbar-right">
@@ -1116,7 +1116,7 @@
         </section>
       </div>
       <footer class="site-footer">
-        <div>World Leaderle is a free browser game by <a href="https://obliquadata.github.io/" target="_blank" rel="noopener noreferrer">Obliqua Data</a>. No account is required.</div>
+        <div>World Leadle is a free browser game by <a href="https://obliquadata.github.io/" target="_blank" rel="noopener noreferrer">Obliqua Data</a>. No account is required.</div>
         <div><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a></div>
       </footer>
     </main>
@@ -1924,7 +1924,7 @@
     }
 
     function updateGameChrome() {
-      gameTitle.textContent = currentMode === "random" ? "Random World Leaderle" : "Daily World Leaderle";
+      gameTitle.textContent = currentMode === "random" ? "Random World Leadle" : "Daily World Leadle";
       if (currentMode === "random") {
         dateChip.textContent = buildRandomQueueChipText(settings.randomLeaderPool);
         randomButton.textContent = "Next random leader";
@@ -2662,10 +2662,10 @@
       const shareUrl = window.location.href;
 
       if (currentMode === "random") {
-        return `Random World Leaderle - ${mysteryLeader.leader} (${mysteryLeader.country}) - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
+        return `Random World Leadle - ${mysteryLeader.leader} (${mysteryLeader.country}) - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
       }
 
-      return `Daily World Leaderle ${getTodayKey()} - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
+      return `Daily World Leadle ${getTodayKey()} - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
     }
 
     async function copyShare() {
