@@ -23,7 +23,190 @@ const outputDir = path.join(repoRoot, "data");
 const outputPath = path.join(outputDir, "leaders.json");
 
 const WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql";
-const WORLD_BANK_CORRUPTION_URL = "https://api.worldbank.org/v2/country/all/indicator/CC.EST?format=json&per_page=400&mrv=1";
+const TRANSPARENCY_INTERNATIONAL_CPI_2025_URL = "https://www.transparency.org/en/cpi/2025";
+const TRANSPARENCY_INTERNATIONAL_CPI_2025_SCORES_BY_ISO2 = Object.freeze({
+  "AE": 69,
+  "AF": 16,
+  "AL": 39,
+  "AM": 46,
+  "AO": 32,
+  "AR": 36,
+  "AT": 69,
+  "AU": 76,
+  "AZ": 30,
+  "BA": 34,
+  "BB": 68,
+  "BD": 24,
+  "BE": 69,
+  "BF": 40,
+  "BG": 40,
+  "BH": 50,
+  "BI": 17,
+  "BJ": 45,
+  "BN": 63,
+  "BO": 28,
+  "BR": 35,
+  "BS": 64,
+  "BT": 71,
+  "BW": 58,
+  "BY": 31,
+  "BZ": 36,
+  "CA": 75,
+  "CD": 20,
+  "CF": 24,
+  "CG": 23,
+  "CH": 80,
+  "CI": 43,
+  "CL": 63,
+  "CM": 26,
+  "CN": 43,
+  "CO": 37,
+  "CR": 56,
+  "CU": 40,
+  "CV": 62,
+  "CY": 55,
+  "CZ": 59,
+  "DE": 77,
+  "DJ": 31,
+  "DK": 89,
+  "DM": 60,
+  "DO": 37,
+  "DZ": 34,
+  "EC": 33,
+  "EE": 76,
+  "EG": 30,
+  "ER": 13,
+  "ES": 55,
+  "ET": 38,
+  "FI": 88,
+  "FJ": 55,
+  "FR": 66,
+  "GA": 29,
+  "GB": 70,
+  "GD": 56,
+  "GE": 50,
+  "GH": 43,
+  "GM": 37,
+  "GN": 26,
+  "GQ": 15,
+  "GR": 50,
+  "GT": 26,
+  "GW": 21,
+  "GY": 40,
+  "HK": 76,
+  "HN": 22,
+  "HR": 47,
+  "HT": 16,
+  "HU": 40,
+  "ID": 34,
+  "IE": 76,
+  "IL": 62,
+  "IN": 39,
+  "IQ": 28,
+  "IR": 23,
+  "IS": 77,
+  "IT": 53,
+  "JM": 44,
+  "JO": 50,
+  "JP": 71,
+  "KE": 30,
+  "KG": 26,
+  "KH": 20,
+  "KM": 20,
+  "KP": 15,
+  "KR": 63,
+  "KW": 46,
+  "KZ": 38,
+  "LA": 34,
+  "LB": 23,
+  "LC": 59,
+  "LK": 35,
+  "LR": 28,
+  "LS": 37,
+  "LT": 65,
+  "LU": 78,
+  "LV": 60,
+  "LY": 13,
+  "MA": 39,
+  "MD": 42,
+  "ME": 46,
+  "MG": 25,
+  "MK": 40,
+  "ML": 28,
+  "MM": 16,
+  "MN": 31,
+  "MR": 30,
+  "MT": 49,
+  "MU": 48,
+  "MV": 39,
+  "MW": 34,
+  "MX": 27,
+  "MY": 52,
+  "MZ": 21,
+  "NA": 46,
+  "NE": 31,
+  "NG": 26,
+  "NI": 14,
+  "NL": 78,
+  "NO": 81,
+  "NP": 34,
+  "NZ": 81,
+  "OM": 52,
+  "PA": 33,
+  "PE": 30,
+  "PG": 26,
+  "PH": 32,
+  "PK": 28,
+  "PL": 53,
+  "PT": 56,
+  "PY": 24,
+  "QA": 58,
+  "RO": 45,
+  "RS": 33,
+  "RU": 22,
+  "RW": 58,
+  "SA": 57,
+  "SB": 44,
+  "SC": 68,
+  "SD": 14,
+  "SE": 80,
+  "SG": 84,
+  "SI": 58,
+  "SK": 48,
+  "SL": 34,
+  "SN": 46,
+  "SO": 9,
+  "SR": 38,
+  "SS": 9,
+  "ST": 45,
+  "SV": 32,
+  "SY": 15,
+  "SZ": 23,
+  "TD": 22,
+  "TG": 32,
+  "TH": 33,
+  "TJ": 19,
+  "TL": 44,
+  "TM": 17,
+  "TN": 39,
+  "TR": 31,
+  "TT": 41,
+  "TW": 68,
+  "TZ": 40,
+  "UA": 36,
+  "UG": 25,
+  "US": 64,
+  "UY": 73,
+  "UZ": 31,
+  "VC": 63,
+  "VE": 10,
+  "VN": 41,
+  "VU": 47,
+  "YE": 13,
+  "ZA": 41,
+  "ZM": 37,
+  "ZW": 22
+});
 const WIKIPEDIA_SUMMARY_BASE = "https://en.wikipedia.org/api/rest_v1/page/summary/";
 
 const USER_AGENT = "LeaderleDatabaseGenerator/3.0 (https://github.com/obliquadata/obliquadata.github.io)";
@@ -55,7 +238,7 @@ const FALLBACK_LEADERS = [
     iso2: "FR",
     role: "Head of state",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emmanuel_Macron_in_2023.jpg/640px-Emmanuel_Macron_in_2023.jpg",
-    corruptionScore: 1.3,
+    corruptionScore: 66,
     coords: { lat: 46.2276, lon: 2.2137 },
     summary: "Emmanuel Macron is a French politician who has served as President of France since 2017."
   },
@@ -69,7 +252,7 @@ const FALLBACK_LEADERS = [
     iso2: "AU",
     role: "Head of government",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Anthony_Albanese_2022_%28cropped%29.jpg/640px-Anthony_Albanese_2022_%28cropped%29.jpg",
-    corruptionScore: 1.8,
+    corruptionScore: 76,
     coords: { lat: -25.2744, lon: 133.7751 },
     summary: "Anthony Albanese is an Australian politician serving as Prime Minister of Australia since 2022."
   },
@@ -83,7 +266,7 @@ const FALLBACK_LEADERS = [
     iso2: "IN",
     role: "Head of government",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png/640px-Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png",
-    corruptionScore: -0.2,
+    corruptionScore: 39,
     coords: { lat: 20.5937, lon: 78.9629 },
     summary: "Narendra Modi is an Indian politician serving as Prime Minister of India since 2014."
   }
@@ -284,19 +467,11 @@ async function fetchLeaderPool() {
 }
 
 async function fetchCorruptionMap() {
-  try {
-    const json = await fetchJsonWithRetry(WORLD_BANK_CORRUPTION_URL, {}, "World Bank corruption data");
-    const rows = Array.isArray(json) ? json[1] : [];
-    const map = new Map();
-    for (const row of rows || []) {
-      if (!row?.country?.id || row.value == null) continue;
-      map.set(String(row.country.id).toUpperCase(), Number(row.value));
-    }
-    return map;
-  } catch (error) {
-    console.warn(`Could not fetch corruption scores: ${error.message}`);
-    return new Map();
+  const map = new Map();
+  for (const [iso2, score] of Object.entries(TRANSPARENCY_INTERNATIONAL_CPI_2025_SCORES_BY_ISO2)) {
+    map.set(iso2, score);
   }
+  return map;
 }
 
 async function fetchSummaryForLeader(leader) {
@@ -436,7 +611,7 @@ async function writeOutput(leaders, source) {
 
 async function main() {
   let leaders;
-  let source = "wikidata";
+  let source = "wikidata + Transparency International CPI 2025";
 
   try {
     console.log("Fetching heads of state and heads of government from Wikidata...");
@@ -449,10 +624,10 @@ async function main() {
     console.warn(`Live leader fetch failed: ${error.message}`);
     console.warn("Falling back to starter leaders so deployment remains usable.");
     leaders = [...FALLBACK_LEADERS];
-    source = "fallback";
+    source = "fallback + Transparency International CPI 2025";
   }
 
-  console.log("Fetching corruption scores...");
+  console.log(`Loading Transparency International CPI 2025 corruption scores (${TRANSPARENCY_INTERNATIONAL_CPI_2025_URL})...`);
   const corruptionMap = await fetchCorruptionMap();
   const leadersWithCorruption = addCorruptionScores(leaders, corruptionMap);
 
