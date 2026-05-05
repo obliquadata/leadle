@@ -520,6 +520,19 @@
     .modal-head h2 { margin: 0; font-size: 1.35rem; }
     .modal-close { min-width: 44px; padding: 10px 12px; line-height: 1; }
     .modal-grid { display: grid; gap: 12px; margin-top: 12px; }
+    .how-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 14px; }
+    .how-tab {
+      border: 1px solid rgba(255,255,255,0.10); background: rgba(255,255,255,0.035); color: var(--muted);
+      border-radius: 999px; padding: 9px 13px; font-weight: 800; cursor: pointer;
+    }
+    .how-tab:hover { transform: translateY(-1px); border-color: rgba(125,211,252,0.42); color: var(--text); }
+    .how-tab.active, .how-tab[aria-selected="true"] {
+      background: rgba(14,165,233,0.18); border-color: rgba(125,211,252,0.50); color: var(--text);
+    }
+    .how-panel { display: none; }
+    .how-panel.active { display: block; }
+    .how-panel-intro { margin: 0 0 12px; color: var(--muted); line-height: 1.55; font-size: 0.94rem; }
+    .how-panel .modal-grid { margin-top: 0; }
 
     .settings-layout { display: grid; gap: 16px; margin-top: 12px; }
     .settings-section {
@@ -1128,15 +1141,41 @@
         <h2>How to play</h2>
         <button class="ghost modal-close" id="closeHowToPlayButton" type="button">✕</button>
       </div>
-      <div class="modal-grid">
-        <div class="mini"><strong>Corruption hint</strong><span>After a wrong guess, you are told whether your guessed country is more corrupt, similarly corrupt, or less corrupt than the mystery country.</span></div>
-        <div class="mini"><strong>Corruption score source</strong><span>Scores use Transparency International’s Corruption Perceptions Index 2025. The CPI scores 182 countries and territories by perceived public-sector corruption on a 0–100 scale: 0 means highly corrupt and 100 means very clean.</span></div>
-        <div class="mini"><strong>How the score is calculated</strong><span>The CPI combines 13 external expert and business-survey sources. Each source is standardised to the 0–100 CPI scale; a country is scored only when at least three sources are available. In this game, “similar” means within 5 CPI points. Some countries show “No data” when they are not included in the CPI 2025 results.</span></div>
-        <div class="mini"><strong>Continent hint</strong><span>You are also told whether the guessed country is on the correct continent.</span></div>
-        <div class="mini"><strong>Distance hint</strong><span>Each guess gets a 5-square emoji bar that becomes greener as the guess gets geographically closer.</span></div>
-        <div class="mini"><strong>Serving hint</strong><span>The top right of the portrait indicates how long the leader has served in their current position.</span></div>
-        <div class="mini"><strong>Head of role hint</strong><span>The top left badge shows whether the leader is a head of state, a head of government, or both in one merged entry.</span></div>
+      <div class="how-tabs" role="tablist" aria-label="How to play sections">
+        <button class="how-tab active" id="howTabBasics" type="button" role="tab" aria-selected="true" aria-controls="howPanelBasics" data-how-tab="basics">Basics</button>
+        <button class="how-tab" id="howTabHints" type="button" role="tab" aria-selected="false" aria-controls="howPanelHints" data-how-tab="hints">Hints</button>
+        <button class="how-tab" id="howTabCorruption" type="button" role="tab" aria-selected="false" aria-controls="howPanelCorruption" data-how-tab="corruption">Corruption scores</button>
       </div>
+
+      <section class="how-panel active" id="howPanelBasics" role="tabpanel" aria-labelledby="howTabBasics" data-how-panel="basics">
+        <p class="how-panel-intro">Guess the country of the mystery world leader. Each wrong guess reveals clues to help narrow down the answer.</p>
+        <div class="modal-grid">
+          <div class="mini"><strong>Goal</strong><span>Identify the country connected to the mystery leader before you run out of guesses.</span></div>
+          <div class="mini"><strong>Leader image</strong><span>The portrait starts blurred and becomes clearer after incorrect guesses.</span></div>
+          <div class="mini"><strong>Daily and random play</strong><span>The daily puzzle is the same for everyone. Random mode lets you practise with additional leaders.</span></div>
+        </div>
+      </section>
+
+      <section class="how-panel" id="howPanelHints" role="tabpanel" aria-labelledby="howTabHints" data-how-panel="hints" hidden>
+        <p class="how-panel-intro">After each wrong guess, the game compares your guessed country with the mystery country.</p>
+        <div class="modal-grid">
+          <div class="mini"><strong>Continent hint</strong><span>You are told whether the guessed country is on the correct continent.</span></div>
+          <div class="mini"><strong>Distance hint</strong><span>Each guess gets a 5-square emoji bar that becomes greener as the guess gets geographically closer.</span></div>
+          <div class="mini"><strong>Corruption hint</strong><span>You are told whether your guessed country is more corrupt, similarly corrupt, or less corrupt than the mystery country.</span></div>
+          <div class="mini"><strong>Serving hint</strong><span>The top right of the portrait indicates how long the leader has served in their current position.</span></div>
+          <div class="mini"><strong>Head of role hint</strong><span>The top left badge shows whether the leader is a head of state, a head of government, or both in one merged entry.</span></div>
+        </div>
+      </section>
+
+      <section class="how-panel" id="howPanelCorruption" role="tabpanel" aria-labelledby="howTabCorruption" data-how-panel="corruption" hidden>
+        <p class="how-panel-intro">The corruption clue uses country-level CPI scores, not any judgement about an individual leader.</p>
+        <div class="modal-grid">
+          <div class="mini"><strong>Score source</strong><span>Scores use Transparency International’s Corruption Perceptions Index 2025. The CPI scores 182 countries and territories by perceived public-sector corruption.</span></div>
+          <div class="mini"><strong>What the score means</strong><span>The CPI uses a 0–100 scale: 0 means highly corrupt and 100 means very clean. In this game, a lower score means “more corrupt” and a higher score means “less corrupt”.</span></div>
+          <div class="mini"><strong>How the score is calculated</strong><span>The CPI combines 13 external expert and business-survey sources. Each source is standardised to the 0–100 CPI scale; a country is scored only when at least three sources are available.</span></div>
+          <div class="mini"><strong>How the game uses it</strong><span>“Similar” means within 5 CPI points. Some countries show “No data” when they are not included in the CPI 2025 results.</span></div>
+        </div>
+      </section>
     </div>
   </div>
 
@@ -2679,9 +2718,24 @@
       }
     }
 
+    function selectHowToPlayTab(tabName) {
+      document.querySelectorAll("[data-how-tab]").forEach((tab) => {
+        const active = tab.dataset.howTab === tabName;
+        tab.classList.toggle("active", active);
+        tab.setAttribute("aria-selected", active ? "true" : "false");
+      });
+
+      document.querySelectorAll("[data-how-panel]").forEach((panel) => {
+        const active = panel.dataset.howPanel === tabName;
+        panel.classList.toggle("active", active);
+        panel.hidden = !active;
+      });
+    }
+
     function openModal(modal) {
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
+      if (modal === howToPlayModal) selectHowToPlayTab("basics");
     }
 
     function closeModal(modal) {
@@ -2741,6 +2795,10 @@
       });
       closeHowToPlayButton.addEventListener("click", () => closeModal(howToPlayModal));
       closeSettingsButton.addEventListener("click", () => closeModal(settingsModal));
+
+      document.querySelectorAll("[data-how-tab]").forEach((tab) => {
+        tab.addEventListener("click", () => selectHowToPlayTab(tab.dataset.howTab));
+      });
 
       [howToPlayModal, settingsModal].forEach((modal) => {
         modal.addEventListener("click", (event) => {
