@@ -1170,7 +1170,7 @@
       <section class="how-panel" id="howPanelCorruption" role="tabpanel" aria-labelledby="howTabCorruption" data-how-panel="corruption" hidden>
         <p class="how-panel-intro">The corruption clue uses country-level CPI scores, not any judgement about an individual leader.</p>
         <div class="modal-grid">
-          <div class="mini"><strong>Score source</strong><span>Scores use <a href="https://www.transparency.org/en/cpi/2025" target="_blank" rel="noopener noreferrer">Transparency International’s Corruption Perceptions Index 2025</a>. The CPI scores 182 countries and territories by perceived public-sector corruption.</a></span></div>
+          <div class="mini"><strong>Score source</strong><span>Scores use Transparency International’s Corruption Perceptions Index 2025. The CPI scores 182 countries and territories by perceived public-sector corruption.</span></div>
           <div class="mini"><strong>What the score means</strong><span>The CPI uses a 0–100 scale: 0 means highly corrupt and 100 means very clean. In this game, a lower score means “more corrupt” and a higher score means “less corrupt”.</span></div>
           <div class="mini"><strong>How the score is calculated</strong><span>The CPI combines 13 external expert and business-survey sources. Each source is standardised to the 0–100 CPI scale; a country is scored only when at least three sources are available.</span></div>
           <div class="mini"><strong>How the game uses it</strong><span>“Similar” means within 5 CPI points. Some countries show “No data” when they are not included in the CPI 2025 results.</span></div>
@@ -2433,8 +2433,14 @@
         : guess.sameContinent
           ? `<span class="pill good">Correct continent</span>`
           : `<span class="pill bad">Wrong continent</span>`;
+      const exactCorruptionScore = mysteryLeader.corruptionScore == null
+        ? "No CPI data"
+        : `CPI score: ${mysteryLeader.corruptionScore}`;
+      const exactCorruptionDetail = mysteryLeader.corruptionScore == null
+        ? `Transparency International CPI data is not available for <b>${mysteryLeader.country}</b>.`
+        : `The mystery country is <b>${mysteryLeader.country}</b>. Its Transparency International CPI score is <b>${mysteryLeader.corruptionScore}</b> out of 100.`;
       const corruptionPill = guess.correct
-        ? `<span class="pill good">Match</span>`
+        ? `<span class="pill good">${exactCorruptionScore}</span>`
         : `<span class="pill corruption-pill ${guess.corruptionComparison.pillClass}">${guess.corruptionComparison.label}</span>`;
       const distanceText = guess.distanceKm == null ? "Distance unavailable" : `${guess.distanceKm.toLocaleString()} km away`;
 
@@ -2445,7 +2451,7 @@
             <div class="pill-group">${resultPill}${continentPill}${corruptionPill}</div>
           </div>
           <div class="attempt-grid">
-            <div class="hint-box"><b>Corruption hint:</b><br>${guess.correct ? `The mystery country is <b>${mysteryLeader.country}</b>.` : guess.corruptionComparison.detail}</div>
+            <div class="hint-box"><b>Corruption hint:</b><br>${guess.correct ? exactCorruptionDetail : guess.corruptionComparison.detail}</div>
             <div class="hint-box"><b>Continent hint:</b><br>${guess.correct ? `${mysteryLeader.country} is in <b>${mysteryLeader.continent}</b>.` : (guess.sameContinent ? `Yes, ${guess.country} is on the correct continent.` : `No, ${guess.country} is not on the correct continent.`)}</div>
           </div>
           <div class="distance-line">
