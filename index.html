@@ -6,9 +6,26 @@
   <title>World Leadle</title>
   <meta name="description" content="World Leadle is a daily geography game where you guess the country of world leaders. No login, no payment, and no personal data required." />
   <meta name="theme-color" content="#07111f" />
-  <meta property="og:title" content="World Leadle" />
-  <meta property="og:description" content="A daily geography game where you guess the country of today’s mystery world leader." />
+
+  <!-- Open Graph / social sharing -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="World Leadle" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:title" content="World Leadle — guess the country of world leaders" />
+  <meta property="og:description" content="A daily geography game where you guess the country of today’s mystery world leader." />
+  <meta property="og:url" content="https://obliquadata.github.io/leadle/" />
+  <meta property="og:image" content="https://obliquadata.github.io/leadle/leadle-og-1200x630.jpg" />
+  <meta property="og:image:secure_url" content="https://obliquadata.github.io/leadle/leadle-og-1200x630.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="World Leadle geography game preview" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="World Leadle — guess the country of world leaders" />
+  <meta name="twitter:description" content="A daily geography game where you guess the country of today’s mystery world leader." />
+  <meta name="twitter:image" content="https://obliquadata.github.io/leadle/leadle-og-1200x630.jpg" />
+  <meta name="twitter:image:alt" content="World Leadle geography game preview" />
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="https://obliquadata.github.io/leadle/">
@@ -17,21 +34,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Leadle">
-  <meta property="og:title" content="Leadle — guess the country of world leaders">
-  <meta property="og:description" content="World Leadle is a daily geography game where you guess the country of world leaders.">
-  <meta property="og:url" content="https://obliquadata.github.io/leadle/">
-  <meta property="og:image" content="https://obliquadata.github.io/leadle/leaderle-share.png">
-  <meta property="og:image:alt" content="Leadle geography game share image">
-
   <script>
     (function () {
       try {
         var raw = localStorage.getItem("worldleaderle_settings_v1");
         var parsed = raw ? JSON.parse(raw) : null;
-        var theme = parsed && ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "system";
+        var theme = parsed && ["dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "system";
         document.documentElement.setAttribute("data-theme", theme);
       } catch (error) {
         document.documentElement.setAttribute("data-theme", "system");
@@ -40,14 +48,12 @@
   </script>
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
 
   <!-- Google Tag Manager -->
-  </div>
-
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -140,188 +146,6 @@
     }
 
     html, body { overflow-x: hidden; }
-    body::before,
-    body::after {
-      content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 180ms ease;
-    }
-    body::before {
-      z-index: -2;
-      background:
-        linear-gradient(rgba(246, 234, 203, 0.06), rgba(246, 234, 203, 0.06)),
-        url("./assets/paper-noise.png");
-      background-size: auto, 256px 256px;
-      background-repeat: repeat;
-      mix-blend-mode: soft-light;
-    }
-    body::after {
-      z-index: -1;
-      inset: auto 0 0 0;
-      height: min(35vh, 320px);
-      background: url("./assets/retro-skyline.svg") center bottom / cover no-repeat;
-    }
-    html[data-theme="default"] {
-      color-scheme: light;
-      --bg: #0e5568;
-      --bg-top: #0a4453;
-      --card: rgba(239, 223, 187, 0.92);
-      --text: #173d48;
-      --muted: #4f6b69;
-      --good: #2f6b4a;
-      --bad: #9e4b47;
-      --warn: #b5762e;
-      --neutral: #6f7f79;
-      --border: rgba(32, 70, 74, 0.22);
-      --shadow: 0 12px 0 rgba(19, 53, 62, 0.18), 0 22px 45px rgba(11, 28, 33, 0.18);
-      --chip-bg: rgba(244, 231, 202, 0.92);
-      --chip-border: rgba(32, 70, 74, 0.22);
-    }
-    html[data-theme="default"] body {
-      background:
-        radial-gradient(circle at 50% 84%, rgba(234, 191, 110, 0.28), transparent 18%),
-        linear-gradient(180deg, #0d4c5d 0%, #15657a 55%, #2b7b87 100%);
-      padding-bottom: 190px;
-    }
-    html[data-theme="default"] body::before,
-    html[data-theme="default"] body::after { opacity: 1; }
-    html[data-theme="default"] .shell { position: relative; z-index: 1; }
-    html[data-theme="default"] .card {
-      background: var(--card);
-      border: 3px solid rgba(32, 70, 74, 0.24);
-      border-radius: 26px;
-      box-shadow: var(--shadow);
-      backdrop-filter: none;
-    }
-    html[data-theme="default"] .main { padding: 26px; }
-    html[data-theme="default"] h1,
-    html[data-theme="default"] .attempt-title,
-    html[data-theme="default"] .modal-head h2,
-    html[data-theme="default"] .settings-section h3 {
-      font-family: "Bebas Neue", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      letter-spacing: 0.04em;
-    }
-    html[data-theme="default"] h1 {
-      font-size: clamp(3rem, 5vw, 4.7rem);
-      line-height: 0.92;
-      letter-spacing: 0.03em;
-      color: #143942;
-      text-shadow: 0 2px 0 rgba(255, 245, 220, 0.4);
-    }
-    html[data-theme="default"] .subtitle,
-    html[data-theme="default"] .trust-note,
-    html[data-theme="default"] .site-footer,
-    html[data-theme="default"] .settings-section p,
-    html[data-theme="default"] .settings-summary,
-    html[data-theme="default"] .reveal-meta,
-    html[data-theme="default"] .reveal-text { color: var(--muted); }
-    html[data-theme="default"] .eyebrow,
-    html[data-theme="default"] .date-chip,
-    html[data-theme="default"] .badge,
-    html[data-theme="default"] button.secondary,
-    html[data-theme="default"] button.ghost,
-    html[data-theme="default"] .settings-option,
-    html[data-theme="default"] .settings-summary,
-    html[data-theme="default"] .hint-box,
-    html[data-theme="default"] .mini,
-    html[data-theme="default"] .panel,
-    html[data-theme="default"] .code-block,
-    html[data-theme="default"] .reveal-card,
-    html[data-theme="default"] .attempt,
-    html[data-theme="default"] .settings-section,
-    html[data-theme="default"] input,
-    html[data-theme="default"] .portrait-panel,
-    html[data-theme="default"] .modal,
-    html[data-theme="default"] .modal-overlay.open .modal {
-      background: rgba(242, 228, 194, 0.96);
-      border-color: rgba(32, 70, 74, 0.18);
-      color: var(--text);
-      box-shadow: 0 8px 0 rgba(33, 70, 74, 0.12), 0 18px 36px rgba(17, 38, 40, 0.15);
-      backdrop-filter: none;
-    }
-    html[data-theme="default"] .eyebrow,
-    html[data-theme="default"] .date-chip,
-    html[data-theme="default"] .badge,
-    html[data-theme="default"] button.secondary,
-    html[data-theme="default"] button.ghost {
-      background: rgba(245, 233, 205, 0.95);
-      border-color: rgba(32, 70, 74, 0.2);
-      color: #224852;
-    }
-    html[data-theme="default"] .portrait-wrap {
-      background: linear-gradient(180deg, #e8d8b5, #bfd7ce 80%);
-      border: 2px solid rgba(32, 70, 74, 0.16);
-      box-shadow: inset 0 0 0 1px rgba(255, 244, 220, 0.55);
-    }
-    html[data-theme="default"] .portrait-wrap::after {
-      content: "";
-      position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(255,255,255,0.22), transparent 26%, transparent 70%, rgba(13,76,93,0.08));
-      pointer-events: none;
-    }
-    html[data-theme="default"] .photo-badge .badge,
-    html[data-theme="default"] .meta-badge .badge {
-      background: rgba(18, 61, 71, 0.8);
-      border-color: rgba(245, 233, 205, 0.18);
-      color: #f4e9ca;
-    }
-    html[data-theme="default"] input {
-      background: rgba(248, 238, 214, 0.88);
-      border: 2px solid rgba(32, 70, 74, 0.2);
-      color: #173d48;
-    }
-    html[data-theme="default"] input::placeholder { color: #6b7e79; }
-    html[data-theme="default"] button {
-      border-radius: 12px;
-      border: 2px solid rgba(122, 57, 24, 0.34);
-      color: #f4e9ca;
-      background: linear-gradient(180deg, #d07b43 0%, #bf6430 100%);
-      box-shadow: 0 4px 0 rgba(125, 60, 26, 0.24);
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-    html[data-theme="default"] button:hover { transform: translateY(-1px); filter: brightness(1.03); }
-    html[data-theme="default"] button.secondary,
-    html[data-theme="default"] button.ghost {
-      color: #214751;
-      box-shadow: none;
-      text-transform: none;
-      letter-spacing: 0;
-    }
-    html[data-theme="default"] .status.good { color: #2f6b4a; }
-    html[data-theme="default"] .status.bad { color: #9a4b47; }
-    html[data-theme="default"] .status.info { color: #2d6570; }
-    html[data-theme="default"] .dot { background: rgba(32, 70, 74, 0.12); border-color: rgba(32, 70, 74, 0.12); }
-    html[data-theme="default"] .dot.used { background: #d78a73; border-color: rgba(154, 75, 71, 0.25); }
-    html[data-theme="default"] .dot.win { background: #5b8f62; border-color: rgba(47, 107, 74, 0.24); }
-    html[data-theme="default"] .pill.bad,
-    html[data-theme="default"] .pill.corruption-more { background: rgba(212, 128, 105, 0.22); border-color: rgba(154,75,71,0.18); color: #944942; }
-    html[data-theme="default"] .pill.good,
-    html[data-theme="default"] .pill.corruption-equal { background: rgba(116, 155, 114, 0.22); border-color: rgba(47,107,74,0.18); color: #2f6b4a; }
-    html[data-theme="default"] .pill.corruption-less { background: rgba(212, 168, 87, 0.24); border-color: rgba(181,118,46,0.18); color: #9a6727; }
-    html[data-theme="default"] .pill.corruption-neutral { background: rgba(111,127,121,0.16); border-color: rgba(111,127,121,0.18); color: #5f6e6a; }
-    html[data-theme="default"] .site-footer { border-top-color: rgba(32, 70, 74, 0.18); }
-    html[data-theme="default"] .site-footer a,
-    html[data-theme="default"] .reveal-link-button { color: #224852; }
-    html[data-theme="default"] .reveal-link-button {
-      background: rgba(245, 233, 205, 0.95);
-      border-color: rgba(32, 70, 74, 0.2);
-    }
-    html[data-theme="default"] .modal-overlay { background: rgba(17, 45, 53, 0.42); }
-    html[data-theme="default"] #shareButton {
-      background: linear-gradient(180deg, #245763 0%, #173d48 100%);
-      border-color: rgba(18, 61, 71, 0.32);
-      color: #f4e9ca;
-    }
-    html[data-theme="default"] .cky-consent-container,
-    html[data-theme="default"] .cky-modal .cky-preference-center,
-    html[data-theme="default"] .cky-modal .cky-footer-wrapper {
-      --retro-card: #efe0bb;
-      --retro-ink: #173d48;
-    }
     #shareButton {
       display: none;
     }
@@ -1188,9 +1012,8 @@
       <div class="settings-layout">
         <section class="settings-section">
           <h3>Theme</h3>
-          <p>Choose between Retro, the original dark look, a light mode, or a system-following theme.</p>
+          <p>Choose between the original dark look, a light mode, or a system-following theme.</p>
           <div class="settings-options">
-            <label class="settings-option"><input type="radio" name="themeSetting" value="default"> <span>Retro</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="dark"> <span>Dark</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="light"> <span>Light</span></label>
             <label class="settings-option"><input type="radio" name="themeSetting" value="system"> <span>System</span></label>
@@ -1717,7 +1540,7 @@
       try {
         const parsed = JSON.parse(safeStorage.getItem(SETTINGS_STORAGE_KEY) || "null") || {};
         return {
-          theme: ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : defaultSettings.theme,
+          theme: ["dark", "light", "system"].includes(parsed.theme) ? parsed.theme : defaultSettings.theme,
           guessSort: ["recent", "closest"].includes(parsed.guessSort) ? parsed.guessSort : defaultSettings.guessSort,
           randomLeaderPool: ["state", "government", "all"].includes(parsed.randomLeaderPool) ? parsed.randomLeaderPool : defaultSettings.randomLeaderPool
         };
@@ -1758,7 +1581,6 @@
     }
 
     function describeTheme(value) {
-      if (value === "default") return "Retro";
       if (value === "dark") return "Dark";
       if (value === "light") return "Light";
       return "System";
@@ -2298,12 +2120,48 @@
 
     function canonicalCountry(input) {
       const cleaned = normalize(input);
-      const aliasHit = aliases[slugifyForLookup(input)];
-      if (aliasHit && playableCountries.has(aliasHit)) return aliasHit;
+
+      // Prefer exact playable-country matches before aliases. This prevents a typed
+      // common name such as "Denmark" from being rewritten to "Kingdom of Denmark"
+      // when the scheduled answer is stored as "Denmark".
       for (const name of playableCountries.keys()) {
         if (normalize(name) === cleaned) return name;
       }
+
+      const aliasHit = aliases[slugifyForLookup(input)];
+      if (aliasHit && playableCountries.has(aliasHit)) return aliasHit;
       return null;
+    }
+
+    function equivalentCountryKeys(countryName) {
+      const keys = new Set([normalize(countryName)]);
+      const directAlias = aliases[slugifyForLookup(countryName)];
+      if (directAlias) keys.add(normalize(directAlias));
+
+      for (const [aliasKey, canonicalName] of Object.entries(aliases)) {
+        if (normalize(canonicalName) === normalize(countryName)) {
+          keys.add(normalize(aliasKey));
+          keys.add(normalize(canonicalName));
+        }
+      }
+      return keys;
+    }
+
+    function countriesMatch(countryA, countryB) {
+      if (!countryA || !countryB) return false;
+      if (normalize(countryA) === normalize(countryB)) return true;
+
+      const aKeys = equivalentCountryKeys(countryA);
+      const bKeys = equivalentCountryKeys(countryB);
+      for (const key of aKeys) {
+        if (bKeys.has(key)) return true;
+      }
+
+      const aMeta = getCountryMeta(countryA);
+      const bMeta = getCountryMeta(countryB);
+      if (aMeta?.iso2 && bMeta?.iso2 && aMeta.iso2 === bMeta.iso2) return true;
+
+      return false;
     }
 
     function blurForWrongGuessCount(wrongCount) {
@@ -2605,13 +2463,13 @@
         setStatus("That country is not in the current playable pool. Try a country from the suggestions.", "bad");
         return;
       }
-      if (guesses.some((guess) => guess.country === country)) {
+      if (guesses.some((guess) => countriesMatch(guess.country, country))) {
         setStatus("You already guessed that country.", "bad");
         return;
       }
 
       const guessMeta = getCountryMeta(country);
-      const correct = country === mysteryLeader.country;
+      const correct = countriesMatch(country, mysteryLeader.country);
       const sameContinent = correct ? true : guessMeta?.continent === mysteryLeader.continent;
       const distanceKm = correct ? 0 : haversineKm(guessMeta?.coords, mysteryLeader.coords);
       const corruptionComparison = compareCorruption(mysteryLeader.corruptionScore, guessMeta?.corruptionScore);
@@ -2651,12 +2509,22 @@
       currentMode = "daily";
 
       if (saved && saved.date === getTodayKey() && saved.leaderId === mysteryLeader.id) {
-        guesses = Array.isArray(saved.guesses) ? saved.guesses.map((guess, index) => ({
-          ...guess,
-          order: typeof guess.order === "number" ? guess.order : index,
-          corruptionComparison: guess.corruptionComparison || compareCorruption(mysteryLeader.corruptionScore, getCountryMeta(guess.country)?.corruptionScore)
-        })) : [];
-        gameOver = Boolean(saved.gameOver);
+        guesses = Array.isArray(saved.guesses) ? saved.guesses.map((guess, index) => {
+          const correct = countriesMatch(guess.country, mysteryLeader.country);
+          const guessMeta = getCountryMeta(guess.country);
+          const sameContinent = correct ? true : guessMeta?.continent === mysteryLeader.continent;
+          const distanceKm = correct ? 0 : haversineKm(guessMeta?.coords, mysteryLeader.coords);
+          return {
+            ...guess,
+            correct,
+            sameContinent,
+            distanceKm,
+            order: typeof guess.order === "number" ? guess.order : index,
+            proximityBar: distanceEmojiBar(distanceKm, correct),
+            corruptionComparison: guess.corruptionComparison || compareCorruption(mysteryLeader.corruptionScore, guessMeta?.corruptionScore)
+          };
+        }) : [];
+        gameOver = Boolean(saved.gameOver) || guesses.some((guess) => guess.correct);
       }
 
       guessButton.disabled = gameOver;

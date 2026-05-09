@@ -1,6 +1,6 @@
 {
-  "name": "World Leaderle",
-  "short_name": "Leaderle",
+  "name": "World Leadle",
+  "short_name": "Leadle",
   "description": "A daily geography game where you guess the country of world leaders.",
   "icons": [
     {
@@ -14,9 +14,9 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "theme_color": "#2f6f34",
-  "background_color": "#F1EAD7"
+  "theme_color": "#07111f",
+  "background_color": "#07111f"
 }

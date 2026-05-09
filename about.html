@@ -17,19 +17,19 @@
       try {
         var raw = localStorage.getItem("worldleaderle_settings_v1");
         var parsed = raw ? JSON.parse(raw) : null;
-        var theme = parsed && ["default", "dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "default";
+        var theme = parsed && ["dark", "light", "system"].includes(parsed.theme) ? parsed.theme : "system";
         document.documentElement.setAttribute("data-theme", theme);
       } catch (error) {
-        document.documentElement.setAttribute("data-theme", "default");
+        document.documentElement.setAttribute("data-theme", "system");
       }
     })();
   </script>
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,11 +50,6 @@
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color-scheme: dark;
     }
-    html[data-theme="default"] {
-      color-scheme: light;
-      --bg: #15657a; --card: rgba(239,223,187,.94); --text: #173d48; --muted: #526d6a;
-      --border: rgba(32,70,74,.2); --shadow: 0 12px 0 rgba(19,53,62,.14), 0 22px 45px rgba(11,28,33,.16);
-    }
     html[data-theme="light"] {
       color-scheme: light;
       --bg: #F1EAD7; --card: rgba(252,248,239,.94); --text: #2b4f22; --muted: #5d7254;
@@ -65,9 +60,6 @@
                   radial-gradient(circle at top right, rgba(124,58,237,.16), transparent 28%),
                   linear-gradient(180deg, #020814, #07111f);
       padding: 28px 16px 130px; position: relative; overflow-x:hidden; }
-    html[data-theme="default"] body {
-      background: radial-gradient(circle at 50% 84%, rgba(234,191,110,.28), transparent 18%), linear-gradient(180deg, #0d4c5d 0%, #15657a 55%, #2b7b87 100%);
-    }
     html[data-theme="light"] body {
       background: radial-gradient(circle at top left, rgba(167,182,146,.22), transparent 24%), radial-gradient(circle at top right, rgba(133,179,128,.18), transparent 28%), linear-gradient(180deg, #fbf7ee, #F1EAD7);
     }
@@ -75,19 +67,12 @@
       html[data-theme="system"] { color-scheme: light; --bg: #F1EAD7; --card: rgba(252,248,239,.94); --text: #2b4f22; --muted: #5d7254; --border: rgba(50,95,34,.14); --shadow: 0 20px 60px rgba(76,92,48,.12); }
       html[data-theme="system"] body { background: radial-gradient(circle at top left, rgba(167,182,146,.22), transparent 24%), radial-gradient(circle at top right, rgba(133,179,128,.18), transparent 28%), linear-gradient(180deg, #fbf7ee, #F1EAD7); }
     }
-    body::before, body::after { content:""; position:fixed; inset:0; pointer-events:none; opacity:0; }
-    body::before { z-index:-2; background: linear-gradient(rgba(246,234,203,.06), rgba(246,234,203,.06)), url("./assets/paper-noise.png"); background-size:auto,256px 256px; background-repeat:repeat; mix-blend-mode:soft-light; }
-    body::after { z-index:-1; inset:auto 0 0 0; height:min(34vh,300px); background:url("./assets/retro-skyline.svg") center bottom / cover no-repeat; }
-    html[data-theme="default"] body::before, html[data-theme="default"] body::after { opacity:1; }
     .shell { max-width: 900px; margin: 0 auto; position:relative; z-index:1; }
     .card { background: var(--card); border:2px solid var(--border); border-radius:28px; box-shadow:var(--shadow); padding:24px; }
-    html[data-theme="default"] .card { border-width:3px; }
     h1 { margin:0 0 10px; font-size: clamp(2.6rem, 4vw, 4rem); }
-    html[data-theme="default"] h1, html[data-theme="default"] .eyebrow { font-family: "Bebas Neue", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; letter-spacing:.04em; }
     p, li { color: var(--muted); line-height:1.65; }
     a { color: var(--text); }
     .eyebrow { display:inline-flex; padding:8px 12px; border-radius:999px; background: rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); margin-bottom:12px; font-weight:700; }
-    html[data-theme="default"] .eyebrow { background: rgba(245,233,205,.95); border-color: rgba(32,70,74,.18); color:#214751; }
   </style>
 </head>
 <body>
