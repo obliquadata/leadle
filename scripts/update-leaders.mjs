@@ -631,87 +631,86 @@ function compactLeaderForReview(leader) {
   };
 }
 
-function valuesDiffer(a, b) {
-  return JSON.stringify(a ?? null) !== JSON.stringify(b ?? null);
+function normalizeLeaderName(value) {
+  // For review mode, ignore insignificant casing/spacing differences only.
+  // Accents and punctuation are preserved so genuinely different names still appear.
+  return normalizeKeyPart(value);
 }
 
-function diffLeaderFields(existingLeader, generatedLeader) {
-  const fieldsToReview = [
-    "leader",
-    "articleTitle",
-    "startDate",
-    "continent",
-    "iso2",
-    "image",
-    "corruptionScore",
-    "coords",
-    "summary",
-    "imageVerified",
-    "imageIssue"
-  ];
+function compactNewestLeaderForReview(leader, existingLeader = null) {
+  if (!leader) return null;
+  return {
+    country: leader.country || null,
+    role: leader.role || null,
+    existingLeader: existingLeader?.leader || null,
+    leader: leader.leader || null,
+    articleTitle: leader.articleTitle || null,
+    startDate: leader.startDate || null,
+    continent: leader.continent || null,
+    iso2: leader.iso2 || null,
+    image: leader.image || null,
+    corruptionScore: leader.corruptionScore ?? null,
+    coords: leader.coords || null,
+    summary: leader.summary || "",
+    imageVerified: leader.imageVerified ?? null,
+    imageIssue: leader.imageIssue ?? null,
+    id: leader.id || null
+  };
+}
 
-  const differences = {};
-  for (const field of fieldsToReview) {
-    if (valuesDiffer(existingLeader[field], generatedLeader[field])) {
-      differences[field] = {
-        existing: existingLeader[field] ?? null,
-        generated: generatedLeader[field] ?? null
-      };
-    }
-  }
-  return differences;
+function leaderNameMatches(existingLeader, generatedLeader) {
+  return normalizeLeaderName(existingLeader?.leader) === normalizeLeaderName(generatedLeader?.leader);
 }
 
 function buildLeaderChangeReview(existingLeaders, generatedLeaders, source) {
-  const existingByKey = new Map(existingLeaders.map((leader) => [leaderCountryRoleKey(leader), leader]));
-  const generatedByKey = new Map(generatedLeaders.map((leader) => [leaderCountryRoleKey(leader), leader]));
+  const existingByCountryRole = new Map(
+    existingLeaders.map((leader) => [leaderCountryRoleKey(leader), leader])
+  );
 
-  const changed = [];
-  const added = [];
-  const removed = [];
+  const leaderChanges = [];
 
-  for (const [key, generatedLeader] of generatedByKey.entries()) {
-    const existingLeader = existingByKey.get(key);
-    if (!existingLeader) {
-      added.push({ key, generated: compactLeaderForReview(generatedLeader) });
-      continue;
-    }
+  for (const generatedLeader of generatedLeaders) {
+    const key = leaderCountryRoleKey(generatedLeader);
+    const existingLeader = existingByCountryRole.get(key);
 
-    const differences = diffLeaderFields(existingLeader, generatedLeader);
-    if (Object.keys(differences).length > 0) {
-      changed.push({
-        key,
-        country: generatedLeader.country,
-        role: generatedLeader.role,
-        existing: compactLeaderForReview(existingLeader),
-        generated: compactLeaderForReview(generatedLeader),
-        differences
-      });
-    }
+    // This review file is intentionally conservative: it only reports cases where
+    // the country + role already exists in the current database, but the leader name
+    // no longer matches the freshly generated result.
+    if (!existingLeader) continue;
+    if (leaderNameMatches(existingLeader, generatedLeader)) continue;
+
+    leaderChanges.push({
+      key,
+      country: generatedLeader.country,
+      role: generatedLeader.role,
+      existingLeader: existingLeader.leader || null,
+      newestLeader: compactNewestLeaderForReview(generatedLeader, existingLeader)
+    });
   }
 
-  for (const [key, existingLeader] of existingByKey.entries()) {
-    if (!generatedByKey.has(key)) {
-      removed.push({ key, existing: compactLeaderForReview(existingLeader) });
-    }
-  }
-
-  changed.sort((a, b) => `${a.country}-${a.role}`.localeCompare(`${b.country}-${b.role}`));
-  added.sort((a, b) => a.key.localeCompare(b.key));
-  removed.sort((a, b) => a.key.localeCompare(b.key));
+  leaderChanges.sort((a, b) => `${a.country}-${a.role}`.localeCompare(`${b.country}-${b.role}`));
 
   return {
     generatedAt: new Date().toISOString(),
     source,
-    comparisonKey: "country + role",
+    comparisonKey: "country + role + leader name only",
+    ignoredFields: [
+      "id",
+      "articleTitle",
+      "startDate",
+      "continent",
+      "iso2",
+      "image",
+      "corruptionScore",
+      "coords",
+      "summary",
+      "imageVerified",
+      "imageIssue"
+    ],
     existingCount: existingLeaders.length,
     generatedCount: generatedLeaders.length,
-    changeCount: changed.length,
-    addedCount: added.length,
-    removedCount: removed.length,
-    changed,
-    added,
-    removed
+    changeCount: leaderChanges.length,
+    leaderChanges
   };
 }
 
@@ -786,7 +785,7 @@ async function main() {
   const review = await writeChangeReview(existingLeaders, verifiedLeaders, source);
 
   console.log(`Wrote leader change review to ${changeReviewPath}`);
-  console.log(`Changed: ${review.changeCount}; added: ${review.addedCount}; removed: ${review.removedCount}`);
+  console.log(`Leader-name changes: ${review.changeCount}`);
   console.log("Existing data/leaders.json was not overwritten.");
 
   await writeMissingImages(verifiedLeaders);
