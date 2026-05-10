@@ -25,6 +25,44 @@
       "imageIssue": null
     },
     {
+      "id": "manual|Q458|Head of government",
+      "leader": "Ursula von der Leyen",
+      "articleTitle": "Ursula_von_der_Leyen",
+      "startDate": "2019-12-01",
+      "country": "European Union",
+      "continent": "Europe",
+      "iso2": "EU",
+      "role": "Head of government",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursula%20von%20der%20Leyen%202024.jpg?width=900",
+      "corruptionScore": null,
+      "coords": {
+        "lon": 4.3517,
+        "lat": 50.8503
+      },
+      "summary": "Ursula von der Leyen is a German politician who has served as President of the European Commission since 1 December 2019.",
+      "imageVerified": true,
+      "imageIssue": null
+    },
+    {
+      "id": "manual|Q574|Head of government",
+      "leader": "António Guterres",
+      "articleTitle": "António Guterres",
+      "startDate": "2017-01-01",
+      "country": "United Nations",
+      "continent": null,
+      "iso2": "UN",
+      "role": "Secretary-General of the United Nations",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ant%C3%B3nio%20Guterres%20United%20Nations%20Secretary-General%20in%202024%20%28cropped%29.jpg?width=900",
+      "corruptionScore": null,
+      "coords": {
+        "lon": -73.968009,
+        "lat": 40.748875
+      },
+      "summary": "António Guterres is a Portuguese politician and diplomat who has served as Secretary-General of the United Nations since 1 January 2017. In this dataset, the role is treated as a forced-fit head of government entry because the Secretary-General is the UN's chief administrative officer rather than a head of state.",
+      "imageVerified": true,
+      "imageIssue": null
+    }
+    {
       "id": "http://www.wikidata.org/entity/Q24237654|http://www.wikidata.org/entity/Q889|Head of state",
       "leader": "Hibatullah Akhundzada",
       "articleTitle": "Hibatullah_Akhundzada",
