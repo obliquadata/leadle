@@ -1,46 +1,6 @@
 {
-  "count": 8,
+  "count": 3,
   "leaders": [
-    {
-      "country": "Burundi",
-      "role": "Head of government",
-      "leader": "Gervais Ndirakobuca",
-      "articleTitle": "Gervais_Ndirakobuca",
-      "currentImage": "",
-      "imageIssue": "missing-url"
-    },
-    {
-      "country": "Guinea-Bissau",
-      "role": "Head of government",
-      "leader": "Rui Duarte de Barros",
-      "articleTitle": "Rui_Duarte_de_Barros",
-      "currentImage": "",
-      "imageIssue": "missing-url"
-    },
-    {
-      "country": "Monaco",
-      "role": "Head of government",
-      "leader": "Philippe Mettoux",
-      "articleTitle": "Philippe_Mettoux",
-      "currentImage": "",
-      "imageIssue": "missing-url"
-    },
-    {
-      "country": "Mozambique",
-      "role": "Head of government",
-      "leader": "Maria Benvinda Levy",
-      "articleTitle": "Maria_Benvinda_Levy",
-      "currentImage": "",
-      "imageIssue": "missing-url"
-    },
-    {
-      "country": "Rwanda",
-      "role": "Head of government",
-      "leader": "Justin Nsengiyumva",
-      "articleTitle": "Justin_Nsengiyumva",
-      "currentImage": "",
-      "imageIssue": "missing-url"
-    },
     {
       "country": "San Marino",
       "role": "Head of state",
