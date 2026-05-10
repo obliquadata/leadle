@@ -2305,21 +2305,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q57641|http://www.wikidata.org/entity/Q28|Head of government",
-      "leader": "Viktor Orbán",
-      "articleTitle": "Viktor_Orbán",
-      "startDate": "2010-05-29",
+      "id": "http://www.wikidata.org/entity/Q124488292|http://www.wikidata.org/entity/Q28|Head of government",
+      "leader": "Péter Magyar",
+      "articleTitle": "Péter_Magyar",
+      "startDate": "2026-05-09",
       "country": "Hungary",
       "continent": "Europe",
       "iso2": "HU",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Viktor_Orban_2025_%28cropped%29.jpg/330px-Viktor_Orban_2025_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter-Magyar-portrait-2026.jpg?width=900",
       "corruptionScore": 40,
       "coords": {
         "lon": 19,
         "lat": 47
       },
-      "summary": "Viktor Mihály Orbán is a Hungarian lawyer and politician who has been the 56th prime minister of Hungary since 2010, previously holding the office from 1998 to 2002. He has also led the Fidesz political party since 2003, and previously from 1993 to 2000. He was re-elected as prime minister in 2014, 2018, and 2022. On 29 November 2020, he became the country's longest-serving prime minister.",
+      "summary": "Péter Magyar is a Hungarian politician, lawyer, and former diplomat who has served as prime minister of Hungary since 9 May 2026. He is the leader of the Tisza Party, which defeated Viktor Orbán's Fidesz in the 2026 parliamentary election.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -5421,21 +5421,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q13026319|http://www.wikidata.org/entity/Q869|Head of government",
-      "leader": "Paetongtarn Shinawatra",
-      "articleTitle": "Paetongtarn_Shinawatra",
-      "startDate": "2024-08-16",
+      "id": "http://www.wikidata.org/entity/Q16139757|http://www.wikidata.org/entity/Q869|Head of government",
+      "leader": "Anutin Charnvirakul",
+      "articleTitle": "Anutin_Charnvirakul",
+      "startDate": "2025-09-07",
       "country": "Thailand",
       "continent": "Asia",
       "iso2": "TH",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Paetongtarn_Shinawatra_HoS_Davos.jpg/330px-Paetongtarn_Shinawatra_HoS_Davos.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anutin%20Charnvirakul%20in%202025.jpg?width=900",
       "corruptionScore": 33,
       "coords": {
         "lon": 101,
         "lat": 14
       },
-      "summary": "Paetongtarn Shinawatra is a Thai politician and businesswoman who served as the 31st prime minister of Thailand from 2024 until her removal from office in 2025. She led the Pheu Thai Party from 2023 until her resignation in 2025.",
+      "summary": "Anutin Charnvirakul is a Thai politician and businessman who has served as the 32nd prime minister of Thailand since September 2025. He is the leader of the Bhumjaithai Party and previously served as deputy prime minister, minister of public health, and minister of the interior.",
       "imageVerified": true,
       "imageIssue": null
     },
