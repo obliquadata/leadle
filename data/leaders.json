@@ -443,21 +443,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q43969|http://www.wikidata.org/entity/Q902|Head of government",
-      "leader": "Muhammad Yunus",
-      "articleTitle": "Muhammad_Yunus",
-      "startDate": "2024-08-08",
+      "id": "http://www.wikidata.org/entity/Q7686199|http://www.wikidata.org/entity/Q902|Head of government",
+      "leader": "Tarique Rahman",
+      "articleTitle": "Tarique_Rahman",
+      "startDate": "2026-02-17",
       "country": "Bangladesh",
       "continent": "Asia",
       "iso2": "BD",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Muhammad_Yunus_speaking_at_Jamuna_State_Guesthouse%2C_Dhaka_2026-02-16_%28cropped%29.jpg/330px-Muhammad_Yunus_speaking_at_Jamuna_State_Guesthouse%2C_Dhaka_2026-02-16_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarique%20Rahman%20of%20BNP.jpg?width=900",
       "corruptionScore": 24,
       "coords": {
         "lon": 89.866666666,
         "lat": 24.016666666
       },
-      "summary": "Muhammad Yunus is a Bangladeshi economist and statesman. Yunus pioneered the modern concept of microcredit and microfinance, for which he was awarded the Nobel Peace Prize in 2006. He is the founder of Grameen Bank and the first Bangladeshi to win the Nobel Peace Prize. Following the July Uprising, he was appointed as the 5th chief adviser of Bangladesh, the head of the interim government, serving from 2024 to 2026.",
+      "summary": "Tarique Rahman is a Bangladeshi politician who has served as Prime Minister of Bangladesh since 17 February 2026. He is the leader of the Bangladesh Nationalist Party and the son of former prime minister Khaleda Zia and former president Ziaur Rahman.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -481,23 +481,23 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q9333540|http://www.wikidata.org/entity/Q244|Head of state",
-      "leader": "Sandra Mason",
-      "articleTitle": "Sandra_Mason",
-      "startDate": "2021-11-30",
+      "id": "manual|Jeffrey_Bostic|http://www.wikidata.org/entity/Q244|Head of state",
+      "leader": "Jeffrey Bostic",
+      "articleTitle": "Jeffrey_Bostic",
+      "startDate": "2025-11-30",
       "country": "Barbados",
       "continent": "North America",
       "iso2": "BB",
       "role": "Head of state",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sandra_of_Barbados.jpg/330px-Sandra_of_Barbados.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey%20Bostic.jpg?width=900",
       "corruptionScore": 68,
       "coords": {
         "lon": -59.5525,
         "lat": 13.17
       },
-      "summary": "Dame Sandra Prunella Mason is a Barbadian politician, lawyer, and diplomat who served as the first president of Barbados from 2021 to 2025. She was previously the eighth and final governor-general of Barbados from 2018 to 2021, the second woman to hold the office. On 20 October 2021, Mason was elected by the Parliament of Barbados to become the country's first president, and took office on 30 November 2021, when Barbados ceased to be a constitutional monarchy and became a republic.",
-      "imageVerified": true,
-      "imageIssue": null
+      "summary": "Jeffrey Davidson Bostic is a Barbadian politician and former military officer who has served as the second president of Barbados since 30 November 2025. He previously served as Minister of Health and Wellness and as a member of the House of Assembly.",
+      "imageVerified": false,
+      "imageIssue": "Image filename should be manually verified."
     },
     {
       "id": "http://www.wikidata.org/entity/Q56235580|http://www.wikidata.org/entity/Q184|Head of government",
@@ -804,40 +804,40 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q59978016|http://www.wikidata.org/entity/Q219|Head of government",
-      "leader": "Rosen Zhelyazkov",
-      "articleTitle": "Rosen_Zhelyazkov",
-      "startDate": "2025-01-16",
+      "id": "http://www.wikidata.org/entity/Q26257557|http://www.wikidata.org/entity/Q219|Head of government",
+      "leader": "Rumen Radev",
+      "articleTitle": "Rumen_Radev",
+      "startDate": "2026-05-08",
       "country": "Bulgaria",
       "continent": "Europe",
       "iso2": "BG",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Rosen_Zhelyazkov_2025_%28cropped_2%29.jpg/330px-Rosen_Zhelyazkov_2025_%28cropped_2%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rumen%20Radev%20%2852NS%29.png?width=900",
       "corruptionScore": 40,
       "coords": {
         "lon": 25.5,
         "lat": 42.75
       },
-      "summary": "Rosen Dimitrov Zhelyazkov is a Bulgarian politician who served as Prime Minister of Bulgaria from 2025 to 2026. He previously served as Minister of Transport from 2018 to 2021, Member of the National Assembly from 2021 to 2025, and Speaker of the National Assembly from 2023 to 2024. He is a member of the conservative GERB party.",
+      "summary": "Rumen Georgiev Radev is a Bulgarian politician and former military officer who has served as Prime Minister of Bulgaria since 8 May 2026. He previously served as president of Bulgaria from 2017 until 2026.",
       "imageVerified": true,
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q114835874|http://www.wikidata.org/entity/Q965|Head of government",
-      "leader": "Apollinaire Joachim Kyélem de Tambèla",
-      "articleTitle": "Apollinaire_J._Kyélem_de_Tambèla",
-      "startDate": "2022-01-23",
+      "id": "http://www.wikidata.org/entity/Q116056730|http://www.wikidata.org/entity/Q965|Head of government",
+      "leader": "Rimtalba Jean Emmanuel Ouédraogo",
+      "articleTitle": "Jean_Emmanuel_Ouédraogo",
+      "startDate": "2024-12-07",
       "country": "Burkina Faso",
       "continent": "Africa",
       "iso2": "BF",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Apollinaire_Kyelem_de_Tamb%C3%A8la_%28cropped%29.png/330px-Apollinaire_Kyelem_de_Tamb%C3%A8la_%28cropped%29.png",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rimtalba%20Jean%20Emmanuel%20Ouedraogo.jpg?width=900",
       "corruptionScore": 40,
       "coords": {
         "lon": -2.066667,
         "lat": 12.266667
       },
-      "summary": "Apollinaire Joachim Kyélem de Tambèla is a Burkinabe lawyer, pan-Africanist, writer and statesman, who served as the Prime Minister of Burkina Faso from October 2022 until his firing by President Ibrahim Traoré in December 2024.",
+      "summary": "Rimtalba Jean Emmanuel Ouédraogo is a Burkinabé journalist, presenter, and politician who has served as interim Prime Minister of Burkina Faso since 7 December 2024. He previously served as Minister of Communication, Culture, Arts and Tourism.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -880,23 +880,23 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q107136851|http://www.wikidata.org/entity/Q967|Head of government",
-      "leader": "Gervais Ndirakobuca",
-      "articleTitle": "Gervais_Ndirakobuca",
-      "startDate": "2023-09-07",
+      "id": "manual|Nestor_Ntahontuye|http://www.wikidata.org/entity/Q967|Head of government",
+      "leader": "Nestor Ntahontuye",
+      "articleTitle": "Nestor_Ntahontuye",
+      "startDate": "2025-08-05",
       "country": "Burundi",
       "continent": "Africa",
       "iso2": "BI",
       "role": "Head of government",
-      "image": "https://biographs.org/images/89/89544/gervais-ndirakobuca-1.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nestor%20Ntahontuye.jpg?width=900",
       "corruptionScore": 17,
       "coords": {
         "lon": 29.816667,
         "lat": -3.666667
       },
-      "summary": "Gervais Ndirakobuca is a Burundian politician, retired police lieutenant general and former rebel commander serving as the President of the Senate of Burundi since 5 August 2025. Prior to that, he was the Prime Minister of Burundi from 7 september 2022 until 5 August 2025. And prior to that, he was the Minister of Interior, Public Security, and Community Development. He is known for his violent crackdown of the 2015 civil protest in Burundi and was under United States and European Union sanctions for human rights violations when President Évariste Ndayishimiye appointed him security minister.",
-      "imageVerified": true,
-      "imageIssue": null
+      "summary": "Nestor Ntahontuye is a Burundian politician who has served as Prime Minister of Burundi since 5 August 2025. He previously served as Minister of Finance and Economic Planning.",
+      "imageVerified": false,
+      "imageIssue": "Image filename should be manually verified."
     },
     {
       "id": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state",
@@ -1227,7 +1227,7 @@
       "articleTitle": "Nikos_Christodoulides",
       "startDate": "2023-02-12",
       "country": "Cyprus",
-      "continent": "Europe",
+      "continent": "Asia",
       "iso2": "CY",
       "role": "Head of both",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikos_Christodoulides_%282024%29_%28cropped%29.jpg/330px-Nikos_Christodoulides_%282024%29_%28cropped%29.jpg",
@@ -1735,21 +1735,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q109012733|http://www.wikidata.org/entity/Q712|Head of state",
-      "leader": "Wiliame Katonivere",
-      "articleTitle": "Wiliame_Katonivere",
-      "startDate": "2021-11-12",
+      "id": "http://www.wikidata.org/entity/Q6959729|http://www.wikidata.org/entity/Q712|Head of state",
+      "leader": "Naiqama Lalabalavu",
+      "articleTitle": "Naiqama_Lalabalavu",
+      "startDate": "2024-11-12",
       "country": "Fiji",
       "continent": "Oceania",
       "iso2": "FJ",
       "role": "Head of state",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Wiliame_Katonivere_2022.jpg/330px-Wiliame_Katonivere_2022.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Naiqama%20Lalabalavu.jpg?width=900",
       "corruptionScore": 55,
       "coords": {
         "lon": 178,
         "lat": -18
       },
-      "summary": "Ratu Wiliame Maivalili Katonivere, CF is a Fijian chief and politician who served as the President of Fiji from 2021 to 2024. He has been chief of Macuata Province since 2013, succeeding his older brother Aisea Katonivere; he was previously involved in conservation initiatives of Fiji's Great Sea Reef.",
+      "summary": "Ratu Naiqama Tawakecolati Lalabalavu is a Fijian chief and politician who has served as President of Fiji since 12 November 2024. He previously served as Speaker of the Parliament of Fiji and as Leader of the Opposition.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -1873,7 +1873,7 @@
       "articleTitle": "Irakli_Kobakhidze",
       "startDate": "2024-02-08",
       "country": "Georgia",
-      "continent": "Europe",
+      "continent": "Asia",
       "iso2": "GE",
       "role": "Head of government",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Irakli_Kobakhidze%2C_Georgian_Prime_Minister%2C_at_the_European_Commission.jpg/330px-Irakli_Kobakhidze%2C_Georgian_Prime_Minister%2C_at_the_European_Commission.jpg",
@@ -1892,7 +1892,7 @@
       "articleTitle": "Salomé_Zourabichvili",
       "startDate": "2018-12-16",
       "country": "Georgia",
-      "continent": "Europe",
+      "continent": "Asia",
       "iso2": "GE",
       "role": "Head of state",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/President_of_Georgia_Salome_Zourabichvili_%28cropped%29.jpg/330px-President_of_Georgia_Salome_Zourabichvili_%28cropped%29.jpg",
@@ -1944,40 +1944,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q50678|http://www.wikidata.org/entity/Q117|Head of state",
+      "id": "http://www.wikidata.org/entity/Q50678|http://www.wikidata.org/entity/Q117|Head of state and government",
       "leader": "John Mahama",
       "articleTitle": "John_Mahama",
       "startDate": "2025-01-07",
       "country": "Ghana",
       "continent": "Africa",
       "iso2": "GH",
-      "role": "Head of state",
+      "role": "Head of both",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/John_Mahama_in_Yokohama_%28cropped%29.jpg/330px-John_Mahama_in_Yokohama_%28cropped%29.jpg",
       "corruptionScore": 43,
       "coords": {
         "lon": -1.0232,
         "lat": 7.9465
       },
-      "summary": "John Dramani Mahama is a Ghanaian politician who has been the president of the Republic of Ghana since January 2025. A member of the National Democratic Congress (NDC), he previously served as president from 2012 to 2017.",
-      "imageVerified": true,
-      "imageIssue": null
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q718601|http://www.wikidata.org/entity/Q117|Head of government",
-      "leader": "Nana Akufo-Addo",
-      "articleTitle": "Nana_Akufo-Addo",
-      "startDate": "2017-01-01",
-      "country": "Ghana",
-      "continent": "Africa",
-      "iso2": "GH",
-      "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nana_Akufo_Addo%2C_Jan._2020.jpg/330px-Nana_Akufo_Addo%2C_Jan._2020.jpg",
-      "corruptionScore": 43,
-      "coords": {
-        "lon": -1.0232,
-        "lat": 7.9465
-      },
-      "summary": "Nana Addo Dankwa Akufo-Addo is a Ghanaian politician who served as the 13th president of Ghana from January 2017 to January 2025. He previously served as Attorney General from 2001 to 2003 and as Minister for Foreign Affairs from 2003 to 2007 under the administration of then-president John Kufuor.",
+      "summary": "John Dramani Mahama is a Ghanaian politician who has served as President of Ghana since 7 January 2025, having previously served as president from 2012 to 2017. In Ghana's presidential system, the president is both head of state and head of government.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -2704,21 +2685,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q56825894|http://www.wikidata.org/entity/Q232|Head of government",
-      "leader": "Älihan Smaiylov",
-      "articleTitle": "Älihan_Smaiylov",
-      "startDate": "2022-01-05",
+      "id": "http://www.wikidata.org/entity/Q124436646|http://www.wikidata.org/entity/Q232|Head of government",
+      "leader": "Oljas Bektenov",
+      "articleTitle": "Oljas_Bektenov",
+      "startDate": "2024-02-06",
       "country": "Kazakhstan",
-      "continent": "Europe",
+      "continent": "Asia",
       "iso2": "KZ",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%90%D0%BB%D0%B8%D1%85%D0%B0%D0%BD_%D0%A1%D0%BC%D0%B0%D0%B8%D0%BB%D0%BE%D0%B2_%2830-03-2022%29_%28cropped%29.jpg/330px-%D0%90%D0%BB%D0%B8%D1%85%D0%B0%D0%BD_%D0%A1%D0%BC%D0%B0%D0%B8%D0%BB%D0%BE%D0%B2_%2830-03-2022%29_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oljas%20Bektenov%20official%20portrait.jpg?width=900",
       "corruptionScore": 38,
       "coords": {
         "lon": 68,
         "lat": 48
       },
-      "summary": "Älihan Ashanūly Smaiylov is a Kazakh politician who served as the prime minister of Kazakhstan from 2022 to 2024.",
+      "summary": "Oljas Abaiūly Bektenov is a Kazakh politician who has served as Prime Minister of Kazakhstan since 6 February 2024. He previously served as head of the Presidential Administration and as chairman of Kazakhstan's Anti-Corruption Agency.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -2728,7 +2709,7 @@
       "articleTitle": "Kassym-Jomart_Tokayev",
       "startDate": "2019-01-01",
       "country": "Kazakhstan",
-      "continent": "Europe",
+      "continent": "Asia",
       "iso2": "KZ",
       "role": "Head of state",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/President_Masato_Kanda_meets_with_Kazakhstan_President_Kassym-Jomart_Tokayev_%28cropped%29.jpg/330px-President_Masato_Kanda_meets_with_Kazakhstan_President_Kassym-Jomart_Tokayev_%28cropped%29.jpg",
@@ -3160,21 +3141,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q30882650|http://www.wikidata.org/entity/Q347|Head of government",
-      "leader": "Daniel Risch",
-      "articleTitle": "Daniel_Risch",
-      "startDate": "2021-03-25",
+      "id": "http://www.wikidata.org/entity/Q129676165|http://www.wikidata.org/entity/Q347|Head of government",
+      "leader": "Brigitte Haas",
+      "articleTitle": "Brigitte_Haas",
+      "startDate": "2025-04-10",
       "country": "Liechtenstein",
       "continent": "Europe",
       "iso2": "LI",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Risch-Daniel-Portrait-2021-03_%28cropped%29.jpg/330px-Risch-Daniel-Portrait-2021-03_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigitte%20Haas%202025%20%28cropped%29.jpg?width=900",
       "corruptionScore": null,
       "coords": {
         "lon": 9.553889,
         "lat": 47.145
       },
-      "summary": "Daniel Risch is a politician from Liechtenstein who served as the Prime Minister of Liechtenstein from 2021 to 2025. He was previously the Deputy Prime Minister from 2017 to 2021, under the government of Adrian Hasler.",
+      "summary": "Brigitte Haas is a Liechtensteiner lawyer and politician who has served as Prime Minister of Liechtenstein since 10 April 2025. She is the first woman to hold the office.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -5250,21 +5231,21 @@
       "imageIssue": null
     },
     {
-      "id": "http://www.wikidata.org/entity/Q27654948|http://www.wikidata.org/entity/Q1049|Head of government",
-      "leader": "Abdalla Hamdok",
-      "articleTitle": "Abdalla_Hamdok",
-      "startDate": "2019-08-21",
+      "id": "http://www.wikidata.org/entity/Q6357939|http://www.wikidata.org/entity/Q1049|Head of government",
+      "leader": "Kamil Idris",
+      "articleTitle": "Kamil_Idris",
+      "startDate": "2025-05-31",
       "country": "Sudan",
       "continent": "Africa",
       "iso2": "SD",
       "role": "Head of government",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Mark_Green_and_Abdalla_Hamdok_at_USAID_HQ_%282%29_%28cropped%29.jpg/330px-Mark_Green_and_Abdalla_Hamdok_at_USAID_HQ_%282%29_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamil%20Idris%20%28WIPO%29.png?width=900",
       "corruptionScore": 14,
       "coords": {
         "lon": 32,
         "lat": 15
       },
-      "summary": "Abdalla Hamdok Al-Kinani is a Sudanese public administrator who served as the 15th prime minister of Sudan from 2019 to October 2021, and again from November 2021 until his resignation in 2022.",
+      "summary": "Kamil Eltayeb Idris is a Sudanese diplomat and legal scholar who has served as Prime Minister of Sudan since May 2025. He was appointed by Abdel Fattah al-Burhan during Sudan's transitional period amid the ongoing civil war.",
       "imageVerified": true,
       "imageIssue": null
     },
