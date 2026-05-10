@@ -20,7 +20,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 const outputDir = path.join(repoRoot, "data");
-const outputPath = path.join(outputDir, "leaders.json");
+const existingLeadersPath = path.join(outputDir, "leaders.json");
+const changeReviewPath = path.join(outputDir, "leader-change-review.json");
 
 const WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql";
 const TRANSPARENCY_INTERNATIONAL_CPI_2025_URL = "https://www.transparency.org/en/cpi/2025";
@@ -598,15 +599,137 @@ function validateLeaders(leaders) {
   }
 }
 
-async function writeOutput(leaders, source) {
-  const payload = {
-    generatedAt: new Date().toISOString(),
-    count: leaders.length,
-    source,
-    leaders
+function normalizeKeyPart(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+function leaderCountryRoleKey(leader) {
+  // Compare by country + role so manual IDs or Wikidata ID changes do not create false positives.
+  return `${normalizeKeyPart(leader.country)}|${normalizeKeyPart(leader.role)}`;
+}
+
+function compactLeaderForReview(leader) {
+  if (!leader) return null;
+  return {
+    id: leader.id || null,
+    leader: leader.leader || null,
+    articleTitle: leader.articleTitle || null,
+    startDate: leader.startDate || null,
+    country: leader.country || null,
+    continent: leader.continent || null,
+    iso2: leader.iso2 || null,
+    role: leader.role || null,
+    image: leader.image || null,
+    corruptionScore: leader.corruptionScore ?? null,
+    coords: leader.coords || null,
+    summary: leader.summary || "",
+    imageVerified: leader.imageVerified ?? null,
+    imageIssue: leader.imageIssue ?? null
   };
+}
+
+function valuesDiffer(a, b) {
+  return JSON.stringify(a ?? null) !== JSON.stringify(b ?? null);
+}
+
+function diffLeaderFields(existingLeader, generatedLeader) {
+  const fieldsToReview = [
+    "leader",
+    "articleTitle",
+    "startDate",
+    "continent",
+    "iso2",
+    "image",
+    "corruptionScore",
+    "coords",
+    "summary",
+    "imageVerified",
+    "imageIssue"
+  ];
+
+  const differences = {};
+  for (const field of fieldsToReview) {
+    if (valuesDiffer(existingLeader[field], generatedLeader[field])) {
+      differences[field] = {
+        existing: existingLeader[field] ?? null,
+        generated: generatedLeader[field] ?? null
+      };
+    }
+  }
+  return differences;
+}
+
+function buildLeaderChangeReview(existingLeaders, generatedLeaders, source) {
+  const existingByKey = new Map(existingLeaders.map((leader) => [leaderCountryRoleKey(leader), leader]));
+  const generatedByKey = new Map(generatedLeaders.map((leader) => [leaderCountryRoleKey(leader), leader]));
+
+  const changed = [];
+  const added = [];
+  const removed = [];
+
+  for (const [key, generatedLeader] of generatedByKey.entries()) {
+    const existingLeader = existingByKey.get(key);
+    if (!existingLeader) {
+      added.push({ key, generated: compactLeaderForReview(generatedLeader) });
+      continue;
+    }
+
+    const differences = diffLeaderFields(existingLeader, generatedLeader);
+    if (Object.keys(differences).length > 0) {
+      changed.push({
+        key,
+        country: generatedLeader.country,
+        role: generatedLeader.role,
+        existing: compactLeaderForReview(existingLeader),
+        generated: compactLeaderForReview(generatedLeader),
+        differences
+      });
+    }
+  }
+
+  for (const [key, existingLeader] of existingByKey.entries()) {
+    if (!generatedByKey.has(key)) {
+      removed.push({ key, existing: compactLeaderForReview(existingLeader) });
+    }
+  }
+
+  changed.sort((a, b) => `${a.country}-${a.role}`.localeCompare(`${b.country}-${b.role}`));
+  added.sort((a, b) => a.key.localeCompare(b.key));
+  removed.sort((a, b) => a.key.localeCompare(b.key));
+
+  return {
+    generatedAt: new Date().toISOString(),
+    source,
+    comparisonKey: "country + role",
+    existingCount: existingLeaders.length,
+    generatedCount: generatedLeaders.length,
+    changeCount: changed.length,
+    addedCount: added.length,
+    removedCount: removed.length,
+    changed,
+    added,
+    removed
+  };
+}
+
+async function readExistingLeaders() {
+  const raw = await fs.readFile(existingLeadersPath, "utf8");
+  const payload = JSON.parse(raw);
+  const leaders = Array.isArray(payload) ? payload : payload.leaders;
+  if (!Array.isArray(leaders)) {
+    throw new Error(`Could not find a leaders array in ${existingLeadersPath}`);
+  }
+  return leaders;
+}
+
+async function writeChangeReview(existingLeaders, generatedLeaders, source) {
+  const payload = buildLeaderChangeReview(existingLeaders, generatedLeaders, source);
   await fs.mkdir(outputDir, { recursive: true });
-  await fs.writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  await fs.writeFile(changeReviewPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  return payload;
 }
 
 async function main() {
@@ -657,8 +780,14 @@ async function main() {
   }
 
   validateLeaders(verifiedLeaders);
-  await writeOutput(verifiedLeaders, source);
-  console.log(`Wrote ${verifiedLeaders.length} leaders to ${outputPath}`);
+
+  console.log(`Reading existing leaders from ${existingLeadersPath}...`);
+  const existingLeaders = await readExistingLeaders();
+  const review = await writeChangeReview(existingLeaders, verifiedLeaders, source);
+
+  console.log(`Wrote leader change review to ${changeReviewPath}`);
+  console.log(`Changed: ${review.changeCount}; added: ${review.addedCount}; removed: ${review.removedCount}`);
+  console.log("Existing data/leaders.json was not overwritten.");
 
   await writeMissingImages(verifiedLeaders);
 }
