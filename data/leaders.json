@@ -25,31 +25,12 @@
       "imageIssue": null
     },
     {
-      "id": "manual|Q458|Head of government",
-      "leader": "Ursula von der Leyen",
-      "articleTitle": "Ursula_von_der_Leyen",
-      "startDate": "2019-12-01",
-      "country": "European Union",
-      "continent": "Europe",
-      "iso2": "EU",
-      "role": "Head of government",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursula%20von%20der%20Leyen%202024.jpg?width=900",
-      "corruptionScore": null,
-      "coords": {
-        "lon": 4.3517,
-        "lat": 50.8503
-      },
-      "summary": "Ursula von der Leyen is a German politician who has served as President of the European Commission since 1 December 2019.",
-      "imageVerified": true,
-      "imageIssue": null
-    },
-    {
       "id": "manual|Q574|Head of government",
       "leader": "António Guterres",
       "articleTitle": "António Guterres",
       "startDate": "2017-01-01",
       "country": "United Nations",
-      "continent": null,
+      "continent": "Global",
       "iso2": "UN",
       "role": "Secretary-General of the United Nations",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ant%C3%B3nio%20Guterres%20United%20Nations%20Secretary-General%20in%202024%20%28cropped%29.jpg?width=900",
@@ -387,7 +368,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57352|http://www.wikidata.org/entity/Q398|Head of state",
-      "leader": "Hamad II of Bahrain",
+      "leader": "Hamad II, King of Bahrain",
       "articleTitle": "Hamad_bin_Isa_Al_Khalifa",
       "startDate": "1999-03-06",
       "country": "Bahrain",
@@ -2724,7 +2705,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q756617|Head of state",
-      "leader": "Frederik X of Denmark",
+      "leader": "Frederik X, King of Denmark",
       "articleTitle": "Frederik_X",
       "startDate": "2024-01-14",
       "country": "Kingdom of Denmark",
@@ -4073,7 +4054,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57287|http://www.wikidata.org/entity/Q20|Head of state",
-      "leader": "Harald V of Norway",
+      "leader": "Harald V, King of Norway",
       "articleTitle": "Harald_V",
       "startDate": "1991-01-17",
       "country": "Norway",
@@ -4453,7 +4434,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q1855372|http://www.wikidata.org/entity/Q846|Head of state",
-      "leader": "Tamim bin Hamad Al, Emir of Qatar",
+      "leader": "Tamim bin Hamad Al Thani, Emir of Qatar",
       "articleTitle": "Tamim_bin_Hamad_Al_Thani",
       "startDate": "2013-06-25",
       "country": "Qatar",
@@ -5821,7 +5802,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state",
-      "leader": "King Charles III, King of the United Kingdom",
+      "leader": "Charles III, King of the United Kingdom",
       "articleTitle": "Charles_III",
       "startDate": "2022-09-08",
       "country": "United Kingdom",
