@@ -2378,6 +2378,7 @@
       .sort((a, b) => a.localeCompare(b))
       .map((country) => `<option value="${country}"></option>`)
       .join("");
+    }
 
     function chooseDailyLeader(pool) {
       const todayLeaderId = findTodaysLeaderId();
