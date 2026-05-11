@@ -598,6 +598,22 @@
       border-bottom: 1px solid transparent;
     }
     .site-footer a:hover { border-bottom-color: currentColor; }
+    .footer-link-button {
+      appearance: none;
+      border: 0;
+      border-bottom: 1px solid transparent;
+      border-radius: 0;
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      padding: 0;
+    }
+    .footer-link-button:hover {
+      border-bottom-color: currentColor;
+      transform: none;
+    }
 
     @keyframes spin { to { transform: rotate(360deg); } }
     @media (max-width: 980px) {
@@ -954,7 +970,7 @@
       </div>
       <footer class="site-footer">
         <div>World Leadle is a free browser game by <a href="https://obliquadata.github.io/" target="_blank" rel="noopener noreferrer">Obliqua Data</a>. No account is required.</div>
-        <div><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a></div>
+        <div><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a> · <button class="footer-link-button" id="reportErrorButton" type="button">Report error</button></div>
       </footer>
     </main>
   </div>
@@ -1040,6 +1056,22 @@
       <div class="settings-summary" id="settingsSummary"></div>
     </div>
   </div>
+
+  <div class="modal-overlay" id="reportErrorModal" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head">
+        <h2>Report an error</h2>
+        <button class="ghost modal-close" id="closeReportErrorButton" type="button">✕</button>
+      </div>
+      <div class="modal-grid">
+        <div class="mini">
+          <strong>Sorry about that</strong>
+          <span>We are sorry that you experienced an error or bug. Please message us on <a href="https://www.linkedin.com/company/obliqua-data/" target="_blank" rel="noopener noreferrer">LinkedIn</a> so we can correct it as soon as possible! We are a small team and mistakes happen.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script>
     const MAX_GUESSES = 6;
@@ -1418,6 +1450,7 @@
     const leaderMetaBadge = document.getElementById("leaderMetaBadge");
     const howToPlayButton = document.getElementById("howToPlayButton");
     const settingsButton = document.getElementById("settingsButton");
+    const reportErrorButton = document.getElementById("reportErrorButton");
     const revealCard = document.getElementById("revealCard");
     const revealFlag = document.getElementById("revealFlag");
     const revealTitle = document.getElementById("revealTitle");
@@ -1426,8 +1459,10 @@
     const revealWikiLink = document.getElementById("revealWikiLink");
     const howToPlayModal = document.getElementById("howToPlayModal");
     const settingsModal = document.getElementById("settingsModal");
+    const reportErrorModal = document.getElementById("reportErrorModal");
     const closeHowToPlayButton = document.getElementById("closeHowToPlayButton");
     const closeSettingsButton = document.getElementById("closeSettingsButton");
+    const closeReportErrorButton = document.getElementById("closeReportErrorButton");
     const settingsSummary = document.getElementById("settingsSummary");
     const countryFilterInput = document.getElementById("countryFilterInput");
 
@@ -2076,7 +2111,7 @@
         { name: "Saint Pierre and Miquelon", continent: "North America", corruptionScore: null, coords: { lat: 46.8852, lon: -56.3159 } },
         { name: "Wallis and Futuna", continent: "Oceania", corruptionScore: null, coords: { lat: -13.7688, lon: -177.1561 } },
         { name: "Åland", continent: "Europe", corruptionScore: null, coords: { lat: 60.1785, lon: 19.9156 } },
-        { name: "United Nations", continent: "Global", corruptionScore: null, coords: { lat: -73.968009, lon: 40.748875 } }
+        { name: "United Nations", continent: "World", corruptionScore: null, coords: { lat: -73.968009, lon: 40.748875 } }
       ];
 
     const capitalByCountry = {
@@ -2941,12 +2976,14 @@
       });
       closeHowToPlayButton.addEventListener("click", () => closeModal(howToPlayModal));
       closeSettingsButton.addEventListener("click", () => closeModal(settingsModal));
+      reportErrorButton.addEventListener("click", () => openModal(reportErrorModal));
+      closeReportErrorButton.addEventListener("click", () => closeModal(reportErrorModal));
 
       document.querySelectorAll("[data-how-tab]").forEach((tab) => {
         tab.addEventListener("click", () => selectHowToPlayTab(tab.dataset.howTab));
       });
 
-      [howToPlayModal, settingsModal].forEach((modal) => {
+      [howToPlayModal, settingsModal, reportErrorModal].forEach((modal) => {
         modal.addEventListener("click", (event) => {
           if (event.target === modal) closeModal(modal);
         });
@@ -2956,6 +2993,7 @@
         if (event.key === "Escape") {
           closeModal(howToPlayModal);
           closeModal(settingsModal);
+          closeModal(reportErrorModal);
         }
       });
 
