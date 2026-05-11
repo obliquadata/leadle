@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-04-08T15:47:30.654Z",
   "source": "wikidata + Transparency International CPI 2025",
-  "count": 322,
+  "count": 325,
   "deduplicatedAt": "2026-04-12",
   "deduplicationRule": "Merged entries with the same country and articleTitle (same leader appearing multiple times for the same country, usually because they were both head of state and head of government).",
   "leaders": [
