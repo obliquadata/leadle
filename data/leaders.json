@@ -5858,6 +5858,44 @@
       "imageIssue": null
     },
     {
+      "id": "http://www.wikidata.org/entity/Q14420732|http://www.wikidata.org/entity/Q25|Head of government",
+      "leader": "Rhun ap Iorwerth",
+      "articleTitle": "Rhun_ap_Iorwerth",
+      "startDate": "2026-05-12",
+      "country": "Wales",
+      "continent": "Europe",
+      "iso2": "GB-WLS",
+      "role": "Head of government",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhun%20ap%20Iorwerth%20official%20portrait%20(cropped).jpg",
+      "corruptionScore": 70,
+      "coords": {
+        "lon": -3.8,
+        "lat": 52.3
+      },
+      "summary": "Rhun ap Iorwerth is a Welsh politician and former journalist who has served as Leader of Plaid Cymru since 2023. He has been a Member of the Senedd since 2013, first for Ynys Môn and later for Bangor Conwy Môn. Before entering politics, he worked for BBC Cymru Wales as a journalist and broadcaster, including as Chief Political Correspondent.",
+      "imageVerified": true,
+      "imageIssue": null
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q333811|http://www.wikidata.org/entity/Q22|Head of government",
+      "leader": "John Swinney",
+      "articleTitle": "John_Swinney",
+      "startDate": "2024-05-08",
+      "country": "Scotland",
+      "continent": "Europe",
+      "iso2": "GB-SCT",
+      "role": "Head of government",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Official_Portrait_of_John_Swinney.jpg/330px-Official_Portrait_of_John_Swinney.jpg",
+      "corruptionScore": 70,
+      "coords": {
+        "lon": -4.0,
+        "lat": 56.8
+      },
+      "summary": "John Ramsay Swinney is a Scottish politician who has served as First Minister of Scotland since 2024. He has also served as Leader of the Scottish National Party since 2024, having previously led the party from 2000 to 2004. Swinney has been a Member of the Scottish Parliament since 1999 and previously served as Deputy First Minister of Scotland and in several senior Scottish Government cabinet roles.",
+      "imageVerified": true,
+      "imageIssue": null
+    },
+    {
       "id": "http://www.wikidata.org/entity/Q22686|http://www.wikidata.org/entity/Q30|Head of state and government",
       "leader": "Donald Trump",
       "articleTitle": "Donald_Trump",
