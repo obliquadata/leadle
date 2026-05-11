@@ -159,7 +159,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q3052772|http://www.wikidata.org/entity/Q228|Head of state",
-      "leader": "Emmanuel Macron",
+      "leader": "Emmanuel Macron, Prince of Andorra",
       "articleTitle": "Emmanuel_Macron",
       "startDate": "2017-05-01",
       "country": "Andorra",
@@ -178,7 +178,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q93244592|http://www.wikidata.org/entity/Q228|Head of state",
-      "leader": "Josep-Lluís Serrano Pentinat",
+      "leader": "Josep-Lluís Serrano Pentinat, Prince of Andorra",
       "articleTitle": "Josep-Lluís_Serrano_Pentinat",
       "startDate": "2025-01-01",
       "country": "Andorra",
@@ -558,7 +558,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q155004|http://www.wikidata.org/entity/Q31|Head of state",
-      "leader": "Philippe of Belgium",
+      "leader": "Philippe, King of the Belgians",
       "articleTitle": "Philippe_of_Belgium",
       "startDate": "2013-07-21",
       "country": "Belgium",
@@ -615,7 +615,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57376|http://www.wikidata.org/entity/Q917|Head of state",
-      "leader": "Jigme Khesar Namgyel Wangchuck",
+      "leader": "Jigme Khesar Namgyel Wangchuck, King of Bhutan",
       "articleTitle": "Jigme_Khesar_Namgyel_Wangchuck",
       "startDate": "2008-11-06",
       "country": "Bhutan",
@@ -900,7 +900,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57319|http://www.wikidata.org/entity/Q424|Head of state",
-      "leader": "Norodom Sihamoni",
+      "leader": "Norodom Sihamoni, King of Cambodia",
       "articleTitle": "Norodom_Sihamoni",
       "startDate": "2004-10-14",
       "country": "Cambodia",
@@ -913,7 +913,7 @@
         "lon": 105,
         "lat": 12.5
       },
-      "summary": "Norodom Sihamoni is King of Cambodia.",
+      "summary": "Norodom Sihamoni is King of Cambodia. A member of the House of Norodom, Sihamoni is the eldest son of King Norodom Sihanouk and Queen Norodom Monineath. He was educated in Czechoslovakia and gained recognition for his work as a cultural ambassador in Europe and as a classical ballet instructor during his princely years. Before his election as king, he served as Cambodia's ambassador to the United Nations and UNESCO.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -1318,7 +1318,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q35|Head of state",
-      "leader": "Frederik X of Denmark",
+      "leader": "Frederik X, King of Denmark",
       "articleTitle": "Frederik_X",
       "startDate": "2024-01-14",
       "country": "Denmark",
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57340|http://www.wikidata.org/entity/Q1050|Head of state",
-      "leader": "Mswati III",
+      "leader": "Mswati III, King of Eswatini",
       "articleTitle": "Mswati_III",
       "startDate": "1986-04-25",
       "country": "Eswatini",
@@ -2016,25 +2016,6 @@
         "lat": 38.5
       },
       "summary": "Kyriakos Mitsotakis is a Greek politician currently serving as the prime minister of Greece since July 2019, except for a month between May and June 2023. Mitsotakis has been president of the New Democracy party since 2016. He is generally associated with the centre-right, espousing economically liberal policies.",
-      "imageVerified": true,
-      "imageIssue": null
-    },
-    {
-      "id": "http://www.wikidata.org/entity/Q1004037|http://www.wikidata.org/entity/Q223|Head of state",
-      "leader": "Frederik X of Denmark",
-      "articleTitle": "Frederik_X",
-      "startDate": "2024-01-14",
-      "country": "Greenland",
-      "continent": "North America",
-      "iso2": "GL",
-      "role": "Head of state",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/King_Frederik_X_in_2025.jpg/330px-King_Frederik_X_in_2025.jpg",
-      "corruptionScore": null,
-      "coords": {
-        "lon": -40,
-        "lat": 72
-      },
-      "summary": "Frederik X is King of Denmark, reigning since the abdication of his mother, Margrethe II, in January 2024.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -2629,7 +2610,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q217096|http://www.wikidata.org/entity/Q17|Head of state",
-      "leader": "Naruhito",
+      "leader": "Naruhito, Emperor of Japan",
       "articleTitle": "Naruhito",
       "startDate": "2019-05-01",
       "country": "Japan",
@@ -2794,13 +2775,13 @@
         "lon": 4.883333333,
         "lat": 52.366666666
       },
-      "summary": "Rob Arnoldus Adrianus Jetten is a Dutch politician serving as Prime Minister of the Netherlands since 23 February 2026. He has also been serving as leader of Democrats 66 (D66) since August 2023. Previously, he served in the fourth Rutte cabinet as Minister for Climate and Energy Policy from 2022 to 2024 and as First Deputy Prime Minister of the Netherlands in 2024.",
+      "summary": "Rob Arnoldus Adrianus Jetten is a Dutch politician serving as Prime Minister of the Netherlands since 23 February 2026. He has also been serving as leader of Democrats 66 (D66) since August 2023. Previously, he served in the fourth Rutte cabinet as Minister for Climate and Energy Policy from 2022 to 2024 and as First Deputy Prime Minister of the Netherlands in 2024. He is the first openly gay Prime Minister of the Netherlands.",
       "imageVerified": true,
       "imageIssue": null
     },
     {
       "id": "http://www.wikidata.org/entity/Q154952|http://www.wikidata.org/entity/Q29999|Head of state",
-      "leader": "William Alexander of the Netherlands",
+      "leader": "Willem-Alexander, King of the Netherlands",
       "articleTitle": "Willem-Alexander_of_the_Netherlands",
       "startDate": "2013-04-30",
       "country": "Kingdom of the Netherlands",
@@ -2876,7 +2857,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q12243161|http://www.wikidata.org/entity/Q817|Head of state",
-      "leader": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+      "leader": "Mishal Al-Ahmad Al-Jaber Al-Sabah, Emir of Kuwait",
       "articleTitle": "Mishal_Al-Ahmad_Al-Jaber_Al-Sabah",
       "startDate": "2023-12-16",
       "country": "Kuwait",
@@ -2892,6 +2873,25 @@
       "summary": "Mishal Al-Ahmad Al-Jaber Al-Sabah is Emir of Kuwait, reigning since 2023. Mishal spent most of his career in Kuwait's security and intelligence apparatus. Prior to becoming Emir at age 83, he was the oldest crown prince in the world.",
       "imageVerified": true,
       "imageIssue": null
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q426186|http://www.wikidata.org/entity/Q817|Head of government",
+      "leader": "Ahmad Al-Abdullah Al-Sabah",
+      "articleTitle": "Ahmad_Al-Abdullah_Al-Sabah",
+      "startDate": "2024-05-15",
+      "country": "Kuwait",
+      "continent": "Asia",
+      "iso2": "KW",
+      "role": "Head of government",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sheikh_Ahmad_Al-Abdullah_Al-Sabah.jpg/330px-Sheikh_Ahmad_Al-Abdullah_Al-Sabah.jpg",
+      "corruptionScore": 46,
+      "coords": {
+        "lon": 47.6,
+        "lat": 29.166667
+      },
+      "summary": "Ahmad Al-Abdullah Al-Sabah is a Kuwaiti economist, politician, and senior member of the Al Sabah ruling family who has served as Prime Minister of Kuwait since 15 May 2024. He was appointed prime minister-designate on 15 April 2024 and previously served in several ministerial roles, including Minister of Oil.",
+      "imageVerified": false,
+      "imageIssue": "Image filename should be manually verified."
     },
     {
       "id": "http://www.wikidata.org/entity/Q112703041|http://www.wikidata.org/entity/Q813|Head of government",
@@ -3028,7 +3028,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57537|http://www.wikidata.org/entity/Q1013|Head of state",
-      "leader": "Letsie III of Lesotho",
+      "leader": "Letsie III, King of Lesotho",
       "articleTitle": "Letsie_III",
       "startDate": "1996-02-07",
       "country": "Lesotho",
@@ -3332,7 +3332,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q2657043|http://www.wikidata.org/entity/Q833|Head of state",
-      "leader": "Ibrahim Iskandar of Johor",
+      "leader": "Ibrahim Iskandar of Johor, King of Malaysia",
       "articleTitle": "Ibrahim_Iskandar_of_Johor",
       "startDate": "2024-01-31",
       "country": "Malaysia",
@@ -3345,7 +3345,7 @@
         "lon": 102.314361666,
         "lat": 3.7805111
       },
-      "summary": "Ibrahim ibni Iskandar is King of Malaysia and Sultan of Johor.",
+      "summary": "Ibrahim ibni Iskandar is King of Malaysia and Sultan of Johor. Ibrahim became Sultan of Johor upon his father's death in 2010. On 31 January 2024, Ibrahim was sworn in as the King of Malaysia, having been elected to a five-year term on 27 October 2023.",
       "imageVerified": true,
       "imageIssue": null
     },
@@ -3712,7 +3712,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q57553|http://www.wikidata.org/entity/Q1028|Head of state",
-      "leader": "Mohammed VI of Morocco",
+      "leader": "Mohammed VI, King of Morocco",
       "articleTitle": "Mohammed_VI_of_Morocco",
       "startDate": "1999-07-23",
       "country": "Morocco",
@@ -4111,7 +4111,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q12250314|http://www.wikidata.org/entity/Q842|Head of state and government",
-      "leader": "Haitham bin Tarik Al Said",
+      "leader": "Haitham bin Tarik Al Said, Sultan of Oman",
       "articleTitle": "Haitham_bin_Tariq",
       "startDate": "2020-01-11",
       "country": "Oman",
@@ -4453,7 +4453,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q1855372|http://www.wikidata.org/entity/Q846|Head of state",
-      "leader": "Tamim bin Hamad Al",
+      "leader": "Tamim bin Hamad Al, Emir of Qatar",
       "articleTitle": "Tamim_bin_Hamad_Al_Thani",
       "startDate": "2013-06-25",
       "country": "Qatar",
@@ -4795,7 +4795,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q367825|http://www.wikidata.org/entity/Q851|Head of state and government",
-      "leader": "Salman bin Abdulaziz Al Saud",
+      "leader": "Salman bin Abdulaziz Al Saud, King of Saudi Arabia",
       "articleTitle": "Salman_of_Saudi_Arabia",
       "startDate": "2015-01-23",
       "country": "Saudi Arabia",
@@ -5156,7 +5156,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q191045|http://www.wikidata.org/entity/Q29|Head of state",
-      "leader": "Felipe VI of Spain",
+      "leader": "Felipe VI, King of Spain",
       "articleTitle": "Felipe_VI",
       "startDate": "2014-06-19",
       "country": "Spain",
@@ -5289,7 +5289,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q45068|http://www.wikidata.org/entity/Q34|Head of state",
-      "leader": "Carl XVI Gustaf of Sweden",
+      "leader": "Carl XVI Gustaf, King of Sweden",
       "articleTitle": "Carl_XVI_Gustaf",
       "startDate": "1973-09-15",
       "country": "Sweden",
@@ -5422,7 +5422,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q548733|http://www.wikidata.org/entity/Q869|Head of state",
-      "leader": "Vajiralongkorn",
+      "leader": "Vajiralongkorn, King of Thailand",
       "articleTitle": "Vajiralongkorn",
       "startDate": "2016-10-13",
       "country": "Thailand",
@@ -5574,7 +5574,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q208497|http://www.wikidata.org/entity/Q678|Head of state",
-      "leader": "Tupou VI of Tonga",
+      "leader": "Tupou VI, King of Tonga",
       "articleTitle": "Tupou_VI",
       "startDate": "2012-03-18",
       "country": "Tonga",
@@ -5821,7 +5821,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q43274|http://www.wikidata.org/entity/Q145|Head of state",
-      "leader": "Charles III",
+      "leader": "King Charles III, King of the United Kingdom",
       "articleTitle": "Charles_III",
       "startDate": "2022-09-08",
       "country": "United Kingdom",
@@ -6011,7 +6011,7 @@
     },
     {
       "id": "http://www.wikidata.org/entity/Q6109517|http://www.wikidata.org/entity/Q237|Head of state",
-      "leader": "Leo XIV",
+      "leader": "Pope Leo XIV, Sovereign of Vatican City",
       "articleTitle": "Pope_Leo_XIV",
       "startDate": "2025-05-08",
       "country": "Vatican City",
