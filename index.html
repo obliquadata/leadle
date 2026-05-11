@@ -207,21 +207,6 @@
     .reveal-card.open { display: block; }
     .reveal-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
     .reveal-meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 10px; }
-    .reveal-capital {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 10px;
-      padding: 8px 10px;
-      border-radius: 14px;
-      background: var(--chip-bg);
-      border: 1px solid var(--chip-border);
-      color: var(--text);
-      font-size: 0.92rem;
-      font-weight: 700;
-      line-height: 1.35;
-    }
-    .reveal-capital[hidden] { display: none; }
     .reveal-text { color: var(--text); line-height: 1.55; font-size: 0.95rem; }
     .reveal-actions {
       margin-top: 14px;
@@ -937,7 +922,6 @@
               <h3 id="revealTitle"></h3>
             </div>
             <div class="reveal-meta" id="revealMeta"></div>
-            <div class="reveal-capital" id="revealCapital" hidden></div>
             <div class="reveal-text" id="revealText"></div>
             <div class="reveal-actions">
               <a
@@ -1438,7 +1422,6 @@
     const revealFlag = document.getElementById("revealFlag");
     const revealTitle = document.getElementById("revealTitle");
     const revealMeta = document.getElementById("revealMeta");
-    const revealCapital = document.getElementById("revealCapital");
     const revealText = document.getElementById("revealText");
     const revealWikiLink = document.getElementById("revealWikiLink");
     const howToPlayModal = document.getElementById("howToPlayModal");
@@ -2093,7 +2076,7 @@
         { name: "Saint Pierre and Miquelon", continent: "North America", corruptionScore: null, coords: { lat: 46.8852, lon: -56.3159 } },
         { name: "Wallis and Futuna", continent: "Oceania", corruptionScore: null, coords: { lat: -13.7688, lon: -177.1561 } },
         { name: "Åland", continent: "Europe", corruptionScore: null, coords: { lat: 60.1785, lon: 19.9156 } },
-        { name: "United Nations", continent: "World", corruptionScore: null, coords: { lat: -73.968009, lon: 40.748875 } }
+        { name: "United Nations", continent: "Global", corruptionScore: null, coords: { lat: -73.968009, lon: 40.748875 } }
       ];
 
     const capitalByCountry = {
@@ -2654,16 +2637,11 @@
 
     async function setRevealContent() {
       revealTitle.textContent = mysteryLeader.leader;
-      revealMeta.textContent = `${mysteryLeader.role} • ${mysteryLeader.country}`;
 
       const capital = getCapitalForCountry(mysteryLeader.country);
-      if (capital) {
-        revealCapital.textContent = `Capital: ${capital}`;
-        revealCapital.hidden = false;
-      } else {
-        revealCapital.textContent = "";
-        revealCapital.hidden = true;
-      }
+      revealMeta.textContent = capital
+        ? `${mysteryLeader.country} • Capital: ${capital}`
+        : mysteryLeader.country;
 
       revealText.textContent = mysteryLeader.summary || "Loading summary…";
 
