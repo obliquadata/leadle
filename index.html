@@ -376,6 +376,75 @@
       padding: 12px 14px; border-radius: 16px; background: rgba(255,255,255,0.035);
       border: 1px solid rgba(255,255,255,0.08);
     }
+    .developer-mode-section {
+      opacity: 0.62;
+      transform: scale(0.98);
+      transform-origin: top left;
+    }
+    .developer-mode-section:hover,
+    .developer-mode-section:focus-within {
+      opacity: 1;
+    }
+    .developer-mode-toggle {
+      align-items: center;
+      color: var(--muted);
+      display: inline-flex;
+      font-size: 0.78rem;
+      gap: 6px;
+      line-height: 1.2;
+      user-select: none;
+    }
+    .developer-mode-toggle input {
+      min-width: auto;
+      width: 13px;
+      height: 13px;
+      padding: 0;
+    }
+    .developer-mode-panel {
+      border-top: 1px dashed var(--line);
+      display: grid;
+      gap: 10px;
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+    .developer-mode-panel[hidden] {
+      display: none;
+    }
+    .developer-mode-controls {
+      display: grid;
+      gap: 8px;
+      grid-template-columns: minmax(0, 1fr) minmax(130px, 0.45fr);
+    }
+    .developer-mode-controls label {
+      color: var(--muted);
+      display: grid;
+      font-size: 0.78rem;
+      gap: 4px;
+    }
+    .developer-mode-controls select {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      color: var(--text);
+      font: inherit;
+      font-size: 0.86rem;
+      padding: 9px 10px;
+      width: 100%;
+    }
+    .developer-mode-controls select option {
+      color: #111827;
+    }
+    .developer-mode-note {
+      color: var(--muted);
+      font-size: 0.74rem;
+      line-height: 1.35;
+      margin: 0;
+    }
+    @media (max-width: 640px) {
+      .developer-mode-controls {
+        grid-template-columns: 1fr;
+      }
+    }
     .pill.corruption-pill { border-width: 1px; }
     .pill.corruption-more { background: rgba(244,63,94,0.14); color: #ffc0cb; }
     .pill.corruption-equal { background: rgba(34,197,94,0.14); color: #b7f7c8; }
@@ -1052,6 +1121,28 @@
             <label class="settings-option"><input type="radio" name="randomLeaderPoolSetting" value="all"> <span>All leaders</span></label>
           </div>
         </section>
+        <section class="settings-section developer-mode-section">
+          <label class="developer-mode-toggle">
+            <input type="checkbox" id="developerModeToggle">
+            <span>Developer mode</span>
+          </label>
+          <div class="developer-mode-panel" id="developerModePanel" hidden>
+            <div class="developer-mode-controls">
+              <label>Country
+                <select id="developerCountrySelect"></select>
+              </label>
+              <label>Leader type
+                <select id="developerRoleSelect">
+                  <option value="state">Head of state</option>
+                  <option value="government">Head of government</option>
+                  <option value="both">Both</option>
+                </select>
+              </label>
+            </div>
+            <button class="ghost" id="developerPlayButton" type="button">Play selected round</button>
+            <p class="developer-mode-note">Loads the chosen playable leader as a fresh test round. This does not affect the daily puzzle or random queue.</p>
+          </div>
+        </section>
       </div>
       <div class="settings-summary" id="settingsSummary"></div>
     </div>
@@ -1471,11 +1562,19 @@
     const closeReportErrorButton = document.getElementById("closeReportErrorButton");
     const settingsSummary = document.getElementById("settingsSummary");
     const countryFilterInput = document.getElementById("countryFilterInput");
+    const developerModeToggle = document.getElementById("developerModeToggle");
+    const developerModePanel = document.getElementById("developerModePanel");
+    const developerCountrySelect = document.getElementById("developerCountrySelect");
+    const developerRoleSelect = document.getElementById("developerRoleSelect");
+    const developerPlayButton = document.getElementById("developerPlayButton");
 
     const defaultSettings = {
       theme: "system",
       guessSort: "recent",
-      randomLeaderPool: "all"
+      randomLeaderPool: "all",
+      developerMode: false,
+      developerCountry: "",
+      developerRole: "state"
     };
 
     const memoryStorage = (() => {
@@ -1583,7 +1682,10 @@
         return {
           theme: ["dark", "light", "system"].includes(parsed.theme) ? parsed.theme : defaultSettings.theme,
           guessSort: ["recent", "closest"].includes(parsed.guessSort) ? parsed.guessSort : defaultSettings.guessSort,
-          randomLeaderPool: ["state", "government", "all"].includes(parsed.randomLeaderPool) ? parsed.randomLeaderPool : defaultSettings.randomLeaderPool
+          randomLeaderPool: ["state", "government", "all"].includes(parsed.randomLeaderPool) ? parsed.randomLeaderPool : defaultSettings.randomLeaderPool,
+          developerMode: Boolean(parsed.developerMode),
+          developerCountry: typeof parsed.developerCountry === "string" ? parsed.developerCountry : defaultSettings.developerCountry,
+          developerRole: ["state", "government", "both"].includes(parsed.developerRole) ? parsed.developerRole : defaultSettings.developerRole
         };
       } catch {
         return { ...defaultSettings };
@@ -1608,6 +1710,11 @@
       document.querySelectorAll('input[name="randomLeaderPoolSetting"]').forEach((input) => {
         input.checked = input.value === settings.randomLeaderPool;
       });
+      developerModeToggle.checked = Boolean(settings.developerMode);
+      developerModePanel.hidden = !settings.developerMode;
+      populateDeveloperCountrySelect();
+      developerCountrySelect.value = settings.developerCountry || developerCountrySelect.value || "";
+      developerRoleSelect.value = settings.developerRole || "state";
       const stats = getRandomStatsForPool(settings.randomLeaderPool);
       const total = getEligibleRandomLeaders(settings.randomLeaderPool).length;
       const remaining = Math.max(total - stats.currentCycleSolved, 0);
@@ -1635,9 +1742,11 @@
 
     function getLeaderRoleFlags(leader) {
       const role = normalize(leader?.role || "");
+      const both = role.includes("head of both") || role.includes("state and government");
       return {
-        state: role.includes("head of state"),
-        government: role.includes("head of government")
+        state: role.includes("head of state") || both,
+        government: role.includes("head of government") || both,
+        both
       };
     }
 
@@ -1646,6 +1755,51 @@
       if (poolSetting === "state") return flags.state;
       if (poolSetting === "government") return flags.government;
       return flags.state || flags.government;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function matchesDeveloperRole(leader, roleSetting) {
+      const flags = getLeaderRoleFlags(leader);
+      if (roleSetting === "both") return flags.both;
+      if (roleSetting === "government") return flags.government && !flags.both;
+      return flags.state && !flags.both;
+    }
+
+    function getDeveloperCountries() {
+      return [...new Set(leaderPool
+        .filter((leader) => {
+          const flags = getLeaderRoleFlags(leader);
+          return flags.state || flags.government || flags.both;
+        })
+        .map((leader) => leader.country)
+        .filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b));
+    }
+
+    function populateDeveloperCountrySelect() {
+      if (!developerCountrySelect) return;
+      const countries = getDeveloperCountries();
+      const previousValue = developerCountrySelect.value || settings.developerCountry;
+      developerCountrySelect.innerHTML = countries
+        .map((country) => `<option value="${escapeHtml(country)}">${escapeHtml(country)}</option>`)
+        .join("");
+      const nextValue = countries.includes(previousValue) ? previousValue : (countries[0] || "");
+      developerCountrySelect.value = nextValue;
+      if (!settings.developerCountry && nextValue) {
+        settings.developerCountry = nextValue;
+      }
+    }
+
+    function findDeveloperLeader(country, roleSetting) {
+      return leaderPool.find((leader) => leader.country === country && matchesDeveloperRole(leader, roleSetting));
     }
 
     function shuffleArray(items) {
@@ -1828,6 +1982,14 @@
     }
 
     function updateGameChrome() {
+      if (currentMode === "developer") {
+        gameTitle.textContent = "Developer World Leadle";
+        dateChip.textContent = "Developer test round";
+        randomButton.textContent = "Random mode";
+        leaderMetaBadge.textContent = "Developer mode";
+        return;
+      }
+
       gameTitle.textContent = currentMode === "random" ? "Random World Leadle" : "Daily World Leadle";
       if (currentMode === "random") {
         dateChip.textContent = buildRandomQueueChipText(settings.randomLeaderPool);
@@ -2884,10 +3046,55 @@
       setStatus("Random leader loaded.", "info");
     }
 
+
+    async function loadDeveloperPuzzle() {
+      const selectedCountry = developerCountrySelect.value;
+      const selectedRole = developerRoleSelect.value;
+      const leader = findDeveloperLeader(selectedCountry, selectedRole);
+
+      if (!leader) {
+        setStatus(`No playable ${describeDeveloperRole(selectedRole).toLowerCase()} entry was found for ${selectedCountry}. Try another leader type.`, "bad");
+        return;
+      }
+
+      settings.developerCountry = selectedCountry;
+      settings.developerRole = selectedRole;
+      saveSettings();
+
+      mysteryLeader = {
+        ...leader,
+        tenureText: leader.tenureText || formatTenure(leader.startDate)
+      };
+      guesses = [];
+      gameOver = false;
+      currentMode = "developer";
+      guessButton.disabled = false;
+      guessInput.disabled = false;
+      shareButton.disabled = true;
+      shareButton.style.display = "none";
+      closeModal(settingsModal);
+      applyLeaderToUI();
+      renderAttempts();
+      updateGameChrome();
+      syncSettingsUI();
+      setRevealVisible(false);
+      setStatus(`Developer round loaded: ${selectedCountry} • ${describeDeveloperRole(selectedRole)}.`, "info");
+    }
+
+    function describeDeveloperRole(value) {
+      if (value === "government") return "Head of government";
+      if (value === "both") return "Head of both";
+      return "Head of state";
+    }
+
     function buildShareText() {
       const result = guesses.some((guess) => guess.correct) ? guesses.length : "X";
       const rows = guesses.map((guess) => guess.proximityBar).join("\n");
       const shareUrl = window.location.href;
+
+      if (currentMode === "developer") {
+        return `Developer World Leadle - ${mysteryLeader.leader} (${mysteryLeader.country}) - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
+      }
 
       if (currentMode === "random") {
         return `Random World Leadle - ${mysteryLeader.leader} (${mysteryLeader.country}) - ${result}/${MAX_GUESSES}\n${rows}\n${shareUrl}`;
@@ -2943,6 +3150,27 @@
         settings.guessSort = value;
         saveSettings();
         renderAttempts();
+        syncSettingsUI();
+        return;
+      }
+
+      if (name === "developerMode") {
+        settings.developerMode = Boolean(value);
+        saveSettings();
+        syncSettingsUI();
+        return;
+      }
+
+      if (name === "developerCountry") {
+        settings.developerCountry = value;
+        saveSettings();
+        syncSettingsUI();
+        return;
+      }
+
+      if (name === "developerRole") {
+        settings.developerRole = value;
+        saveSettings();
         syncSettingsUI();
         return;
       }
@@ -3020,6 +3248,12 @@
           if (input.checked) handleSettingsChange("randomLeaderPool", input.value);
         });
       });
+
+
+      developerModeToggle.addEventListener("change", () => handleSettingsChange("developerMode", developerModeToggle.checked));
+      developerCountrySelect.addEventListener("change", () => handleSettingsChange("developerCountry", developerCountrySelect.value));
+      developerRoleSelect.addEventListener("change", () => handleSettingsChange("developerRole", developerRoleSelect.value));
+      developerPlayButton.addEventListener("click", loadDeveloperPuzzle);
     }
 
     function assert(condition, message) {
@@ -3057,11 +3291,11 @@
     shareButton.addEventListener("click", copyShare);
 
     resetButton.addEventListener("click", async () => {
-      const leavingRandomWithProgress = currentMode === "random" && !gameOver && guesses.length > 0;
-      if (leavingRandomWithProgress) {
-        const ok = window.confirm("Your progress on this random puzzle will be lost. Return to today's puzzle?");
+      const leavingPracticeWithProgress = ["random", "developer"].includes(currentMode) && !gameOver && guesses.length > 0;
+      if (leavingPracticeWithProgress) {
+        const ok = window.confirm("Your progress on this practice puzzle will be lost. Return to today's puzzle?");
         if (!ok) return;
-        if (!gameOver) skipCurrentRandomLeader();
+        if (currentMode === "random" && !gameOver) skipCurrentRandomLeader();
       }
       await loadOrRestoreDailyPuzzle();
     });
@@ -3069,8 +3303,9 @@
     randomButton.addEventListener("click", async () => {
       const alreadyInRandom = currentMode === "random";
       const unfinishedRandomRound = alreadyInRandom && !gameOver;
+      const unfinishedDeveloperRound = currentMode === "developer" && !gameOver;
 
-      if (unfinishedRandomRound && guesses.length > 0) {
+      if ((unfinishedRandomRound || unfinishedDeveloperRound) && guesses.length > 0) {
         const ok = window.confirm(
           "Your progress on this random puzzle will be lost. Load a different random leader?"
         );
